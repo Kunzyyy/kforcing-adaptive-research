@@ -1,5 +1,7 @@
 # 把本地研究仓库上传到GitHub
 
+本项目目标仓库为[Kunzyyy/kforcing-adaptive-research](https://github.com/Kunzyyy/kforcing-adaptive-research)，用户已确认公开发布。以下新建仓库步骤保留供其他账号或副本使用；已经配置`origin`的本地副本，后续只需提交变更并执行`git push`。
+
 ## 推荐步骤
 
 1. 登录GitHub，创建名为`kforcing-adaptive-research`的空仓库。建议先设为Private，便于与合作者整理材料。若选择公开，仓库内容将公开可见。

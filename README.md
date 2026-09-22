@@ -55,4 +55,4 @@ PUBLICATION_MANIFEST.json  # 从原工作区逐字节复制的文件SHA256
 - 本地修改和研究过程：[provenance.json](outputs/kforcing-adaptive/provenance.json)
 - 上游许可证：[Apache-2.0](outputs/kforcing-adaptive/upstream/LICENSE)，详见[来源说明](THIRD_PARTY_NOTICES.md)。本项目不是原作者官方仓库。
 
-发布目录暂未配置GitHub远端。上传步骤见[GitHub上传指南](docs/GITHUB_UPLOAD.md)。
+GitHub仓库：[Kunzyyy/kforcing-adaptive-research](https://github.com/Kunzyyy/kforcing-adaptive-research)。后续更新见[GitHub上传指南](docs/GITHUB_UPLOAD.md)。
