@@ -1,0 +1,42 @@
+{
+  "created_utc": "2026-09-21T12:03:49.342142+00:00",
+  "inputs": {
+    "results/features-014/development_data.jsonl": "58d460786f436d81c77a8dc40c69eeb7891862b4ececd5b44f72f7351d1a31c9",
+    "results/attention-features/oof_predictions.jsonl": "06d1edfe3738dcad0f1ec9683c3fa3ca79ff1c8589eccfe5fb5d16f8504cd45c",
+    "results/attention-features/analysis.json": "80e288315ca15165e05ee1880bfee380fa0bffcefd7d041486497d483b677cd9",
+    "results/averaged-013/train_states.jsonl": "dfe275947b3be5973e65a994e77e082956c9c428f125cf16d2d07df9668c9c6f",
+    "results/averaged-013/dev_states.jsonl": "32d1235bc7f5616e4e477a407f56c9563fde8370168c206ae39e21edecde3e60",
+    "LOCAL_MECHANISM_PLAN.md": "23363e700d3e237f068e36714d233142d8af78e42de9312babce3c97bb7205de",
+    "diagnose_local_mechanism.py": "1446abb7e3cd475baadaa37f494fbc43206bdbcc2c61b21959d8827021d79bb7",
+    "core.py": "24c16c1df17f94302a0a5746df210ec5906de49abe07dfc8f2862ead409d5cf8",
+    "upstream/models/autoregressive.py": "8fbecc2a28532ba18d63ac62eb57321ed14f44e596f2c4b9b379f12b05d221c8",
+    "upstream/models/transformer.py": "43b93ede2d55a37ec70d2fbdcdbe615be4847932a8565d4cdc5a49a611212812"
+  },
+  "ar_checkpoint_sha256": "e2463aa9de897dd2394580eeec7de23f0fe076931050b21612e8b06316ccc439",
+  "states": 446,
+  "sources": 253,
+  "fold_seeds": [
+    14112001,
+    14112002,
+    14112003
+  ],
+  "bootstrap_seed": 22242001,
+  "retrospective_development": true,
+  "old_test_inputs": false,
+  "new_model_fit": false,
+  "primary": "Local teacher selection minus frozen combined19 OOF selection",
+  "teacher_probe_indices": [
+    0,
+    40,
+    80,
+    121,
+    161,
+    202,
+    242,
+    283,
+    323,
+    364,
+    404,
+    445
+  ]
+}

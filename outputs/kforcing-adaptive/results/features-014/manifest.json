@@ -1,0 +1,158 @@
+{
+  "input_hashes": {
+    "manifest.json": "a4124e5497ea7a909a1457e735cda228ec5c67f0dba2ebc5c71ca399805f25e5",
+    "integrity_audit.json": "f3c580eee3acdbc29c585e16d2b2b1b1acc547ea3c3012eb571915c0e58fac48",
+    "prefixes.json": "af917bf9247a47d4b011b9768bc6dc528e161ee67451a4bd622ed71b0bcad67a",
+    "train_scoring.json": "d904df259c9f8506595bd165a287d31c2d68e3349edbaa15677d05acc180643e",
+    "train_collection.json": "acd2c6fe68aa65421c8e47fc591a805e4362befed235295f4d08cc696df369ed",
+    "dev_scoring.json": "e1e0f1a05db1570063234e4474a30cdd0a5f9fb3abd10d4762c3c1d9cc06bc8e",
+    "dev_collection.json": "bf4bb94e5f5c23eb83d18c86e935d1fc2d2be5fd3172d72fa13ffda9a9dd46cc",
+    "train_states.jsonl": "dfe275947b3be5973e65a994e77e082956c9c428f125cf16d2d07df9668c9c6f",
+    "train_labels.jsonl": "d9dd3da50b3ba4f492b753196b0992b8acf21e6261e9ebab3df6156be864e644",
+    "dev_states.jsonl": "32d1235bc7f5616e4e477a407f56c9563fde8370168c206ae39e21edecde3e60",
+    "dev_labels.jsonl": "8e429948b0481ef19284da82a8af473647e909753ceb96993b3bd173b5eb451a"
+  },
+  "source_directory": "averaged-013",
+  "input_whitelist": [
+    "manifest.json",
+    "integrity_audit.json",
+    "prefixes.json",
+    "train_scoring.json",
+    "train_collection.json",
+    "dev_scoring.json",
+    "dev_collection.json",
+    "train_states.jsonl",
+    "train_labels.jsonl",
+    "dev_states.jsonl",
+    "dev_labels.jsonl"
+  ],
+  "development_data_sha256": "58d460786f436d81c77a8dc40c69eeb7891862b4ececd5b44f72f7351d1a31c9",
+  "code_hashes": {
+    "STAGE14_PROTOCOL.md": "2f4ec84f3f2f84277d8342e8adb832082cb12f62402f8ae02cd202b4b1db5f36",
+    "diagnose_feature_signal.py": "20a8c8ada24ce167d044890425c2beeaa73b6070fe67af66d524ae862145e29b"
+  },
+  "configurations": [
+    {
+      "name": "rbf_confidence14_a00001",
+      "kind": "rbf",
+      "group": "confidence14",
+      "alpha": 1
+    },
+    {
+      "name": "rbf_confidence14_a00010",
+      "kind": "rbf",
+      "group": "confidence14",
+      "alpha": 10
+    },
+    {
+      "name": "rbf_hidden82_a00001",
+      "kind": "rbf",
+      "group": "hidden82",
+      "alpha": 1
+    },
+    {
+      "name": "rbf_hidden82_a00010",
+      "kind": "rbf",
+      "group": "hidden82",
+      "alpha": 10
+    },
+    {
+      "name": "ridge_confidence14_a00001",
+      "kind": "ridge",
+      "group": "confidence14",
+      "alpha": 1
+    },
+    {
+      "name": "ridge_confidence14_a00010",
+      "kind": "ridge",
+      "group": "confidence14",
+      "alpha": 10
+    },
+    {
+      "name": "ridge_confidence14_a00100",
+      "kind": "ridge",
+      "group": "confidence14",
+      "alpha": 100
+    },
+    {
+      "name": "ridge_confidence14_a01000",
+      "kind": "ridge",
+      "group": "confidence14",
+      "alpha": 1000
+    },
+    {
+      "name": "ridge_confidence14_a10000",
+      "kind": "ridge",
+      "group": "confidence14",
+      "alpha": 10000
+    },
+    {
+      "name": "ridge_hidden64_a00001",
+      "kind": "ridge",
+      "group": "hidden64",
+      "alpha": 1
+    },
+    {
+      "name": "ridge_hidden64_a01000",
+      "kind": "ridge",
+      "group": "hidden64",
+      "alpha": 1000
+    },
+    {
+      "name": "ridge_hidden82_a00001",
+      "kind": "ridge",
+      "group": "hidden82",
+      "alpha": 1
+    },
+    {
+      "name": "ridge_hidden82_a00010",
+      "kind": "ridge",
+      "group": "hidden82",
+      "alpha": 10
+    },
+    {
+      "name": "ridge_hidden82_a00100",
+      "kind": "ridge",
+      "group": "hidden82",
+      "alpha": 100
+    },
+    {
+      "name": "ridge_hidden82_a01000",
+      "kind": "ridge",
+      "group": "hidden82",
+      "alpha": 1000
+    },
+    {
+      "name": "ridge_hidden82_a10000",
+      "kind": "ridge",
+      "group": "hidden82",
+      "alpha": 10000
+    },
+    {
+      "name": "ridge_noise4_a00001",
+      "kind": "ridge",
+      "group": "noise4",
+      "alpha": 1
+    },
+    {
+      "name": "ridge_noise4_a01000",
+      "kind": "ridge",
+      "group": "noise4",
+      "alpha": 1000
+    }
+  ],
+  "repeats": 3,
+  "outer_folds": 5,
+  "inner_folds": 4,
+  "permutations": 199,
+  "states": 446,
+  "source_clusters": 253,
+  "excluded_incomplete": {
+    "train": [
+      "s13-122-1301-0"
+    ],
+    "dev": []
+  },
+  "no_test_outcome_inputs": true,
+  "retrospective_exploration": true
+}

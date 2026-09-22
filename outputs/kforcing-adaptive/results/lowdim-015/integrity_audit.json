@@ -1,0 +1,20 @@
+{
+  "passed": true,
+  "sources": 384,
+  "valid_states": 682,
+  "incomplete_states": [
+    "s15-116-1501-0"
+  ],
+  "source_isolation_and_sampling_replayed": true,
+  "all_noise_hashes_replayed": true,
+  "current_state_invariance": true,
+  "eos_and_call_counts_checked": true,
+  "labels_recomputed": true,
+  "augmented_least_squares_and_explicit_kernel_refit": true,
+  "all_frozen_predictions_recomputed": true,
+  "four_primary_cluster_intervals_recomputed": true,
+  "exploratory_intervals_recomputed": true,
+  "analysis_sha256": "7a82b74abb12bbd5dbcb644811e504dae693e301881aa3b3d6da4c8c596930b0",
+  "locked_model_sha256": "4cba9716445a0b61c60d7f735732a7082d8bc57684d743156ecd4dcb8b798fa6",
+  "audit_sha256": "3d4db4677ec51184ecc810484e445baa2c36e379d2733da6d4bb630180d2f72e"
+}

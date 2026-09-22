@@ -1,0 +1,186 @@
+{
+  "states": 446,
+  "sources": 253,
+  "fits": 45,
+  "methods": {
+    "confidence14": {
+      "dimensions": 14,
+      "oof_mse": 0.5467537160442406,
+      "train_mse": 0.5383135898667512,
+      "gain_vs_random": {
+        "estimate": 0.057628334201471156,
+        "interval": [
+          0.025655155892032558,
+          0.09248903441418764
+        ],
+        "coverage": 0.95
+      },
+      "gain_vs_confidence14": {
+        "estimate": 0.0,
+        "interval": [
+          0.0,
+          0.0
+        ],
+        "coverage": 0.95
+      },
+      "gain_vs_combined19": {
+        "estimate": -0.023339245762596664,
+        "interval": [
+          -0.05124231380708805,
+          -0.0002587866076102258
+        ],
+        "coverage": 0.95
+      },
+      "gain_vs_heuristic": {
+        "estimate": 0.023909401840768455,
+        "interval": [
+          -0.01934828503626958,
+          0.07156462950058541
+        ],
+        "coverage": 0.95
+      }
+    },
+    "combined19": {
+      "dimensions": 19,
+      "oof_mse": 0.5351327841273088,
+      "train_mse": 0.5227649481655775,
+      "gain_vs_random": {
+        "estimate": 0.0809675799640678,
+        "interval": [
+          0.04830004164382535,
+          0.11558189340634928
+        ],
+        "coverage": 0.95
+      },
+      "gain_vs_confidence14": {
+        "estimate": 0.023339245762596664,
+        "interval": [
+          0.0002587866076102273,
+          0.051242313807088075
+        ],
+        "coverage": 0.95
+      },
+      "gain_vs_combined19": {
+        "estimate": 0.0,
+        "interval": [
+          0.0,
+          0.0
+        ],
+        "coverage": 0.95
+      },
+      "gain_vs_heuristic": {
+        "estimate": 0.047248647603365126,
+        "interval": [
+          0.002503337105391202,
+          0.09661291394865043
+        ],
+        "coverage": 0.95
+      }
+    },
+    "attention25": {
+      "dimensions": 25,
+      "oof_mse": 0.5349320224353322,
+      "train_mse": 0.5190805010713229,
+      "gain_vs_random": {
+        "estimate": 0.0740252154855751,
+        "interval": [
+          0.0413464189711493,
+          0.10876406604613024
+        ],
+        "coverage": 0.95
+      },
+      "gain_vs_confidence14": {
+        "estimate": 0.016396881284103937,
+        "interval": [
+          -0.008702567193946704,
+          0.04526665408564251
+        ],
+        "coverage": 0.95
+      },
+      "gain_vs_combined19": {
+        "estimate": -0.006942364478492727,
+        "interval": [
+          -0.017295623386132497,
+          0.001882007103119474
+        ],
+        "coverage": 0.95
+      },
+      "gain_vs_heuristic": {
+        "estimate": 0.040306283124872395,
+        "interval": [
+          -0.00481649475828496,
+          0.09050620859595014
+        ],
+        "coverage": 0.95
+      }
+    }
+  },
+  "primary": {
+    "vs_combined19": {
+      "estimate": -0.006942364478492727,
+      "interval": [
+        -0.019070410808565842,
+        0.00332135938194015
+      ],
+      "coverage": 0.975
+    },
+    "vs_heuristic": {
+      "estimate": 0.040306283124872395,
+      "interval": [
+        -0.012398169514324278,
+        0.09598082737767216
+      ],
+      "coverage": 0.975
+    }
+  },
+  "development_screen_passed": false,
+  "old_controls_reproduced": true,
+  "retrospective_development": true,
+  "independent_test": false,
+  "old_test_inputs": false,
+  "new_human_quality_result": false,
+  "new_online_timing": false,
+  "feature_ranges": [
+    {
+      "min": 0.01752442680299282,
+      "max": 0.5572907328605652,
+      "mean": 0.32671787195124835,
+      "std": 0.09058570398272744
+    },
+    {
+      "min": 0.005524412728846073,
+      "max": 0.30080604553222656,
+      "mean": 0.11616572526788899,
+      "std": 0.050396969470690944
+    },
+    {
+      "min": 0.05308470129966736,
+      "max": 0.9991186261177063,
+      "mean": 0.8434051013814762,
+      "std": 0.14320351281190286
+    },
+    {
+      "min": 0.04194897040724754,
+      "max": 0.9835848212242126,
+      "mean": 0.48633711372456206,
+      "std": 0.1787780638108247
+    },
+    {
+      "min": 0.16812756657600403,
+      "max": 0.5070730447769165,
+      "mean": 0.3758104362362169,
+      "std": 0.05263056230530661
+    },
+    {
+      "min": 0.18536476790905,
+      "max": 0.5059176683425903,
+      "mean": 0.3878038743084856,
+      "std": 0.045403839836260465
+    }
+  ],
+  "output_hashes": {
+    "features.jsonl": "7fc93fdbad2b130515887b50865cd140a77c8c39d8a74d2a66d953aa7bfce735",
+    "fits.json": "f147b1b0532c34cde1e79be39381e7de395f54a001c407229e0c143e6552d3d6",
+    "oof_predictions.jsonl": "06d1edfe3738dcad0f1ec9683c3fa3ca79ff1c8589eccfe5fb5d16f8504cd45c"
+  }
+}

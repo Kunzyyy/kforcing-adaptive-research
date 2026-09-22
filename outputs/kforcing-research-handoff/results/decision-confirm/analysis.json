@@ -1,0 +1,200 @@
+{
+  "completed_utc": "2026-09-21T00:15:47.435590+00:00",
+  "test_states": 681,
+  "test_sources": 380,
+  "excluded_incomplete": [],
+  "primary": {
+    "vs_random": {
+      "estimate": 0.04419565550630368,
+      "interval": [
+        0.013968525626093747,
+        0.07455130537853208
+      ],
+      "coverage": 0.9833333333333333
+    },
+    "vs_confidence14": {
+      "estimate": 0.014442841284400449,
+      "interval": [
+        -0.00835249551976366,
+        0.03848569956216035
+      ],
+      "coverage": 0.9833333333333333
+    },
+    "vs_heuristic": {
+      "estimate": 0.02365308268289975,
+      "interval": [
+        -0.014375090811930539,
+        0.06190220410590328
+      ],
+      "coverage": 0.9833333333333333
+    }
+  },
+  "advance_gate_passed": false,
+  "enough_sources": true,
+  "arms": {
+    "combined19": {
+      "mse": 0.38807188232416084,
+      "correlation": 0.19823615755433294,
+      "vs_random": {
+        "estimate": 0.04419565550630368,
+        "interval": [
+          0.019746083563956796,
+          0.06920422201036128
+        ],
+        "coverage": 0.95
+      }
+    },
+    "confidence14": {
+      "mse": 0.39662832063610143,
+      "correlation": 0.12384718248300318,
+      "vs_random": {
+        "estimate": 0.029752814221903227,
+        "interval": [
+          0.005693987499132269,
+          0.05400505533633787
+        ],
+        "coverage": 0.95
+      }
+    },
+    "heuristic": {
+      "mse": 3.283532360109748,
+      "correlation": 0.08355863334733148,
+      "vs_random": {
+        "estimate": 0.020542572823403934,
+        "interval": [
+          -0.002312543986825681,
+          0.04412458233376169
+        ],
+        "coverage": 0.95
+      }
+    }
+  },
+  "exploratory_other_metrics": {
+    "teacher_nll": {
+      "direction": "keep4-minus-split22",
+      "mean_all_split_change": {
+        "estimate": 0.29217543652517974,
+        "interval": [
+          0.23741211846246305,
+          0.34584010868486426
+        ],
+        "coverage": 0.95
+      },
+      "combined19_vs_random": {
+        "estimate": 0.05243559026445122,
+        "interval": [
+          0.022685567806853893,
+          0.08295630729442015
+        ],
+        "coverage": 0.95
+      },
+      "combined19_vs_confidence14": {
+        "estimate": -0.0007846234183654642,
+        "interval": [
+          -0.023159955202682492,
+          0.02206286503129443
+        ],
+        "coverage": 0.95
+      }
+    },
+    "visible_new_tokens": {
+      "direction": "split22-minus-keep4",
+      "mean_all_split_change": {
+        "estimate": 0.18135095447870778,
+        "interval": [
+          -0.42720887482900133,
+          0.7507494840041277
+        ],
+        "coverage": 0.95
+      },
+      "combined19_vs_random": {
+        "estimate": 0.16423006678008717,
+        "interval": [
+          -0.1276220900880135,
+          0.45741500523667583
+        ],
+        "coverage": 0.95
+      },
+      "combined19_vs_confidence14": {
+        "estimate": 0.24155653450807635,
+        "interval": [
+          0.01918719790547799,
+          0.4729587851065431
+        ],
+        "coverage": 0.95
+      }
+    },
+    "forward_calls": {
+      "direction": "split22-minus-keep4",
+      "mean_all_split_change": {
+        "estimate": 1.0512114537444934,
+        "interval": [
+          0.8986700934503757,
+          1.1943432748211091
+        ],
+        "coverage": 0.95
+      },
+      "combined19_vs_random": {
+        "estimate": 0.040511168468241196,
+        "interval": [
+          -0.04368662601938893,
+          0.12505285503188004
+        ],
+        "coverage": 0.95
+      },
+      "combined19_vs_confidence14": {
+        "estimate": 0.05928781204111601,
+        "interval": [
+          -0.006539876534748466,
+          0.12998578368741479
+        ],
+        "coverage": 0.95
+      }
+    },
+    "computed_candidates": {
+      "direction": "split22-minus-keep4",
+      "mean_all_split_change": {
+        "estimate": 2.212555066079295,
+        "interval": [
+          1.6068774356150457,
+          2.7790804863826577
+        ],
+        "coverage": 0.95
+      },
+      "combined19_vs_random": {
+        "estimate": 0.16149967332311255,
+        "interval": [
+          -0.14403747838850248,
+          0.46974657712967116
+        ],
+        "coverage": 0.95
+      },
+      "combined19_vs_confidence14": {
+        "estimate": 0.23715124816446403,
+        "interval": [
+          0.0018295372359078332,
+          0.48975620457278807
+        ],
+        "coverage": 0.95
+      }
+    }
+  },
+  "mean_all_split_gain": {
+    "estimate": 0.19304668052297255,
+    "interval": [
+      0.14647130275611905,
+      0.23906763867319583
+    ],
+    "coverage": 0.95
+  },
+  "constant_train_mean_mse": 0.402640612555252,
+  "locked_model_sha256": "0fb2e2b2c229b736c141c1e94096434c14a0e9a647a27c99170e194958d96756",
+  "frozen_predictions_sha256": "44023ea57c21619c0a2621c20e6ae023ef062532e3f7e0896219e1ff656bb3ce",
+  "labels_sha256": "f5579d973611b1968ec51829935d6e5a938366f2050a706df96ff664e32549ef",
+  "limitations": [
+    "One frozen candidate, fresh sources, single intervention, optimized GPT-2 proxy.",
+    "No online time advantage or independent human-quality conclusion.",
+    "Conditional source bootstrap, fixed ranks, eight sampled futures.",
+    "Paper-baseline gap remains unresolved."
+  ]
+}

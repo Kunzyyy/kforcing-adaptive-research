@@ -1,0 +1,14 @@
+{
+  "passed": true,
+  "status_counts": {
+    "paired": 1357,
+    "unreachable_eos": 137,
+    "head_eos": 42
+  },
+  "pairs_sha256": "753f5740dada5b51d4537ff6c01d4bddf55f58d587eb93744277826db8c2b29a",
+  "collector_sha256": "87471d66a4a50fd82802f8eae15287b8ccbc61f0f1545fb18a03ee159fb74ed9",
+  "locked_model_sha256": null,
+  "torch": "2.11.0+cu128",
+  "cuda": "12.8",
+  "gpu": "NVIDIA GeForce RTX 5060 Laptop GPU"
+}

@@ -1,0 +1,19 @@
+{
+  "source": "Natural process exit results observed by the execution tool in this stage",
+  "collect_benefit_exit": 0,
+  "teacher_scoring_exit": 0,
+  "benefit_analysis_exit": 0,
+  "full_200_sample_regression_exit": 0,
+  "independent_audits_exit": 0,
+  "model_correctness_tests": {
+    "passed": 7,
+    "exit": 0
+  },
+  "analysis_math_tests": {
+    "passed": 3,
+    "exit": 0
+  },
+  "baseline_trigger": "Scripted residual helper path on this Windows installation",
+  "remedy": "Windows eager helper default; underlying native runtime defect not identified",
+  "helper_patch_base": "The transformer.py in kforcing-adaptive-stage1.zip; not a direct patch against an unspecified upstream revision"
+}

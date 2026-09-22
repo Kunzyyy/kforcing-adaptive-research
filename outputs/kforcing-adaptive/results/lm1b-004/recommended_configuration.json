@@ -1,0 +1,11 @@
+{
+  "samples": 768,
+  "penalties": {
+    "2": 0.2,
+    "3": 0.4,
+    "4": 0.5
+  },
+  "source": "Published scripts/run_pflm_lm1b.sh at 706caa332a69d509b7fc2fa53ac7819f381a8c78",
+  "selected_without_external_scores": true,
+  "scope": "One generation run per prefix/seed/method, quality sensitivity only"
+}

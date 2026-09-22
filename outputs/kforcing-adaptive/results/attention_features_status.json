@@ -1,0 +1,43 @@
+{
+  "completed": true,
+  "completed_utc": "2026-09-21T11:58:42.292042+00:00",
+  "states": 446,
+  "sources": 253,
+  "candidate": "attention25",
+  "candidate_configurations": 1,
+  "retrospective_development": true,
+  "independent_test": false,
+  "old_test_used_for_selection": false,
+  "development_screen_passed": false,
+  "decision": "Stop the fixed last-layer six-feature ridge hypothesis.",
+  "primary": {
+    "vs_combined19": {
+      "estimate": -0.006942364478492727,
+      "interval": [
+        -0.019070410808565842,
+        0.00332135938194015
+      ],
+      "coverage": 0.975
+    },
+    "vs_heuristic": {
+      "estimate": 0.040306283124872395,
+      "interval": [
+        -0.012398169514324278,
+        0.09598082737767216
+      ],
+      "coverage": 0.975
+    }
+  },
+  "integrity_audit_passed": true,
+  "fits": 45,
+  "oof_predictions_verified": 4014,
+  "numeric_qkv_probes": 12,
+  "new_current_state_gpu_replay": true,
+  "new_future_generation": false,
+  "new_online_timing": false,
+  "new_adaptive_advantage_established": false,
+  "baseline_quality_gap_resolved": false,
+  "human_ratings_received": 0,
+  "human_quality_result": "not_evaluated",
+  "externally_sent": false
+}

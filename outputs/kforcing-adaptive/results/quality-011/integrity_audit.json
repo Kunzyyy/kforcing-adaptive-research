@@ -1,0 +1,46 @@
+{
+  "passed": true,
+  "new_sources": 384,
+  "splits": {
+    "train": {
+      "attempts": 1536,
+      "paired": 1357,
+      "valid_labels": 1357,
+      "statuses": {
+        "paired": 1357,
+        "unreachable_eos": 137,
+        "head_eos": 42
+      }
+    },
+    "dev": {
+      "attempts": 512,
+      "paired": 449,
+      "valid_labels": 449,
+      "statuses": {
+        "paired": 449,
+        "head_eos": 18,
+        "unreachable_eos": 45
+      }
+    },
+    "test": {
+      "attempts": 1024,
+      "paired": 918,
+      "valid_labels": 918,
+      "statuses": {
+        "paired": 918,
+        "unreachable_eos": 79,
+        "head_eos": 27
+      }
+    }
+  },
+  "data_isolation": true,
+  "branch_eos_and_counts": true,
+  "paired_label_math": true,
+  "exact_duplicate_score_reuse": true,
+  "train_normalization_and_normal_equations": true,
+  "dev_candidate_choice_and_bootstrap": true,
+  "locked_test_predictions": true,
+  "primary_bootstrap_independently_rebuilt": true,
+  "corpus_ppl_aggregates": true,
+  "advance_gate_passed": false
+}

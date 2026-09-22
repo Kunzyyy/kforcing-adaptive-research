@@ -1,0 +1,204 @@
+{
+  "passed": true,
+  "branches": 24,
+  "max_abs_difference": 1.71661376953125e-05,
+  "tolerance": {
+    "relative": 1e-05,
+    "absolute": 0.001
+  },
+  "checks": [
+    {
+      "prompt_id": "s8-000-L6",
+      "seed": 829,
+      "method": "fixed4",
+      "batched_nll": 41.806114196777344,
+      "single_nll": 41.806121826171875,
+      "absolute_difference": 7.62939453125e-06
+    },
+    {
+      "prompt_id": "s8-000-L6",
+      "seed": 829,
+      "method": "split22",
+      "batched_nll": 31.38343620300293,
+      "single_nll": 31.3834285736084,
+      "absolute_difference": 7.62939453125e-06
+    },
+    {
+      "prompt_id": "s8-001-L6",
+      "seed": 829,
+      "method": "fixed4",
+      "batched_nll": 19.829383850097656,
+      "single_nll": 19.82939338684082,
+      "absolute_difference": 9.5367431640625e-06
+    },
+    {
+      "prompt_id": "s8-001-L6",
+      "seed": 829,
+      "method": "split22",
+      "batched_nll": 21.11600112915039,
+      "single_nll": 21.116016387939453,
+      "absolute_difference": 1.52587890625e-05
+    },
+    {
+      "prompt_id": "s8-002-L6",
+      "seed": 829,
+      "method": "fixed4",
+      "batched_nll": 21.33148193359375,
+      "single_nll": 21.331478118896484,
+      "absolute_difference": 3.814697265625e-06
+    },
+    {
+      "prompt_id": "s8-002-L6",
+      "seed": 829,
+      "method": "split22",
+      "batched_nll": 17.93660545349121,
+      "single_nll": 17.93660545349121,
+      "absolute_difference": 0.0
+    },
+    {
+      "prompt_id": "s8-003-L6",
+      "seed": 829,
+      "method": "fixed4",
+      "batched_nll": 23.680604934692383,
+      "single_nll": 23.680618286132812,
+      "absolute_difference": 1.33514404296875e-05
+    },
+    {
+      "prompt_id": "s8-003-L6",
+      "seed": 829,
+      "method": "split22",
+      "batched_nll": 9.100043296813965,
+      "single_nll": 9.100043296813965,
+      "absolute_difference": 0.0
+    },
+    {
+      "prompt_id": "s8-256-L16",
+      "seed": 829,
+      "method": "fixed4",
+      "batched_nll": 27.515745162963867,
+      "single_nll": 27.515727996826172,
+      "absolute_difference": 1.71661376953125e-05
+    },
+    {
+      "prompt_id": "s8-256-L16",
+      "seed": 829,
+      "method": "split22",
+      "batched_nll": 4.931990623474121,
+      "single_nll": 4.931982040405273,
+      "absolute_difference": 8.58306884765625e-06
+    },
+    {
+      "prompt_id": "s8-257-L16",
+      "seed": 829,
+      "method": "fixed4",
+      "batched_nll": 2.5372114181518555,
+      "single_nll": 2.53720760345459,
+      "absolute_difference": 3.814697265625e-06
+    },
+    {
+      "prompt_id": "s8-257-L16",
+      "seed": 829,
+      "method": "split22",
+      "batched_nll": 2.5372114181518555,
+      "single_nll": 2.53720760345459,
+      "absolute_difference": 3.814697265625e-06
+    },
+    {
+      "prompt_id": "s8-258-L16",
+      "seed": 829,
+      "method": "fixed4",
+      "batched_nll": 14.770196914672852,
+      "single_nll": 14.770191192626953,
+      "absolute_difference": 5.7220458984375e-06
+    },
+    {
+      "prompt_id": "s8-258-L16",
+      "seed": 829,
+      "method": "split22",
+      "batched_nll": 18.194019317626953,
+      "single_nll": 18.194019317626953,
+      "absolute_difference": 0.0
+    },
+    {
+      "prompt_id": "s8-259-L16",
+      "seed": 829,
+      "method": "fixed4",
+      "batched_nll": 3.2829558849334717,
+      "single_nll": 3.282949447631836,
+      "absolute_difference": 6.4373016357421875e-06
+    },
+    {
+      "prompt_id": "s8-259-L16",
+      "seed": 829,
+      "method": "split22",
+      "batched_nll": 18.931407928466797,
+      "single_nll": 18.931406021118164,
+      "absolute_difference": 1.9073486328125e-06
+    },
+    {
+      "prompt_id": "s8-256-L32",
+      "seed": 829,
+      "method": "fixed4",
+      "batched_nll": 27.685871124267578,
+      "single_nll": 27.685867309570312,
+      "absolute_difference": 3.814697265625e-06
+    },
+    {
+      "prompt_id": "s8-256-L32",
+      "seed": 829,
+      "method": "split22",
+      "batched_nll": 14.077853202819824,
+      "single_nll": 14.077855110168457,
+      "absolute_difference": 1.9073486328125e-06
+    },
+    {
+      "prompt_id": "s8-257-L32",
+      "seed": 829,
+      "method": "fixed4",
+      "batched_nll": 3.381798028945923,
+      "single_nll": 3.381798028945923,
+      "absolute_difference": 0.0
+    },
+    {
+      "prompt_id": "s8-257-L32",
+      "seed": 829,
+      "method": "split22",
+      "batched_nll": 3.381798028945923,
+      "single_nll": 3.381798028945923,
+      "absolute_difference": 0.0
+    },
+    {
+      "prompt_id": "s8-258-L32",
+      "seed": 829,
+      "method": "fixed4",
+      "batched_nll": 24.56639862060547,
+      "single_nll": 24.566402435302734,
+      "absolute_difference": 3.814697265625e-06
+    },
+    {
+      "prompt_id": "s8-258-L32",
+      "seed": 829,
+      "method": "split22",
+      "batched_nll": 6.149572849273682,
+      "single_nll": 6.149572372436523,
+      "absolute_difference": 4.76837158203125e-07
+    },
+    {
+      "prompt_id": "s8-259-L32",
+      "seed": 829,
+      "method": "fixed4",
+      "batched_nll": 19.439992904663086,
+      "single_nll": 19.439987182617188,
+      "absolute_difference": 5.7220458984375e-06
+    },
+    {
+      "prompt_id": "s8-259-L32",
+      "seed": 829,
+      "method": "split22",
+      "batched_nll": 11.288503646850586,
+      "single_nll": 11.288503646850586,
+      "absolute_difference": 0.0
+    }
+  ],
+  "scope": "First four distinct source sentences at each context length; existing core.teacher_metrics, batch 1. Not an external quality evaluator."
+}

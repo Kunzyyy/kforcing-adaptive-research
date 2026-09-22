@@ -1,0 +1,41 @@
+{
+  "passed": true,
+  "states": 446,
+  "candidate_positions": 1784,
+  "unchanged_hook_logit_cases": 12,
+  "attention_sdpa_comparisons": 446,
+  "max_attention_output_absolute_error": 5.7220458984375e-06,
+  "max_confidence_difference": 4.1961669921875e-05,
+  "independent_probe_indices": [
+    0,
+    40,
+    80,
+    121,
+    161,
+    202,
+    242,
+    283,
+    323,
+    364,
+    404,
+    445
+  ],
+  "feature_names": [
+    "head_noise_mass_mean_tail0",
+    "head_noise_mass_mean_tail1",
+    "head_noise_mass_max_tail0",
+    "head_noise_mass_max_tail1",
+    "normalized_attention_entropy_tail0",
+    "normalized_attention_entropy_tail1"
+  ],
+  "last_block": 11,
+  "heads": 12,
+  "torch": "2.11.0+cu128",
+  "gpu": "NVIDIA GeForce RTX 5060 Laptop GPU",
+  "new_future_generations": 0,
+  "outputs": {
+    "features.jsonl": "7fc93fdbad2b130515887b50865cd140a77c8c39d8a74d2a66d953aa7bfce735",
+    "attention_probabilities.npz": "c1229ebcbc5521391cd61e6a3cb3629dfce6933b34b433e13bf20e943b6ec7c3",
+    "numeric_probes.npz": "57299b3f4bf797fac6853636d4a4fbce924f68f0abbe7227c868163d7e1822e8"
+  }
+}

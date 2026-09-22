@@ -1,0 +1,19 @@
+{
+  "source": "Observed natural execution-tool exit results during stage 4",
+  "lm1b_prepare_exit": 0,
+  "official_semantic_audit_exit": 0,
+  "main_generation_and_teacher_scoring_exit": 0,
+  "recommended_generation_and_teacher_scoring_exit": 0,
+  "evaluator_final_download_and_verification_exit": 0,
+  "external_scoring_exit": 0,
+  "external_analysis_exit": 0,
+  "independent_integrity_audit_exit": 0,
+  "new_external_scoring_unit_tests_passed": 2,
+  "new_generated_outputs": 1792,
+  "references": 128,
+  "historical_outputs_rescored": 320,
+  "external_rows": 2240,
+  "repeated_batch_timing_records": 608,
+  "download_history": "Initial long-stream download timed out; one owned resumed downloader was deliberately interrupted to switch to bounded parallel range requests. Final complete safetensors SHA-256 verified.",
+  "caution": "No adaptive advantage established; public baseline quality discrepancy remains unexplained. No human or 27B-judge ratings."
+}

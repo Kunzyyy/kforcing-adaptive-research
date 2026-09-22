@@ -1,0 +1,14 @@
+{
+  "controller_sha256": "5d366626195e447a3315e9ef89497d046da06a0a5d371688d6710e38dcf86b91",
+  "threshold": -0.8624498844146729,
+  "prompts": 32,
+  "seeds": [
+    401,
+    409
+  ],
+  "eligible_steps": 400,
+  "short_steps": 199,
+  "p_short": 0.4975,
+  "uses_test": false,
+  "rule": "Match eligible-step short probability observed on development rollouts; threshold unchanged"
+}

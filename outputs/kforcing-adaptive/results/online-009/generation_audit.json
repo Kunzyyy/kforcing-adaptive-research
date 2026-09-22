@@ -1,0 +1,11 @@
+{
+  "passed": true,
+  "new_sources": 64,
+  "samples": 640,
+  "timing_runs": 1920,
+  "source_isolation": true,
+  "exact_forward_and_candidate_budget_pairs": 128,
+  "traces_and_thresholds": true,
+  "repeated_token_hashes": true,
+  "frozen_artifacts": true
+}

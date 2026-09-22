@@ -1,0 +1,28 @@
+{
+  "gpu": "NVIDIA GeForce RTX 5060 Laptop GPU",
+  "torch": "2.11.0+cu128",
+  "cuda": "12.8",
+  "helper_backend": "eager",
+  "ar_precision": "released internal fp16 autocast",
+  "pflm_precision": "released CLI: no outer autocast; fp32 parameters",
+  "batch_sizes": [
+    4,
+    16
+  ],
+  "timing_seed": 617,
+  "timing_repeats": 3,
+  "quality_seeds": [
+    617,
+    619
+  ],
+  "quality_batch_size": 4,
+  "prompts": 128,
+  "prefix_length": 6,
+  "fixed_new_tokens": 122,
+  "eos_stops_computation": false,
+  "freq_penalty": 0.0,
+  "tau": 1.0,
+  "timing": "Synchronized decoder-call wall time; released tqdm/loguru suppressed. Data transfer, text decoding and file output excluded.",
+  "original_cli_note": "Published CLI total-throughput includes JSON serialization; our decoder-call times match its per-batch timing scope.",
+  "limitation": "Local RTX/SDPA/CLI precision, fewer prefixes/repeats than paper; not an H100/bf16/FlashAttention reproduction."
+}

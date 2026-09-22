@@ -1,0 +1,40 @@
+{
+  "created_utc": "2026-09-21T01:06:47.507986+00:00",
+  "sources": 128,
+  "input_code_hashes": {
+    "HISTORICAL_EMA_PLAN.md": "becedd4e08fe04c4a80853880bf069cb49a14074e3cd336dde9f89f8d1056227",
+    "diagnose_historical_ema.py": "c40fddcaa84c7853e2b6bd8e61ba6a8ff8462841da185554a11038b3e041c01c",
+    "extract_historical_ema.py": "7be87a8bc500acabb29a7033701bcf5c8878a370882ecad7f07257ac4a5330bc",
+    "checkpoint_pickle_metadata.py": "c1f65eac0b2356eef7729c6adef4be48c1c82ed6369300b045448ce6c41c6607",
+    "core.py": "24c16c1df17f94302a0a5746df210ec5906de49abe07dfc8f2862ead409d5cf8",
+    "external_gpt2_score.py": "d6568e9882fe91e36b54b809015f0765d9037a48c65a814e7e51b736b7c37234",
+    "audit_official.py": "04ca5932bccee91a9618b196fa39edf7a191a22f38ad82e3aa9149b7500e2f9f",
+    "upstream/models/pflm.py": "e188455e04eff640af7e0551e54d74c84dcc2d5bd447b24b1d0f1a67d82f59d8",
+    "upstream/models/transformer.py": "43b93ede2d55a37ec70d2fbdcdbe615be4847932a8565d4cdc5a49a611212812",
+    "upstream/models/autoregressive.py": "8fbecc2a28532ba18d63ac62eb57321ed14f44e596f2c4b9b379f12b05d221c8",
+    "upstream/batch_inference_with_prefix.py": "85769c80447ad186ced764b58e52e831a5043d433a63d7efa60a932256a6e3e1",
+    "results/baseline-016/samples.jsonl": "3c8d00e11fec817596630334ca8370c97b2e4e279e1db9de8f55510dc081d22e",
+    "results/baseline-016/scores.jsonl": "a23074c6aed37147b3f4e5e060f813a2ea57e38010226f27907e16ff58ab907b",
+    "results/baseline-016/prefixes.json": "b896d0e3aedb432bc5f57e7d213a6a7e7f69db77822d95457f6cc84c9b0681ad"
+  },
+  "prefixes_sha256": "54045419ced5f903ab49151215c119f0a7c55ff3d98bc1efe1b7cc7cb8227fb7",
+  "extraction_manifest_hashes": {
+    "ar": "aaa26a83a5320cea77b8f77896e6c8396cd5c3c99575b8c3596cac9ec7807068",
+    "pflm": "f6e46a2c64fedefc6f995b97f958b0cbbc8b6eeec9613d6e7ade42c5044bbbe5"
+  },
+  "ema_checkpoint_hashes": {
+    "ar": "6e670c33ac7ec413144f1a421c59870f2d2b85916caee4f20130b9bef04937b6",
+    "pflm": "d097aef95b0480c72d705c793ec0cb959aaffa0fccdc44635baede241099396e"
+  },
+  "ordinary_checkpoint_hashes": {
+    "ar": "e2463aa9de897dd2394580eeec7de23f0fe076931050b21612e8b06316ccc439",
+    "pflm": "3b013f0cf9a3acab4c20a1bb748beee6525432ef3f56a74df4957b898480a2c2"
+  },
+  "tokenizer_sha256": "07eced375cec144d27c900241f3e339478dec958f92fddbc551f295c992038a3",
+  "evaluator_manifest_sha256": "d7d06e48f0749ad4812d0fabc413c50d877934f44bc2ae1f852011268a0944b4",
+  "retrospective": true,
+  "new_test": false,
+  "bootstrap_seed": 21212026,
+  "bootstrap_repeats": 4000,
+  "mapping_status": "Shape/order verified against published model; original EMA training parameter order unconfirmed."
+}

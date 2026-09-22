@@ -1,0 +1,24 @@
+{
+  "stage": 14,
+  "completed": true,
+  "commands": [
+    {
+      "action": "prepare",
+      "process_exit_code": 0
+    },
+    {
+      "action": "run",
+      "process_exit_code": 0
+    },
+    {
+      "action": "audit",
+      "process_exit_code": 0
+    }
+  ],
+  "retrospective_exploration": true,
+  "no_new_gpu_rollouts": true,
+  "no_test_reevaluation": true,
+  "result_dir": "results/features-014",
+  "report": "第十四阶段实验报告.md",
+  "independent_confirmation_pending": true
+}

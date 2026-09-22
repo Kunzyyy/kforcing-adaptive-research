@@ -1,0 +1,31 @@
+{
+  "created_utc": "2026-09-21T11:45:59.600404+00:00",
+  "inputs": {
+    "results/features-014/development_data.jsonl": "58d460786f436d81c77a8dc40c69eeb7891862b4ececd5b44f72f7351d1a31c9",
+    "results/decision-features/features.jsonl": "08b71671c2105fec01b616ab07ebf3373ff709df85adac0a4471e22d6d207ca5",
+    "results/decision-features/analysis.json": "185a4a6c7d2308be1e485e72f79e467a65a31b5e25cef199c042da0dcaab7969",
+    "results/decision-features/manifest.json": "09e1e0c1bfdd3d7909515ebe738a91d8fdf7f6426f6327856eb0ee8979f8a4bc",
+    "results/averaged-013/train_states.jsonl": "dfe275947b3be5973e65a994e77e082956c9c428f125cf16d2d07df9668c9c6f",
+    "results/averaged-013/dev_states.jsonl": "32d1235bc7f5616e4e477a407f56c9563fde8370168c206ae39e21edecde3e60",
+    "ATTENTION_FEATURE_PLAN.md": "c6ddb073d875c93b7c79dc6c9fe5da44f4780de8e1b5f9e1094c3d3358d3096c",
+    "attention_features.py": "fe87d6154c6d9320624e785b6851143b63f30c90cc15954d9b2856f4324810bd",
+    "diagnose_attention_features.py": "59ebfed45ab9b39a5b7a56153f0d64954c1f6de47de49edb23fc321c0c45392b",
+    "core.py": "24c16c1df17f94302a0a5746df210ec5906de49abe07dfc8f2862ead409d5cf8",
+    "current_features.py": "7f874ac51f3cc15e97a4212c43580bab6fc2eb4a273e37863ed45d2e8693a85c",
+    "upstream/models/pflm.py": "e188455e04eff640af7e0551e54d74c84dcc2d5bd447b24b1d0f1a67d82f59d8",
+    "upstream/models/transformer.py": "43b93ede2d55a37ec70d2fbdcdbe615be4847932a8565d4cdc5a49a611212812"
+  },
+  "checkpoint_sha256": "3b013f0cf9a3acab4c20a1bb748beee6525432ef3f56a74df4957b898480a2c2",
+  "states": 446,
+  "sources": 253,
+  "alpha": 1000,
+  "fold_seeds": [
+    14112001,
+    14112002,
+    14112003
+  ],
+  "bootstrap_seed": 22232001,
+  "retrospective_development": true,
+  "old_test_inputs": false,
+  "one_candidate": true
+}

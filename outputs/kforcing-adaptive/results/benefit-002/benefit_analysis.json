@@ -1,0 +1,86 @@
+{
+  "states": 63,
+  "prompts": 39,
+  "articles": 30,
+  "mean_short_gain": 1.388038958821978,
+  "positive_gain_fraction": 0.9047619047619048,
+  "mean_predictor_mse": 1.280592491423093,
+  "methods": {
+    "ridge": {
+      "spearman": 0.08165322580645161,
+      "selected_half_gain_lift": 0.13368243218532627,
+      "lift_95_article_bootstrap": [
+        -0.07471805306346894,
+        0.4416652678998256
+      ],
+      "mse": 1.2893435689202932
+    },
+    "negative_mean_margin": {
+      "spearman": -0.12135176651305685,
+      "selected_half_gain_lift": -0.19775059393474037,
+      "lift_95_article_bootstrap": [
+        -0.42741449067428594,
+        0.056473074423459516
+      ]
+    },
+    "positive_mean_margin": {
+      "spearman": 0.12135176651305685,
+      "selected_half_gain_lift": 0.21736770176461762,
+      "lift_95_article_bootstrap": [
+        -0.05047493294332948,
+        0.4319981469340543
+      ]
+    },
+    "oracle": {
+      "spearman": 1.0,
+      "selected_half_gain_lift": 0.880190318982516,
+      "lift_95_article_bootstrap": [
+        0.7225595676298618,
+        1.043691786240134
+      ]
+    }
+  },
+  "ridge_minus_baseline_lift": {
+    "negative_mean_margin": {
+      "point": 0.33143302612006664,
+      "interval95": [
+        -0.03111529141150676,
+        0.7578014936039155
+      ]
+    },
+    "positive_mean_margin": {
+      "point": -0.08368526957929134,
+      "interval95": [
+        -0.3217808636127838,
+        0.31776141306567274
+      ]
+    }
+  },
+  "sample_counts": {
+    "train": {
+      "states": 136,
+      "prompts": 82,
+      "articles": 41
+    },
+    "dev": {
+      "states": 45,
+      "prompts": 29,
+      "articles": 14
+    },
+    "test": {
+      "states": 63,
+      "prompts": 39,
+      "articles": 30
+    }
+  },
+  "excluded_states": {
+    "train": 49,
+    "dev": 15,
+    "test": 23
+  },
+  "total_branches": 662,
+  "eos_branches": 103,
+  "first_two_mismatches": 0,
+  "chosen_alpha": 100.0,
+  "scope": "Offline top-half ranking on EOS-filtered fixed4 states; no online quality or speed claim."
+}

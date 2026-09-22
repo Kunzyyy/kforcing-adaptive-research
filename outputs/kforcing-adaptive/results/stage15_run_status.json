@@ -1,0 +1,43 @@
+{
+  "stage": 15,
+  "completed": true,
+  "commands": [
+    {
+      "action": "freeze",
+      "process_exit_code": 0
+    },
+    {
+      "action": "preflight",
+      "process_exit_code": 0
+    },
+    {
+      "action": "collect",
+      "process_exit_code": 0
+    },
+    {
+      "action": "predict_test",
+      "process_exit_code": 0
+    },
+    {
+      "action": "score",
+      "process_exit_code": 0
+    },
+    {
+      "action": "evaluate",
+      "process_exit_code": 0
+    },
+    {
+      "action": "audit",
+      "process_exit_code": 0
+    }
+  ],
+  "result_dir": "results/lowdim-015",
+  "report": "第十五阶段实验报告.md",
+  "online_tested": false,
+  "advance_gate_passed": false,
+  "candidate_passes": {
+    "linear14": false,
+    "rbf14": false
+  },
+  "audit_sha256": "54fef86022ae52c180be858809e41b7aaa162bd8b558a33b32b58b9d148ebea4"
+}

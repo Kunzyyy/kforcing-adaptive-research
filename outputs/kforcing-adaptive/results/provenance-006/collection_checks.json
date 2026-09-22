@@ -1,0 +1,20 @@
+{
+  "windows": 1024,
+  "prefixes": 128,
+  "seeds": [
+    701,
+    709,
+    719,
+    727,
+    733,
+    739,
+    743,
+    751
+  ],
+  "first_two_argmax_disagreements": 0,
+  "official_first_step_reference_checks": 16,
+  "inverse_cdf_simple_distribution_check": true,
+  "precision": "fp32 model; float64 CDF; tau=1",
+  "gpu": "NVIDIA GeForce RTX 5060 Laptop GPU",
+  "notes": "AR reference is a chosen noise coupling, not the unknown intermediate k2 distillation teacher. No online quality or speed inference."
+}

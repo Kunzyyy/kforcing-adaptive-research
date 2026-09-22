@@ -1,0 +1,40 @@
+{
+  "stage": 16,
+  "completed": true,
+  "commands": [
+    {
+      "action": "freeze",
+      "process_exit_code": 0
+    },
+    {
+      "action": "probe",
+      "process_exit_code": 0
+    },
+    {
+      "action": "generate",
+      "process_exit_code": 0
+    },
+    {
+      "action": "score",
+      "process_exit_code": 0
+    },
+    {
+      "action": "analyze",
+      "process_exit_code": 0
+    },
+    {
+      "action": "audit",
+      "process_exit_code": 0
+    },
+    {
+      "action": "author_probe_local",
+      "process_exit_code": 0
+    }
+  ],
+  "result_dir": "results/baseline-016",
+  "report": "第十六阶段实验报告.md",
+  "paper_quality_gap_resolved": false,
+  "adaptive_method_tested": false,
+  "author_probe_sent": false,
+  "audit_sha256": "65296d39d995272600b94cfb1588c15bdba75d0349f1d2b2c92443b29299ebbb"
+}

@@ -1,0 +1,23 @@
+# Local dependencies, model checkpoints, source datasets, and scratch outputs
+/work/
+/.venv/
+/venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.DS_Store
+Thumbs.db
+*.zip
+*.ckpt
+*.safetensors
+*.pt
+*.pth
+*.parquet
+.env
+.env.*
+!.env.example
+# Keep human-review identity mappings and incoming ratings local.
+**/private/
+**/ratings/
+**/responses/

@@ -1,0 +1,228 @@
+{
+  "scope": "Existing records only; cohorts and model versions must not be pooled.",
+  "claims": [
+    {
+      "id": "baseline_gap",
+      "statement": "Local AR/K4 baseline scores remain unmatched to the original paper configuration.",
+      "evidence": [
+        {
+          "file": "results/baseline-016/analysis.json",
+          "pointer": "/sources",
+          "value": 1024
+        },
+        {
+          "file": "results/baseline-016/analysis.json",
+          "pointer": "/methods/ar/gen_ppl",
+          "value": 114.38885127080691
+        },
+        {
+          "file": "results/baseline-016/analysis.json",
+          "pointer": "/methods/ar/gen_ppl_interval95",
+          "value": [
+            108.24267600185543,
+            120.64708057151617
+          ]
+        },
+        {
+          "file": "results/baseline-016/analysis.json",
+          "pointer": "/methods/fixed4/gen_ppl",
+          "value": 215.71285409978606
+        },
+        {
+          "file": "results/baseline-016/analysis.json",
+          "pointer": "/methods/fixed4/gen_ppl_interval95",
+          "value": [
+            190.41392278996284,
+            241.0408167111923
+          ]
+        },
+        {
+          "file": "results/baseline-016/analysis.json",
+          "pointer": "/paper_reference_not_hypothesis_test",
+          "value": true
+        }
+      ]
+    },
+    {
+      "id": "early_online_failure",
+      "statement": "The earlier hidden82 online decoder failed the joint budget/performance gate; this is not an online test of combined19.",
+      "evidence": [
+        {
+          "file": "results/early-010/analysis.json",
+          "pointer": "/source_clusters",
+          "value": 96
+        },
+        {
+          "file": "results/early-010/analysis.json",
+          "pointer": "/summary/learned/gpt2_gen_ppl",
+          "value": 156.4497949376112
+        },
+        {
+          "file": "results/early-010/analysis.json",
+          "pointer": "/summary/random_cal/gpt2_gen_ppl",
+          "value": 144.0591104533233
+        },
+        {
+          "file": "results/early-010/analysis.json",
+          "pointer": "/primary/ppl_ratio",
+          "value": {
+            "estimate": 1.0860111133915589,
+            "interval": [
+              0.9050670703278698,
+              1.3072869713427187
+            ],
+            "coverage": 0.975
+          }
+        },
+        {
+          "file": "results/early-010/analysis.json",
+          "pointer": "/primary/visible_throughput_ratio",
+          "value": {
+            "estimate": 0.9820108321163489,
+            "interval": [
+              0.936611406432696,
+              1.0296073709788662
+            ],
+            "coverage": 0.975
+          }
+        },
+        {
+          "file": "results/early-010/analysis.json",
+          "pointer": "/budget_calls_per_token_ratio",
+          "value": 0.9724539078793756
+        },
+        {
+          "file": "results/early-010/analysis.json",
+          "pointer": "/primary_budget_and_performance_gate",
+          "value": false
+        }
+      ]
+    },
+    {
+      "id": "later_offline_failure",
+      "statement": "The frozen combined19 selector failed the three-comparison confirmation gate.",
+      "evidence": [
+        {
+          "file": "results/decision-confirm/analysis.json",
+          "pointer": "/test_states",
+          "value": 681
+        },
+        {
+          "file": "results/decision-confirm/analysis.json",
+          "pointer": "/test_sources",
+          "value": 380
+        },
+        {
+          "file": "results/decision-confirm/analysis.json",
+          "pointer": "/primary/vs_random",
+          "value": {
+            "estimate": 0.04419565550630368,
+            "interval": [
+              0.013968525626093747,
+              0.07455130537853208
+            ],
+            "coverage": 0.9833333333333333
+          }
+        },
+        {
+          "file": "results/decision-confirm/analysis.json",
+          "pointer": "/primary/vs_confidence14",
+          "value": {
+            "estimate": 0.014442841284400449,
+            "interval": [
+              -0.00835249551976366,
+              0.03848569956216035
+            ],
+            "coverage": 0.9833333333333333
+          }
+        },
+        {
+          "file": "results/decision-confirm/analysis.json",
+          "pointer": "/primary/vs_heuristic",
+          "value": {
+            "estimate": 0.02365308268289975,
+            "interval": [
+              -0.014375090811930539,
+              0.06190220410590328
+            ],
+            "coverage": 0.9833333333333333
+          }
+        },
+        {
+          "file": "results/decision-confirm/analysis.json",
+          "pointer": "/advance_gate_passed",
+          "value": false
+        }
+      ]
+    },
+    {
+      "id": "cost_sensitivity",
+      "statement": "Retrospective cost normalization does not establish an incremental combined19 benefit over confidence14.",
+      "evidence": [
+        {
+          "file": "results/compute-budget/analysis.json",
+          "pointer": "/cost_normalization/calls/comparisons/combined19_vs_confidence14",
+          "value": {
+            "estimate": -0.0002995140311048139,
+            "interval": [
+              -0.019243055111399513,
+              0.018627812472140105
+            ]
+          }
+        },
+        {
+          "file": "results/compute-budget/analysis.json",
+          "pointer": "/cost_normalization/candidates/comparisons/combined19_vs_confidence14",
+          "value": {
+            "estimate": -0.011887372906238078,
+            "interval": [
+              -0.03816880463115494,
+              0.013939426499483706
+            ]
+          }
+        },
+        {
+          "file": "results/compute-budget/analysis.json",
+          "pointer": "/cost_normalization/calls/posthoc_cost_calibration",
+          "value": true
+        },
+        {
+          "file": "results/compute-budget/analysis.json",
+          "pointer": "/cost_normalization/candidates/posthoc_cost_calibration",
+          "value": true
+        },
+        {
+          "file": "results/compute-budget/analysis.json",
+          "pointer": "/wall_clock_measured",
+          "value": false
+        }
+      ]
+    },
+    {
+      "id": "human_quality_pending",
+      "statement": "No human quality conclusion is available; reviewers are currently unavailable.",
+      "evidence": [
+        {
+          "file": "review_status.json",
+          "pointer": "/human_ratings_received",
+          "value": 0
+        },
+        {
+          "file": "review_status.json",
+          "pointer": "/human_quality",
+          "value": "not_evaluated"
+        },
+        {
+          "file": "review_status.json",
+          "pointer": "/reviewer_availability",
+          "value": "User reports no reviewers currently available."
+        },
+        {
+          "file": "review_status.json",
+          "pointer": "/externally_sent",
+          "value": false
+        }
+      ]
+    }
+  ]
+}

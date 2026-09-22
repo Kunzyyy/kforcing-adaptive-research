@@ -1,0 +1,33 @@
+{
+  "parameter_groups": {
+    "vocab_embed": 23440896,
+    "blocks": 84999168,
+    "noise_encoder": 5904384,
+    "output_layer": 23472186
+  },
+  "total_parameters": 137816634,
+  "head_linear_parameters": 23471418,
+  "input_embedding_and_output_share_storage": false,
+  "input_embedding_and_output_equal": false,
+  "embedding_output_max_abs_difference": 12.70858097076416,
+  "local_normalization": {
+    "forward_source": "def forward(self, x: torch.Tensor) -> torch.Tensor:\n    with torch.amp.autocast('cuda', enabled=False):\n        x = F.layer_norm(x.float(), [self.dim])\n    return x * self.weight[None, None, :]",
+    "calls": [
+      "autocast",
+      "layer_norm",
+      "float"
+    ],
+    "uses_layer_norm": true
+  },
+  "released_normalization": {
+    "forward_source": "def forward(self, x: torch.Tensor) -> torch.Tensor:\n    with torch.amp.autocast('cuda', enabled=False):\n        x = F.layer_norm(x.float(), [self.dim])\n    return x * self.weight[None, None, :]",
+    "calls": [
+      "autocast",
+      "layer_norm",
+      "float"
+    ],
+    "uses_layer_norm": true
+  },
+  "paper_normalization": "RMSNorm (pre-norm)",
+  "interpretation": "Publication/code description mismatch; no inference of which norm trained the unpublished paper checkpoint."
+}

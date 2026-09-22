@@ -1,0 +1,19 @@
+{
+  "passed": true,
+  "sources": 384,
+  "valid_states": {
+    "train": 336,
+    "dev": 110,
+    "test": 220
+  },
+  "source_isolation": true,
+  "all_noise_hashes_replayed": true,
+  "exact_state_invariance": true,
+  "labels_recomputed": true,
+  "train_standardization_and_ridge_equations": true,
+  "shared_dev_selection_recomputed": true,
+  "test_model_lock_verified": true,
+  "primary_cluster_intervals_recomputed": true,
+  "analysis_sha256": "daa39252df08537cc6efdc9880cc46feb6b4ed438b9eeee33b70c3280e040ccd",
+  "audit_sha256": "e1afb4f2d81c71c43e292c2640ba78237917f8b7f633ac10c8dd5c2ef547cb53"
+}

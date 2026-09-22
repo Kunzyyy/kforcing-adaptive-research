@@ -1,0 +1,15 @@
+{
+  "passed": true,
+  "samples": 2048,
+  "sources": 1024,
+  "samples_sha256": "3c8d00e11fec817596630334ca8370c97b2e4e279e1db9de8f55510dc081d22e",
+  "manifest_sha256": "1fd855fa669144d0f977faa6c051368a1f429a7ae1189de6e105469a550b28b4",
+  "reference_probe_sha256": "8bb19835cae44e22f54fefe60edcbd058178db425f96625016cb2b9588051aea",
+  "completed_utc": "2026-09-20T15:47:55.995948+00:00",
+  "torch": "2.11.0+cu128",
+  "cuda": "12.8",
+  "gpu": "NVIDIA GeForce RTX 5060 Laptop GPU",
+  "ar_precision": "public CLI internal fp16",
+  "pflm_precision": "fp32, no outer autocast",
+  "timing_claim": false
+}

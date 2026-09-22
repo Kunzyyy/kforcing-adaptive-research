@@ -1,0 +1,29 @@
+[
+  {
+    "case": "ar",
+    "threads": 4,
+    "jit": "0",
+    "iterations": 8,
+    "exit_code": 0,
+    "seconds": 9.35206937789917,
+    "completed_marker": true
+  },
+  {
+    "case": "dual",
+    "threads": 4,
+    "jit": "0",
+    "iterations": 8,
+    "exit_code": 0,
+    "seconds": 11.314431428909302,
+    "completed_marker": true
+  },
+  {
+    "case": "alternating",
+    "threads": 4,
+    "jit": "0",
+    "iterations": 8,
+    "exit_code": 0,
+    "seconds": 10.655766010284424,
+    "completed_marker": true
+  }
+]

@@ -1,0 +1,54 @@
+{
+  "passed": true,
+  "samples": 512,
+  "ema_generated": 256,
+  "ordinary_reused": 256,
+  "ordinary_replay": [
+    {
+      "prompt_id": "s16-0000",
+      "method": "ar",
+      "full_128_tokens_match": true
+    },
+    {
+      "prompt_id": "s16-0001",
+      "method": "ar",
+      "full_128_tokens_match": true
+    },
+    {
+      "prompt_id": "s16-0002",
+      "method": "ar",
+      "full_128_tokens_match": true
+    },
+    {
+      "prompt_id": "s16-0003",
+      "method": "ar",
+      "full_128_tokens_match": true
+    },
+    {
+      "prompt_id": "s16-0000",
+      "method": "fixed4",
+      "full_128_tokens_match": true
+    },
+    {
+      "prompt_id": "s16-0001",
+      "method": "fixed4",
+      "full_128_tokens_match": true
+    },
+    {
+      "prompt_id": "s16-0002",
+      "method": "fixed4",
+      "full_128_tokens_match": true
+    },
+    {
+      "prompt_id": "s16-0003",
+      "method": "fixed4",
+      "full_128_tokens_match": true
+    }
+  ],
+  "samples_sha256": "e454c38ea9e6321a6d8140725a1c62fbeffba04c66119b701841e3bc597ac47e",
+  "manifest_sha256": "93a519b2b11a901962036d141a54e6d43ce3aaebe94356f6bd8f385b57dae079",
+  "torch": "2.11.0+cu128",
+  "cuda": "12.8",
+  "gpu": "NVIDIA GeForce RTX 5060 Laptop GPU",
+  "timing_claim": false
+}

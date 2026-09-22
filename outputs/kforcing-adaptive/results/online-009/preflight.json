@@ -1,0 +1,94 @@
+{
+  "passed": true,
+  "old_windows": [
+    {
+      "prompt_id": "s8-000-L6",
+      "seed": 829,
+      "length": 6,
+      "max_feature_delta": 1.049041748046875e-05,
+      "online_cpu_score_delta": 0.0
+    },
+    {
+      "prompt_id": "s8-000-L6",
+      "seed": 839,
+      "length": 6,
+      "max_feature_delta": 3.4332275390625e-05,
+      "online_cpu_score_delta": 5.551115123125783e-17
+    },
+    {
+      "prompt_id": "s8-000-L6",
+      "seed": 853,
+      "length": 6,
+      "max_feature_delta": 1.9073486328125e-05,
+      "online_cpu_score_delta": 2.7755575615628914e-17
+    },
+    {
+      "prompt_id": "s8-000-L6",
+      "seed": 857,
+      "length": 6,
+      "max_feature_delta": 6.103515625e-05,
+      "online_cpu_score_delta": 0.0
+    },
+    {
+      "prompt_id": "s8-256-L16",
+      "seed": 829,
+      "length": 16,
+      "max_feature_delta": 7.62939453125e-06,
+      "online_cpu_score_delta": 2.7755575615628914e-17
+    },
+    {
+      "prompt_id": "s8-256-L16",
+      "seed": 839,
+      "length": 16,
+      "max_feature_delta": 7.62939453125e-06,
+      "online_cpu_score_delta": 4.163336342344337e-17
+    },
+    {
+      "prompt_id": "s8-256-L16",
+      "seed": 853,
+      "length": 16,
+      "max_feature_delta": 2.09808349609375e-05,
+      "online_cpu_score_delta": 2.7755575615628914e-17
+    },
+    {
+      "prompt_id": "s8-256-L16",
+      "seed": 857,
+      "length": 16,
+      "max_feature_delta": 4.57763671875e-05,
+      "online_cpu_score_delta": 5.551115123125783e-17
+    },
+    {
+      "prompt_id": "s8-256-L32",
+      "seed": 829,
+      "length": 32,
+      "max_feature_delta": 1.9073486328125e-05,
+      "online_cpu_score_delta": 6.938893903907228e-18
+    },
+    {
+      "prompt_id": "s8-256-L32",
+      "seed": 839,
+      "length": 32,
+      "max_feature_delta": 2.384185791015625e-05,
+      "online_cpu_score_delta": 3.469446951953614e-17
+    },
+    {
+      "prompt_id": "s8-256-L32",
+      "seed": 853,
+      "length": 32,
+      "max_feature_delta": 4.9591064453125e-05,
+      "online_cpu_score_delta": 2.7755575615628914e-17
+    },
+    {
+      "prompt_id": "s8-256-L32",
+      "seed": 857,
+      "length": 32,
+      "max_feature_delta": 2.6702880859375e-05,
+      "online_cpu_score_delta": 0.0
+    }
+  ],
+  "fixed_decoder_equivalence_cases": 9,
+  "split_all_fixed2_cases": 3,
+  "learned_cache_recompute_cases": 3,
+  "scope": "Old data only; checks are finite-case evidence, not proof for all inputs.",
+  "decoder_sha256": "cfb64ad437fb0e0de8f4ba8fbf431a1efb6ee4ae9e89cbb6f5f180a93680c3e5"
+}

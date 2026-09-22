@@ -1,0 +1,41 @@
+{
+  "kind": "negative_tail_margin",
+  "features": [
+    "margin_0",
+    "margin_1",
+    "margin_2",
+    "margin_3",
+    "entropy_0",
+    "entropy_1",
+    "entropy_2",
+    "entropy_3",
+    "top1_0",
+    "top1_1",
+    "top1_2",
+    "top1_3",
+    "tail_head_margin",
+    "tail_head_entropy"
+  ],
+  "threshold": -0.8624498844146729,
+  "threshold_source": "median development candidate scores; no online/test quality tuning",
+  "candidate_regularization": [
+    {
+      "alpha": 0.1,
+      "dev_mse": 1.7939195087340616
+    },
+    {
+      "alpha": 1.0,
+      "dev_mse": 1.7970520804425185
+    },
+    {
+      "alpha": 10.0,
+      "dev_mse": 1.8191551130685137
+    },
+    {
+      "alpha": 100.0,
+      "dev_mse": 1.838254592398896
+    }
+  ],
+  "passed_development_gate": true,
+  "train_dev_sha256": "92748d988905ac773c5acef69cf4fa8419b9e79dc6bc4ea170355f32d5494473"
+}

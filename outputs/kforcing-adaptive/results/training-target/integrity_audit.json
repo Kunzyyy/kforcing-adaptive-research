@@ -1,0 +1,17 @@
+{
+  "passed": true,
+  "no_test_inputs": true,
+  "tokenization_records_verified": 5857,
+  "valid_pairs": 3568,
+  "states": 446,
+  "sources": 253,
+  "max_old_sum_difference": 0.0,
+  "max_common_label_difference": 0.0,
+  "all_30_fits_independent_lstsq": true,
+  "max_prediction_difference": 1.0547118733938987e-15,
+  "primary_intervals_independently_recomputed": 2,
+  "original_stage14_control_reproduced": true,
+  "analysis_sha256": "65b1bdd54fae9c9d01c856b4d7986068a4dd445e37ca10b7f8eadcd493064abd",
+  "verifier_sha256": "7713a143307d054d0bd7aa4e864e91fcd98d6eda0a6ad3a735e881358dd3cb15",
+  "scope": "All tokenization/sum/label mappings and primary statistics checked; no second full GPU scoring pass."
+}

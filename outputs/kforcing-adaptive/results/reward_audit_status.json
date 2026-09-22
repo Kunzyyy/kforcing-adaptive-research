@@ -1,0 +1,10 @@
+{
+  "completed": true,
+  "completed_utc": "2026-09-20T22:51:38.494446+00:00",
+  "retrospective": true,
+  "trained_new_model": false,
+  "original_confirmation_gate_passed": false,
+  "integrity_audit_passed": true,
+  "analysis_sha256": "079479142bd4cca70fdef0e53faf118bf59393e201cfaeaf4c5460a52edd2357",
+  "author_contact_sent": false
+}

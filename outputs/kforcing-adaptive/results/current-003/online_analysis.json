@@ -1,0 +1,112 @@
+{
+  "unique_generations": 320,
+  "timed_runs": 960,
+  "articles": 16,
+  "comparisons": {
+    "fixed2": {
+      "point": {
+        "speed_ratio": 1.447164196975384,
+        "teacher_nll_difference": 0.9467501768256814,
+        "mean_length_difference": -3.640625,
+        "repetition_difference": -0.013593827899722426
+      },
+      "interval95": {
+        "speed_ratio": [
+          1.3871459217112316,
+          1.5090808135557916
+        ],
+        "teacher_nll_difference": [
+          0.6681504317107118,
+          1.2200974419145383
+        ],
+        "mean_length_difference": [
+          -6.603639846743297,
+          -1.0578957239309816
+        ],
+        "repetition_difference": [
+          -0.037062726058750876,
+          0.001338258310293784
+        ]
+      }
+    },
+    "fixed3": {
+      "point": {
+        "speed_ratio": 0.9587887461034114,
+        "teacher_nll_difference": 0.4071912991092286,
+        "mean_length_difference": -0.859375,
+        "repetition_difference": -0.0198948732718894
+      },
+      "interval95": {
+        "speed_ratio": [
+          0.8954644001803785,
+          1.0308790619009645
+        ],
+        "teacher_nll_difference": [
+          0.08323749079578795,
+          0.7320790001176
+        ],
+        "mean_length_difference": [
+          -5.370486111111111,
+          2.5
+        ],
+        "repetition_difference": [
+          -0.049077491304271054,
+          0.0024124574742014266
+        ]
+      }
+    },
+    "fixed4": {
+      "point": {
+        "speed_ratio": 0.7790585723787943,
+        "teacher_nll_difference": -0.3212211831287295,
+        "mean_length_difference": -2.265625,
+        "repetition_difference": -0.022741902686740895
+      },
+      "interval95": {
+        "speed_ratio": [
+          0.7390617182606899,
+          0.8233409823294432
+        ],
+        "teacher_nll_difference": [
+          -0.6804589185157076,
+          -0.022078207275374226
+        ],
+        "mean_length_difference": [
+          -6.378401677539609,
+          1.2905645161290298
+        ],
+        "repetition_difference": [
+          -0.04868510598903935,
+          0.001731362484217625
+        ]
+      }
+    },
+    "random_commit": {
+      "point": {
+        "speed_ratio": 0.9691011131443255,
+        "teacher_nll_difference": -0.08072899992017657,
+        "mean_length_difference": -0.578125,
+        "repetition_difference": -0.003204205069124423
+      },
+      "interval95": {
+        "speed_ratio": [
+          0.8997238867960692,
+          1.0234405474977426
+        ],
+        "teacher_nll_difference": [
+          -0.24392327280363893,
+          0.10176087063950236
+        ],
+        "mean_length_difference": [
+          -3.242041256157637,
+          2.067027027027025
+        ],
+        "repetition_difference": [
+          -0.01338801545367869,
+          0.004571725317693051
+        ]
+      }
+    }
+  },
+  "inference": "Exploratory paired article bootstrap, 2000 resamples; repeated timings averaged before resampling. No human-quality equivalence claim."
+}

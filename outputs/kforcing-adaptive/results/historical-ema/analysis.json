@@ -1,0 +1,94 @@
+{
+  "sources": 128,
+  "retrospective": true,
+  "new_adaptive_test": false,
+  "methods": {
+    "ar": {
+      "ordinary": {
+        "gen_ppl": 121.63919949517121,
+        "mean_token_nll": 4.8010592818533695,
+        "scored_tokens": 3051,
+        "gen_ppl_interval95": [
+          103.93465521869723,
+          143.6996524962179
+        ],
+        "excluded_short": 1,
+        "mean_bert_new_tokens": 24.765625,
+        "stopped_eos": 128
+      },
+      "historical_ema": {
+        "gen_ppl": 115.17951472400206,
+        "mean_token_nll": 4.746491908872933,
+        "scored_tokens": 3093,
+        "gen_ppl_interval95": [
+          98.64679941779826,
+          134.2317317817734
+        ],
+        "excluded_short": 2,
+        "mean_bert_new_tokens": 25.328125,
+        "stopped_eos": 128
+      },
+      "ema_minus_ordinary_token_nll": {
+        "estimate": -0.054567372980436346,
+        "interval95": [
+          -0.24773860388243668,
+          0.12124645209399484
+        ]
+      },
+      "ema_over_ordinary_ppl": {
+        "estimate": 0.9468947115898638,
+        "interval95": [
+          0.7805639530000221,
+          1.1289030986187156
+        ]
+      }
+    },
+    "fixed4": {
+      "ordinary": {
+        "gen_ppl": 256.78574083238016,
+        "mean_token_nll": 5.548242043920501,
+        "scored_tokens": 2166,
+        "gen_ppl_interval95": [
+          217.83769323615678,
+          305.51607823299173
+        ],
+        "excluded_short": 3,
+        "mean_bert_new_tokens": 19.8671875,
+        "stopped_eos": 128
+      },
+      "historical_ema": {
+        "gen_ppl": 267.38507215813803,
+        "mean_token_nll": 5.588689837223724,
+        "scored_tokens": 2014,
+        "gen_ppl_interval95": [
+          221.21123740611083,
+          323.67256359101134
+        ],
+        "excluded_short": 3,
+        "mean_bert_new_tokens": 17.6953125,
+        "stopped_eos": 128
+      },
+      "ema_minus_ordinary_token_nll": {
+        "estimate": 0.04044779330322257,
+        "interval95": [
+          -0.10936886030632395,
+          0.17972963682329224
+        ]
+      },
+      "ema_over_ordinary_ppl": {
+        "estimate": 1.0412769466536569,
+        "interval95": [
+          0.8963997102378873,
+          1.196893723384412
+        ]
+      }
+    }
+  },
+  "bootstrap_seed": 21212026,
+  "bootstrap_repeats": 4000,
+  "manifest_sha256": "93a519b2b11a901962036d141a54e6d43ce3aaebe94356f6bd8f385b57dae079",
+  "scores_sha256": "98dfe37f6f3e2b52090bbeb0610e3f0bbb142e48822167cea5ee026f8e12d363",
+  "paper_baseline_reproduced": false,
+  "ema_parameter_mapping_confirmed_by_author": false,
+  "interpretation": "Paired old-source diagnostic of a positional historical EMA reconstruction; no paper replication, new adaptive performance, or original training order confirmation."
+}

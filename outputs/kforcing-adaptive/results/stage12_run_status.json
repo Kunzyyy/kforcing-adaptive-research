@@ -1,0 +1,36 @@
+{
+  "stage": 12,
+  "completed": true,
+  "commands": [
+    {
+      "action": "prepare",
+      "process_exit_code": 0
+    },
+    {
+      "action": "preflight",
+      "process_exit_code": 0
+    },
+    {
+      "action": "collect",
+      "process_exit_code": 0
+    },
+    {
+      "action": "score",
+      "process_exit_code": 0
+    },
+    {
+      "action": "analyze",
+      "process_exit_code": 0
+    },
+    {
+      "action": "audit",
+      "process_exit_code": 0
+    }
+  ],
+  "result_dir": "results/stability-012",
+  "report": "第十二阶段实验报告.md",
+  "diagnostic_only": true,
+  "fitted_new_model": false,
+  "established_adaptive_performance_gain": false,
+  "audit_sha256": "68584ffb75b0fbf4bbe3b313d4444b1817a16ad356915ba75f12b7daed59dee7"
+}

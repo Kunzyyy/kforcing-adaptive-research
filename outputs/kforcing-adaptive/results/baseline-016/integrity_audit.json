@@ -1,0 +1,17 @@
+{
+  "passed": true,
+  "sources": 1024,
+  "samples": 2048,
+  "old_scoring_controls": 512,
+  "original_git_blob_verified": true,
+  "released_layernorm_confirmed": true,
+  "checkpoint_component_counts_verified": true,
+  "source_isolation_and_sampling_replayed": true,
+  "all_eos_text_and_score_counts_checked": true,
+  "paired_bootstrap_recomputed": true,
+  "first_last_batches_replayed_samples": 16,
+  "reference_probe_records_verified": true,
+  "reference_probe_rerun": false,
+  "analysis_sha256": "891135540a96643e5195163c8141038e9666b339cd3e9264fef6087384eccb3e",
+  "audit_code_sha256": "ee9139b6bd781b237e5b3c01cd374e7a04baea24a4f7c469837450b7286f1ba7"
+}

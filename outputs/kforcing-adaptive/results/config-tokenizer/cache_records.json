@@ -1,0 +1,152 @@
+[
+  {
+    "model": "pflm",
+    "context_length": 6,
+    "output": {
+      "max_abs_difference": 0.0,
+      "argmax_disagreements": 0,
+      "shape": [
+        8,
+        4,
+        30522
+      ],
+      "bitwise_equal": true
+    },
+    "max_cache_abs_difference": 0.0
+  },
+  {
+    "model": "pflm",
+    "context_length": 10,
+    "output": {
+      "max_abs_difference": 0.0,
+      "argmax_disagreements": 0,
+      "shape": [
+        8,
+        4,
+        30522
+      ],
+      "bitwise_equal": true
+    },
+    "max_cache_abs_difference": 0.0
+  },
+  {
+    "model": "pflm",
+    "context_length": 14,
+    "output": {
+      "max_abs_difference": 0.0,
+      "argmax_disagreements": 0,
+      "shape": [
+        8,
+        4,
+        30522
+      ],
+      "bitwise_equal": true
+    },
+    "max_cache_abs_difference": 0.0
+  },
+  {
+    "model": "pflm",
+    "context_length": 30,
+    "output": {
+      "max_abs_difference": 0.0,
+      "argmax_disagreements": 0,
+      "shape": [
+        8,
+        4,
+        30522
+      ],
+      "bitwise_equal": true
+    },
+    "max_cache_abs_difference": 0.0
+  },
+  {
+    "model": "pflm",
+    "context_length": 70,
+    "output": {
+      "max_abs_difference": 0.0,
+      "argmax_disagreements": 0,
+      "shape": [
+        8,
+        4,
+        30522
+      ],
+      "bitwise_equal": true
+    },
+    "max_cache_abs_difference": 0.0
+  },
+  {
+    "model": "ar",
+    "context_length": 6,
+    "output": {
+      "max_abs_difference": 0.0,
+      "argmax_disagreements": 0,
+      "shape": [
+        8,
+        6,
+        30522
+      ],
+      "bitwise_equal": true
+    },
+    "max_cache_abs_difference": 0.0
+  },
+  {
+    "model": "ar",
+    "context_length": 10,
+    "output": {
+      "max_abs_difference": 0.0,
+      "argmax_disagreements": 0,
+      "shape": [
+        8,
+        4,
+        30522
+      ],
+      "bitwise_equal": true
+    },
+    "max_cache_abs_difference": 0.0
+  },
+  {
+    "model": "ar",
+    "context_length": 14,
+    "output": {
+      "max_abs_difference": 0.0,
+      "argmax_disagreements": 0,
+      "shape": [
+        8,
+        4,
+        30522
+      ],
+      "bitwise_equal": true
+    },
+    "max_cache_abs_difference": 0.0
+  },
+  {
+    "model": "ar",
+    "context_length": 30,
+    "output": {
+      "max_abs_difference": 0.0,
+      "argmax_disagreements": 0,
+      "shape": [
+        8,
+        16,
+        30522
+      ],
+      "bitwise_equal": true
+    },
+    "max_cache_abs_difference": 0.0
+  },
+  {
+    "model": "ar",
+    "context_length": 70,
+    "output": {
+      "max_abs_difference": 0.0,
+      "argmax_disagreements": 0,
+      "shape": [
+        8,
+        40,
+        30522
+      ],
+      "bitwise_equal": true
+    },
+    "max_cache_abs_difference": 0.0
+  }
+]

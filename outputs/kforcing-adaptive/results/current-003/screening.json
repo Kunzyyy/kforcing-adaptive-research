@@ -1,0 +1,27 @@
+{
+  "train_rows": 314,
+  "dev_rows": 102,
+  "dev_articles": 14,
+  "candidate_stats": {
+    "ridge": {
+      "spearman": 0.38191483758842043,
+      "selected_half_gain_lift": 0.39098445866622167,
+      "lift95": [
+        0.12705195526337346,
+        0.671977384403192
+      ]
+    },
+    "negative_tail_margin": {
+      "spearman": 0.3392463955866238,
+      "selected_half_gain_lift": 0.39482760487818247,
+      "lift95": [
+        0.09318358323351508,
+        0.6653604735497833
+      ]
+    }
+  },
+  "chosen": "negative_tail_margin",
+  "passed_gate": true,
+  "chosen_alpha": 0.1,
+  "scope": "Exploratory development screening only; no fresh-test evidence yet. Branch seeds clustered by article."
+}

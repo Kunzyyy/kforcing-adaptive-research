@@ -1,0 +1,24 @@
+{
+  "sources": 384,
+  "splits": {
+    "train": 192,
+    "dev": 64,
+    "test": 128
+  },
+  "seeds": [
+    1103,
+    1109,
+    1117,
+    1123
+  ],
+  "offsets": [
+    0,
+    8
+  ],
+  "prefixes_sha256": "23b2f5519dde0a4ac0a7af99dfaa4bb6bf30e17b229868d1993b14da810f1af9",
+  "projection_sha256": "09bd00bb8642ee8acbdc19f60ba0b8b12551b993639229865a349dff48a23e9a",
+  "old_model_sha256": "caeeec7c2327e2473dbbcac6d64fa596e7db70d74a8d780035cb06a8bc991aae",
+  "protocol_sha256": "af0982541329a91763038f019e6a6223e745b88710df5642613f274b6d6fd41a",
+  "feature_code_sha256": "a84bdb40469d29103c509c1d321a84c8d8744ce95669af40641d5a8a23b7760b",
+  "dataset_sha256": "d3c7b4b2a48c24e9ae8353d6316dbac1453b08f2d870da9fa096c941e8f4cc8a"
+}

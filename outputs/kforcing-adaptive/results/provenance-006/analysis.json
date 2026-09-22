@@ -1,0 +1,180 @@
+{
+  "all_windows": {
+    "fixed4": {
+      "windows": 1024,
+      "token_match_fraction": 0.317626953125,
+      "by_position_match_fraction": [
+        0.5908203125,
+        0.3271484375,
+        0.197265625,
+        0.1552734375
+      ],
+      "exact_window_fraction": 0.0517578125,
+      "mean_matching_prefix": 1.01953125,
+      "split_windows": 0
+    },
+    "split22": {
+      "windows": 1024,
+      "token_match_fraction": 0.330322265625,
+      "by_position_match_fraction": [
+        0.5908203125,
+        0.3271484375,
+        0.2265625,
+        0.1767578125
+      ],
+      "exact_window_fraction": 0.0947265625,
+      "mean_matching_prefix": 1.1044921875,
+      "split_windows": 1024
+    },
+    "signal": {
+      "windows": 1024,
+      "token_match_fraction": 0.32421875,
+      "by_position_match_fraction": [
+        0.5908203125,
+        0.3271484375,
+        0.21484375,
+        0.1640625
+      ],
+      "exact_window_fraction": 0.0693359375,
+      "mean_matching_prefix": 1.05859375,
+      "split_windows": 512
+    },
+    "random": {
+      "windows": 1024,
+      "token_match_fraction": 0.324462890625,
+      "by_position_match_fraction": [
+        0.5908203125,
+        0.3271484375,
+        0.21484375,
+        0.1650390625
+      ],
+      "exact_window_fraction": 0.0751953125,
+      "mean_matching_prefix": 1.064453125,
+      "split_windows": 512
+    },
+    "oracle": {
+      "windows": 1024,
+      "token_match_fraction": 0.349853515625,
+      "by_position_match_fraction": [
+        0.5908203125,
+        0.3271484375,
+        0.265625,
+        0.2158203125
+      ],
+      "exact_window_fraction": 0.099609375,
+      "mean_matching_prefix": 1.115234375,
+      "split_windows": 512
+    }
+  },
+  "no_eos_subset": {
+    "fixed4": {
+      "windows": 959,
+      "token_match_fraction": 0.32194994786235664,
+      "by_position_match_fraction": [
+        0.6006256517205423,
+        0.33263816475495306,
+        0.19603753910323254,
+        0.15849843587069865
+      ],
+      "exact_window_fraction": 0.05526590198123045,
+      "mean_matching_prefix": 1.0448383733055266,
+      "split_windows": 0
+    },
+    "split22": {
+      "windows": 959,
+      "token_match_fraction": 0.33550573514077164,
+      "by_position_match_fraction": [
+        0.6006256517205423,
+        0.33263816475495306,
+        0.2273201251303441,
+        0.18143899895724713
+      ],
+      "exact_window_fraction": 0.10010427528675704,
+      "mean_matching_prefix": 1.1334723670490094,
+      "split_windows": 959
+    },
+    "signal": {
+      "windows": 959,
+      "token_match_fraction": 0.32977059436913453,
+      "by_position_match_fraction": [
+        0.6006256517205423,
+        0.33263816475495306,
+        0.21689259645464026,
+        0.1689259645464025
+      ],
+      "exact_window_fraction": 0.0740354535974974,
+      "mean_matching_prefix": 1.086548488008342,
+      "split_windows": 487
+    },
+    "random": {
+      "windows": 959,
+      "token_match_fraction": 0.32977059436913453,
+      "by_position_match_fraction": [
+        0.6006256517205423,
+        0.33263816475495306,
+        0.21584984358706985,
+        0.16996871741397288
+      ],
+      "exact_window_fraction": 0.07924921793534932,
+      "mean_matching_prefix": 1.0907194994786236,
+      "split_windows": 474
+    },
+    "oracle": {
+      "windows": 959,
+      "token_match_fraction": 0.3545359749739312,
+      "by_position_match_fraction": [
+        0.6006256517205423,
+        0.33263816475495306,
+        0.264859228362878,
+        0.22002085505735142
+      ],
+      "exact_window_fraction": 0.10531803962460896,
+      "mean_matching_prefix": 1.1449426485922836,
+      "split_windows": 489
+    }
+  },
+  "gain_counts": {
+    "-4": 0,
+    "-3": 0,
+    "-2": 6,
+    "-1": 68,
+    "0": 833,
+    "1": 102,
+    "2": 15,
+    "3": 0,
+    "4": 0
+  },
+  "comparisons": {
+    "all_split_vs_fixed4": {
+      "token_match_fraction_difference": 0.0126953125,
+      "interval95": [
+        0.003173828125,
+        0.02197265625
+      ]
+    },
+    "signal_vs_random": {
+      "token_match_fraction_difference": -0.000244140625,
+      "interval95": [
+        -0.00537109375,
+        0.0048828125
+      ]
+    },
+    "signal_vs_random_expectation": {
+      "token_match_fraction_difference": 0.000244140625,
+      "interval95": [
+        -0.00390625,
+        0.0042724609375
+      ]
+    },
+    "oracle_vs_random": {
+      "token_match_fraction_difference": 0.025390625,
+      "interval95": [
+        0.020263671875,
+        0.031005859375
+      ]
+    }
+  },
+  "selection_budget": 512,
+  "prefix_clusters": 128,
+  "notes": "Paired prefix bootstrap retains 8 noise seeds. Fixed diagnostic selections are not refit in bootstrap. Random expectation is analytically 50% of per-window gain. Oracle observes reference answers; no deployed performance or distribution-distance claim."
+}

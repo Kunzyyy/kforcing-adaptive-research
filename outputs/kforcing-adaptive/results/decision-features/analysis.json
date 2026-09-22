@@ -1,0 +1,163 @@
+{
+  "states": 446,
+  "sources": 253,
+  "fits": 60,
+  "retrospective": true,
+  "no_test_outcome_inputs": true,
+  "methods": {
+    "confidence14": {
+      "dimensions": 14,
+      "oof_mse": 0.5467537160442406,
+      "fold_mean_mse": 0.5551902514856145,
+      "train_mse": 0.5383135898667512,
+      "gain_vs_random": {
+        "estimate": 0.057628334201471156,
+        "interval95": [
+          0.024146499316992594,
+          0.09006867570417443
+        ]
+      },
+      "gain_vs_confidence14": {
+        "estimate": 0.0,
+        "interval95": [
+          0.0,
+          0.0
+        ]
+      },
+      "gain_vs_heuristic": {
+        "estimate": 0.023909401840768455,
+        "interval95": [
+          -0.02095497112726846,
+          0.06947599008133853
+        ]
+      },
+      "mse_reduction_vs_confidence14": {
+        "estimate": 0.0,
+        "interval95": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    "position15": {
+      "dimensions": 15,
+      "oof_mse": 0.5459336598050993,
+      "fold_mean_mse": 0.5551902514856145,
+      "train_mse": 0.5368562325163472,
+      "gain_vs_random": {
+        "estimate": 0.0542464863372269,
+        "interval95": [
+          0.02166831024557961,
+          0.08862782706810343
+        ]
+      },
+      "gain_vs_confidence14": {
+        "estimate": -0.003381847864244245,
+        "interval95": [
+          -0.020025623594591566,
+          0.014561631965061262
+        ]
+      },
+      "gain_vs_heuristic": {
+        "estimate": 0.020527553976524216,
+        "interval95": [
+          -0.025412742489053466,
+          0.0683040017299966
+        ]
+      },
+      "mse_reduction_vs_confidence14": {
+        "estimate": 0.0008200562391411216,
+        "interval95": [
+          -0.0009952697026435627,
+          0.002643796408044571
+        ]
+      }
+    },
+    "eos18": {
+      "dimensions": 18,
+      "oof_mse": 0.5369700572441433,
+      "fold_mean_mse": 0.5551902514856145,
+      "train_mse": 0.5252216986781596,
+      "gain_vs_random": {
+        "estimate": 0.0707296708821237,
+        "interval95": [
+          0.03802616655219883,
+          0.1050606527540866
+        ]
+      },
+      "gain_vs_confidence14": {
+        "estimate": 0.013101336680652546,
+        "interval95": [
+          -0.008185521698208359,
+          0.035547207393621064
+        ]
+      },
+      "gain_vs_heuristic": {
+        "estimate": 0.037010738521421,
+        "interval95": [
+          -0.007629009391582651,
+          0.08415937951956404
+        ]
+      },
+      "mse_reduction_vs_confidence14": {
+        "estimate": 0.009783658800097319,
+        "interval95": [
+          0.003167072728492986,
+          0.0174742664959819
+        ]
+      }
+    },
+    "combined19": {
+      "dimensions": 19,
+      "oof_mse": 0.5351327841273088,
+      "fold_mean_mse": 0.5551902514856145,
+      "train_mse": 0.5227649481655775,
+      "gain_vs_random": {
+        "estimate": 0.0809675799640678,
+        "interval95": [
+          0.04797137726818739,
+          0.11462102564102589
+        ]
+      },
+      "gain_vs_confidence14": {
+        "estimate": 0.023339245762596664,
+        "interval95": [
+          0.0003312355543650966,
+          0.04945259298664942
+        ]
+      },
+      "gain_vs_heuristic": {
+        "estimate": 0.047248647603365126,
+        "interval95": [
+          0.002529003950966841,
+          0.09533726414238718
+        ]
+      },
+      "mse_reduction_vs_confidence14": {
+        "estimate": 0.01162093191693171,
+        "interval95": [
+          0.004440668224968873,
+          0.020007723120335347
+        ]
+      }
+    }
+  },
+  "combined19_warrants_fresh_confirmation": true,
+  "gate_is_development_screen_not_confirmation": true,
+  "tail_eos_counts": {
+    "tail0": 14,
+    "tail1": 14,
+    "either": 27
+  },
+  "features_sha256": "08b71671c2105fec01b616ab07ebf3373ff709df85adac0a4471e22d6d207ca5",
+  "fits_sha256": "1eee7ac47400862faef7b3c88a50f7625d85bce585bf9a10e43a0ad94cf30e4f",
+  "oof_predictions_sha256": "4041bde13d82e1b964e38604d8c52770a9b4b0138e75a261f8094886ef89f684",
+  "code_sha256": "a06a0952ead1b967005d079815f2232ad44220667180dbaf104a948659611793",
+  "limitations": [
+    "Previously used development sample; no independent test.",
+    "Bootstrap conditions on fitted OOF models and fold ranks, no refitting.",
+    "Two observed decision offsets only; EOS sample may be sparse.",
+    "Original GPT-2 proxy target retained; no new quality or timing validation.",
+    "No resolution of paper-baseline reproduction gap."
+  ]
+}

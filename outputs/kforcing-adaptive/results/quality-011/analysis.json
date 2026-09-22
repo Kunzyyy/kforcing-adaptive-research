@@ -1,0 +1,188 @@
+{
+  "model": "confidence14_alpha010",
+  "train_labels": 1357,
+  "dev_labels": 449,
+  "test_labels": 918,
+  "test_source_clusters": 128,
+  "primary": {
+    "versus_random": {
+      "estimate": 0.0121923918254537,
+      "interval": [
+        -0.03049248176938737,
+        0.0533623262600003
+      ],
+      "coverage": 0.975,
+      "source_clusters": 128
+    },
+    "versus_old": {
+      "estimate": 0.04338216225805385,
+      "interval": [
+        -0.013465480449988064,
+        0.10143693267001203
+      ],
+      "coverage": 0.975,
+      "source_clusters": 128
+    }
+  },
+  "policies": {
+    "new_half": {
+      "selected": 459,
+      "selection_fraction": 0.5,
+      "nll_gain_vs_matched_random": {
+        "estimate": 0.0121923918254537,
+        "interval": [
+          -0.023989711910266654,
+          0.04878634273062206
+        ],
+        "coverage": 0.95,
+        "source_clusters": 128
+      },
+      "teacher_nll_gain_vs_matched_random": {
+        "estimate": 0.04269503877476498,
+        "interval": [
+          0.0018998086237733945,
+          0.08357397201096436
+        ],
+        "coverage": 0.95,
+        "source_clusters": 128
+      },
+      "mean_length_change_vs_matched_random": 0.3088235294117647,
+      "mean_full_rollout_calls_change_vs_matched_random": 0.07135076252723312,
+      "corpus_gen_ppl": 221.5107426673464,
+      "random_expected_sums_corpus_ppl": 213.5585389796382,
+      "corpus_ppl_ratio_to_random_expected_sums": 1.0372366458662952
+    },
+    "old_half": {
+      "selected": 459,
+      "selection_fraction": 0.5,
+      "nll_gain_vs_matched_random": {
+        "estimate": -0.031189770432600156,
+        "interval": [
+          -0.0644577186858032,
+          0.001099023649108266
+        ],
+        "coverage": 0.95,
+        "source_clusters": 128
+      },
+      "teacher_nll_gain_vs_matched_random": {
+        "estimate": -0.019338874585272434,
+        "interval": [
+          -0.06170099321689585,
+          0.020572366197970496
+        ],
+        "coverage": 0.95,
+        "source_clusters": 128
+      },
+      "mean_length_change_vs_matched_random": -0.525599128540305,
+      "mean_full_rollout_calls_change_vs_matched_random": -0.1323529411764706,
+      "corpus_gen_ppl": 224.43065315734637,
+      "random_expected_sums_corpus_ppl": 213.5585389796382,
+      "corpus_ppl_ratio_to_random_expected_sums": 1.050909292738441
+    },
+    "confidence_half": {
+      "selected": 459,
+      "selection_fraction": 0.5,
+      "nll_gain_vs_matched_random": {
+        "estimate": 0.013033104448840614,
+        "interval": [
+          -0.024759896237919934,
+          0.050018477698281
+        ],
+        "coverage": 0.95,
+        "source_clusters": 128
+      },
+      "teacher_nll_gain_vs_matched_random": {
+        "estimate": 0.05780508863643934,
+        "interval": [
+          0.012559768938318876,
+          0.10222332133453169
+        ],
+        "coverage": 0.95,
+        "source_clusters": 128
+      },
+      "mean_length_change_vs_matched_random": -0.20860566448801743,
+      "mean_full_rollout_calls_change_vs_matched_random": -0.0528322440087146,
+      "corpus_gen_ppl": 217.67889717079385,
+      "random_expected_sums_corpus_ppl": 213.5585389796382,
+      "corpus_ppl_ratio_to_random_expected_sums": 1.0192938114806476
+    },
+    "oracle_half": {
+      "selected": 459,
+      "selection_fraction": 0.5,
+      "nll_gain_vs_matched_random": {
+        "estimate": 0.36798438600780586,
+        "interval": [
+          0.34343507888147207,
+          0.39251470120563287
+        ],
+        "coverage": 0.95,
+        "source_clusters": 128
+      },
+      "teacher_nll_gain_vs_matched_random": {
+        "estimate": 0.29528746732007866,
+        "interval": [
+          0.2575196763415592,
+          0.33099290568732037
+        ],
+        "coverage": 0.95,
+        "source_clusters": 128
+      },
+      "mean_length_change_vs_matched_random": 0.9438997821350763,
+      "mean_full_rollout_calls_change_vs_matched_random": 0.23583877995642702,
+      "corpus_gen_ppl": 156.64731637894496,
+      "random_expected_sums_corpus_ppl": 213.5585389796382,
+      "corpus_ppl_ratio_to_random_expected_sums": 0.7335099646560167
+    },
+    "locked_threshold": {
+      "selected": 460,
+      "selection_fraction": 0.5010893246187363,
+      "nll_gain_vs_matched_random": {
+        "estimate": 0.012669630042401382,
+        "interval": [
+          -0.02379388042249461,
+          0.04953062605744174
+        ],
+        "coverage": 0.95,
+        "source_clusters": 128
+      },
+      "teacher_nll_gain_vs_matched_random": {
+        "estimate": 0.043161948594503736,
+        "interval": [
+          0.0024554424462473945,
+          0.08406397837002327
+        ],
+        "coverage": 0.95,
+        "source_clusters": 128
+      },
+      "mean_length_change_vs_matched_random": 0.3079561042524006,
+      "mean_full_rollout_calls_change_vs_matched_random": 0.07140416079285745,
+      "corpus_gen_ppl": 221.4559365494471,
+      "random_expected_sums_corpus_ppl": 213.54231303482487,
+      "corpus_ppl_ratio_to_random_expected_sums": 1.0370588077002407
+    }
+  },
+  "dev_gate_passed": true,
+  "advance_gate_passed": false,
+  "label_positive": 445,
+  "label_negative": 326,
+  "label_zero": 147,
+  "mean_all_split_gain": {
+    "estimate": 0.1427832673924592,
+    "interval": [
+      0.06491936491219895,
+      0.21778831068861026
+    ],
+    "coverage": 0.95,
+    "source_clusters": 128
+  },
+  "new_mse": 1.1620268471629387,
+  "constant_train_mean_mse": 1.1470707264191138,
+  "prediction_label_correlation": 0.02448101033706587,
+  "limitations": [
+    "Optimizes GPT-2 scoring proxy; same scorer is not independent of the optimization target.",
+    "Offline half-budget ranking conditional on the observed cohort; no online decision or speed claim.",
+    "Single intervention with fixed4 future and fixed4 generated histories, not learned-policy trajectories.",
+    "Same intervention count does not equal same full-rollout cost; branch lengths differ.",
+    "Unreachable/EOS-head/short-text exclusions recorded; raw-document and semantic-near-duplicate identity unavailable."
+  ]
+}

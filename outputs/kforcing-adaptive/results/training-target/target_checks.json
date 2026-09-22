@@ -1,0 +1,9 @@
+{
+  "passed": true,
+  "states": 446,
+  "sources": 253,
+  "valid_pairs": 3568,
+  "original_target_unchanged": true,
+  "state_targets_sha256": "5457af49223e93405e68009f5bfd9d03c8680a2c1602699d695b3625758cd814",
+  "pair_targets_sha256": "e90b3da1b991bb45a5aee426db2017f5b01987312315ec04b85da3bd9243490f"
+}

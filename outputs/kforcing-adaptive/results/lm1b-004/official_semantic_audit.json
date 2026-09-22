@@ -1,0 +1,132 @@
+{
+  "official_prefixes": 10,
+  "cls_prefixes": 10,
+  "reference_noise": "Position-indexed tape injected only into torch.rand calls in released sampler",
+  "sampler_cases": [
+    {
+      "prefix": 0,
+      "k": 2,
+      "frequency_penalty": 0.0,
+      "all_13_tokens_match": true
+    },
+    {
+      "prefix": 0,
+      "k": 2,
+      "frequency_penalty": 0.5,
+      "all_13_tokens_match": true
+    },
+    {
+      "prefix": 0,
+      "k": 3,
+      "frequency_penalty": 0.0,
+      "all_13_tokens_match": true
+    },
+    {
+      "prefix": 0,
+      "k": 3,
+      "frequency_penalty": 0.5,
+      "all_13_tokens_match": true
+    },
+    {
+      "prefix": 0,
+      "k": 4,
+      "frequency_penalty": 0.0,
+      "all_13_tokens_match": true
+    },
+    {
+      "prefix": 0,
+      "k": 4,
+      "frequency_penalty": 0.5,
+      "all_13_tokens_match": true
+    },
+    {
+      "prefix": 1,
+      "k": 2,
+      "frequency_penalty": 0.0,
+      "all_13_tokens_match": true
+    },
+    {
+      "prefix": 1,
+      "k": 2,
+      "frequency_penalty": 0.5,
+      "all_13_tokens_match": true
+    },
+    {
+      "prefix": 1,
+      "k": 3,
+      "frequency_penalty": 0.0,
+      "all_13_tokens_match": true
+    },
+    {
+      "prefix": 1,
+      "k": 3,
+      "frequency_penalty": 0.5,
+      "all_13_tokens_match": true
+    },
+    {
+      "prefix": 1,
+      "k": 4,
+      "frequency_penalty": 0.0,
+      "all_13_tokens_match": true
+    },
+    {
+      "prefix": 1,
+      "k": 4,
+      "frequency_penalty": 0.5,
+      "all_13_tokens_match": true
+    },
+    {
+      "prefix": 2,
+      "k": 2,
+      "frequency_penalty": 0.0,
+      "all_13_tokens_match": true
+    },
+    {
+      "prefix": 2,
+      "k": 2,
+      "frequency_penalty": 0.5,
+      "all_13_tokens_match": true
+    },
+    {
+      "prefix": 2,
+      "k": 3,
+      "frequency_penalty": 0.0,
+      "all_13_tokens_match": true
+    },
+    {
+      "prefix": 2,
+      "k": 3,
+      "frequency_penalty": 0.5,
+      "all_13_tokens_match": true
+    },
+    {
+      "prefix": 2,
+      "k": 4,
+      "frequency_penalty": 0.0,
+      "all_13_tokens_match": true
+    },
+    {
+      "prefix": 2,
+      "k": 4,
+      "frequency_penalty": 0.5,
+      "all_13_tokens_match": true
+    }
+  ],
+  "all_sampler_cases_match": true,
+  "ar_cached_vs_full": [
+    {
+      "max_logprob_difference": 0.007894515991210938,
+      "top1_matches": true
+    },
+    {
+      "max_logprob_difference": 0.007818222045898438,
+      "top1_matches": true
+    },
+    {
+      "max_logprob_difference": 0.007886886596679688,
+      "top1_matches": true
+    }
+  ],
+  "ar_precision": "Released infer_next_token internally uses fp16; numeric shape effects recorded, not required bitwise equal",
+  "implementation": "Released sampler and CLI helper, portable RoPE/eager residual helpers; loading remains strict/weights_only=True"
+}

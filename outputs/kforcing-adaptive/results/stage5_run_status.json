@@ -1,0 +1,16 @@
+{
+  "source": "Observed natural execution-tool exit results during stage 5",
+  "precision_generation_and_logit_diagnostics_exit": 0,
+  "external_scoring_and_bootstrap_exit": 0,
+  "raw_noise_export_exit": 0,
+  "independent_integrity_audit_exit": 0,
+  "exact_fp32_control_replays": 256,
+  "new_precision_outputs": 512,
+  "precision_generation_records": 768,
+  "unique_scored_sequences": 1024,
+  "scoring_conventions": 3,
+  "scoring_records": 3072,
+  "same_context_cases": 160,
+  "training_inference_cases": 16,
+  "caution": "Precision changes and examined scoring variants do not explain the observed gap. Root cause unresolved; no adaptive advantage established. Historical unit tests were not rerun without changes to their targets."
+}

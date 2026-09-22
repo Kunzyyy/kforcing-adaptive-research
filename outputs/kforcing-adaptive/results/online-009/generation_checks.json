@@ -1,0 +1,8 @@
+{
+  "passed": true,
+  "outputs": 640,
+  "timing_runs": 1920,
+  "matched_forward_and_candidate_counts": true,
+  "repeat_tokens_and_decisions_identical": true,
+  "frozen_model_sha256": "caeeec7c2327e2473dbbcac6d64fa596e7db70d74a8d780035cb06a8bc991aae"
+}

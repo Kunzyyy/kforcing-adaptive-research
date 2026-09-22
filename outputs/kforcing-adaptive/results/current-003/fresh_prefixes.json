@@ -1,0 +1,482 @@
+[
+  {
+    "article_id": "88e92cc7640146cbe6879aae9f5e4b9120924ce965d59a31656d7677dce52662",
+    "ids": [
+      101,
+      2044,
+      1996,
+      4040,
+      1010,
+      1996
+    ],
+    "prefix": "[CLS] after the storm, the",
+    "source_sha256": "e8f91b92077d93012fafb29484fb1b47d484289865ae88f72af2614230af6c1c",
+    "id": "fresh-000",
+    "split": "fresh_test"
+  },
+  {
+    "article_id": "9442e3c3e7c3329a6328270a0317f20931c2ac38eb1b731411563a3dba73f47a",
+    "ids": [
+      101,
+      1999,
+      1996,
+      2927,
+      1997,
+      2889
+    ],
+    "prefix": "[CLS] in the beginning of 1991",
+    "source_sha256": "d328c5084ed669186213327b99e70ffe6b8808131fd93494c791672f7e178664",
+    "id": "fresh-001",
+    "split": "fresh_test"
+  },
+  {
+    "article_id": "52ec0f8769365e48caa8f861ca7971963035ae58fec38fd653cff313d25511e4",
+    "ids": [
+      101,
+      2008,
+      2003,
+      1010,
+      1996,
+      6726
+    ],
+    "prefix": "[CLS] that is, the transmission",
+    "source_sha256": "77d90cdba819e34114e6d415cf87ace8041f2ada02242bc7bf96d21938e2806e",
+    "id": "fresh-002",
+    "split": "fresh_test"
+  },
+  {
+    "article_id": "b2c71caa7bcd392d83859eea9b5d9a25273f28a8fe900b617626e6844d53a0ed",
+    "ids": [
+      101,
+      9796,
+      2741,
+      1037,
+      10656,
+      1997
+    ],
+    "prefix": "[CLS] chad sent a delegation of",
+    "source_sha256": "8b68a23b481e210860d1f5a5f167e29fed413f7c3b876a8ea489ecdfade0b1b7",
+    "id": "fresh-003",
+    "split": "fresh_test"
+  },
+  {
+    "article_id": "88e92cc7640146cbe6879aae9f5e4b9120924ce965d59a31656d7677dce52662",
+    "ids": [
+      101,
+      1996,
+      3928,
+      7064,
+      2333,
+      2058
+    ],
+    "prefix": "[CLS] the powerful hurricane moved over",
+    "source_sha256": "9f3c51401a7d75051e56f6cc19e12694fc077e163cc1cee54cb7c28df68c6ff2",
+    "id": "fresh-004",
+    "split": "fresh_test"
+  },
+  {
+    "article_id": "5e4811e7fc6e624fb24c3bde0ea28c23aff02e14367f15468684de6335212031",
+    "ids": [
+      101,
+      2137,
+      5053,
+      2001,
+      2207,
+      2006
+    ],
+    "prefix": "[CLS] american beauty was released on",
+    "source_sha256": "afb4858de76d01adae588371394aa6c33fb4778ad8d67e8e36627af3ccce9877",
+    "id": "fresh-005",
+    "split": "fresh_test"
+  },
+  {
+    "article_id": "5087a70e75e3b486db26b40a625e0aa77e82fac63995693804339fd5f5468808",
+    "ids": [
+      101,
+      1037,
+      5133,
+      6245,
+      2764,
+      2006
+    ],
+    "prefix": "[CLS] a tropical depression developed on",
+    "source_sha256": "120927643ac81ca8d0ced0dbb0248c005ac8d579d9bf680189c62a1845db935c",
+    "id": "fresh-006",
+    "split": "fresh_test"
+  },
+  {
+    "article_id": "5087a70e75e3b486db26b40a625e0aa77e82fac63995693804339fd5f5468808",
+    "ids": [
+      101,
+      1996,
+      2161,
+      2743,
+      2095,
+      1030
+    ],
+    "prefix": "[CLS] the season ran year @",
+    "source_sha256": "d928d71258448fcc28fceea7517a3a9ba49d7a6560089e6e5af1922300ea6ec2",
+    "id": "fresh-007",
+    "split": "fresh_test"
+  },
+  {
+    "article_id": "88e92cc7640146cbe6879aae9f5e4b9120924ce965d59a31656d7677dce52662",
+    "ids": [
+      101,
+      2152,
+      10101,
+      3303,
+      9451,
+      2408
+    ],
+    "prefix": "[CLS] high rainfall caused flooding across",
+    "source_sha256": "09eb7244577638a29c58084e35bc80a1bd2716129c54efec4d10d18f6e2d0e6a",
+    "id": "fresh-008",
+    "split": "fresh_test"
+  },
+  {
+    "article_id": "8075d6e604fa4452a8e077b9b0fa4c73f46b67458be65238a4d9900fad4f03f5",
+    "ids": [
+      101,
+      1996,
+      2233,
+      2538,
+      1010,
+      2268
+    ],
+    "prefix": "[CLS] the march 21, 2009",
+    "source_sha256": "0ff079721c67b0c822217d258969e6fec1f55aec9eca5f9aa9e516c6b0958f2c",
+    "id": "fresh-009",
+    "split": "fresh_test"
+  },
+  {
+    "article_id": "768d89ff62c6e7cbdff674eee13f07a3c925c73b0a43fc59ab4d641fb361ecca",
+    "ids": [
+      101,
+      2023,
+      4945,
+      2001,
+      2019,
+      2590
+    ],
+    "prefix": "[CLS] this failure was an important",
+    "source_sha256": "3a192922ae897f4cbabc10aadf5891d5384e1666e018f46b79f01711d896fe5d",
+    "id": "fresh-010",
+    "split": "fresh_test"
+  },
+  {
+    "article_id": "768d89ff62c6e7cbdff674eee13f07a3c925c73b0a43fc59ab4d641fb361ecca",
+    "ids": [
+      101,
+      2127,
+      13126,
+      1010,
+      4241,
+      7389
+    ],
+    "prefix": "[CLS] until 1805, duren",
+    "source_sha256": "dad95f7c5d5ef800675561699d85780fde76a5e7e3acc576b9ef3a223898f3a1",
+    "id": "fresh-011",
+    "split": "fresh_test"
+  },
+  {
+    "article_id": "9442e3c3e7c3329a6328270a0317f20931c2ac38eb1b731411563a3dba73f47a",
+    "ids": [
+      101,
+      2006,
+      2423,
+      2337,
+      2807,
+      1010
+    ],
+    "prefix": "[CLS] on 25 february 1994,",
+    "source_sha256": "0150d9a3b82a81e641f95da5540de0f0d44d1c63e81597ffa977bee17eacabe5",
+    "id": "fresh-012",
+    "split": "fresh_test"
+  },
+  {
+    "article_id": "95a7f0a071ef0b89e4b58e76bd027393c6848429b19f9f1d32ac22be9d97aaa9",
+    "ids": [
+      101,
+      2474,
+      18834,
+      2050,
+      6104,
+      1017
+    ],
+    "prefix": "[CLS] la venta monument 3",
+    "source_sha256": "f0422e4bf50890d73f04f35c1beb9ba61cf36259639da32b6e560964266be9d8",
+    "id": "fresh-013",
+    "split": "fresh_test"
+  },
+  {
+    "article_id": "248cdb93f33999d07806a876e770099770e211afe4fe447ee30e096aa7fa8579",
+    "ids": [
+      101,
+      2206,
+      1996,
+      16993,
+      1997,
+      11265
+    ],
+    "prefix": "[CLS] following the accession of ne",
+    "source_sha256": "5021447b2c5c534d51cfedf6b4537528c3fa54ed5b82bbe77737471da84c02fe",
+    "id": "fresh-014",
+    "split": "fresh_test"
+  },
+  {
+    "article_id": "dc3be8746068fc63e4a11a119b0632c5d54f5f7c29bd53bdcd2725929e3f3cef",
+    "ids": [
+      101,
+      1999,
+      4745,
+      4084,
+      1996,
+      23060
+    ],
+    "prefix": "[CLS] in subsequent steps the ox",
+    "source_sha256": "739016773ae49fb82ed1ba347235ecac3733c7e1f55d5a60081fc97263fea2d2",
+    "id": "fresh-015",
+    "split": "fresh_test"
+  },
+  {
+    "article_id": "dc3be8746068fc63e4a11a119b0632c5d54f5f7c29bd53bdcd2725929e3f3cef",
+    "ids": [
+      101,
+      23060,
+      16103,
+      14615,
+      3170,
+      16942
+    ],
+    "prefix": "[CLS] oxaziridine derivatives",
+    "source_sha256": "c102da3cd50cd39d831553a43c3cc8af0f768e0c5222264a6aefa0bfa47a436c",
+    "id": "fresh-016",
+    "split": "fresh_test"
+  },
+  {
+    "article_id": "9442e3c3e7c3329a6328270a0317f20931c2ac38eb1b731411563a3dba73f47a",
+    "ids": [
+      101,
+      1996,
+      1062,
+      6657,
+      5488,
+      4123
+    ],
+    "prefix": "[CLS] the zrinski battalion",
+    "source_sha256": "70dbb1ad79a0ee606e6f650de93f0ed6c7391ce30cb581cfd81672cf4d1840a1",
+    "id": "fresh-017",
+    "split": "fresh_test"
+  },
+  {
+    "article_id": "8075d6e604fa4452a8e077b9b0fa4c73f46b67458be65238a4d9900fad4f03f5",
+    "ids": [
+      101,
+      2006,
+      2255,
+      2459,
+      1010,
+      2384
+    ],
+    "prefix": "[CLS] on october 17, 2005",
+    "source_sha256": "e24c5abd5bc5893e75b0677d92dd97e889781a4d76062dbff84b6aa55a24a8f0",
+    "id": "fresh-018",
+    "split": "fresh_test"
+  },
+  {
+    "article_id": "95a7f0a071ef0b89e4b58e76bd027393c6848429b19f9f1d32ac22be9d97aaa9",
+    "ids": [
+      101,
+      1996,
+      2048,
+      4641,
+      2012,
+      24403
+    ],
+    "prefix": "[CLS] the two heads at tres",
+    "source_sha256": "7c833002409910238f31d7f2cf2821fc39a752527a9d7bbdbd12eb782e1d8029",
+    "id": "fresh-019",
+    "split": "fresh_test"
+  },
+  {
+    "article_id": "5e4811e7fc6e624fb24c3bde0ea28c23aff02e14367f15468684de6335212031",
+    "ids": [
+      101,
+      1996,
+      5008,
+      5896,
+      2838,
+      1037
+    ],
+    "prefix": "[CLS] the shooting script features a",
+    "source_sha256": "1dbd31c8a5f00eb72022e17f9b04603704668eb88fb3576bf983a0f6e3419602",
+    "id": "fresh-020",
+    "split": "fresh_test"
+  },
+  {
+    "article_id": "3ed97b397e04efc76b42de0908c9a723edfaaedd41c28397f49ac656c60736a8",
+    "ids": [
+      101,
+      3479,
+      4109,
+      1997,
+      3556,
+      2013
+    ],
+    "prefix": "[CLS] selected pieces of score from",
+    "source_sha256": "cc0167e78e6a627661283b058ae122c83ac0e1cde5aeda88772f0faa6f1e4416",
+    "id": "fresh-021",
+    "split": "fresh_test"
+  },
+  {
+    "article_id": "7ad01b88f723e9d6f8375c9958862f55a3a623290079e36e1c77f5f57b9c0135",
+    "ids": [
+      101,
+      2915,
+      2011,
+      2281,
+      2262,
+      1010
+    ],
+    "prefix": "[CLS] shot by november 2012,",
+    "source_sha256": "9a247f9efedb574f94ae13e43faed82fbe41433ab5f07a8ed5406062116cc459",
+    "id": "fresh-022",
+    "split": "fresh_test"
+  },
+  {
+    "article_id": "94bb627d524b017de7ed639c16e163d55c06c22df8cb402723c98c0065cc3e56",
+    "ids": [
+      101,
+      4873,
+      2090,
+      2756,
+      1998,
+      6163
+    ],
+    "prefix": "[CLS] somewhere between 29 and 67",
+    "source_sha256": "9f645ce465a5351288aecf43bde9738f51d02ec3dab6b9d9fbb9b3ec2b2292df",
+    "id": "fresh-023",
+    "split": "fresh_test"
+  },
+  {
+    "article_id": "c793a88067fb67ad81d830c931bb52e388308209df1eb6ba5f9bf29906a94875",
+    "ids": [
+      101,
+      16270,
+      2626,
+      2008,
+      1996,
+      2208
+    ],
+    "prefix": "[CLS] ign wrote that the game",
+    "source_sha256": "4fca3ad078dcf7d04188f656e3820234d68d052a23fa1ba57320246e48e160db",
+    "id": "fresh-024",
+    "split": "fresh_test"
+  },
+  {
+    "article_id": "95a7f0a071ef0b89e4b58e76bd027393c6848429b19f9f1d32ac22be9d97aaa9",
+    "ids": [
+      101,
+      24403,
+      23564,
+      11008,
+      2229,
+      6104
+    ],
+    "prefix": "[CLS] tres zapotes monument",
+    "source_sha256": "5674943cce53d7a01623ec2718dbb0acd9e3b2ab62929a540b8708430d29cc13",
+    "id": "fresh-025",
+    "split": "fresh_test"
+  },
+  {
+    "article_id": "dc3be8746068fc63e4a11a119b0632c5d54f5f7c29bd53bdcd2725929e3f3cef",
+    "ids": [
+      101,
+      23060,
+      16103,
+      14615,
+      10586,
+      2007
+    ],
+    "prefix": "[CLS] oxaziridines with",
+    "source_sha256": "27947ce92fa80f831d7a91150f876f6ba34f85ab1321883ddaa32a89b1f2bd9b",
+    "id": "fresh-026",
+    "split": "fresh_test"
+  },
+  {
+    "article_id": "95a7f0a071ef0b89e4b58e76bd027393c6848429b19f9f1d32ac22be9d97aaa9",
+    "ids": [
+      101,
+      6104,
+      2603,
+      2003,
+      19921,
+      2013
+    ],
+    "prefix": "[CLS] monument 23 is sculpted from",
+    "source_sha256": "9344de97f7a624561da278d3493b920ace5c3e3cb7c6732fd000ef9fbe01e63f",
+    "id": "fresh-027",
+    "split": "fresh_test"
+  },
+  {
+    "article_id": "94bb627d524b017de7ed639c16e163d55c06c22df8cb402723c98c0065cc3e56",
+    "ids": [
+      101,
+      1996,
+      2093,
+      3522,
+      13441,
+      1006
+    ],
+    "prefix": "[CLS] the three recent treatments (",
+    "source_sha256": "81cc1ced0750f85ab90288b7ef4d3e53066ac6151b7c066a78bda27aba75eede",
+    "id": "fresh-028",
+    "split": "fresh_test"
+  },
+  {
+    "article_id": "3ed97b397e04efc76b42de0908c9a723edfaaedd41c28397f49ac656c60736a8",
+    "ids": [
+      101,
+      1037,
+      2117,
+      28280,
+      1010,
+      4159
+    ],
+    "prefix": "[CLS] a second prequel, titled",
+    "source_sha256": "11aa4605102ce0cd19a32a96159c41a4c1f6f5b3c29d686ec3e0b0d7c8081fb3",
+    "id": "fresh-029",
+    "split": "fresh_test"
+  },
+  {
+    "article_id": "88e92cc7640146cbe6879aae9f5e4b9120924ce965d59a31656d7677dce52662",
+    "ids": [
+      101,
+      2043,
+      1996,
+      4040,
+      2333,
+      16145
+    ],
+    "prefix": "[CLS] when the storm moved ashore",
+    "source_sha256": "64ef61bbc6a216627397f45ab52803175b34f850cd7c35076b03222d1962cc9b",
+    "id": "fresh-030",
+    "split": "fresh_test"
+  },
+  {
+    "article_id": "f449f511edb232988ff61e29fe5ee641de4573b1e38b42aef45fb61ce33f791a",
+    "ids": [
+      101,
+      5964,
+      2390,
+      2018,
+      1999,
+      3914
+    ],
+    "prefix": "[CLS] eighth army had in reserve",
+    "source_sha256": "3e8a1ded89a59bda64da529b12be8e1c3453394fe65c8fadb54bcf48f05a675c",
+    "id": "fresh-031",
+    "split": "fresh_test"
+  }
+]

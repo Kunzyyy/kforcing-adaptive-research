@@ -1,0 +1,18 @@
+{
+  "passed": true,
+  "states": 446,
+  "branches": 892,
+  "probe_states": 12,
+  "independent_prefix_positions": 48,
+  "max_causal_prefix_logit_error": 2.288818359375e-05,
+  "max_teacher_metrics_sum_error": 0.0,
+  "torch": "2.11.0+cu128",
+  "gpu": "NVIDIA GeForce RTX 5060 Laptop GPU",
+  "dtype": "fp32",
+  "tf32": false,
+  "new_future_generations": 0,
+  "outputs": {
+    "local_scores.jsonl": "a9b82d54eb7d7498bb8ceef4746dd22d25570f849540040789d5c5529c1b2608",
+    "teacher_probes.npz": "d02802c265a86ae1577fe0a0c3d8f9e22054bf452a4feff0bed247bce4dc1467"
+  }
+}

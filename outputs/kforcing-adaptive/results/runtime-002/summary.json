@@ -1,0 +1,50 @@
+[
+  {
+    "case": "pflm",
+    "threads": 4,
+    "iterations": 8,
+    "exit_code": 0,
+    "seconds": 9.948500394821167,
+    "completed_marker": true
+  },
+  {
+    "case": "ar",
+    "threads": 4,
+    "iterations": 8,
+    "exit_code": 3221226505,
+    "seconds": 9.35088562965393,
+    "completed_marker": true
+  },
+  {
+    "case": "dual",
+    "threads": 4,
+    "iterations": 8,
+    "exit_code": 3221226505,
+    "seconds": 12.31075644493103,
+    "completed_marker": true
+  },
+  {
+    "case": "alternating",
+    "threads": 4,
+    "iterations": 8,
+    "exit_code": 3221226505,
+    "seconds": 12.034594058990479,
+    "completed_marker": true
+  },
+  {
+    "case": "dual",
+    "threads": 1,
+    "iterations": 8,
+    "exit_code": 3221226505,
+    "seconds": 12.469752788543701,
+    "completed_marker": true
+  },
+  {
+    "case": "alternating",
+    "threads": 1,
+    "iterations": 8,
+    "exit_code": 3221226505,
+    "seconds": 11.374297142028809,
+    "completed_marker": true
+  }
+]

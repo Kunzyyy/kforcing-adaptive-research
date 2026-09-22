@@ -1,0 +1,6 @@
+{
+  "real_checkpoint_cached_uncached_tokens_match": true,
+  "tested_seed": 841,
+  "tested_max_new": 24,
+  "precision": "fp32"
+}

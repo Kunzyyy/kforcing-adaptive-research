@@ -1,0 +1,9 @@
+{
+  "passed": true,
+  "records": 512,
+  "old_control_records": 256,
+  "max_old_nll_abs_difference": 0.0,
+  "builtin_loss_crosscheck": true,
+  "scores_sha256": "98dfe37f6f3e2b52090bbeb0610e3f0bbb142e48822167cea5ee026f8e12d363",
+  "samples_sha256": "e454c38ea9e6321a6d8140725a1c62fbeffba04c66119b701841e3bc597ac47e"
+}

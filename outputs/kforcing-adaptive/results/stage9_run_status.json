@@ -1,0 +1,21 @@
+{
+  "source": "Observed natural execution tool exits",
+  "prepare_exit": 0,
+  "preflight_exit": 0,
+  "generation_exit": 0,
+  "generation_audit_exit": 0,
+  "scoring_exit": 0,
+  "analysis_exit": 0,
+  "diagnostics_exit": 0,
+  "independent_audit_exit": 0,
+  "new_source_sentences": 64,
+  "outputs": 640,
+  "timing_runs": 1920,
+  "new_model_fits": 0,
+  "primary_joint_improvement_passed": false,
+  "local_stage8_result_unchanged": true,
+  "external_quality_measured": true,
+  "fixed_length_throughput_measured": true,
+  "early_stop_latency_measured": false,
+  "notes": "Learned/random PPL ratio 1.1575 with corrected interval crossing 1; fixed-position throughput ratio 0.9537 with corrected interval below 1. Full-horizon budgets match, visible-window budgets do not. No established adaptive benefit."
+}

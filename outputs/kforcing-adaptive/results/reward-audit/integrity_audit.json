@@ -1,0 +1,15 @@
+{
+  "passed": true,
+  "historical_inputs_unchanged": true,
+  "frozen_selections_unchanged": true,
+  "tokenizations_verified": 8810,
+  "valid_pairs": 5456,
+  "states": 682,
+  "sources": 381,
+  "max_vector_sum_vs_old_score": 6.29723072052002e-05,
+  "eight_mean_intervals_independently_recomputed": true,
+  "scalar_policy_and_corpus_checks": true,
+  "analysis_sha256": "079479142bd4cca70fdef0e53faf118bf59393e201cfaeaf4c5460a52edd2357",
+  "verifier_sha256": "e2e26d0992b9d8fc6687c03afe531cbc8040726bab0cc578e3473b0263e6262b",
+  "scope": "GPU scores checked by stored old totals, builtin loss and causal truncation; not a second full GPU pass."
+}

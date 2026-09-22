@@ -1,0 +1,19 @@
+{
+  "source": "Observed natural execution-tool exit results",
+  "prepare_exit": 0,
+  "collection_exit": 0,
+  "analysis_exit": 0,
+  "nll_crosscheck_exit": 0,
+  "independent_audit_exit": 0,
+  "source_sentences": 384,
+  "contexts": 512,
+  "windows": 4096,
+  "new_model_fits": 0,
+  "model": "hidden82_alpha001",
+  "local_confirmation_passed": true,
+  "external_quality_measured": false,
+  "online_speed_measured": false,
+  "notes": "Both predeclared primary agreement endpoints pass; teacher conditional NLL proxy conflicts at short contexts. No global research-success claim.",
+  "original_stage7_gate_passed": false,
+  "stage7_result_unchanged": true
+}

@@ -1,0 +1,10 @@
+# CUDA-enabled torch is installed separately; see README.
+einops==0.8.1
+omegaconf==2.3.0
+transformers==4.55.0
+huggingface-hub==0.34.4
+tqdm==4.67.1
+loguru
+numpy
+pytest
+pyarrow

@@ -1,0 +1,18 @@
+{
+  "passed": true,
+  "pairs": 880,
+  "valid_labels": 880,
+  "excluded_unscorable": 0,
+  "identical_text_pairs": 160,
+  "unique_texts": 1412,
+  "unique_teacher_sequences": 1412,
+  "builtin_loss_crosscheck": true,
+  "evaluator_files_verified": true,
+  "evaluator_repo": "openai-community/gpt2-large",
+  "evaluator_revision": "32b71b12589c2f8d625668d2335a01cac3249519",
+  "labels_sha256": "8e429948b0481ef19284da82a8af473647e909753ceb96993b3bd173b5eb451a",
+  "collector_sha256": "f0992c92fcf24a02d05fbbc0e5fd68c446ac87fab8f7f4eb5c15165dd2c7a870",
+  "scorer_sha256": "e3228e6b1d6a6445892095ca41dbc4aae56463e5c0db20b66a4e5d5c30bcef7c",
+  "pairs_sha256": "11273d6a83da725f51ec86d0e1b848e7d7a539e6d8719a7e7d055cd19cdd48ac",
+  "locked_model_sha256": null
+}

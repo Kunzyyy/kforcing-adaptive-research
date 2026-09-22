@@ -1,0 +1,12 @@
+{
+  "archive": "outputs\\kforcing-reproduction-inquiry.zip",
+  "bytes": 652923,
+  "files": 14,
+  "sha256": "0c925f066fe3638a7bfa6f3d580bbc3ad0ffad432f84a1544b2c259679e3e774",
+  "hashes_verified": true,
+  "standalone_probe_unchanged": true,
+  "original_machine_paths_removed": true,
+  "weights_included": false,
+  "history_pickle_included": false,
+  "remote_sent": false
+}

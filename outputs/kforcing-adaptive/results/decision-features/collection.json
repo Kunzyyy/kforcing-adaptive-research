@@ -1,0 +1,37 @@
+{
+  "passed": true,
+  "states": 446,
+  "matched_candidate_positions": 1784,
+  "max_confidence_feature_absolute_difference": 4.1961669921875e-05,
+  "tail_eos_counts": {
+    "tail0": 14,
+    "tail1": 14,
+    "either": 27
+  },
+  "feature_names": [
+    "original_0",
+    "original_1",
+    "original_2",
+    "original_3",
+    "original_4",
+    "original_5",
+    "original_6",
+    "original_7",
+    "original_8",
+    "original_9",
+    "original_10",
+    "original_11",
+    "original_12",
+    "original_13",
+    "offset_div8",
+    "eos_gap_tail0",
+    "eos_gap_tail1",
+    "argmax_eos_tail0",
+    "argmax_eos_tail1"
+  ],
+  "features_sha256": "08b71671c2105fec01b616ab07ebf3373ff709df85adac0a4471e22d6d207ca5",
+  "no_future_generation": true,
+  "torch": "2.11.0+cu128",
+  "cuda": "12.8",
+  "gpu": "NVIDIA GeForce RTX 5060 Laptop GPU"
+}

@@ -1,0 +1,7 @@
+{
+  "rows": 2048,
+  "first_two_mismatches": 0,
+  "batched_confidence_features_match_old": true,
+  "projection_sha256": "09bd00bb8642ee8acbdc19f60ba0b8b12551b993639229865a349dff48a23e9a",
+  "locked_model_sha256": null
+}

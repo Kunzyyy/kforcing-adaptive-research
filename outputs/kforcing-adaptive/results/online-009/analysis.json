@@ -1,0 +1,223 @@
+{
+  "summary": {
+    "fixed2": {
+      "samples": 128,
+      "generated_positions": 15616,
+      "elapsed_seconds": 55.63977996666442,
+      "fixed_position_tokens_per_second": 280.66250458495784,
+      "gpt2_nll": 4.756298522200803,
+      "gpt2_gen_ppl": 116.31459222461083,
+      "gpt2_scored_tokens": 2574,
+      "excluded_short": 2,
+      "teacher_nll": 3.093681751075619,
+      "mean_visible_new_tokens": 20.875,
+      "eos_fraction": 1.0,
+      "repeated_trigram_fraction": 0.0005839646464646468,
+      "mean_split_count": 0.0,
+      "mean_forward_calls": 61.0,
+      "mean_computed_candidates": 122.0
+    },
+    "fixed3": {
+      "samples": 128,
+      "generated_positions": 15616,
+      "elapsed_seconds": 37.55540119999919,
+      "fixed_position_tokens_per_second": 415.81235990098645,
+      "gpt2_nll": 5.154353919271023,
+      "gpt2_gen_ppl": 173.18387983853228,
+      "gpt2_scored_tokens": 2406,
+      "excluded_short": 2,
+      "teacher_nll": 3.7318070389109956,
+      "mean_visible_new_tokens": 19.8046875,
+      "eos_fraction": 1.0,
+      "repeated_trigram_fraction": 0.0030682837921073873,
+      "mean_split_count": 0.0,
+      "mean_forward_calls": 41.0,
+      "mean_computed_candidates": 122.0
+    },
+    "fixed4": {
+      "samples": 128,
+      "generated_positions": 15616,
+      "elapsed_seconds": 28.37173186666874,
+      "fixed_position_tokens_per_second": 550.4070062901503,
+      "gpt2_nll": 5.458891194116428,
+      "gpt2_gen_ppl": 234.8368914248111,
+      "gpt2_scored_tokens": 2473,
+      "excluded_short": 2,
+      "teacher_nll": 4.285296515243928,
+      "mean_visible_new_tokens": 20.6796875,
+      "eos_fraction": 1.0,
+      "repeated_trigram_fraction": 0.005141346982561952,
+      "mean_split_count": 0.0,
+      "mean_forward_calls": 31.0,
+      "mean_computed_candidates": 122.0
+    },
+    "learned": {
+      "samples": 128,
+      "generated_positions": 15616,
+      "elapsed_seconds": 50.64456209999844,
+      "fixed_position_tokens_per_second": 308.3450493493453,
+      "gpt2_nll": 5.173438131644125,
+      "gpt2_gen_ppl": 176.5206967686704,
+      "gpt2_scored_tokens": 2527,
+      "excluded_short": 2,
+      "teacher_nll": 3.8538229920930953,
+      "mean_visible_new_tokens": 20.8984375,
+      "eos_fraction": 1.0,
+      "repeated_trigram_fraction": 0.0032896653538199783,
+      "mean_split_count": 21.34375,
+      "mean_forward_calls": 52.34375,
+      "mean_computed_candidates": 164.6875
+    },
+    "random_matched": {
+      "samples": 128,
+      "generated_positions": 15616,
+      "elapsed_seconds": 48.297564466668085,
+      "fixed_position_tokens_per_second": 323.3289333000875,
+      "gpt2_nll": 5.0271683398506575,
+      "gpt2_gen_ppl": 152.50057093105536,
+      "gpt2_scored_tokens": 2452,
+      "excluded_short": 2,
+      "teacher_nll": 3.5123050635757243,
+      "mean_visible_new_tokens": 20.3046875,
+      "eos_fraction": 1.0,
+      "repeated_trigram_fraction": 0.003491619998495203,
+      "mean_split_count": 21.34375,
+      "mean_forward_calls": 52.34375,
+      "mean_computed_candidates": 164.6875
+    }
+  },
+  "primary_learned_vs_random_matched": {
+    "ppl_ratio": {
+      "estimate": 1.1575084322043252,
+      "interval": [
+        0.9305325141034624,
+        1.4457711383133338
+      ],
+      "coverage": 0.975
+    },
+    "throughput_ratio": {
+      "estimate": 0.9536574602284807,
+      "interval": [
+        0.9482298055448771,
+        0.9609565885761457
+      ],
+      "coverage": 0.975
+    }
+  },
+  "primary_joint_improvement_passed": false,
+  "exploratory": {
+    "fixed2": {
+      "ppl_ratio": {
+        "estimate": 1.5176143714435915,
+        "interval": [
+          1.2581088503475713,
+          1.8518595489569858
+        ],
+        "coverage": 0.95
+      },
+      "throughput_ratio": {
+        "estimate": 1.098632857300708,
+        "interval": [
+          1.0793062824365358,
+          1.119644379164855
+        ],
+        "coverage": 0.95
+      },
+      "teacher_nll_difference": {
+        "estimate": 0.7601412410174762,
+        "interval": [
+          0.5573132340074743,
+          0.9738946520393733
+        ],
+        "coverage": 0.95
+      }
+    },
+    "fixed3": {
+      "ppl_ratio": {
+        "estimate": 1.0192674799366386,
+        "interval": [
+          0.8239881109017168,
+          1.2616689330933595
+        ],
+        "coverage": 0.95
+      },
+      "throughput_ratio": {
+        "estimate": 0.7415485422866426,
+        "interval": [
+          0.7283607677272806,
+          0.7555475330882598
+        ],
+        "coverage": 0.95
+      },
+      "teacher_nll_difference": {
+        "estimate": 0.12201595318209968,
+        "interval": [
+          -0.06417710339249666,
+          0.3115616202699865
+        ],
+        "coverage": 0.95
+      }
+    },
+    "fixed4": {
+      "ppl_ratio": {
+        "estimate": 0.7516736220517887,
+        "interval": [
+          0.6202894415343027,
+          0.9114827099185665
+        ],
+        "coverage": 0.95
+      },
+      "throughput_ratio": {
+        "estimate": 0.5602127985754588,
+        "interval": [
+          0.5504951677343174,
+          0.5706759785577293
+        ],
+        "coverage": 0.95
+      },
+      "teacher_nll_difference": {
+        "estimate": -0.43147352315083287,
+        "interval": [
+          -0.6208342214322605,
+          -0.2454887950927806
+        ],
+        "coverage": 0.95
+      }
+    },
+    "random_matched": {
+      "ppl_ratio": {
+        "estimate": 1.1575084322043252,
+        "interval": [
+          0.9543113429578401,
+          1.4078160617697069
+        ],
+        "coverage": 0.95
+      },
+      "throughput_ratio": {
+        "estimate": 0.9536574602284807,
+        "interval": [
+          0.9488677551187225,
+          0.9600587873611127
+        ],
+        "coverage": 0.95
+      },
+      "teacher_nll_difference": {
+        "estimate": 0.34151792851737106,
+        "interval": [
+          0.1492767231217495,
+          0.5412123760666563
+        ],
+        "coverage": 0.95
+      }
+    }
+  },
+  "source_clusters": 64,
+  "bootstrap_draws": 4000,
+  "limitations": [
+    "Matched random uses a learned trajectory total budget, not a deployable controller.",
+    "Fixed-position throughput includes post-EOS work; quality truncates at first EOS.",
+    "Equal forward/candidate counts do not imply equal latency or FLOPs.",
+    "Single GPU, batch=1; no human blind assessment; GPT-2 PPL is a proxy.",
+    "Original paper baseline quality gap remains unresolved."
+  ]
+}

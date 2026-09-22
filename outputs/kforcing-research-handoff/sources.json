@@ -1,0 +1,7 @@
+{
+  "upstream_url": "https://github.com/alibaba-damo-academy/K-Forcing",
+  "upstream_commit": "706caa332a69d509b7fc2fa53ac7819f381a8c78",
+  "checkpoint_repo": "zwave/K-Forcing",
+  "checkpoint_revision": "16b984316bdd4585f17b11d0e61a58d236c2febc",
+  "paper": "https://arxiv.org/abs/2606.10820"
+}

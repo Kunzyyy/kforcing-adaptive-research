@@ -1,0 +1,11 @@
+{"iteration": 0, "metric": 4.325096554226345, "tokens": 9}
+{"iteration": 1, "metric": 1.8343701362609863, "tokens": 3}
+{"iteration": 2, "metric": 2.260624749319894, "tokens": 14}
+{"iteration": 3, "metric": 4.454183959960938, "tokens": 5}
+{"iteration": 4, "metric": 2.2580604553222656, "tokens": 3}
+{"iteration": 5, "metric": 4.002529144287109, "tokens": 10}
+{"iteration": 6, "metric": 1.894039471944173, "tokens": 3}
+{"iteration": 7, "metric": 3.105661392211914, "tokens": 16}
+returned_from_child_work
+
+STDERR

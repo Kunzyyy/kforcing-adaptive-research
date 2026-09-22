@@ -1,0 +1,9 @@
+{
+  "windows": 4096,
+  "first_two_disagreements": 0,
+  "confidence_features_crosschecked": true,
+  "cache_lengths_checked": true,
+  "model_sha256": "caeeec7c2327e2473dbbcac6d64fa596e7db70d74a8d780035cb06a8bc991aae",
+  "projection_sha256": "09bd00bb8642ee8acbdc19f60ba0b8b12551b993639229865a349dff48a23e9a",
+  "feature_code_sha256": "a84bdb40469d29103c509c1d321a84c8d8744ce95669af40641d5a8a23b7760b"
+}

@@ -1,0 +1,6 @@
+{
+  "builtin_loss_matches": true,
+  "right_padding_invariance": true,
+  "probe_nll": 5.5812530517578125,
+  "scored_probe_tokens": 7
+}

@@ -1,0 +1,28 @@
+{
+  "created_utc": "2026-09-21T12:09:31.513580+00:00",
+  "inputs": {
+    "results/features-014/development_data.jsonl": "58d460786f436d81c77a8dc40c69eeb7891862b4ececd5b44f72f7351d1a31c9",
+    "results/decision-features/features.jsonl": "08b71671c2105fec01b616ab07ebf3373ff709df85adac0a4471e22d6d207ca5",
+    "results/local-mechanism/local_scores.jsonl": "a9b82d54eb7d7498bb8ceef4746dd22d25570f849540040789d5c5529c1b2608",
+    "results/attention-features/oof_predictions.jsonl": "06d1edfe3738dcad0f1ec9683c3fa3ca79ff1c8589eccfe5fb5d16f8504cd45c",
+    "results/local-mechanism/analysis.json": "eae2ba5df8f412d3be4215a8c850af8b82140cb2bb1edd585065792d5342f2b5",
+    "results/local-mechanism/integrity_audit.json": "ab553fd69b6ba251693e3b9ee13978a20f917b77e3099e90eb101d62cc403112",
+    "LOCAL_TARGET_TRANSFER_PLAN.md": "cc4ffa3fce3fa96847b6b67e6f89c6f0f2a908cc19b71e6b2003c8f66da92129",
+    "transfer_local_target.py": "f8f086198a7a9e9ac8bf3eba9088567dc0e5b0ce6bc546de2e4fe78c34b528af"
+  },
+  "states": 446,
+  "sources": 253,
+  "feature_dimensions": 19,
+  "alpha": 1000,
+  "fold_seeds": [
+    14112001,
+    14112002,
+    14112003
+  ],
+  "bootstrap_seed": 22242002,
+  "one_candidate": true,
+  "retrospective_development": true,
+  "old_test_inputs": false,
+  "supervision": "local AR teacher NLL gain in training fold only",
+  "evaluation": "original full-continuation mean8 GPT-2 NLL gain"
+}

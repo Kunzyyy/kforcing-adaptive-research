@@ -1,0 +1,15 @@
+{
+  "model_revision": "32b71b12589c2f8d625668d2335a01cac3249519",
+  "model_sha256_verified": true,
+  "previous_score_checks": 512,
+  "max_previous_nll_sum_abs_difference": 6.103515625e-05,
+  "rows": 3072,
+  "conventions": {
+    "completion": "Stage 4 main metric: completion only, no BOS, first token unscored",
+    "full_text": "Prefix plus continuation, all shifted tokens scored, no BOS; sensitivity only",
+    "completion_bos": "GPT-2 EOS inserted as BOS; all completion tokens scored; sensitivity only"
+  },
+  "dtype": "fp32",
+  "attention": "SDPA",
+  "batch_size": 4
+}

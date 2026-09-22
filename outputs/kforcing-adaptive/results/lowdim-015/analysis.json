@@ -1,0 +1,236 @@
+{
+  "stage": 15,
+  "completed_utc": "2026-09-20T10:52:41.516704+00:00",
+  "test_states": 682,
+  "test_sources": 381,
+  "excluded_incomplete": [
+    "s15-116-1501-0"
+  ],
+  "primary": {
+    "linear14": {
+      "vs_random": {
+        "estimate": 0.00941441748734994,
+        "interval": [
+          -0.02741380349596231,
+          0.04860397695938338
+        ],
+        "coverage": 0.9875,
+        "source_clusters": 381
+      },
+      "vs_heuristic": {
+        "estimate": -0.012971935615236265,
+        "interval": [
+          -0.06631499445733509,
+          0.04875259921548918
+        ],
+        "coverage": 0.9875,
+        "source_clusters": 381
+      }
+    },
+    "rbf14": {
+      "vs_random": {
+        "estimate": 0.03351687103046302,
+        "interval": [
+          -0.0045230425426012535,
+          0.07534297505758392
+        ],
+        "coverage": 0.9875,
+        "source_clusters": 381
+      },
+      "vs_heuristic": {
+        "estimate": 0.01113051792787681,
+        "interval": [
+          -0.04312106890019723,
+          0.07708905198265298
+        ],
+        "coverage": 0.9875,
+        "source_clusters": 381
+      }
+    }
+  },
+  "candidate_passes": {
+    "linear14": false,
+    "rbf14": false
+  },
+  "enough_sources": true,
+  "advance_gate_passed": false,
+  "next_candidate": null,
+  "arms": {
+    "linear14": {
+      "mse": 0.6021956345629381,
+      "correlation": 0.040600990109161524,
+      "constant_train_mean_mse": 0.6018722675127905,
+      "selected": 341
+    },
+    "rbf14": {
+      "mse": 0.6067069478666702,
+      "correlation": 0.060756130292074335,
+      "constant_train_mean_mse": 0.6018722675127905,
+      "selected": 341
+    }
+  },
+  "heuristic_vs_random": {
+    "estimate": 0.022386353102586205,
+    "interval": [
+      -0.009135553067080606,
+      0.052980539777769134
+    ],
+    "coverage": 0.95,
+    "source_clusters": 381
+  },
+  "rbf_vs_linear_exploratory": {
+    "estimate": 0.024102453543113075,
+    "interval": [
+      0.0032424524883978823,
+      0.047632989163274936
+    ],
+    "coverage": 0.95,
+    "source_clusters": 381
+  },
+  "mean_all_split_gain": {
+    "estimate": 0.22487278651760673,
+    "interval": [
+      0.16709178525090518,
+      0.28547994604735333
+    ],
+    "coverage": 0.95,
+    "source_clusters": 381
+  },
+  "split_half_target_correlation": 0.7309091816595358,
+  "cross_half_outcome_informed_gain": {
+    "estimate": 0.16734265632526601,
+    "interval": [
+      0.139962137213139,
+      0.19673256721482496
+    ],
+    "coverage": 0.95,
+    "source_clusters": 381
+  },
+  "exploratory_other_metrics": {
+    "teacher_nll_sum": {
+      "linear14": {
+        "estimate": 0.7617323776581421,
+        "interval": [
+          -0.25929965746200817,
+          1.796899740391666
+        ],
+        "coverage": 0.95,
+        "source_clusters": 381
+      },
+      "rbf14": {
+        "estimate": 0.423636104048522,
+        "interval": [
+          -0.5957461112475442,
+          1.4206752527719335
+        ],
+        "coverage": 0.95,
+        "source_clusters": 381
+      },
+      "heuristic": {
+        "estimate": 0.5304341075444851,
+        "interval": [
+          -0.43451317587563365,
+          1.5080869131230026
+        ],
+        "coverage": 0.95,
+        "source_clusters": 381
+      }
+    },
+    "visible_new_tokens": {
+      "linear14": {
+        "estimate": 0.12390029325513197,
+        "interval": [
+          -0.1606638620056367,
+          0.3946860366715185
+        ],
+        "coverage": 0.95,
+        "source_clusters": 381
+      },
+      "rbf14": {
+        "estimate": -0.04233870967741935,
+        "interval": [
+          -0.32307235348390745,
+          0.23294063221233097
+        ],
+        "coverage": 0.95,
+        "source_clusters": 381
+      },
+      "heuristic": {
+        "estimate": -0.08999266862170088,
+        "interval": [
+          -0.36900165999858303,
+          0.18091837969484698
+        ],
+        "coverage": 0.95,
+        "source_clusters": 381
+      }
+    },
+    "forward_calls": {
+      "linear14": {
+        "estimate": 0.02584310850439883,
+        "interval": [
+          -0.057426451881291564,
+          0.10531231990176848
+        ],
+        "coverage": 0.95,
+        "source_clusters": 381
+      },
+      "rbf14": {
+        "estimate": -0.015579178885630499,
+        "interval": [
+          -0.09905270110908558,
+          0.06386724369837676
+        ],
+        "coverage": 0.95,
+        "source_clusters": 381
+      },
+      "heuristic": {
+        "estimate": -0.025293255131964808,
+        "interval": [
+          -0.1076521443038797,
+          0.054264637732066606
+        ],
+        "coverage": 0.95,
+        "source_clusters": 381
+      }
+    },
+    "computed_candidates": {
+      "linear14": {
+        "estimate": 0.10263929618768329,
+        "interval": [
+          -0.19837294026642846,
+          0.3889721359370927
+        ],
+        "coverage": 0.95,
+        "source_clusters": 381
+      },
+      "rbf14": {
+        "estimate": -0.06121700879765396,
+        "interval": [
+          -0.3579203739954781,
+          0.2254457393071623
+        ],
+        "coverage": 0.95,
+        "source_clusters": 381
+      },
+      "heuristic": {
+        "estimate": -0.10043988269794721,
+        "interval": [
+          -0.40174172099770183,
+          0.18346875832667175
+        ],
+        "coverage": 0.95,
+        "source_clusters": 381
+      }
+    }
+  },
+  "locked_model_sha256": "4cba9716445a0b61c60d7f735732a7082d8bc57684d743156ecd4dcb8b798fa6",
+  "frozen_predictions_sha256": "ebfb7ab4321b6823eb54da68ef690c793d26536d26911cc19e81b5595ba2643e",
+  "labels_sha256": "bf668233a272a1f571938e4f581915f49383474181cc62642268b4307c4f6b3d",
+  "limitations": [
+    "Optimized GPT-2 proxy, not independent human text quality.",
+    "Offline one-intervention ranking, not online policy or wall-clock advantage.",
+    "Intervals condition on trained models, frozen cohort rankings and sampled futures.",
+    "Both candidates selected on old development data; fresh test used once."
+  ]
+}

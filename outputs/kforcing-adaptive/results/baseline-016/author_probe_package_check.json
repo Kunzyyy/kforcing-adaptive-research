@@ -1,0 +1,9 @@
+{
+  "zip": "kforcing-author-probe-stage16.zip",
+  "bytes": 13400,
+  "sha256": "22b0569c84faf90700c666da3746a48c031547afb9682e8f2e062cd221760ddf",
+  "local_portable_probe_passed": true,
+  "native_author_environment_run": false,
+  "sent_to_authors": false,
+  "zip_hashes_verified": true
+}

@@ -1,0 +1,8 @@
+{
+  "rows": 490,
+  "exact_candidate_matches": 490,
+  "source_sha256": "2570305018ff76289e5f0da57281eb96388204be7d6c9ac92ce39c44cf3f6004",
+  "uses_prior_test": false,
+  "precision": "fp32",
+  "protocol_sha256": "918ee5152de42ca507261dec4f98d1bcd364d67a506ade4971bd9d1d01b1bf1e"
+}

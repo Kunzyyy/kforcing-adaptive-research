@@ -1,0 +1,11 @@
+{
+  "model_repo": "openai-community/gpt2-large",
+  "revision": "32b71b12589c2f8d625668d2335a01cac3249519",
+  "precision": "fp32",
+  "scoring": "Completion only; strip BERT special tokens, retokenize with GPT-2, no BOS, shifted CE excluding first token; corpus token weighting.",
+  "batch_size": 4,
+  "attention": "SDPA",
+  "rows": 2240,
+  "parameter_count": 774030080,
+  "implementation": "Explicit masked per-token cross-entropy; empty and one-token outputs retained as exclusions"
+}

@@ -1,0 +1,119 @@
+{
+  "lm1b/ar": {
+    "samples": 256,
+    "scored_tokens": 6155,
+    "excluded_short": 0,
+    "gpt2_nll": 4.627391475472965,
+    "gpt2_gen_ppl": 102.24700213019119,
+    "teacher_nll": 2.867906237235596,
+    "mean_bert_new_tokens": 25.06640625
+  },
+  "lm1b/fixed2": {
+    "samples": 256,
+    "scored_tokens": 5189,
+    "excluded_short": 0,
+    "gpt2_nll": 4.758040129621494,
+    "gpt2_gen_ppl": 116.51734308651815,
+    "teacher_nll": 3.051748791464215,
+    "mean_bert_new_tokens": 21.32421875
+  },
+  "lm1b/fixed3": {
+    "samples": 256,
+    "scored_tokens": 5142,
+    "excluded_short": 1,
+    "gpt2_nll": 4.998320266111775,
+    "gpt2_gen_ppl": 148.1640737468963,
+    "teacher_nll": 3.612132974597638,
+    "mean_bert_new_tokens": 21.52734375
+  },
+  "lm1b/fixed4": {
+    "samples": 256,
+    "scored_tokens": 4452,
+    "excluded_short": 1,
+    "gpt2_nll": 5.541809466167923,
+    "gpt2_gen_ppl": 255.1392478631303,
+    "teacher_nll": 4.217955257764644,
+    "mean_bert_new_tokens": 19.359375
+  },
+  "lm1b_recommended/fixed2": {
+    "samples": 256,
+    "scored_tokens": 5268,
+    "excluded_short": 0,
+    "gpt2_nll": 4.735071430015311,
+    "gpt2_gen_ppl": 113.87159227729636,
+    "teacher_nll": 3.0107994117291255,
+    "mean_bert_new_tokens": 21.73828125
+  },
+  "lm1b_recommended/fixed3": {
+    "samples": 256,
+    "scored_tokens": 4846,
+    "excluded_short": 1,
+    "gpt2_nll": 5.11591379929317,
+    "gpt2_gen_ppl": 166.6529988169757,
+    "teacher_nll": 3.680892828102843,
+    "mean_bert_new_tokens": 20.18359375
+  },
+  "lm1b_recommended/fixed4": {
+    "samples": 256,
+    "scored_tokens": 4146,
+    "excluded_short": 1,
+    "gpt2_nll": 5.633168343064639,
+    "gpt2_gen_ppl": 279.5464149597275,
+    "teacher_nll": 4.3586794478703155,
+    "mean_bert_new_tokens": 17.68359375
+  },
+  "lm1b_reference/reference": {
+    "samples": 128,
+    "scored_tokens": 3150,
+    "excluded_short": 0,
+    "gpt2_nll": 4.276029284643749,
+    "gpt2_gen_ppl": 71.9541625221838,
+    "teacher_nll": 2.7500104071007097,
+    "mean_bert_new_tokens": 25.84375
+  },
+  "wikitext_stage3/current": {
+    "samples": 64,
+    "scored_tokens": 1112,
+    "excluded_short": 0,
+    "gpt2_nll": 5.487044395302697,
+    "gpt2_gen_ppl": 241.5422474086292,
+    "teacher_nll": 4.216588653174023,
+    "mean_bert_new_tokens": 18.625
+  },
+  "wikitext_stage3/fixed2": {
+    "samples": 64,
+    "scored_tokens": 1343,
+    "excluded_short": 0,
+    "gpt2_nll": 5.003690178502609,
+    "gpt2_gen_ppl": 148.96184189789247,
+    "teacher_nll": 3.2698384763483417,
+    "mean_bert_new_tokens": 22.265625
+  },
+  "wikitext_stage3/fixed3": {
+    "samples": 64,
+    "scored_tokens": 1113,
+    "excluded_short": 0,
+    "gpt2_nll": 5.332345016561749,
+    "gpt2_gen_ppl": 206.9226426804333,
+    "teacher_nll": 3.8093973540647945,
+    "mean_bert_new_tokens": 19.484375
+  },
+  "wikitext_stage3/fixed4": {
+    "samples": 64,
+    "scored_tokens": 1235,
+    "excluded_short": 0,
+    "gpt2_nll": 5.58142723593152,
+    "gpt2_gen_ppl": 265.45019561066545,
+    "teacher_nll": 4.537809836302753,
+    "mean_bert_new_tokens": 20.890625
+  },
+  "wikitext_stage3/random_commit": {
+    "samples": 64,
+    "scored_tokens": 1171,
+    "excluded_short": 0,
+    "gpt2_nll": 5.521033117651023,
+    "gpt2_gen_ppl": 249.89307282055992,
+    "teacher_nll": 4.2973176530942,
+    "mean_bert_new_tokens": 19.203125
+  }
+}

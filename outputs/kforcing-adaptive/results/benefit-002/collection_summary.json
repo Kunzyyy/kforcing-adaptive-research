@@ -1,0 +1,14 @@
+{
+  "stats": {
+    "train_branches": 370,
+    "train_prompts": 96,
+    "train_trajectory_eos": 4,
+    "dev_branches": 120,
+    "dev_prompts": 32,
+    "dev_trajectory_eos": 2,
+    "test_branches": 172,
+    "test_prompts": 48,
+    "test_trajectory_eos": 5
+  },
+  "elapsed_seconds": 20.82494730000326
+}

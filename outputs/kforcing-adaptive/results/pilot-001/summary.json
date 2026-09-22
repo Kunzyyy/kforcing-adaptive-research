@@ -1,0 +1,62 @@
+{
+  "adaptive": {
+    "samples": 40,
+    "generated_tokens": 743,
+    "elapsed_seconds": 2.677213200018741,
+    "aggregate_tokens_per_second": 277.52739303496594,
+    "teacher_nll": 4.073277388735703,
+    "teacher_perplexity": 58.749191353612034,
+    "mean_new_tokens": 18.575,
+    "eos_fraction": 1.0,
+    "mean_repeated_trigram_fraction": 0.0022086466165413543,
+    "short_step_fraction": 0.31759656652360513
+  },
+  "fixed2": {
+    "samples": 40,
+    "generated_tokens": 810,
+    "elapsed_seconds": 4.561641399981454,
+    "aggregate_tokens_per_second": 177.56766237769,
+    "teacher_nll": 3.1986056904733915,
+    "teacher_perplexity": 24.49834809229868,
+    "mean_new_tokens": 20.25,
+    "eos_fraction": 1.0,
+    "mean_repeated_trigram_fraction": 0.0018292682926829256,
+    "short_step_fraction": 1.0
+  },
+  "fixed3": {
+    "samples": 40,
+    "generated_tokens": 757,
+    "elapsed_seconds": 2.880492000025697,
+    "aggregate_tokens_per_second": 262.8023268223785,
+    "teacher_nll": 3.832347481852321,
+    "teacher_perplexity": 46.17079622390972,
+    "mean_new_tokens": 18.925,
+    "eos_fraction": 1.0,
+    "mean_repeated_trigram_fraction": 0.0,
+    "short_step_fraction": 0.0
+  },
+  "fixed4": {
+    "samples": 40,
+    "generated_tokens": 664,
+    "elapsed_seconds": 1.987862599955406,
+    "aggregate_tokens_per_second": 334.0271103319191,
+    "teacher_nll": 4.382299953196422,
+    "teacher_perplexity": 80.02186847019607,
+    "mean_new_tokens": 16.6,
+    "eos_fraction": 1.0,
+    "mean_repeated_trigram_fraction": 0.002341269841269841,
+    "short_step_fraction": 0.0
+  },
+  "random": {
+    "samples": 40,
+    "generated_tokens": 821,
+    "elapsed_seconds": 2.99855259998003,
+    "aggregate_tokens_per_second": 273.7987654461915,
+    "teacher_nll": 4.083102510849538,
+    "teacher_perplexity": 59.329254260938015,
+    "mean_new_tokens": 20.525,
+    "eos_fraction": 1.0,
+    "mean_repeated_trigram_fraction": 0.002144120247568523,
+    "short_step_fraction": 0.3346153846153846
+  }
+}

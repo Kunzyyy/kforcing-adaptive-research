@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "unique_texts": 8810,
+  "max_old_sum_abs_difference": 0.0,
+  "max_float64_vector_sum_abs_difference": 6.29723072052002e-05,
+  "builtin_loss_matches": true,
+  "causal_truncation_max_difference": 2.86102294921875e-06,
+  "evaluator_files_verified": true,
+  "evaluator_revision": "32b71b12589c2f8d625668d2335a01cac3249519",
+  "token_losses_sha256": "83c71f0f2c35fd9a528804a808ef0f51b788dfd61ae2934bddd96db1052d09e2",
+  "code_sha256": "b4379c9b181222c7782e81c8556b0e59d18450fec3b3ead8feda3c50aaec3dde"
+}

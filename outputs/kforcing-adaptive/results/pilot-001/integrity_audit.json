@@ -1,0 +1,15 @@
+{
+  "passed": true,
+  "records": 200,
+  "unique_prompt_seed_policy_combinations": 200,
+  "checks": [
+    "complete coverage",
+    "no duplicates",
+    "token and step counts",
+    "EOS truncation",
+    "finite metrics",
+    "independent summary recomputation",
+    "no tokenized prefix overlap"
+  ],
+  "limitation": "File integrity only; cannot certify runtime stability, algorithmic quality, or timing accuracy."
+}

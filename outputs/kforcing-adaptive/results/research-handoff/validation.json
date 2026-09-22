@@ -1,0 +1,33 @@
+{
+  "passed": true,
+  "archive_sha256": "1287a8a1f6f210ff3774b0feb81ea147165fef26626686fb16262cdab43a8823",
+  "archive_bytes": 5940794,
+  "archive_files": 39,
+  "payload_files_checked": 38,
+  "isolated_zip_extraction": true,
+  "cwd_was_extracted_bundle": true,
+  "evidence_bytes_unchanged": true,
+  "external_python_dependencies": [
+    "numpy"
+  ],
+  "cuda_visible_devices": "",
+  "model_weights_present": false,
+  "blind_review_key_present": false,
+  "method_labeled_outputs_present": true,
+  "full_statistical_verification_passed": true,
+  "negative_controls": [
+    {
+      "case": "modified evidence bytes",
+      "rejected": true
+    },
+    {
+      "case": "incorrect claim value despite matching payload hash",
+      "rejected": true
+    }
+  ],
+  "temporary_copy_cleaned": true,
+  "human_ratings_received": 0,
+  "new_experiment": false,
+  "external_send": false,
+  "validation_code_sha256": "46dcb0406aa834c812553f689fc06928c61e56cdce5556df2bfbb6d7f4961e22"
+}

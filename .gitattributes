@@ -1,0 +1,2 @@
+# Frozen evidence is checked using SHA256. Preserve exact bytes on all OSes.
+* -text

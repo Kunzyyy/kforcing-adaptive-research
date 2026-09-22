@@ -1,0 +1,27 @@
+{
+  "passed": true,
+  "precision_samples": 768,
+  "fp32_exact_replays": 256,
+  "new_precision_outputs": 512,
+  "identical_noise_batches": 64,
+  "exported_noise_values_verified": true,
+  "same_context_cases": 160,
+  "scored_sequences": 1024,
+  "scoring_records": 3072,
+  "prior_scoring_checks": 512,
+  "trajectory_differences": {
+    "bf16": {
+      "samples": 256,
+      "identical_full_sequences": 53,
+      "identical_eos_truncated_sequences": 172,
+      "mean_shared_new_token_prefix": 51.9765625
+    },
+    "fp16": {
+      "samples": 256,
+      "identical_full_sequences": 216,
+      "identical_eos_truncated_sequences": 247,
+      "mean_shared_new_token_prefix": 110.4921875
+    }
+  },
+  "limitations": "Audits records and aggregates; does not rerun model kernels or independently reconstruct bootstrap draws. No exact-paper or adaptive-performance claim."
+}

@@ -1,0 +1,573 @@
+{
+  "summary": {
+    "fixed2": {
+      "samples": 192,
+      "visible_tokens": 4268,
+      "seconds": 16.852262666664195,
+      "visible_tokens_per_second": 253.25976009397348,
+      "mean_request_ms": 87.77220138887604,
+      "p50_request_ms": 77.90920000009768,
+      "p95_request_ms": 178.15806833315628,
+      "gpt2_gen_ppl": 109.95971362266332,
+      "gpt2_nll": 4.700114058916274,
+      "gpt2_scored_tokens": 3944,
+      "excluded_short": 3,
+      "teacher_nll": 3.079868925293696,
+      "mean_visible_tokens": 22.229166666666668,
+      "eos_fraction": 1.0,
+      "calls_per_visible_token": 0.5128865979381443,
+      "candidates_per_visible_token": 1.0257731958762886,
+      "total_forward_calls": 2189,
+      "total_candidates": 4378,
+      "eligible_windows": 0,
+      "split_count": 0,
+      "split_fraction": null,
+      "mean_repeated_trigram_fraction": 0.010482671153486956
+    },
+    "fixed3": {
+      "samples": 192,
+      "visible_tokens": 3758,
+      "seconds": 10.135118966664773,
+      "visible_tokens_per_second": 370.78992485044984,
+      "mean_request_ms": 52.78707795137905,
+      "p50_request_ms": 48.785883333493985,
+      "p95_request_ms": 104.42351499991672,
+      "gpt2_gen_ppl": 173.18902108578328,
+      "gpt2_nll": 5.154383605468977,
+      "gpt2_scored_tokens": 3486,
+      "excluded_short": 3,
+      "teacher_nll": 3.7888110195023383,
+      "mean_visible_tokens": 19.572916666666668,
+      "eos_fraction": 1.0,
+      "calls_per_visible_token": 0.34725918041511444,
+      "candidates_per_visible_token": 1.0417775412453432,
+      "total_forward_calls": 1305,
+      "total_candidates": 3915,
+      "eligible_windows": 0,
+      "split_count": 0,
+      "split_fraction": null,
+      "mean_repeated_trigram_fraction": 0.005471412376309989
+    },
+    "fixed4": {
+      "samples": 192,
+      "visible_tokens": 3532,
+      "seconds": 7.34788196666159,
+      "visible_tokens_per_second": 480.68273497386025,
+      "mean_request_ms": 38.270218576362446,
+      "p50_request_ms": 35.487766666544,
+      "p95_request_ms": 73.81767833314065,
+      "gpt2_gen_ppl": 231.98156858100978,
+      "gpt2_nll": 5.446657922738818,
+      "gpt2_scored_tokens": 3215,
+      "excluded_short": 3,
+      "teacher_nll": 4.2516180188780055,
+      "mean_visible_tokens": 18.395833333333332,
+      "eos_fraction": 1.0,
+      "calls_per_visible_token": 0.26925254813137034,
+      "candidates_per_visible_token": 1.0770101925254814,
+      "total_forward_calls": 951,
+      "total_candidates": 3804,
+      "eligible_windows": 0,
+      "split_count": 0,
+      "split_fraction": null,
+      "mean_repeated_trigram_fraction": 0.01170946383241851
+    },
+    "learned": {
+      "samples": 192,
+      "visible_tokens": 3861,
+      "seconds": 12.75576963333879,
+      "visible_tokens_per_second": 302.68655761145106,
+      "mean_request_ms": 66.43630017363951,
+      "p50_request_ms": 59.40519999997681,
+      "p95_request_ms": 128.9661133333842,
+      "gpt2_gen_ppl": 156.4497949376112,
+      "gpt2_nll": 5.052735159392467,
+      "gpt2_scored_tokens": 3583,
+      "excluded_short": 3,
+      "teacher_nll": 3.6830180883407593,
+      "mean_visible_tokens": 20.109375,
+      "eos_fraction": 1.0,
+      "calls_per_visible_token": 0.4045584045584046,
+      "candidates_per_visible_token": 1.3462833462833463,
+      "total_forward_calls": 1562,
+      "total_candidates": 5198,
+      "eligible_windows": 953,
+      "split_count": 525,
+      "split_fraction": 0.5508919202518363,
+      "mean_repeated_trigram_fraction": 0.009221817277768262
+    },
+    "learned_replay": {
+      "samples": 192,
+      "visible_tokens": 3861,
+      "seconds": 12.125414933327496,
+      "visible_tokens_per_second": 318.422092871048,
+      "mean_request_ms": 63.153202777747374,
+      "p50_request_ms": 57.828466666857516,
+      "p95_request_ms": 119.04473999985991,
+      "gpt2_gen_ppl": 156.44979210597668,
+      "gpt2_nll": 5.05273514129315,
+      "gpt2_scored_tokens": 3583,
+      "excluded_short": 3,
+      "teacher_nll": 3.6830180883407593,
+      "mean_visible_tokens": 20.109375,
+      "eos_fraction": 1.0,
+      "calls_per_visible_token": 0.4045584045584046,
+      "candidates_per_visible_token": 1.3462833462833463,
+      "total_forward_calls": 1562,
+      "total_candidates": 5198,
+      "eligible_windows": 953,
+      "split_count": 525,
+      "split_fraction": 0.5508919202518363,
+      "mean_repeated_trigram_fraction": 0.009221817277768262
+    },
+    "random_cal": {
+      "samples": 192,
+      "visible_tokens": 3983,
+      "seconds": 12.92211049999878,
+      "visible_tokens_per_second": 308.2313837202039,
+      "mean_request_ms": 67.30265885416031,
+      "p50_request_ms": 61.41301666654423,
+      "p95_request_ms": 136.22006666678314,
+      "gpt2_gen_ppl": 144.0591104533233,
+      "gpt2_nll": 4.970223704607523,
+      "gpt2_scored_tokens": 3688,
+      "excluded_short": 3,
+      "teacher_nll": 3.558793101423265,
+      "mean_visible_tokens": 20.744791666666668,
+      "eos_fraction": 1.0,
+      "calls_per_visible_token": 0.4160180768265127,
+      "candidates_per_visible_token": 1.364800401707256,
+      "total_forward_calls": 1657,
+      "total_candidates": 5436,
+      "eligible_windows": 986,
+      "split_count": 596,
+      "split_fraction": 0.6044624746450304,
+      "mean_repeated_trigram_fraction": 0.012132901592557683
+    },
+    "random_high": {
+      "samples": 192,
+      "visible_tokens": 4027,
+      "seconds": 13.786909899996926,
+      "visible_tokens_per_second": 292.0886572270192,
+      "mean_request_ms": 71.80682239581732,
+      "p50_request_ms": 65.77038333352903,
+      "p95_request_ms": 147.48630500002938,
+      "gpt2_gen_ppl": 130.41932122838796,
+      "gpt2_nll": 4.8707548074459766,
+      "gpt2_scored_tokens": 3778,
+      "excluded_short": 3,
+      "teacher_nll": 3.4219496911176535,
+      "mean_visible_tokens": 20.973958333333332,
+      "eos_fraction": 1.0,
+      "calls_per_visible_token": 0.44375465607151726,
+      "candidates_per_visible_token": 1.421902160417184,
+      "total_forward_calls": 1787,
+      "total_candidates": 5726,
+      "eligible_windows": 994,
+      "split_count": 711,
+      "split_fraction": 0.7152917505030181,
+      "mean_repeated_trigram_fraction": 0.010034339569284423
+    },
+    "random_low": {
+      "samples": 192,
+      "visible_tokens": 3898,
+      "seconds": 11.954756999998915,
+      "visible_tokens_per_second": 326.0626711191498,
+      "mean_request_ms": 62.264359374994335,
+      "p50_request_ms": 57.05478333341792,
+      "p95_request_ms": 123.40070166683287,
+      "gpt2_gen_ppl": 140.32952011663704,
+      "gpt2_nll": 4.943993372079559,
+      "gpt2_scored_tokens": 3632,
+      "excluded_short": 3,
+      "teacher_nll": 3.6053949057780637,
+      "mean_visible_tokens": 20.302083333333332,
+      "eos_fraction": 1.0,
+      "calls_per_visible_token": 0.3943047716777835,
+      "candidates_per_visible_token": 1.3206772703950744,
+      "total_forward_calls": 1537,
+      "total_candidates": 5148,
+      "eligible_windows": 966,
+      "split_count": 500,
+      "split_fraction": 0.5175983436853002,
+      "mean_repeated_trigram_fraction": 0.011755704575327023
+    }
+  },
+  "primary": {
+    "ppl_ratio": {
+      "estimate": 1.0860111133915589,
+      "interval": [
+        0.9050670703278698,
+        1.3072869713427187
+      ],
+      "coverage": 0.975
+    },
+    "visible_throughput_ratio": {
+      "estimate": 0.9820108321163489,
+      "interval": [
+        0.936611406432696,
+        1.0296073709788662
+      ],
+      "coverage": 0.975
+    }
+  },
+  "exploratory": {
+    "fixed2": {
+      "ppl_ratio": {
+        "estimate": 1.4227919460983938,
+        "interval": [
+          1.2243309500094335,
+          1.6602636230574563
+        ],
+        "coverage": 0.95
+      },
+      "visible_throughput_ratio": {
+        "estimate": 1.1951624588886032,
+        "interval": [
+          1.1556402047221865,
+          1.2389891755838174
+        ],
+        "coverage": 0.95
+      },
+      "request_latency_ratio": {
+        "estimate": 0.7569173282927306,
+        "interval": [
+          0.6847886153566769,
+          0.8394204286720618
+        ],
+        "coverage": 0.95
+      },
+      "teacher_nll_difference": {
+        "estimate": 0.6031491630470631,
+        "interval": [
+          0.4362002667193925,
+          0.7827381096760921
+        ],
+        "coverage": 0.95
+      },
+      "calls_per_token_ratio": {
+        "estimate": 0.7887872410485477,
+        "interval": [
+          0.7635276850469177,
+          0.8131251686530171
+        ],
+        "coverage": 0.95
+      },
+      "candidates_per_token_ratio": {
+        "estimate": 1.312457131552609,
+        "interval": [
+          1.286435763253089,
+          1.3381001663855177
+        ],
+        "coverage": 0.95
+      }
+    },
+    "fixed3": {
+      "ppl_ratio": {
+        "estimate": 0.9033470710601172,
+        "interval": [
+          0.7551986167877757,
+          1.081707167285153
+        ],
+        "coverage": 0.95
+      },
+      "visible_throughput_ratio": {
+        "estimate": 0.8163289704636209,
+        "interval": [
+          0.7847633981970056,
+          0.8508238682803554
+        ],
+        "coverage": 0.95
+      },
+      "request_latency_ratio": {
+        "estimate": 1.2585712782744385,
+        "interval": [
+          1.1291248849749924,
+          1.395374524486841
+        ],
+        "coverage": 0.95
+      },
+      "teacher_nll_difference": {
+        "estimate": -0.10579293116157906,
+        "interval": [
+          -0.28786887133125555,
+          0.08168510304470633
+        ],
+        "coverage": 0.95
+      },
+      "calls_per_token_ratio": {
+        "estimate": 1.1650042025520952,
+        "interval": [
+          1.128874874613757,
+          1.2001203500001034
+        ],
+        "coverage": 0.95
+      },
+      "candidates_per_token_ratio": {
+        "estimate": 1.2922944611322646,
+        "interval": [
+          1.2679964680258389,
+          1.3170305533954094
+        ],
+        "coverage": 0.95
+      }
+    },
+    "fixed4": {
+      "ppl_ratio": {
+        "estimate": 0.6744061431026048,
+        "interval": [
+          0.5733519665236829,
+          0.7910570836273099
+        ],
+        "coverage": 0.95
+      },
+      "visible_throughput_ratio": {
+        "estimate": 0.6297013301880112,
+        "interval": [
+          0.6061664886498471,
+          0.6551219572206913
+        ],
+        "coverage": 0.95
+      },
+      "request_latency_ratio": {
+        "estimate": 1.7359791149631383,
+        "interval": [
+          1.566313404156938,
+          1.9202997463899985
+        ],
+        "coverage": 0.95
+      },
+      "teacher_nll_difference": {
+        "estimate": -0.5685999305372462,
+        "interval": [
+          -0.7457898760867561,
+          -0.3939135487444837
+        ],
+        "coverage": 0.95
+      },
+      "calls_per_token_ratio": {
+        "estimate": 1.5025239588856834,
+        "interval": [
+          1.4519989668345261,
+          1.552033110847155
+        ],
+        "coverage": 0.95
+      },
+      "candidates_per_token_ratio": {
+        "estimate": 1.2500191322483647,
+        "interval": [
+          1.2226609618061761,
+          1.2775502541017885
+        ],
+        "coverage": 0.95
+      }
+    },
+    "learned_replay": {
+      "ppl_ratio": {
+        "estimate": 1.0000000180993178,
+        "interval": [
+          0.9999999665349508,
+          1.000000072610792
+        ],
+        "coverage": 0.95
+      },
+      "visible_throughput_ratio": {
+        "estimate": 0.950582777979638,
+        "interval": [
+          0.9317688939954066,
+          0.9673523233740572
+        ],
+        "coverage": 0.95
+      },
+      "request_latency_ratio": {
+        "estimate": 1.0519862374588702,
+        "interval": [
+          1.033749520043202,
+          1.0732274993628519
+        ],
+        "coverage": 0.95
+      },
+      "teacher_nll_difference": {
+        "estimate": 0.0,
+        "interval": [
+          0.0,
+          0.0
+        ],
+        "coverage": 0.95
+      },
+      "calls_per_token_ratio": {
+        "estimate": 1.0,
+        "interval": [
+          1.0,
+          1.0
+        ],
+        "coverage": 0.95
+      },
+      "candidates_per_token_ratio": {
+        "estimate": 1.0,
+        "interval": [
+          1.0,
+          1.0
+        ],
+        "coverage": 0.95
+      }
+    },
+    "random_cal": {
+      "ppl_ratio": {
+        "estimate": 1.0860111133915589,
+        "interval": [
+          0.923268828282641,
+          1.2802002878113663
+        ],
+        "coverage": 0.95
+      },
+      "visible_throughput_ratio": {
+        "estimate": 0.9820108321163489,
+        "interval": [
+          0.9426189974110137,
+          1.024288226444533
+        ],
+        "coverage": 0.95
+      },
+      "request_latency_ratio": {
+        "estimate": 0.9871274226713967,
+        "interval": [
+          0.8880714996874284,
+          1.0958331025617172
+        ],
+        "coverage": 0.95
+      },
+      "teacher_nll_difference": {
+        "estimate": 0.12422498691749428,
+        "interval": [
+          -0.04647252670787615,
+          0.3007136841338376
+        ],
+        "coverage": 0.95
+      },
+      "calls_per_token_ratio": {
+        "estimate": 0.9724539078793756,
+        "interval": [
+          0.9364935110172703,
+          1.0089660008270707
+        ],
+        "coverage": 0.95
+      },
+      "candidates_per_token_ratio": {
+        "estimate": 0.9864324076980442,
+        "interval": [
+          0.9631193779956619,
+          1.0099969160650677
+        ],
+        "coverage": 0.95
+      }
+    },
+    "random_high": {
+      "ppl_ratio": {
+        "estimate": 1.1995906240275482,
+        "interval": [
+          1.032748129449608,
+          1.4093340895560775
+        ],
+        "coverage": 0.95
+      },
+      "visible_throughput_ratio": {
+        "estimate": 1.036283163081526,
+        "interval": [
+          0.9963400298911563,
+          1.0778942407939633
+        ],
+        "coverage": 0.95
+      },
+      "request_latency_ratio": {
+        "estimate": 0.9252087469826458,
+        "interval": [
+          0.8383885534530736,
+          1.0257501086943908
+        ],
+        "coverage": 0.95
+      },
+      "teacher_nll_difference": {
+        "estimate": 0.2610683972231058,
+        "interval": [
+          0.09386028664330759,
+          0.43640728002376133
+        ],
+        "coverage": 0.95
+      },
+      "calls_per_token_ratio": {
+        "estimate": 0.9116713459186879,
+        "interval": [
+          0.8814690634923479,
+          0.941447414753403
+        ],
+        "coverage": 0.95
+      },
+      "candidates_per_token_ratio": {
+        "estimate": 0.9468185531755214,
+        "interval": [
+          0.9270810293342974,
+          0.9666628314543902
+        ],
+        "coverage": 0.95
+      }
+    },
+    "random_low": {
+      "ppl_ratio": {
+        "estimate": 1.1148744384472744,
+        "interval": [
+          0.9468257339779598,
+          1.3092776184124264
+        ],
+        "coverage": 0.95
+      },
+      "visible_throughput_ratio": {
+        "estimate": 0.9283079126246971,
+        "interval": [
+          0.8916634695350413,
+          0.9687943788135382
+        ],
+        "coverage": 0.95
+      },
+      "request_latency_ratio": {
+        "estimate": 1.0670036733778818,
+        "interval": [
+          0.9576761014161116,
+          1.1799419296557905
+        ],
+        "coverage": 0.95
+      },
+      "teacher_nll_difference": {
+        "estimate": 0.07762318256269563,
+        "interval": [
+          -0.07876257996311634,
+          0.24969365790574855
+        ],
+        "coverage": 0.95
+      },
+      "calls_per_token_ratio": {
+        "estimate": 1.026004333746689,
+        "interval": [
+          0.9872027720823772,
+          1.0655550293187452
+        ],
+        "coverage": 0.95
+      },
+      "candidates_per_token_ratio": {
+        "estimate": 1.0193885943691694,
+        "interval": [
+          0.9952270618778322,
+          1.0439992261002276
+        ],
+        "coverage": 0.95
+      }
+    }
+  },
+  "budget_calls_per_token_ratio": 0.9724539078793756,
+  "budget_within_predeclared_5pct": true,
+  "primary_two_metric_gate": false,
+  "primary_budget_and_performance_gate": false,
+  "source_clusters": 96,
+  "bootstrap_draws": 4000,
+  "notes": "No EOS-post blocks; within-block discarded work counted. Random probability chosen on independent calibration only. Compute matching is approximate, not FLOPs equality. Replay is an oracle scheduling ablation, not deployable."
+}

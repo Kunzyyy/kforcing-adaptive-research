@@ -1,0 +1,17 @@
+{
+  "created_utc": "2026-09-20T22:43:15.227917+00:00",
+  "study": "Retrospective diagnostic; no independent test or refitting",
+  "inputs": {
+    "test_pairs.jsonl": "10a3caa6d4267c3d3010bf23b83e47a0db3089bd91a2c1e741205bd15fafcc83",
+    "test_labels.jsonl": "bf668233a272a1f571938e4f581915f49383474181cc62642268b4307c4f6b3d",
+    "test_predictions.jsonl": "86436095104cccdfa8818ed555dd4f082ca3be4851eaf89791f356c486210fbd",
+    "frozen_predictions.json": "ebfb7ab4321b6823eb54da68ef690c793d26536d26911cc19e81b5595ba2643e",
+    "analysis.json": "7a82b74abb12bbd5dbcb644811e504dae693e301881aa3b3d6da4c8c596930b0",
+    "test_scoring.json": "150bb337bd60fe9dc55acf0ab05aac7b3b02a8ed1783772a8a1eeb86219211a5",
+    "locked_model.json": "4cba9716445a0b61c60d7f735732a7082d8bc57684d743156ecd4dcb8b798fa6"
+  },
+  "code_sha256": "b4379c9b181222c7782e81c8556b0e59d18450fec3b3ead8feda3c50aaec3dde",
+  "plan_sha256": "0d30dc49ef1e504a4947146ea09658732a6a50919e9c115b78f3075c122cdf92",
+  "bootstrap_seed": 21092026,
+  "bootstrap_reps": 4000
+}

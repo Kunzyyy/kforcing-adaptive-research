@@ -1,0 +1,30 @@
+{
+  "torch": "2.11.0+cu128",
+  "gpu": "NVIDIA GeForce RTX 5060 Laptop GPU",
+  "cuda": "12.8",
+  "python": "3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:21:36) [MSC v.1943 64 bit (AMD64)]",
+  "precision": "fp32",
+  "helper_backend": "eager",
+  "feature_names": [
+    "margin_mean",
+    "margin_min",
+    "margin_last",
+    "entropy_mean",
+    "entropy_last",
+    "top1_mean",
+    "top1_last",
+    "block_unique_fraction",
+    "context_length",
+    "margin_change",
+    "entropy_change",
+    "has_earlier_block"
+  ],
+  "trajectory_seed": 31713,
+  "branch_seeds": [
+    1121,
+    2213
+  ],
+  "frequency_penalty": 0.0,
+  "protocol_sha256": "99a6c6ebf63b8a3026257324484d4c769484b2e456de67fecb20871257c6d27f",
+  "collector_sha256": "583ab7397fb4d3132e3b6c8b41664fb22f819aeacd105a752bba1a7ef4e6408f"
+}

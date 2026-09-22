@@ -1,0 +1,18 @@
+{
+  "passed": true,
+  "independent": "Python standard library; recalculates records and aggregates",
+  "prefixes": 128,
+  "prior_prefix_overlap": 0,
+  "main_samples": 1024,
+  "recommended_samples": 768,
+  "references": 128,
+  "old_samples_rescored": 320,
+  "external_rows": 2240,
+  "external_short_exclusions": 4,
+  "timing_records": 608,
+  "repeat_fingerprint_mismatches": 0,
+  "quality_sequences_match_timed_hashes": true,
+  "official_same_noise_cases": 18,
+  "evaluator_builtin_loss_and_padding_checks": true,
+  "limits": "Integrity is not evidence of method quality or exact paper reproduction."
+}

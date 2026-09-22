@@ -1,0 +1,9 @@
+{
+  "threshold": 1.9140625,
+  "rule": "median of validation fixed4 raw top1-top2 mean margin",
+  "samples": 8,
+  "margin_observations": 42,
+  "random_control_short_probability": 0.42592592592592593,
+  "calibration_seed": 11,
+  "uses_test_data": false
+}

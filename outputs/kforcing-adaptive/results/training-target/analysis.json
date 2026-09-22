@@ -1,0 +1,203 @@
+{
+  "retrospective": true,
+  "no_test_inputs": true,
+  "states": 446,
+  "sources": 253,
+  "fits": 30,
+  "primary": {
+    "gain_vs_full_target": {
+      "estimate": -0.01003645507295654,
+      "interval95": [
+        -0.028653371210468535,
+        0.0064082984067901465
+      ]
+    },
+    "gain_vs_heuristic": {
+      "estimate": 0.013872946767811919,
+      "interval95": [
+        -0.028095689835889913,
+        0.0575515450019295
+      ]
+    }
+  },
+  "common_target_warrants_fresh_confirmation": false,
+  "metrics": {
+    "full_target": {
+      "full": {
+        "mse": 0.5467537160442406,
+        "correlation": 0.10094401853482059,
+        "gain_vs_random": {
+          "estimate": 0.057628334201471156,
+          "interval95": [
+            0.026343587097171394,
+            0.09129909272184304
+          ]
+        },
+        "gain_vs_full_target": {
+          "estimate": 0.0,
+          "interval95": [
+            0.0,
+            0.0
+          ]
+        },
+        "gain_vs_heuristic": {
+          "estimate": 0.023909401840768455,
+          "interval95": [
+            -0.01951885815480485,
+            0.07073287651786477
+          ]
+        }
+      },
+      "common": {
+        "mse": 0.5708889039789995,
+        "correlation": 0.13323371563417066,
+        "gain_vs_random": {
+          "estimate": 0.06639871751348672,
+          "interval95": [
+            0.034223494606694535,
+            0.09998308203882433
+          ]
+        },
+        "gain_vs_full_target": {
+          "estimate": 0.0,
+          "interval95": [
+            0.0,
+            0.0
+          ]
+        },
+        "gain_vs_heuristic": {
+          "estimate": 0.016137010089528028,
+          "interval95": [
+            -0.030465448791008824,
+            0.062457866119154035
+          ]
+        }
+      },
+      "teacher": {
+        "mse": 0.606334115841753,
+        "correlation": 0.14745424692575906,
+        "gain_vs_random": {
+          "estimate": 0.06685358878334817,
+          "interval95": [
+            0.03211461043381253,
+            0.10222904720483345
+          ]
+        },
+        "gain_vs_full_target": {
+          "estimate": 0.0,
+          "interval95": [
+            0.0,
+            0.0
+          ]
+        },
+        "gain_vs_heuristic": {
+          "estimate": 0.01322664960226172,
+          "interval95": [
+            -0.029711147107557612,
+            0.056809118084403726
+          ]
+        }
+      }
+    },
+    "common_target": {
+      "full": {
+        "mse": 0.546442770833223,
+        "correlation": 0.10488343295717703,
+        "gain_vs_random": {
+          "estimate": 0.04759187912851461,
+          "interval95": [
+            0.01551455791143254,
+            0.08029252811256544
+          ]
+        },
+        "gain_vs_full_target": {
+          "estimate": -0.01003645507295654,
+          "interval95": [
+            -0.028653371210468535,
+            0.0064082984067901465
+          ]
+        },
+        "gain_vs_heuristic": {
+          "estimate": 0.013872946767811919,
+          "interval95": [
+            -0.028095689835889913,
+            0.0575515450019295
+          ]
+        }
+      },
+      "common": {
+        "mse": 0.5681030873674973,
+        "correlation": 0.1435239766588806,
+        "gain_vs_random": {
+          "estimate": 0.06385563365580546,
+          "interval95": [
+            0.03077702041586478,
+            0.09854662861210764
+          ]
+        },
+        "gain_vs_full_target": {
+          "estimate": -0.002543083857681269,
+          "interval95": [
+            -0.018532075673262653,
+            0.012576713472720677
+          ]
+        },
+        "gain_vs_heuristic": {
+          "estimate": 0.013593926231846763,
+          "interval95": [
+            -0.031318539720270364,
+            0.058960874502608104
+          ]
+        }
+      },
+      "teacher": {
+        "mse": 0.6016848778449969,
+        "correlation": 0.15744553192640712,
+        "gain_vs_random": {
+          "estimate": 0.0683071548874592,
+          "interval95": [
+            0.03414553271496052,
+            0.10481969075622707
+          ]
+        },
+        "gain_vs_full_target": {
+          "estimate": 0.0014535661041110255,
+          "interval95": [
+            -0.020260822493866737,
+            0.020488483584633954
+          ]
+        },
+        "gain_vs_heuristic": {
+          "estimate": 0.014680215706372745,
+          "interval95": [
+            -0.02677135596385433,
+            0.05704076237488879
+          ]
+        }
+      }
+    }
+  },
+  "target_diagnostics": {
+    "full": {
+      "mean_gain": 0.22258252634058362,
+      "state_variance": 0.5534478134040062,
+      "split_half_correlation": 0.7357163211067878
+    },
+    "common": {
+      "mean_gain": 0.24079573829983247,
+      "state_variance": 0.5805658662615161,
+      "split_half_correlation": 0.7962560904328484
+    },
+    "full_common_correlation": 0.8213071821414653,
+    "state_mean_sign_disagreements": 50
+  },
+  "state_targets_sha256": "5457af49223e93405e68009f5bfd9d03c8680a2c1602699d695b3625758cd814",
+  "fits_sha256": "1b7f075e47e699bab4b049809f3dfa2e0ae3b10af80ea3a14cbed943a81d061c",
+  "oof_predictions_sha256": "e06e55e442a651a4dd8f672b3d6986c367b1dbb909c2907b9a227a75f4f27044",
+  "limitations": [
+    "Old train/dev data, repeatedly explored; not independent test.",
+    "Primary ranking evaluation retains original full-completion target.",
+    "Bootstrap conditions on fitted fold models and fixed rankings.",
+    "GPT-2 is the optimized proxy; no online/human-quality conclusion."
+  ]
+}

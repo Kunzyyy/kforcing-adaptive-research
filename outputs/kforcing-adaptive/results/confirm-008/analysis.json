@@ -1,0 +1,399 @@
+{
+  "primary": {
+    "short": {
+      "mean": 0.00579833984375,
+      "coverage": 0.975,
+      "interval": [
+        0.002928924560546878,
+        0.008972930908203142
+      ],
+      "source_clusters": 256,
+      "passes": true
+    },
+    "long": {
+      "mean": 0.00537109375,
+      "coverage": 0.975,
+      "interval": [
+        0.001953125,
+        0.00885009765625
+      ],
+      "source_clusters": 128,
+      "passes": true
+    }
+  },
+  "by_length": {
+    "6": {
+      "windows": 2048,
+      "source_sentences": 256,
+      "fixed4_match": 0.32568359375,
+      "all_split_match": 0.3302001953125,
+      "policies": {
+        "learned_half": {
+          "split_windows": 1024,
+          "split_fraction": 0.5,
+          "match_fraction": 0.333740234375,
+          "versus_random_expectation": {
+            "mean": 0.00579833984375,
+            "coverage": 0.95,
+            "interval": [
+              0.00323486328125,
+              0.008544921875
+            ],
+            "source_clusters": 256
+          },
+          "teacher_nll_reduction_vs_random_per_token": {
+            "mean": -0.06919107250007528,
+            "coverage": 0.95,
+            "interval": [
+              -0.13052685025004962,
+              -0.006506121334609808
+            ],
+            "source_clusters": 256
+          }
+        },
+        "confidence_half": {
+          "split_windows": 1024,
+          "split_fraction": 0.5,
+          "match_fraction": 0.328369140625,
+          "versus_random_expectation": {
+            "mean": 0.00042724609375,
+            "coverage": 0.95,
+            "interval": [
+              -0.00213623046875,
+              0.0031143188476562556
+            ],
+            "source_clusters": 256
+          },
+          "teacher_nll_reduction_vs_random_per_token": {
+            "mean": 0.13165916522109455,
+            "coverage": 0.95,
+            "interval": [
+              0.08111632600760572,
+              0.18017773354140162
+            ],
+            "source_clusters": 256
+          }
+        },
+        "oracle_half": {
+          "split_windows": 1024,
+          "split_fraction": 0.5,
+          "match_fraction": 0.35302734375,
+          "versus_random_expectation": {
+            "mean": 0.02508544921875,
+            "coverage": 0.95,
+            "interval": [
+              0.02252197265625,
+              0.02777099609375
+            ],
+            "source_clusters": 256
+          },
+          "teacher_nll_reduction_vs_random_per_token": {
+            "mean": 0.008345691480030837,
+            "coverage": 0.95,
+            "interval": [
+              -0.062494485706611154,
+              0.07340827808848191
+            ],
+            "source_clusters": 256
+          }
+        },
+        "locked_threshold": {
+          "split_windows": 1187,
+          "split_fraction": 0.57958984375,
+          "match_fraction": 0.3341064453125,
+          "versus_random_expectation": {
+            "mean": 0.005805075168609619,
+            "coverage": 0.95,
+            "interval": [
+              0.003163811564445496,
+              0.008533552289009094
+            ],
+            "source_clusters": 256
+          },
+          "teacher_nll_reduction_vs_random_per_token": {
+            "mean": -0.06948050317927501,
+            "coverage": 0.95,
+            "interval": [
+              -0.13169746418407277,
+              -0.006903759454561538
+            ],
+            "source_clusters": 256
+          }
+        },
+        "random_half": {
+          "split_windows": 1024,
+          "split_fraction": 0.5,
+          "match_fraction": 0.3289794921875,
+          "versus_random_expectation": {
+            "mean": 0.00103759765625,
+            "coverage": 0.95,
+            "interval": [
+              -0.0013427734375,
+              0.0032363891601562556
+            ],
+            "source_clusters": 256
+          },
+          "teacher_nll_reduction_vs_random_per_token": {
+            "mean": -0.020758372720592888,
+            "coverage": 0.95,
+            "interval": [
+              -0.06143396907636997,
+              0.021572844465117667
+            ],
+            "source_clusters": 256
+          }
+        }
+      }
+    },
+    "16": {
+      "windows": 1024,
+      "source_sentences": 128,
+      "fixed4_match": 0.338623046875,
+      "all_split_match": 0.340576171875,
+      "policies": {
+        "learned_half": {
+          "split_windows": 512,
+          "split_fraction": 0.5,
+          "match_fraction": 0.34423828125,
+          "versus_random_expectation": {
+            "mean": 0.004638671875,
+            "coverage": 0.95,
+            "interval": [
+              0.0003662109375,
+              0.009033203125
+            ],
+            "source_clusters": 128
+          },
+          "teacher_nll_reduction_vs_random_per_token": {
+            "mean": -0.036303509145000135,
+            "coverage": 0.95,
+            "interval": [
+              -0.13200573109206737,
+              0.06684304415894081
+            ],
+            "source_clusters": 128
+          }
+        },
+        "confidence_half": {
+          "split_windows": 512,
+          "split_fraction": 0.5,
+          "match_fraction": 0.33984375,
+          "versus_random_expectation": {
+            "mean": 0.000244140625,
+            "coverage": 0.95,
+            "interval": [
+              -0.003662109375,
+              0.004150390625
+            ],
+            "source_clusters": 128
+          },
+          "teacher_nll_reduction_vs_random_per_token": {
+            "mean": 0.13944755392913066,
+            "coverage": 0.95,
+            "interval": [
+              0.06923205286962003,
+              0.20974876245909402
+            ],
+            "source_clusters": 128
+          }
+        },
+        "oracle_half": {
+          "split_windows": 512,
+          "split_fraction": 0.5,
+          "match_fraction": 0.369140625,
+          "versus_random_expectation": {
+            "mean": 0.029541015625,
+            "coverage": 0.95,
+            "interval": [
+              0.025390625,
+              0.0338134765625
+            ],
+            "source_clusters": 128
+          },
+          "teacher_nll_reduction_vs_random_per_token": {
+            "mean": -0.003455794585534022,
+            "coverage": 0.95,
+            "interval": [
+              -0.10584357990301214,
+              0.09802723590296411
+            ],
+            "source_clusters": 128
+          }
+        },
+        "locked_threshold": {
+          "split_windows": 554,
+          "split_fraction": 0.541015625,
+          "match_fraction": 0.342529296875,
+          "versus_random_expectation": {
+            "mean": 0.002849578857421875,
+            "coverage": 0.95,
+            "interval": [
+              -0.001284706592559814,
+              0.007148492336273196
+            ],
+            "source_clusters": 128
+          },
+          "teacher_nll_reduction_vs_random_per_token": {
+            "mean": -0.04432969484204108,
+            "coverage": 0.95,
+            "interval": [
+              -0.13745621540663142,
+              0.057159442783123106
+            ],
+            "source_clusters": 128
+          }
+        },
+        "random_half": {
+          "split_windows": 512,
+          "split_fraction": 0.5,
+          "match_fraction": 0.3408203125,
+          "versus_random_expectation": {
+            "mean": 0.001220703125,
+            "coverage": 0.95,
+            "interval": [
+              -0.0029296875,
+              0.0052490234375
+            ],
+            "source_clusters": 128
+          },
+          "teacher_nll_reduction_vs_random_per_token": {
+            "mean": -0.011864412497743615,
+            "coverage": 0.95,
+            "interval": [
+              -0.07329425678285585,
+              0.04799456923137771
+            ],
+            "source_clusters": 128
+          }
+        }
+      }
+    },
+    "32": {
+      "windows": 1024,
+      "source_sentences": 128,
+      "fixed4_match": 0.34912109375,
+      "all_split_match": 0.35888671875,
+      "policies": {
+        "learned_half": {
+          "split_windows": 512,
+          "split_fraction": 0.5,
+          "match_fraction": 0.360107421875,
+          "versus_random_expectation": {
+            "mean": 0.006103515625,
+            "coverage": 0.95,
+            "interval": [
+              0.0015869140625,
+              0.0107421875
+            ],
+            "source_clusters": 128
+          },
+          "teacher_nll_reduction_vs_random_per_token": {
+            "mean": -0.0658236610233871,
+            "coverage": 0.95,
+            "interval": [
+              -0.1661790744818518,
+              0.0411952696296794
+            ],
+            "source_clusters": 128
+          }
+        },
+        "confidence_half": {
+          "split_windows": 512,
+          "split_fraction": 0.5,
+          "match_fraction": 0.360107421875,
+          "versus_random_expectation": {
+            "mean": 0.006103515625,
+            "coverage": 0.95,
+            "interval": [
+              0.0010986328125,
+              0.010986328125
+            ],
+            "source_clusters": 128
+          },
+          "teacher_nll_reduction_vs_random_per_token": {
+            "mean": 0.19380326652935764,
+            "coverage": 0.95,
+            "interval": [
+              0.1152232125275532,
+              0.2737709428500239
+            ],
+            "source_clusters": 128
+          }
+        },
+        "oracle_half": {
+          "split_windows": 512,
+          "split_fraction": 0.5,
+          "match_fraction": 0.388671875,
+          "versus_random_expectation": {
+            "mean": 0.03466796875,
+            "coverage": 0.95,
+            "interval": [
+              0.02978515625,
+              0.0400390625
+            ],
+            "source_clusters": 128
+          },
+          "teacher_nll_reduction_vs_random_per_token": {
+            "mean": 0.019949960720623494,
+            "coverage": 0.95,
+            "interval": [
+              -0.08495478362938229,
+              0.12554917942761679
+            ],
+            "source_clusters": 128
+          }
+        },
+        "locked_threshold": {
+          "split_windows": 567,
+          "split_fraction": 0.5537109375,
+          "match_fraction": 0.360595703125,
+          "versus_random_expectation": {
+            "mean": 0.0060672760009765625,
+            "coverage": 0.95,
+            "interval": [
+              0.0017106771469116227,
+              0.010564905405044556
+            ],
+            "source_clusters": 128
+          },
+          "teacher_nll_reduction_vs_random_per_token": {
+            "mean": -0.05566459708647287,
+            "coverage": 0.95,
+            "interval": [
+              -0.15429582163285546,
+              0.05081864996796599
+            ],
+            "source_clusters": 128
+          }
+        },
+        "random_half": {
+          "split_windows": 512,
+          "split_fraction": 0.5,
+          "match_fraction": 0.350341796875,
+          "versus_random_expectation": {
+            "mean": -0.003662109375,
+            "coverage": 0.95,
+            "interval": [
+              -0.0091552734375,
+              0.0013427734375
+            ],
+            "source_clusters": 128
+          },
+          "teacher_nll_reduction_vs_random_per_token": {
+            "mean": 0.008467770601782831,
+            "coverage": 0.95,
+            "interval": [
+              -0.05690596719982749,
+              0.07407369090874455
+            ],
+            "source_clusters": 128
+          }
+        }
+      }
+    }
+  },
+  "local_confirmation_passed": true,
+  "original_stage7_dev_gate_passed": false,
+  "frozen_model_sha256": "caeeec7c2327e2473dbbcac6d64fa596e7db70d74a8d780035cb06a8bc991aae",
+  "notes": "Two 97.5% primary intervals, clustered by sentence; secondary 95% intervals exploratory. No refitting or deployment. Long contexts are real source text. Threshold secondary intervals condition on observed selection rate; ranking selections held fixed within bootstrap."
+}

@@ -1,0 +1,21 @@
+{
+  "passed": true,
+  "splits": {
+    "train": {
+      "unique_texts": 4445,
+      "pairs": 2696,
+      "max_old_sum_difference": 0.0,
+      "max_float64_vector_sum_difference": 2.8364360332489014e-05
+    },
+    "dev": {
+      "unique_texts": 1412,
+      "pairs": 880,
+      "max_old_sum_difference": 0.0,
+      "max_float64_vector_sum_difference": 3.3799558877944946e-05
+    }
+  },
+  "builtin_loss_matches": true,
+  "causal_truncation_max_difference": 9.5367431640625e-07,
+  "evaluator_revision": "32b71b12589c2f8d625668d2335a01cac3249519",
+  "token_losses_sha256": "2be093ce1a7560290d1a758db495f6d3b8b0c0d0b6b7606c89781a1087afc2cb"
+}

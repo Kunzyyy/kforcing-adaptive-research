@@ -1,0 +1,15 @@
+{
+  "passed": true,
+  "unique_prefixes": 448,
+  "train_windows": 2048,
+  "dev_windows": 512,
+  "test_windows": 1024,
+  "prior_prefix_overlap": 0,
+  "split_prefix_overlap": 0,
+  "split_sentence_hash_overlap": 0,
+  "train_only_normalization_and_ridge_equations_verified": true,
+  "frozen_model_hash_verified": true,
+  "prediction_and_aggregate_recomputed": true,
+  "online_gate": false,
+  "limitation": "CPU record audit, not independent model inference or bootstrap reconstruction. Original document-level isolation is unavailable."
+}

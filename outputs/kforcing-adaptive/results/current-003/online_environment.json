@@ -1,0 +1,29 @@
+{
+  "gpu": "NVIDIA GeForce RTX 5060 Laptop GPU",
+  "torch": "2.11.0+cu128",
+  "cuda": "12.8",
+  "python": "3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:21:36) [MSC v.1943 64 bit (AMD64)]",
+  "helper_backend": "eager",
+  "precision": "fp32",
+  "frequency_penalty": 0.0,
+  "seeds": [
+    503,
+    509
+  ],
+  "repetitions": 3,
+  "prompts": 32,
+  "articles": 16,
+  "controller_sha256": "5d366626195e447a3315e9ef89497d046da06a0a5d371688d6710e38dcf86b91",
+  "random_p_short": 0.4975,
+  "policies": [
+    "fixed2",
+    "fixed3",
+    "fixed4",
+    "random_commit",
+    "current"
+  ],
+  "max_new": 64,
+  "batch_size": 1,
+  "timing": "Prefill, forward, current-only features, transfers, policy, KV, EOS, discarded-candidate work included. Model loading, noise preparation and offline scoring excluded.",
+  "quality": "Teacher NLL/repetition/length are proxies. Repeated timings are not independent quality samples."
+}

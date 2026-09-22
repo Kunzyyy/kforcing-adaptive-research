@@ -1,0 +1,21 @@
+{
+  "passed": true,
+  "development_states": 446,
+  "source_clusters": 253,
+  "no_test_outcome_inputs": true,
+  "source_derived_data_verified": true,
+  "all_outer_inner_source_separation": true,
+  "all_199_permutation_bijections_and_strata_verified": true,
+  "direct_fit_true_label_configurations": 18,
+  "direct_fit_nested_outer_folds": 15,
+  "independently_refitted_permutation_replicates": [
+    1,
+    2,
+    3
+  ],
+  "all_learning_curve_predictions_verified": true,
+  "all_descriptive_gain_intervals_verified": true,
+  "permutation_p_values_recomputed": true,
+  "analysis_sha256": "b28d46440ab30d85e606b2dbb9c88843849bc162aa8d57a7cb462828615ec6e8",
+  "audit_sha256": "ad116b7192b1044345f0f8163eb7d0f3afe2f0fd546faeefb3c67f556bb52fde"
+}

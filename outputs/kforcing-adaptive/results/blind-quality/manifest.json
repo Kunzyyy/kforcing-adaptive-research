@@ -1,0 +1,37 @@
+{
+  "created_utc": "2026-09-21T04:08:35.694830+00:00",
+  "packet_id": "bq-e8aebf0779f8a643",
+  "input_whitelist": {
+    "results/decision-confirm/test_pairs.jsonl": "56f037a2952458b4b627f6db4f2e418c2f2ce7555a3822494d012241b51ec932",
+    "results/decision-confirm/prefixes.json": "06f238e4d4dca2c766ca48ad261f5e3d7650fb3c815dbde5fb253ed9cdff8797",
+    "BLIND_QUALITY_PLAN.md": "770cb9a1e1fac4b47e5ee9e03e9a091a687d762f1cb88e49f3765fe6d512bec9",
+    "build_blind_quality.py": "991cbd38cabbae504f21950380f2e94aae382c7c1a7b59b1f312f6e3565aeccf",
+    "blind_quality_viewer.html": "1c173fbbcb60114245c80ea7b1bdfa65d3250ce1925744f14c137ba42d6eb47e",
+    "analyze_blind_quality.py": "70cfcfff77871cb37ce0c05bd8104c780c128018bfa049a869b1efc85289d198"
+  },
+  "vocab_sha256": "07eced375cec144d27c900241f3e339478dec958f92fddbc551f295c992038a3",
+  "sampling": {
+    "eligible_sources": 380,
+    "eligible_states": 681,
+    "total_input_pairs": 5448,
+    "sampled_sources": 64
+  },
+  "source_seed": 22212001,
+  "orientation_seed": 22212002,
+  "control_seed": 22212003,
+  "order_seed": 22212004,
+  "main_tasks": 64,
+  "swap_controls": 8,
+  "identical_controls": 8,
+  "public_tasks": 80,
+  "natural_identical_main": 11,
+  "label_or_prediction_files_read": false,
+  "human_ratings_received": 0,
+  "quality_result": "not_evaluated",
+  "public_hashes": {
+    "index.html": "e26366d3bbf7942006aeabfb19c519f2f1f0806f1f6376e18269174a25d8cdc1",
+    "README.md": "8a8a60f82afbaf7453f3f9539716a7d3c3a5d3b1c317785ea1747a7652344b99",
+    "tasks.json": "5952f418b4e01ffc84028e69681184f36af5966e8bcbb41cbd39ba1cc349a09d"
+  },
+  "private_key_sha256": "6f597e23ae9ef6db94d6caf4b921675ae9f6ca333ef1a04d2f4b68f512b55984"
+}

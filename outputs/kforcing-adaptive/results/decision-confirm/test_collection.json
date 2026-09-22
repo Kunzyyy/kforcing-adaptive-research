@@ -1,0 +1,15 @@
+{
+  "passed": true,
+  "finished_utc": "2026-09-21T00:12:26.651541+00:00",
+  "attempted_states": 768,
+  "state_status_counts": {
+    "paired": 681,
+    "unreachable_eos": 64,
+    "head_eos": 23
+  },
+  "pairs": 5448,
+  "pairs_sha256": "56f037a2952458b4b627f6db4f2e418c2f2ce7555a3822494d012241b51ec932",
+  "states_sha256": "db45ef90b519de2cb36ac106a21af365718358d987462b6cf9150884cee9176f",
+  "collector_sha256": "22b6595bd6f88652c174b2cf802c0ec1dfbb0f3f0439bb9e1332b571a532ac54",
+  "locked_model_sha256": "0fb2e2b2c229b736c141c1e94096434c14a0e9a647a27c99170e194958d96756"
+}

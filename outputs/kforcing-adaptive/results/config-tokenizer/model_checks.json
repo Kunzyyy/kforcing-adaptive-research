@@ -1,0 +1,25 @@
+{
+  "fixed_input_cases": 200,
+  "pflm_candidate_positions": 400,
+  "ar_last_positions": 40,
+  "max_abs_logit_difference": 0.0,
+  "argmax_disagreements": 0,
+  "all_bitwise_equal": true,
+  "cache_batches": 10,
+  "max_cache_abs_difference": 0.0,
+  "max_cached_output_abs_difference": 0.0,
+  "generation_pairs": 64,
+  "full_sequence_mismatches": 0,
+  "torch": "2.11.0+cu128",
+  "cuda": "12.8",
+  "gpu": "NVIDIA GeForce RTX 5060 Laptop GPU",
+  "source_or_hardware_recreated": false,
+  "manifest_sha256": "76a40af0c215ae8e6d9c75b29a0be66bcbd9354474ce81d1ffa05ae0e0069295",
+  "record_hashes": {
+    "config_differences.json": "e1d2c8c8251c4561f649dd76968be7f110a177ccb18b143c4ba8b570aa1cc209",
+    "model_records.json": "ff8a977d5746b7f9c11ba6381b53abc69159bf3a65400b66efe1fdd337a1b151",
+    "cache_records.json": "01064bbb29765885e6b645ab071ba6718d9a148097e20ec85ad8615c79d7a4ad",
+    "generation_records.json": "520bede9910f69ea71c7461e4719edde9392e23d4ee6d426dc488f1f2d71c68e"
+  },
+  "passed": true
+}

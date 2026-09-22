@@ -1,0 +1,18 @@
+{
+  "passed": true,
+  "verifier_sha256": "46eb884de6ae555f9670c1ed80f3228f592ed0663658af279dc0d7996cd33a84",
+  "manifest_sha256": "f877c3bbff1d64bbca29d1fd056ffa5e571631c323119aab75ae8128b7c564ce",
+  "analysis_sha256": "d70d43d8617cee689f18cae5ab8c5cbadfc86b1530cafa152ac7011fb84cc24a",
+  "branch_schedules_reconstructed": 10896,
+  "state_aggregates_checked": 681,
+  "frozen_rankings_checked": 3,
+  "old_primary_points_reproduced": 3,
+  "bootstrap_repeats": 4000,
+  "bootstrap_aggregation": "independent multinomial matrix path",
+  "intervals_checked": 116,
+  "normalized_policy_points_checked": 8,
+  "analytic_synthetic_checks": 6,
+  "old_failure_gate_unchanged": true,
+  "wall_clock_measured": false,
+  "human_ratings_received": 0
+}

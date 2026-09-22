@@ -1,0 +1,33 @@
+{
+  "fp32_exact_stage4_replays": 256,
+  "samples": 768,
+  "noise_batches": 64,
+  "diagnostics": {
+    "cache_vs_full": {
+      "cases": 160,
+      "positions": 640,
+      "argmax_disagreements": 0,
+      "max_abs_logit_difference": 9.1552734375e-05
+    },
+    "bf16_vs_fp32": {
+      "cases": 160,
+      "positions": 640,
+      "argmax_disagreements": 14,
+      "max_abs_logit_difference": 2.4428768157958984
+    },
+    "fp16_vs_fp32": {
+      "cases": 160,
+      "positions": 640,
+      "argmax_disagreements": 2,
+      "max_abs_logit_difference": 0.12823486328125
+    },
+    "train_last_vs_inference": {
+      "cases": 16,
+      "positions": 64,
+      "argmax_disagreements": 0,
+      "max_abs_logit_difference": 0.00014495849609375
+    }
+  },
+  "gpu": "NVIDIA GeForce RTX 5060 Laptop GPU",
+  "precision_note": "FP32 weights retained; precision names indicate outer autocast. Explicit fp32 projections and fp64 sinusoidal features remain as released."
+}

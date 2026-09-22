@@ -1,0 +1,16 @@
+{
+  "total_branches": 124,
+  "valid_branches": 109,
+  "articles": 16,
+  "excluded_eos": 15,
+  "first_two_mismatches": 0,
+  "spearman": 0.015305383819813818,
+  "selected_half_gain_lift": 0.04079878580779006,
+  "lift95": [
+    -0.15543708409761942,
+    0.3603333379762439
+  ],
+  "oracle_lift": 1.1252822554240731,
+  "mean_short_gain": 0.9024828300563568,
+  "scope": "Locked score; fresh articles; EOS-filtered local proxy only, not online quality."
+}

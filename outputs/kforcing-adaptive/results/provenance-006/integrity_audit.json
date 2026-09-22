@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "windows": 1024,
+  "positions_per_branch": 4096,
+  "prefix_clusters": 128,
+  "seeds_per_prefix": 8,
+  "selection_budget_each": 512,
+  "no_eos_windows": 959,
+  "current_public_code_matches": true,
+  "current_public_model_revision_and_lfs_match": true,
+  "api_issues_records": 0,
+  "limitation": "Record and aggregate audit. Does not certify paper-checkpoint correspondence, independently rerun models or bootstrap/random selections, or establish distribution/quality gains."
+}

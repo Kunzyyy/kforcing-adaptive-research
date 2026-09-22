@@ -1,0 +1,626 @@
+{
+  "16b984316bdd4585f17b11d0e61a58d236c2febc": {
+    "url": "https://huggingface.co/api/models/zwave/K-Forcing/tree/16b984316bdd4585f17b11d0e61a58d236c2febc?recursive=true",
+    "observed_utc": "2026-09-21T00:55:29.997597+00:00",
+    "status": 200,
+    "headers": {
+      "date": "Mon, 21 Sep 2026 00:55:31 GMT",
+      "etag": "W/\"57e-E8YQLN3ePHPJ4vyi9t+cE7fwq0Y\""
+    },
+    "response_sha256": "bc8c550fba16db7d2d2454e6601ad1c7622dea3cf2b620548dc430f5cb8e6ca7",
+    "data": [
+      {
+        "type": "file",
+        "oid": "a6344aac8c09253b3b630fb776ae94478aa0275b",
+        "size": 1519,
+        "path": ".gitattributes"
+      },
+      {
+        "type": "file",
+        "oid": "8357d8134fad73ccddc25190e1c3c0361a1d6fab",
+        "size": 4427,
+        "path": "README.md"
+      },
+      {
+        "type": "file",
+        "oid": "323b65c4fd4f727a7e1f50f474f1b80a4d85d767",
+        "size": 527687989,
+        "lfs": {
+          "oid": "e2463aa9de897dd2394580eeec7de23f0fe076931050b21612e8b06316ccc439",
+          "size": 527687989,
+          "pointerSize": 134
+        },
+        "xetHash": "ced9cd66a8d4652dbaa36a949eb6a261bc167a67190266eb20bb5ce0470eca2e",
+        "path": "ar_best_lm1b.ckpt"
+      },
+      {
+        "type": "file",
+        "oid": "271215d0fdad0e1d9b3e85a65d8f3a14f3476b20",
+        "size": 649025054,
+        "lfs": {
+          "oid": "1c4511a3410ea116007aca8eb0abfe2582f9f0223790e934f1dd0b8fc39d438d",
+          "size": 649025054,
+          "pointerSize": 134
+        },
+        "xetHash": "ed34f3646b8d1a1031d1c6712524afe3c5f3ffa95fd689c5856a45751dc57018",
+        "path": "ar_openwebtxt.ckpt"
+      },
+      {
+        "type": "file",
+        "oid": "68432715ae005815de4173cbe1e01fd554641be0",
+        "size": 551319437,
+        "lfs": {
+          "oid": "3b013f0cf9a3acab4c20a1bb748beee6525432ef3f56a74df4957b898480a2c2",
+          "size": 551319437,
+          "pointerSize": 134
+        },
+        "xetHash": "e037cc1c8e705536528cea93c195781fa0cf34ba3c464a206ec97325268df66a",
+        "path": "pflm_lm1b_k4.ckpt"
+      },
+      {
+        "type": "file",
+        "oid": "0d9e0b09de268670fc54da5756b528fc5eaacead",
+        "size": 672656284,
+        "lfs": {
+          "oid": "2b24294e1215901e51460b249e5e10b9dba5741dc6f985b5c7f89df050af06df",
+          "size": 672656284,
+          "pointerSize": 134
+        },
+        "xetHash": "e33578e73a04250c3cf45f28f1b4638ed38251e865bce495c6b873c35e571522",
+        "path": "pflm_owt_k4.ckpt"
+      }
+    ]
+  },
+  "25cec6aa22a84aedeba8c1e059a4a01f4439932a": {
+    "url": "https://huggingface.co/api/models/zwave/K-Forcing/tree/25cec6aa22a84aedeba8c1e059a4a01f4439932a?recursive=true",
+    "observed_utc": "2026-09-21T00:55:29.997597+00:00",
+    "status": 200,
+    "headers": {
+      "date": "Mon, 21 Sep 2026 00:55:31 GMT",
+      "etag": "W/\"580-THZUaUrQbvhzfsHrn7TQ7kDKjSw\""
+    },
+    "response_sha256": "38044a5933fd997bae53c1a4282e0a00a0e4b404662100fd472ae0ff2839b213",
+    "data": [
+      {
+        "type": "file",
+        "oid": "a6344aac8c09253b3b630fb776ae94478aa0275b",
+        "size": 1519,
+        "path": ".gitattributes"
+      },
+      {
+        "type": "file",
+        "oid": "8357d8134fad73ccddc25190e1c3c0361a1d6fab",
+        "size": 4427,
+        "path": "README.md"
+      },
+      {
+        "type": "file",
+        "oid": "323b65c4fd4f727a7e1f50f474f1b80a4d85d767",
+        "size": 527687989,
+        "lfs": {
+          "oid": "e2463aa9de897dd2394580eeec7de23f0fe076931050b21612e8b06316ccc439",
+          "size": 527687989,
+          "pointerSize": 134
+        },
+        "xetHash": "ced9cd66a8d4652dbaa36a949eb6a261bc167a67190266eb20bb5ce0470eca2e",
+        "path": "ar_best_lm1b.ckpt"
+      },
+      {
+        "type": "file",
+        "oid": "271215d0fdad0e1d9b3e85a65d8f3a14f3476b20",
+        "size": 649025054,
+        "lfs": {
+          "oid": "1c4511a3410ea116007aca8eb0abfe2582f9f0223790e934f1dd0b8fc39d438d",
+          "size": 649025054,
+          "pointerSize": 134
+        },
+        "xetHash": "ed34f3646b8d1a1031d1c6712524afe3c5f3ffa95fd689c5856a45751dc57018",
+        "path": "ar_openwebtxt.ckpt"
+      },
+      {
+        "type": "file",
+        "oid": "7ef597d13826aef847274f6687c64bbe97287b88",
+        "size": 2206111286,
+        "lfs": {
+          "oid": "91f99042a89226570d3ee02def49c0546175c1e261b3b7922cc4f07dd49f1fdb",
+          "size": 2206111286,
+          "pointerSize": 135
+        },
+        "xetHash": "f96490916964ddcb235ccc41008f7f4c305a2decd71b587355e4ccbcb4d9d0ad",
+        "path": "pflm_lm1b_k4.ckpt"
+      },
+      {
+        "type": "file",
+        "oid": "0d9e0b09de268670fc54da5756b528fc5eaacead",
+        "size": 672656284,
+        "lfs": {
+          "oid": "2b24294e1215901e51460b249e5e10b9dba5741dc6f985b5c7f89df050af06df",
+          "size": 672656284,
+          "pointerSize": 134
+        },
+        "xetHash": "e33578e73a04250c3cf45f28f1b4638ed38251e865bce495c6b873c35e571522",
+        "path": "pflm_owt_k4.ckpt"
+      }
+    ]
+  },
+  "12a04ba923fe88d16b12816d15b28d458ac2118f": {
+    "url": "https://huggingface.co/api/models/zwave/K-Forcing/tree/12a04ba923fe88d16b12816d15b28d458ac2118f?recursive=true",
+    "observed_utc": "2026-09-21T00:55:29.999006+00:00",
+    "status": 200,
+    "headers": {
+      "date": "Mon, 21 Sep 2026 00:55:31 GMT",
+      "etag": "W/\"582-7+TlQtM1QqjsUlPP73D5sFLEH+E\""
+    },
+    "response_sha256": "c7a8d0756b9d1a8e5fbbcfc147ca237b3dc05bfb21331f701d93a7247540942d",
+    "data": [
+      {
+        "type": "file",
+        "oid": "a6344aac8c09253b3b630fb776ae94478aa0275b",
+        "size": 1519,
+        "path": ".gitattributes"
+      },
+      {
+        "type": "file",
+        "oid": "8357d8134fad73ccddc25190e1c3c0361a1d6fab",
+        "size": 4427,
+        "path": "README.md"
+      },
+      {
+        "type": "file",
+        "oid": "323b65c4fd4f727a7e1f50f474f1b80a4d85d767",
+        "size": 527687989,
+        "lfs": {
+          "oid": "e2463aa9de897dd2394580eeec7de23f0fe076931050b21612e8b06316ccc439",
+          "size": 527687989,
+          "pointerSize": 134
+        },
+        "xetHash": "ced9cd66a8d4652dbaa36a949eb6a261bc167a67190266eb20bb5ce0470eca2e",
+        "path": "ar_best_lm1b.ckpt"
+      },
+      {
+        "type": "file",
+        "oid": "271215d0fdad0e1d9b3e85a65d8f3a14f3476b20",
+        "size": 649025054,
+        "lfs": {
+          "oid": "1c4511a3410ea116007aca8eb0abfe2582f9f0223790e934f1dd0b8fc39d438d",
+          "size": 649025054,
+          "pointerSize": 134
+        },
+        "xetHash": "ed34f3646b8d1a1031d1c6712524afe3c5f3ffa95fd689c5856a45751dc57018",
+        "path": "ar_openwebtxt.ckpt"
+      },
+      {
+        "type": "file",
+        "oid": "7ef597d13826aef847274f6687c64bbe97287b88",
+        "size": 2206111286,
+        "lfs": {
+          "oid": "91f99042a89226570d3ee02def49c0546175c1e261b3b7922cc4f07dd49f1fdb",
+          "size": 2206111286,
+          "pointerSize": 135
+        },
+        "xetHash": "f96490916964ddcb235ccc41008f7f4c305a2decd71b587355e4ccbcb4d9d0ad",
+        "path": "pflm_lm1b_k4.ckpt"
+      },
+      {
+        "type": "file",
+        "oid": "9ae88152253dff4dda0293cd3e2c5d684717a2ac",
+        "size": 2692314806,
+        "lfs": {
+          "oid": "892a03f6708678613a4b942b4fb97c452816d77524d1a6bc3951825b6258b996",
+          "size": 2692314806,
+          "pointerSize": 135
+        },
+        "xetHash": "69872edf24ffa0976a74e8debd8985e4cf1ba2554d609da8e7d289c8c02d5eea",
+        "path": "pflm_owt_k4.ckpt"
+      }
+    ]
+  },
+  "f031965a915367935d9b5464e8f0b5f8b8f8c653": {
+    "url": "https://huggingface.co/api/models/zwave/K-Forcing/tree/f031965a915367935d9b5464e8f0b5f8b8f8c653?recursive=true",
+    "observed_utc": "2026-09-21T00:55:29.999006+00:00",
+    "status": 200,
+    "headers": {
+      "date": "Mon, 21 Sep 2026 00:55:31 GMT",
+      "etag": "W/\"584-RBcz7gm54aS9BOVx0MmtnBqnjbQ\""
+    },
+    "response_sha256": "dab9b406cce10ebe299711d462aa5ec3b9d48ea374ae68c00b5f83835718bbf8",
+    "data": [
+      {
+        "type": "file",
+        "oid": "a6344aac8c09253b3b630fb776ae94478aa0275b",
+        "size": 1519,
+        "path": ".gitattributes"
+      },
+      {
+        "type": "file",
+        "oid": "8357d8134fad73ccddc25190e1c3c0361a1d6fab",
+        "size": 4427,
+        "path": "README.md"
+      },
+      {
+        "type": "file",
+        "oid": "7971b62775dc4da5723c71ada14d97df19e80e78",
+        "size": 2111620036,
+        "lfs": {
+          "oid": "c2ec9d523286a7efbf71ff469c0b880b30383561538d5e13889922be1ae27fe9",
+          "size": 2111620036,
+          "pointerSize": 135
+        },
+        "xetHash": "249c588e622a007fbab5b00fbd45d179417788bb96b0a993b5715a41983aebad",
+        "path": "ar_best_lm1b.ckpt"
+      },
+      {
+        "type": "file",
+        "oid": "271215d0fdad0e1d9b3e85a65d8f3a14f3476b20",
+        "size": 649025054,
+        "lfs": {
+          "oid": "1c4511a3410ea116007aca8eb0abfe2582f9f0223790e934f1dd0b8fc39d438d",
+          "size": 649025054,
+          "pointerSize": 134
+        },
+        "xetHash": "ed34f3646b8d1a1031d1c6712524afe3c5f3ffa95fd689c5856a45751dc57018",
+        "path": "ar_openwebtxt.ckpt"
+      },
+      {
+        "type": "file",
+        "oid": "7ef597d13826aef847274f6687c64bbe97287b88",
+        "size": 2206111286,
+        "lfs": {
+          "oid": "91f99042a89226570d3ee02def49c0546175c1e261b3b7922cc4f07dd49f1fdb",
+          "size": 2206111286,
+          "pointerSize": 135
+        },
+        "xetHash": "f96490916964ddcb235ccc41008f7f4c305a2decd71b587355e4ccbcb4d9d0ad",
+        "path": "pflm_lm1b_k4.ckpt"
+      },
+      {
+        "type": "file",
+        "oid": "9ae88152253dff4dda0293cd3e2c5d684717a2ac",
+        "size": 2692314806,
+        "lfs": {
+          "oid": "892a03f6708678613a4b942b4fb97c452816d77524d1a6bc3951825b6258b996",
+          "size": 2692314806,
+          "pointerSize": 135
+        },
+        "xetHash": "69872edf24ffa0976a74e8debd8985e4cf1ba2554d609da8e7d289c8c02d5eea",
+        "path": "pflm_owt_k4.ckpt"
+      }
+    ]
+  },
+  "fd4194ca30f4e7f26dc1b6a32331f02f8998440b": {
+    "url": "https://huggingface.co/api/models/zwave/K-Forcing/tree/fd4194ca30f4e7f26dc1b6a32331f02f8998440b?recursive=true",
+    "observed_utc": "2026-09-21T00:55:30.732427+00:00",
+    "status": 200,
+    "headers": {
+      "date": "Mon, 21 Sep 2026 00:55:32 GMT",
+      "etag": "W/\"586-hKSUccCdQMyBEzUlf42LHGee1Gc\""
+    },
+    "response_sha256": "93f585011deea649b04ef8c8243368aca3b489dbf9c96b03d4d928236ff19991",
+    "data": [
+      {
+        "type": "file",
+        "oid": "a6344aac8c09253b3b630fb776ae94478aa0275b",
+        "size": 1519,
+        "path": ".gitattributes"
+      },
+      {
+        "type": "file",
+        "oid": "8357d8134fad73ccddc25190e1c3c0361a1d6fab",
+        "size": 4427,
+        "path": "README.md"
+      },
+      {
+        "type": "file",
+        "oid": "7971b62775dc4da5723c71ada14d97df19e80e78",
+        "size": 2111620036,
+        "lfs": {
+          "oid": "c2ec9d523286a7efbf71ff469c0b880b30383561538d5e13889922be1ae27fe9",
+          "size": 2111620036,
+          "pointerSize": 135
+        },
+        "xetHash": "249c588e622a007fbab5b00fbd45d179417788bb96b0a993b5715a41983aebad",
+        "path": "ar_best_lm1b.ckpt"
+      },
+      {
+        "type": "file",
+        "oid": "86e338fce04a72c3e33a389fbd8c9e7ade8a3dc6",
+        "size": 2597623108,
+        "lfs": {
+          "oid": "74223bba9896ddc3ad08c52a503de0d40f1fd80b90502fb71e474a07b96ac8d2",
+          "size": 2597623108,
+          "pointerSize": 135
+        },
+        "xetHash": "0ee9b12eda590f224375b983f619519544c2ca19c24a2a5bc9098928cc7e56c1",
+        "path": "ar_openwebtxt.ckpt"
+      },
+      {
+        "type": "file",
+        "oid": "7ef597d13826aef847274f6687c64bbe97287b88",
+        "size": 2206111286,
+        "lfs": {
+          "oid": "91f99042a89226570d3ee02def49c0546175c1e261b3b7922cc4f07dd49f1fdb",
+          "size": 2206111286,
+          "pointerSize": 135
+        },
+        "xetHash": "f96490916964ddcb235ccc41008f7f4c305a2decd71b587355e4ccbcb4d9d0ad",
+        "path": "pflm_lm1b_k4.ckpt"
+      },
+      {
+        "type": "file",
+        "oid": "9ae88152253dff4dda0293cd3e2c5d684717a2ac",
+        "size": 2692314806,
+        "lfs": {
+          "oid": "892a03f6708678613a4b942b4fb97c452816d77524d1a6bc3951825b6258b996",
+          "size": 2692314806,
+          "pointerSize": 135
+        },
+        "xetHash": "69872edf24ffa0976a74e8debd8985e4cf1ba2554d609da8e7d289c8c02d5eea",
+        "path": "pflm_owt_k4.ckpt"
+      }
+    ]
+  },
+  "6b357e2893399a3c0219df6ef62af8fc6af747a4": {
+    "url": "https://huggingface.co/api/models/zwave/K-Forcing/tree/6b357e2893399a3c0219df6ef62af8fc6af747a4?recursive=true",
+    "observed_utc": "2026-09-21T00:55:30.771281+00:00",
+    "status": 200,
+    "headers": {
+      "date": "Mon, 21 Sep 2026 00:55:32 GMT",
+      "etag": "W/\"586-8YOo9Z0DHyx7moAS+vD6rQgTSik\""
+    },
+    "response_sha256": "0b197a8ab116046ac93d93903c03a59305d1960d0c7e1e231cf016820ff49b3d",
+    "data": [
+      {
+        "type": "file",
+        "oid": "a6344aac8c09253b3b630fb776ae94478aa0275b",
+        "size": 1519,
+        "path": ".gitattributes"
+      },
+      {
+        "type": "file",
+        "oid": "35cc260f6c67c24911efc0ffdcab3fe944fab311",
+        "size": 4397,
+        "path": "README.md"
+      },
+      {
+        "type": "file",
+        "oid": "7971b62775dc4da5723c71ada14d97df19e80e78",
+        "size": 2111620036,
+        "lfs": {
+          "oid": "c2ec9d523286a7efbf71ff469c0b880b30383561538d5e13889922be1ae27fe9",
+          "size": 2111620036,
+          "pointerSize": 135
+        },
+        "xetHash": "249c588e622a007fbab5b00fbd45d179417788bb96b0a993b5715a41983aebad",
+        "path": "ar_best_lm1b.ckpt"
+      },
+      {
+        "type": "file",
+        "oid": "86e338fce04a72c3e33a389fbd8c9e7ade8a3dc6",
+        "size": 2597623108,
+        "lfs": {
+          "oid": "74223bba9896ddc3ad08c52a503de0d40f1fd80b90502fb71e474a07b96ac8d2",
+          "size": 2597623108,
+          "pointerSize": 135
+        },
+        "xetHash": "0ee9b12eda590f224375b983f619519544c2ca19c24a2a5bc9098928cc7e56c1",
+        "path": "ar_openwebtxt.ckpt"
+      },
+      {
+        "type": "file",
+        "oid": "7ef597d13826aef847274f6687c64bbe97287b88",
+        "size": 2206111286,
+        "lfs": {
+          "oid": "91f99042a89226570d3ee02def49c0546175c1e261b3b7922cc4f07dd49f1fdb",
+          "size": 2206111286,
+          "pointerSize": 135
+        },
+        "xetHash": "f96490916964ddcb235ccc41008f7f4c305a2decd71b587355e4ccbcb4d9d0ad",
+        "path": "pflm_lm1b_k4.ckpt"
+      },
+      {
+        "type": "file",
+        "oid": "9ae88152253dff4dda0293cd3e2c5d684717a2ac",
+        "size": 2692314806,
+        "lfs": {
+          "oid": "892a03f6708678613a4b942b4fb97c452816d77524d1a6bc3951825b6258b996",
+          "size": 2692314806,
+          "pointerSize": 135
+        },
+        "xetHash": "69872edf24ffa0976a74e8debd8985e4cf1ba2554d609da8e7d289c8c02d5eea",
+        "path": "pflm_owt_k4.ckpt"
+      }
+    ]
+  },
+  "8463bdc8778841763ea46ffeea48c4c3113b4a78": {
+    "url": "https://huggingface.co/api/models/zwave/K-Forcing/tree/8463bdc8778841763ea46ffeea48c4c3113b4a78?recursive=true",
+    "observed_utc": "2026-09-21T00:55:30.783571+00:00",
+    "status": 200,
+    "headers": {
+      "date": "Mon, 21 Sep 2026 00:55:32 GMT",
+      "etag": "W/\"456-yCQzf17L4iGTraYHCuqmhIDjngw\""
+    },
+    "response_sha256": "6f160c3fc6ea957d6368fdf7b76b0f69c72ec17cd2586dcec7125c5ee491423b",
+    "data": [
+      {
+        "type": "file",
+        "oid": "a6344aac8c09253b3b630fb776ae94478aa0275b",
+        "size": 1519,
+        "path": ".gitattributes"
+      },
+      {
+        "type": "file",
+        "oid": "35cc260f6c67c24911efc0ffdcab3fe944fab311",
+        "size": 4397,
+        "path": "README.md"
+      },
+      {
+        "type": "file",
+        "oid": "7971b62775dc4da5723c71ada14d97df19e80e78",
+        "size": 2111620036,
+        "lfs": {
+          "oid": "c2ec9d523286a7efbf71ff469c0b880b30383561538d5e13889922be1ae27fe9",
+          "size": 2111620036,
+          "pointerSize": 135
+        },
+        "xetHash": "249c588e622a007fbab5b00fbd45d179417788bb96b0a993b5715a41983aebad",
+        "path": "ar_best_lm1b.ckpt"
+      },
+      {
+        "type": "file",
+        "oid": "86e338fce04a72c3e33a389fbd8c9e7ade8a3dc6",
+        "size": 2597623108,
+        "lfs": {
+          "oid": "74223bba9896ddc3ad08c52a503de0d40f1fd80b90502fb71e474a07b96ac8d2",
+          "size": 2597623108,
+          "pointerSize": 135
+        },
+        "xetHash": "0ee9b12eda590f224375b983f619519544c2ca19c24a2a5bc9098928cc7e56c1",
+        "path": "ar_openwebtxt.ckpt"
+      },
+      {
+        "type": "file",
+        "oid": "9ae88152253dff4dda0293cd3e2c5d684717a2ac",
+        "size": 2692314806,
+        "lfs": {
+          "oid": "892a03f6708678613a4b942b4fb97c452816d77524d1a6bc3951825b6258b996",
+          "size": 2692314806,
+          "pointerSize": 135
+        },
+        "xetHash": "69872edf24ffa0976a74e8debd8985e4cf1ba2554d609da8e7d289c8c02d5eea",
+        "path": "pflm_owt_k4.ckpt"
+      }
+    ]
+  },
+  "eb0e176e5c78049114f941657ab53b5b9adcafa9": {
+    "url": "https://huggingface.co/api/models/zwave/K-Forcing/tree/eb0e176e5c78049114f941657ab53b5b9adcafa9?recursive=true",
+    "observed_utc": "2026-09-21T00:55:31.020203+00:00",
+    "status": 200,
+    "headers": {
+      "date": "Mon, 21 Sep 2026 00:55:32 GMT",
+      "etag": "W/\"327-F8s2kFw9lysQ/X7ZTZo8rCgztR8\""
+    },
+    "response_sha256": "7c36958a626659c13c6d0c5f221958acf3644989051e566b150e450303a8a103",
+    "data": [
+      {
+        "type": "file",
+        "oid": "a6344aac8c09253b3b630fb776ae94478aa0275b",
+        "size": 1519,
+        "path": ".gitattributes"
+      },
+      {
+        "type": "file",
+        "oid": "35cc260f6c67c24911efc0ffdcab3fe944fab311",
+        "size": 4397,
+        "path": "README.md"
+      },
+      {
+        "type": "file",
+        "oid": "7971b62775dc4da5723c71ada14d97df19e80e78",
+        "size": 2111620036,
+        "lfs": {
+          "oid": "c2ec9d523286a7efbf71ff469c0b880b30383561538d5e13889922be1ae27fe9",
+          "size": 2111620036,
+          "pointerSize": 135
+        },
+        "xetHash": "249c588e622a007fbab5b00fbd45d179417788bb96b0a993b5715a41983aebad",
+        "path": "ar_best_lm1b.ckpt"
+      },
+      {
+        "type": "file",
+        "oid": "86e338fce04a72c3e33a389fbd8c9e7ade8a3dc6",
+        "size": 2597623108,
+        "lfs": {
+          "oid": "74223bba9896ddc3ad08c52a503de0d40f1fd80b90502fb71e474a07b96ac8d2",
+          "size": 2597623108,
+          "pointerSize": 135
+        },
+        "xetHash": "0ee9b12eda590f224375b983f619519544c2ca19c24a2a5bc9098928cc7e56c1",
+        "path": "ar_openwebtxt.ckpt"
+      }
+    ]
+  },
+  "de8e02628a96dd60f738c1f9febfd924f41b4fe1": {
+    "url": "https://huggingface.co/api/models/zwave/K-Forcing/tree/de8e02628a96dd60f738c1f9febfd924f41b4fe1?recursive=true",
+    "observed_utc": "2026-09-21T00:55:31.415123+00:00",
+    "status": 200,
+    "headers": {
+      "date": "Mon, 21 Sep 2026 00:55:32 GMT",
+      "etag": "W/\"1f7-8OEMIyPYXkJdq/LCZEqkFXz+NBA\""
+    },
+    "response_sha256": "d38146939f0e9c954625bb5401c1f3be344db21d12d769479a741aa9658a8842",
+    "data": [
+      {
+        "type": "file",
+        "oid": "a6344aac8c09253b3b630fb776ae94478aa0275b",
+        "size": 1519,
+        "path": ".gitattributes"
+      },
+      {
+        "type": "file",
+        "oid": "35cc260f6c67c24911efc0ffdcab3fe944fab311",
+        "size": 4397,
+        "path": "README.md"
+      },
+      {
+        "type": "file",
+        "oid": "86e338fce04a72c3e33a389fbd8c9e7ade8a3dc6",
+        "size": 2597623108,
+        "lfs": {
+          "oid": "74223bba9896ddc3ad08c52a503de0d40f1fd80b90502fb71e474a07b96ac8d2",
+          "size": 2597623108,
+          "pointerSize": 135
+        },
+        "xetHash": "0ee9b12eda590f224375b983f619519544c2ca19c24a2a5bc9098928cc7e56c1",
+        "path": "ar_openwebtxt.ckpt"
+      }
+    ]
+  },
+  "4fa0566b1da79d4daee06fd5efa2651887025a96": {
+    "url": "https://huggingface.co/api/models/zwave/K-Forcing/tree/4fa0566b1da79d4daee06fd5efa2651887025a96?recursive=true",
+    "observed_utc": "2026-09-21T00:55:31.463352+00:00",
+    "status": 200,
+    "headers": {
+      "date": "Mon, 21 Sep 2026 00:55:33 GMT",
+      "etag": "W/\"c6-0rZna7G4YuyNLNd/64tN32Fs/bo\""
+    },
+    "response_sha256": "46b826b61995df601d863aec2716171cab4f803f818639acd6908eb6c5686633",
+    "data": [
+      {
+        "type": "file",
+        "oid": "a6344aac8c09253b3b630fb776ae94478aa0275b",
+        "size": 1519,
+        "path": ".gitattributes"
+      },
+      {
+        "type": "file",
+        "oid": "35cc260f6c67c24911efc0ffdcab3fe944fab311",
+        "size": 4397,
+        "path": "README.md"
+      }
+    ]
+  },
+  "58dd072406e1767b7684cfe68354c47e92383e60": {
+    "url": "https://huggingface.co/api/models/zwave/K-Forcing/tree/58dd072406e1767b7684cfe68354c47e92383e60?recursive=true",
+    "observed_utc": "2026-09-21T00:55:31.479327+00:00",
+    "status": 200,
+    "headers": {
+      "date": "Mon, 21 Sep 2026 00:55:32 GMT",
+      "etag": "W/\"c4-5zO+nIgzybPvIlOLqZuJ5v5O5DQ\""
+    },
+    "response_sha256": "aa8a52197504f2c101cdb32b737744f790de6eac8d047148ab447082f89fb3a4",
+    "data": [
+      {
+        "type": "file",
+        "oid": "a6344aac8c09253b3b630fb776ae94478aa0275b",
+        "size": 1519,
+        "path": ".gitattributes"
+      },
+      {
+        "type": "file",
+        "oid": "154df8298fab5ecf322016157858e08cd1bccbe1",
+        "size": 28,
+        "path": "README.md"
+      }
+    ]
+  }
+}

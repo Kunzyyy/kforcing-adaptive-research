@@ -1,0 +1,52 @@
+{
+  "completed": true,
+  "completed_utc": "2026-09-21T12:16:15.880746+00:00",
+  "states": 446,
+  "sources": 253,
+  "separately_frozen_experiments": 2,
+  "teacher_branches_scored": 892,
+  "diagnostic_local_teacher_vs_prior19": {
+    "estimate": 0.05147017454121553,
+    "interval": [
+      0.014608960810846715,
+      0.08624379467169017
+    ],
+    "coverage": 0.95,
+    "defined_bootstraps": 4000
+  },
+  "diagnostic_followup_signal": true,
+  "diagnostic_deployable": false,
+  "local_target_primary": {
+    "vs_full_target19": {
+      "estimate": -0.0560162249389693,
+      "interval": [
+        -0.10394591169772285,
+        -0.009396156040901176
+      ],
+      "coverage": 0.975
+    },
+    "vs_heuristic": {
+      "estimate": -0.00876757733560417,
+      "interval": [
+        -0.05906964246291233,
+        0.04076064556507954
+      ],
+      "coverage": 0.975
+    }
+  },
+  "local_target_development_screen_passed": false,
+  "model_fits": 30,
+  "oof_predictions_verified": 2676,
+  "intervals_verified": 15,
+  "decision": "Stop the fixed local-target19 ridge transfer; no new capacity, data or hyperparameter search in this round.",
+  "retrospective_development": true,
+  "independent_confirmation": false,
+  "old_test_inputs": false,
+  "new_future_generation": false,
+  "new_online_timing": false,
+  "new_adaptive_advantage_established": false,
+  "human_ratings_received": 0,
+  "human_quality_result": "not_evaluated",
+  "baseline_quality_gap_resolved": false,
+  "externally_sent": false
+}

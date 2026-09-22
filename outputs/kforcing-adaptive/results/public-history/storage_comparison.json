@@ -1,0 +1,2850 @@
+{
+  "pflm": {
+    "current_checkpoint_sha256": "3b013f0cf9a3acab4c20a1bb748beee6525432ef3f56a74df4957b898480a2c2",
+    "current_pickle_sha256": "aa8c0af57e2a5e19a7b8f685e84f3fc912595766b8c8255629208a4e40ca46fc",
+    "state_tensors": 109,
+    "historical_state_crc_matches": 109,
+    "ema_parameters": 108,
+    "positional_ema_crc_matches": 0,
+    "comparisons": [
+      {
+        "name": "backbone.vocab_embed.embedding",
+        "shape": [
+          30522,
+          768
+        ],
+        "bytes": 93763584,
+        "current_crc32": 3615869171,
+        "historical_state_crc32": 3615869171,
+        "current_vs_historical_state_crc_equal": true,
+        "ema_positional_index": 0,
+        "historical_ema_crc32": 1018496649,
+        "current_vs_positional_ema_crc_equal": false
+      },
+      {
+        "name": "backbone.rotary_emb.inv_freq",
+        "shape": [
+          32
+        ],
+        "bytes": 128,
+        "current_crc32": 653846907,
+        "historical_state_crc32": 653846907,
+        "current_vs_historical_state_crc_equal": true
+      },
+      {
+        "name": "backbone.blocks.0.norm1.weight",
+        "shape": [
+          768
+        ],
+        "bytes": 3072,
+        "current_crc32": 1929658139,
+        "historical_state_crc32": 1929658139,
+        "current_vs_historical_state_crc_equal": true,
+        "ema_positional_index": 1,
+        "historical_ema_crc32": 2332811959,
+        "current_vs_positional_ema_crc_equal": false
+      },
+      {
+        "name": "backbone.blocks.0.attn_qkv.weight",
+        "shape": [
+          2304,
+          768
+        ],
+        "bytes": 7077888,
+        "current_crc32": 2850676826,
+        "historical_state_crc32": 2850676826,
+        "current_vs_historical_state_crc_equal": true,
+        "ema_positional_index": 2,
+        "historical_ema_crc32": 2614688682,
+        "current_vs_positional_ema_crc_equal": false
+      },
+      {
+        "name": "backbone.blocks.0.attn_out.weight",
+        "shape": [
+          768,
+          768
+        ],
+        "bytes": 2359296,
+        "current_crc32": 3813109736,
+        "historical_state_crc32": 3813109736,
+        "current_vs_historical_state_crc_equal": true,
+        "ema_positional_index": 3,
+        "historical_ema_crc32": 3498994105,
+        "current_vs_positional_ema_crc_equal": false
+      },
+      {
+        "name": "backbone.blocks.0.norm2.weight",
+        "shape": [
+          768
+        ],
+        "bytes": 3072,
+        "current_crc32": 2335075159,
+        "historical_state_crc32": 2335075159,
+        "current_vs_historical_state_crc_equal": true,
+        "ema_positional_index": 4,
+        "historical_ema_crc32": 958564951,
+        "current_vs_positional_ema_crc_equal": false
+      },
+      {
+        "name": "backbone.blocks.0.mlp.0.weight",
+        "shape": [
+          3072,
+          768
+        ],
+        "bytes": 9437184,
+        "current_crc32": 1411271382,
+        "historical_state_crc32": 1411271382,
+        "current_vs_historical_state_crc_equal": true,
+        "ema_positional_index": 5,
+        "historical_ema_crc32": 3503620995,
+        "current_vs_positional_ema_crc_equal": false
+      },
+      {
+        "name": "backbone.blocks.0.mlp.0.bias",
+        "shape": [
+          3072
+        ],
+        "bytes": 12288,
+        "current_crc32": 2494229054,
+        "historical_state_crc32": 2494229054,
+        "current_vs_historical_state_crc_equal": true,
+        "ema_positional_index": 6,
+        "historical_ema_crc32": 3242754379,
+        "current_vs_positional_ema_crc_equal": false
+      },
+      {
+        "name": "backbone.blocks.0.mlp.2.weight",
+        "shape": [
+          768,
+          3072
+        ],
+        "bytes": 9437184,
+        "current_crc32": 3079468263,
+        "historical_state_crc32": 3079468263,
+        "current_vs_historical_state_crc_equal": true,
+        "ema_positional_index": 7,
+        "historical_ema_crc32": 292202000,
+        "current_vs_positional_ema_crc_equal": false
+      },
+      {
+        "name": "backbone.blocks.0.mlp.2.bias",
+        "shape": [
+          768
+        ],
+        "bytes": 3072,
+        "current_crc32": 496935313,
+        "historical_state_crc32": 496935313,
+        "current_vs_historical_state_crc_equal": true,
+        "ema_positional_index": 8,
+        "historical_ema_crc32": 3245374026,
+        "current_vs_positional_ema_crc_equal": false
+      },
+      {
+        "name": "backbone.blocks.1.norm1.weight",
+        "shape": [
+          768
+        ],
+        "bytes": 3072,
+        "current_crc32": 2741480222,
+        "historical_state_crc32": 2741480222,
+        "current_vs_historical_state_crc_equal": true,
+        "ema_positional_index": 9,
+        "historical_ema_crc32": 1798987099,
+        "current_vs_positional_ema_crc_equal": false
+      },
+      {
+        "name": "backbone.blocks.1.attn_qkv.weight",
+        "shape": [
+          2304,
+          768
+        ],
+        "bytes": 7077888,
+        "current_crc32": 173176353,
+        "historical_state_crc32": 173176353,
+        "current_vs_historical_state_crc_equal": true,
+        "ema_positional_index": 10,
+        "historical_ema_crc32": 1714562118,
+        "current_vs_positional_ema_crc_equal": false
+      },
+      {
+        "name": "backbone.blocks.1.attn_out.weight",
+        "shape": [
+          768,
+          768
+        ],
+        "bytes": 2359296,
+        "current_crc32": 413862407,
+        "historical_state_crc32": 413862407,
+        "current_vs_historical_state_crc_equal": true,
+        "ema_positional_index": 11,
+        "historical_ema_crc32": 4257257697,
+        "current_vs_positional_ema_crc_equal": false
+      },
+      {
+        "name": "backbone.blocks.1.norm2.weight",
+        "shape": [
+          768
+        ],
+        "bytes": 3072,
+        "current_crc32": 4045583525,
+        "historical_state_crc32": 4045583525,
+        "current_vs_historical_state_crc_equal": true,
+        "ema_positional_index": 12,
+        "historical_ema_crc32": 3208012788,
+        "current_vs_positional_ema_crc_equal": false
+      },
+      {
+        "name": "backbone.blocks.1.mlp.0.weight",
+        "shape": [
+          3072,
+          768
+        ],
+        "bytes": 9437184,
+        "current_crc32": 2577972055,
+        "historical_state_crc32": 2577972055,
+        "current_vs_historical_state_crc_equal": true,
+        "ema_positional_index": 13,
+        "historical_ema_crc32": 650707894,
+        "current_vs_positional_ema_crc_equal": false
+      },
+      {
+        "name": "backbone.blocks.1.mlp.0.bias",
+        "shape": [
+          3072
+        ],
+        "bytes": 12288,
+        "current_crc32": 1176652270,
+        "historical_state_crc32": 1176652270,
+        "current_vs_historical_state_crc_equal": true,
+        "ema_positional_index": 14,
+        "historical_ema_crc32": 640982667,
+        "current_vs_positional_ema_crc_equal": false
+      },
+      {
+        "name": "backbone.blocks.1.mlp.2.weight",
+        "shape": [
+          768,
+          3072
+        ],
+        "bytes": 9437184,
+        "current_crc32": 4083631798,
+        "historical_state_crc32": 4083631798,
+        "current_vs_historical_state_crc_equal": true,
+        "ema_positional_index": 15,
+        "historical_ema_crc32": 1765702098,
+        "current_vs_positional_ema_crc_equal": false
+      },
+      {
+        "name": "backbone.blocks.1.mlp.2.bias",
+        "shape": [
+          768
+        ],
+        "bytes": 3072,
+        "current_crc32": 1914960791,
+        "historical_state_crc32": 1914960791,
+        "current_vs_historical_state_crc_equal": true,
+        "ema_positional_index": 16,
+        "historical_ema_crc32": 2423659676,
+        "current_vs_positional_ema_crc_equal": false
+      },
+      {
+        "name": "backbone.blocks.2.norm1.weight",
+        "shape": [
+          768
+        ],
+        "bytes": 3072,
+        "current_crc32": 2567383298,
+        "historical_state_crc32": 2567383298,
+        "current_vs_historical_state_crc_equal": true,
+        "ema_positional_index": 17,
+        "historical_ema_crc32": 611154451,
+        "current_vs_positional_ema_crc_equal": false
+      },
+      {
+        "name": "backbone.blocks.2.attn_qkv.weight",
+        "shape": [
+          2304,
+          768
+        ],
+        "bytes": 7077888,
+        "current_crc32": 3700896195,
+        "historical_state_crc32": 3700896195,
+        "current_vs_historical_state_crc_equal": true,
+        "ema_positional_index": 18,
+        "historical_ema_crc32": 1337055120,
+        "current_vs_positional_ema_crc_equal": false
+      },
+      {
+        "name": "backbone.blocks.2.attn_out.weight",
+        "shape": [
+          768,
+          768
+        ],
+        "bytes": 2359296,
+        "current_crc32": 819399547,
+        "historical_state_crc32": 819399547,
+        "current_vs_historical_state_crc_equal": true,
+        "ema_positional_index": 19,
+        "historical_ema_crc32": 4195733297,
+        "current_vs_positional_ema_crc_equal": false
+      },
+      {
+        "name": "backbone.blocks.2.norm2.weight",
+        "shape": [
+          768
+        ],
+        "bytes": 3072,
+        "current_crc32": 4041164687,
+        "historical_state_crc32": 4041164687,
+        "current_vs_historical_state_crc_equal": true,
+        "ema_positional_index": 20,
+        "historical_ema_crc32": 1213567264,
+        "current_vs_positional_ema_crc_equal": false
+      },
+      {
+        "name": "backbone.blocks.2.mlp.0.weight",
+        "shape": [
+          3072,
+          768
+        ],
+        "bytes": 9437184,
+        "current_crc32": 2979348698,
+        "historical_state_crc32": 2979348698,
+        "current_vs_historical_state_crc_equal": true,
+        "ema_positional_index": 21,
+        "historical_ema_crc32": 2409620326,
+        "current_vs_positional_ema_crc_equal": false
+      },
+      {
+        "name": "backbone.blocks.2.mlp.0.bias",
+        "shape": [
+          3072
+        ],
+        "bytes": 12288,
+        "current_crc32": 1567168568,
+        "historical_state_crc32": 1567168568,
+        "current_vs_historical_state_crc_equal": true,
+        "ema_positional_index": 22,
+        "historical_ema_crc32": 1676219936,
+        "current_vs_positional_ema_crc_equal": false
+      },
+      {
+        "name": "backbone.blocks.2.mlp.2.weight",
+        "shape": [
+          768,
+          3072
+        ],
+        "bytes": 9437184,
+        "current_crc32": 3505043922,
+        "historical_state_crc32": 3505043922,
+        "current_vs_historical_state_crc_equal": true,
+        "ema_positional_index": 23,
+        "historical_ema_crc32": 2090469193,
+        "current_vs_positional_ema_crc_equal": false
+      },
+      {
+        "name": "backbone.blocks.2.mlp.2.bias",
+        "shape": [
+          768
+        ],
+        "bytes": 3072,
+        "current_crc32": 2334354614,
+        "historical_state_crc32": 2334354614,
+        "current_vs_historical_state_crc_equal": true,
+        "ema_positional_index": 24,
+        "historical_ema_crc32": 1303882013,
+        "current_vs_positional_ema_crc_equal": false
+      },
+      {
+        "name": "backbone.blocks.3.norm1.weight",
+        "shape": [
+          768
+        ],
+        "bytes": 3072,
+        "current_crc32": 2554912400,
+        "historical_state_crc32": 2554912400,
+        "current_vs_historical_state_crc_equal": true,
+        "ema_positional_index": 25,
+        "historical_ema_crc32": 1604004967,
+        "current_vs_positional_ema_crc_equal": false
+      },
+      {
+        "name": "backbone.blocks.3.attn_qkv.weight",
+        "shape": [
+          2304,
+          768
+        ],
+        "bytes": 7077888,
+        "current_crc32": 2133598803,
+        "historical_state_crc32": 2133598803,
+        "current_vs_historical_state_crc_equal": true,
+        "ema_positional_index": 26,
+        "historical_ema_crc32": 697543063,
+        "current_vs_positional_ema_crc_equal": false
+      },
+      {
+        "name": "backbone.blocks.3.attn_out.weight",
+        "shape": [
+          768,
+          768
+        ],
+        "bytes": 2359296,
+        "current_crc32": 3139665965,
+        "historical_state_crc32": 3139665965,
+        "current_vs_historical_state_crc_equal": true,
+        "ema_positional_index": 27,
+        "historical_ema_crc32": 1603558836,
+        "current_vs_positional_ema_crc_equal": false
+      },
+      {
+        "name": "backbone.blocks.3.norm2.weight",
+        "shape": [
+          768
+        ],
+        "bytes": 3072,
+        "current_crc32": 909362003,
+        "historical_state_crc32": 909362003,
+        "current_vs_historical_state_crc_equal": true,
+        "ema_positional_index": 28,
+        "historical_ema_crc32": 927339011,
+        "current_vs_positional_ema_crc_equal": false
+      },
+      {
+        "name": "backbone.blocks.3.mlp.0.weight",
+        "shape": [
+          3072,
+          768
+        ],
+        "bytes": 9437184,
+        "current_crc32": 2153261989,
+        "historical_state_crc32": 2153261989,
+        "current_vs_historical_state_crc_equal": true,
+        "ema_positional_index": 29,
+        "historical_ema_crc32": 718923139,
+        "current_vs_positional_ema_crc_equal": false
+      },
+      {
+        "name": "backbone.blocks.3.mlp.0.bias",
+        "shape": [
+          3072
+        ],
+        "bytes": 12288,
+        "current_crc32": 2990977799,
+        "historical_state_crc32": 2990977799,
+        "current_vs_historical_state_crc_equal": true,
+        "ema_positional_index": 30,
+        "historical_ema_crc32": 3073679148,
+        "current_vs_positional_ema_crc_equal": false
+      },
+      {
+        "name": "backbone.blocks.3.mlp.2.weight",
+        "shape": [
+          768,
+          3072
+        ],
+        "bytes": 9437184,
+        "current_crc32": 3755542181,
+        "historical_state_crc32": 3755542181,
+        "current_vs_historical_state_crc_equal": true,
+        "ema_positional_index": 31,
+        "historical_ema_crc32": 3451598250,
+        "current_vs_positional_ema_crc_equal": false
+      },
+      {
+        "name": "backbone.blocks.3.mlp.2.bias",
+        "shape": [
+          768
+        ],
+        "bytes": 3072,
+        "current_crc32": 1655540606,
+        "historical_state_crc32": 1655540606,
+        "current_vs_historical_state_crc_equal": true,
+        "ema_positional_index": 32,
+        "historical_ema_crc32": 3243334164,
+        "current_vs_positional_ema_crc_equal": false
+      },
+      {
+        "name": "backbone.blocks.4.norm1.weight",
+        "shape": [
+          768
+        ],
+        "bytes": 3072,
+        "current_crc32": 321103776,
+        "historical_state_crc32": 321103776,
+        "current_vs_historical_state_crc_equal": true,
+        "ema_positional_index": 33,
+        "historical_ema_crc32": 1626154076,
+        "current_vs_positional_ema_crc_equal": false
+      },
+      {
+        "name": "backbone.blocks.4.attn_qkv.weight",
+        "shape": [
+          2304,
+          768
+        ],
+        "bytes": 7077888,
+        "current_crc32": 3725160210,
+        "historical_state_crc32": 3725160210,
+        "current_vs_historical_state_crc_equal": true,
+        "ema_positional_index": 34,
+        "historical_ema_crc32": 3179884006,
+        "current_vs_positional_ema_crc_equal": false
+      },
+      {
+        "name": "backbone.blocks.4.attn_out.weight",
+        "shape": [
+          768,
+          768
+        ],
+        "bytes": 2359296,
+        "current_crc32": 1449655073,
+        "historical_state_crc32": 1449655073,
+        "current_vs_historical_state_crc_equal": true,
+        "ema_positional_index": 35,
+        "historical_ema_crc32": 761381498,
+        "current_vs_positional_ema_crc_equal": false
+      },
+      {
+        "name": "backbone.blocks.4.norm2.weight",
+        "shape": [
+          768
+        ],
+        "bytes": 3072,
+        "current_crc32": 707988754,
+        "historical_state_crc32": 707988754,
+        "current_vs_historical_state_crc_equal": true,
+        "ema_positional_index": 36,
+        "historical_ema_crc32": 365282505,
+        "current_vs_positional_ema_crc_equal": false
+      },
+      {
+        "name": "backbone.blocks.4.mlp.0.weight",
+        "shape": [
+          3072,
+          768
+        ],
+        "bytes": 9437184,
+        "current_crc32": 1804299572,
+        "historical_state_crc32": 1804299572,
+        "current_vs_historical_state_crc_equal": true,
+        "ema_positional_index": 37,
+        "historical_ema_crc32": 2365089592,
+        "current_vs_positional_ema_crc_equal": false
+      },
+      {
+        "name": "backbone.blocks.4.mlp.0.bias",
+        "shape": [
+          3072
+        ],
+        "bytes": 12288,
+        "current_crc32": 4258714466,
+        "historical_state_crc32": 4258714466,
+        "current_vs_historical_state_crc_equal": true,
+        "ema_positional_index": 38,
+        "historical_ema_crc32": 597216651,
+        "current_vs_positional_ema_crc_equal": false
+      },
+      {
+        "name": "backbone.blocks.4.mlp.2.weight",
+        "shape": [
+          768,
+          3072
+        ],
+        "bytes": 9437184,
+        "current_crc32": 2043243860,
+        "historical_state_crc32": 2043243860,
+        "current_vs_historical_state_crc_equal": true,
+        "ema_positional_index": 39,
+        "historical_ema_crc32": 1373213806,
+        "current_vs_positional_ema_crc_equal": false
+      },
+      {
+        "name": "backbone.blocks.4.mlp.2.bias",
+        "shape": [
+          768
+        ],
+        "bytes": 3072,
+        "current_crc32": 2632398015,
+        "historical_state_crc32": 2632398015,
+        "current_vs_historical_state_crc_equal": true,
+        "ema_positional_index": 40,
+        "historical_ema_crc32": 4278794726,
+        "current_vs_positional_ema_crc_equal": false
+      },
+      {
+        "name": "backbone.blocks.5.norm1.weight",
+        "shape": [
+          768
+        ],
+        "bytes": 3072,
+        "current_crc32": 2958662412,
+        "historical_state_crc32": 2958662412,
+        "current_vs_historical_state_crc_equal": true,
+        "ema_positional_index": 41,
+        "historical_ema_crc32": 2925829712,
+        "current_vs_positional_ema_crc_equal": false
+      },
+      {
+        "name": "backbone.blocks.5.attn_qkv.weight",
+        "shape": [
+          2304,
+          768
+        ],
+        "bytes": 7077888,
+        "current_crc32": 1223491249,
+        "historical_state_crc32": 1223491249,
+        "current_vs_historical_state_crc_equal": true,
+        "ema_positional_index": 42,
+        "historical_ema_crc32": 3346816046,
+        "current_vs_positional_ema_crc_equal": false
+      },
+      {
+        "name": "backbone.blocks.5.attn_out.weight",
+        "shape": [
+          768,
+          768
+        ],
+        "bytes": 2359296,
+        "current_crc32": 1953154012,
+        "historical_state_crc32": 1953154012,
+        "current_vs_historical_state_crc_equal": true,
+        "ema_positional_index": 43,
+        "historical_ema_crc32": 2795291492,
+        "current_vs_positional_ema_crc_equal": false
+      },
+      {
+        "name": "backbone.blocks.5.norm2.weight",
+        "shape": [
+          768
+        ],
+        "bytes": 3072,
+        "current_crc32": 2898146411,
+        "historical_state_crc32": 2898146411,
+        "current_vs_historical_state_crc_equal": true,
+        "ema_positional_index": 44,
+        "historical_ema_crc32": 1904923364,
+        "current_vs_positional_ema_crc_equal": false
+      },
+      {
+        "name": "backbone.blocks.5.mlp.0.weight",
+        "shape": [
+          3072,
+          768
+        ],
+        "bytes": 9437184,
+        "current_crc32": 2874637340,
+        "historical_state_crc32": 2874637340,
+        "current_vs_historical_state_crc_equal": true,
+        "ema_positional_index": 45,
+        "historical_ema_crc32": 3507658053,
+        "current_vs_positional_ema_crc_equal": false
+      },
+      {
+        "name": "backbone.blocks.5.mlp.0.bias",
+        "shape": [
+          3072
+        ],
+        "bytes": 12288,
+        "current_crc32": 1189892703,
+        "historical_state_crc32": 1189892703,
+        "current_vs_historical_state_crc_equal": true,
+        "ema_positional_index": 46,
+        "historical_ema_crc32": 3161323270,
+        "current_vs_positional_ema_crc_equal": false
+      },
+      {
+        "name": "backbone.blocks.5.mlp.2.weight",
+        "shape": [
+          768,
+          3072
+        ],
+        "bytes": 9437184,
+        "current_crc32": 2696600381,
+        "historical_state_crc32": 2696600381,
+        "current_vs_historical_state_crc_equal": true,
+        "ema_positional_index": 47,
+        "historical_ema_crc32": 3734676120,
+        "current_vs_positional_ema_crc_equal": false
+      },
+      {
+        "name": "backbone.blocks.5.mlp.2.bias",
+        "shape": [
+          768
+        ],
+        "bytes": 3072,
+        "current_crc32": 1404738180,
+        "historical_state_crc32": 1404738180,
+        "current_vs_historical_state_crc_equal": true,
+        "ema_positional_index": 48,
+        "historical_ema_crc32": 3269740105,
+        "current_vs_positional_ema_crc_equal": false
+      },
+      {
+        "name": "backbone.blocks.6.norm1.weight",
+        "shape": [
+          768
+        ],
+        "bytes": 3072,
+        "current_crc32": 3858527176,
+        "historical_state_crc32": 3858527176,
+        "current_vs_historical_state_crc_equal": true,
+        "ema_positional_index": 49,
+        "historical_ema_crc32": 218767585,
+        "current_vs_positional_ema_crc_equal": false
+      },
+      {
+        "name": "backbone.blocks.6.attn_qkv.weight",
+        "shape": [
+          2304,
+          768
+        ],
+        "bytes": 7077888,
+        "current_crc32": 2045813214,
+        "historical_state_crc32": 2045813214,
+        "current_vs_historical_state_crc_equal": true,
+        "ema_positional_index": 50,
+        "historical_ema_crc32": 453774600,
+        "current_vs_positional_ema_crc_equal": false
+      },
+      {
+        "name": "backbone.blocks.6.attn_out.weight",
+        "shape": [
+          768,
+          768
+        ],
+        "bytes": 2359296,
+        "current_crc32": 3681506555,
+        "historical_state_crc32": 3681506555,
+        "current_vs_historical_state_crc_equal": true,
+        "ema_positional_index": 51,
+        "historical_ema_crc32": 2761703742,
+        "current_vs_positional_ema_crc_equal": false
+      },
+      {
+        "name": "backbone.blocks.6.norm2.weight",
+        "shape": [
+          768
+        ],
+        "bytes": 3072,
+        "current_crc32": 24682771,
+        "historical_state_crc32": 24682771,
+        "current_vs_historical_state_crc_equal": true,
+        "ema_positional_index": 52,
+        "historical_ema_crc32": 1346265061,
+        "current_vs_positional_ema_crc_equal": false
+      },
+      {
+        "name": "backbone.blocks.6.mlp.0.weight",
+        "shape": [
+          3072,
+          768
+        ],
+        "bytes": 9437184,
+        "current_crc32": 2287152423,
+        "historical_state_crc32": 2287152423,
+        "current_vs_historical_state_crc_equal": true,
+        "ema_positional_index": 53,
+        "historical_ema_crc32": 3442203344,
+        "current_vs_positional_ema_crc_equal": false
+      },
+      {
+        "name": "backbone.blocks.6.mlp.0.bias",
+        "shape": [
+          3072
+        ],
+        "bytes": 12288,
+        "current_crc32": 2071057275,
+        "historical_state_crc32": 2071057275,
+        "current_vs_historical_state_crc_equal": true,
+        "ema_positional_index": 54,
+        "historical_ema_crc32": 2814772474,
+        "current_vs_positional_ema_crc_equal": false
+      },
+      {
+        "name": "backbone.blocks.6.mlp.2.weight",
+        "shape": [
+          768,
+          3072
+        ],
+        "bytes": 9437184,
+        "current_crc32": 932504196,
+        "historical_state_crc32": 932504196,
+        "current_vs_historical_state_crc_equal": true,
+        "ema_positional_index": 55,
+        "historical_ema_crc32": 1356081634,
+        "current_vs_positional_ema_crc_equal": false
+      },
+      {
+        "name": "backbone.blocks.6.mlp.2.bias",
+        "shape": [
+          768
+        ],
+        "bytes": 3072,
+        "current_crc32": 1927653576,
+        "historical_state_crc32": 1927653576,
+        "current_vs_historical_state_crc_equal": true,
+        "ema_positional_index": 56,
+        "historical_ema_crc32": 4232299215,
+        "current_vs_positional_ema_crc_equal": false
+      },
+      {
+        "name": "backbone.blocks.7.norm1.weight",
+        "shape": [
+          768
+        ],
+        "bytes": 3072,
+        "current_crc32": 3310631651,
+        "historical_state_crc32": 3310631651,
+        "current_vs_historical_state_crc_equal": true,
+        "ema_positional_index": 57,
+        "historical_ema_crc32": 1332060014,
+        "current_vs_positional_ema_crc_equal": false
+      },
+      {
+        "name": "backbone.blocks.7.attn_qkv.weight",
+        "shape": [
+          2304,
+          768
+        ],
+        "bytes": 7077888,
+        "current_crc32": 3295482745,
+        "historical_state_crc32": 3295482745,
+        "current_vs_historical_state_crc_equal": true,
+        "ema_positional_index": 58,
+        "historical_ema_crc32": 3118341773,
+        "current_vs_positional_ema_crc_equal": false
+      },
+      {
+        "name": "backbone.blocks.7.attn_out.weight",
+        "shape": [
+          768,
+          768
+        ],
+        "bytes": 2359296,
+        "current_crc32": 2194141456,
+        "historical_state_crc32": 2194141456,
+        "current_vs_historical_state_crc_equal": true,
+        "ema_positional_index": 59,
+        "historical_ema_crc32": 3965683375,
+        "current_vs_positional_ema_crc_equal": false
+      },
+      {
+        "name": "backbone.blocks.7.norm2.weight",
+        "shape": [
+          768
+        ],
+        "bytes": 3072,
+        "current_crc32": 192594307,
+        "historical_state_crc32": 192594307,
+        "current_vs_historical_state_crc_equal": true,
+        "ema_positional_index": 60,
+        "historical_ema_crc32": 1603296782,
+        "current_vs_positional_ema_crc_equal": false
+      },
+      {
+        "name": "backbone.blocks.7.mlp.0.weight",
+        "shape": [
+          3072,
+          768
+        ],
+        "bytes": 9437184,
+        "current_crc32": 212429017,
+        "historical_state_crc32": 212429017,
+        "current_vs_historical_state_crc_equal": true,
+        "ema_positional_index": 61,
+        "historical_ema_crc32": 4070563304,
+        "current_vs_positional_ema_crc_equal": false
+      },
+      {
+        "name": "backbone.blocks.7.mlp.0.bias",
+        "shape": [
+          3072
+        ],
+        "bytes": 12288,
+        "current_crc32": 3182498393,
+        "historical_state_crc32": 3182498393,
+        "current_vs_historical_state_crc_equal": true,
+        "ema_positional_index": 62,
+        "historical_ema_crc32": 3047407036,
+        "current_vs_positional_ema_crc_equal": false
+      },
+      {
+        "name": "backbone.blocks.7.mlp.2.weight",
+        "shape": [
+          768,
+          3072
+        ],
+        "bytes": 9437184,
+        "current_crc32": 1605576245,
+        "historical_state_crc32": 1605576245,
+        "current_vs_historical_state_crc_equal": true,
+        "ema_positional_index": 63,
+        "historical_ema_crc32": 1383287543,
+        "current_vs_positional_ema_crc_equal": false
+      },
+      {
+        "name": "backbone.blocks.7.mlp.2.bias",
+        "shape": [
+          768
+        ],
+        "bytes": 3072,
+        "current_crc32": 661068221,
+        "historical_state_crc32": 661068221,
+        "current_vs_historical_state_crc_equal": true,
+        "ema_positional_index": 64,
+        "historical_ema_crc32": 161248264,
+        "current_vs_positional_ema_crc_equal": false
+      },
+      {
+        "name": "backbone.blocks.8.norm1.weight",
+        "shape": [
+          768
+        ],
+        "bytes": 3072,
+        "current_crc32": 628941504,
+        "historical_state_crc32": 628941504,
+        "current_vs_historical_state_crc_equal": true,
+        "ema_positional_index": 65,
+        "historical_ema_crc32": 1181183752,
+        "current_vs_positional_ema_crc_equal": false
+      },
+      {
+        "name": "backbone.blocks.8.attn_qkv.weight",
+        "shape": [
+          2304,
+          768
+        ],
+        "bytes": 7077888,
+        "current_crc32": 1381693234,
+        "historical_state_crc32": 1381693234,
+        "current_vs_historical_state_crc_equal": true,
+        "ema_positional_index": 66,
+        "historical_ema_crc32": 3018252046,
+        "current_vs_positional_ema_crc_equal": false
+      },
+      {
+        "name": "backbone.blocks.8.attn_out.weight",
+        "shape": [
+          768,
+          768
+        ],
+        "bytes": 2359296,
+        "current_crc32": 773322478,
+        "historical_state_crc32": 773322478,
+        "current_vs_historical_state_crc_equal": true,
+        "ema_positional_index": 67,
+        "historical_ema_crc32": 1081025805,
+        "current_vs_positional_ema_crc_equal": false
+      },
+      {
+        "name": "backbone.blocks.8.norm2.weight",
+        "shape": [
+          768
+        ],
+        "bytes": 3072,
+        "current_crc32": 704673008,
+        "historical_state_crc32": 704673008,
+        "current_vs_historical_state_crc_equal": true,
+        "ema_positional_index": 68,
+        "historical_ema_crc32": 2841869444,
+        "current_vs_positional_ema_crc_equal": false
+      },
+      {
+        "name": "backbone.blocks.8.mlp.0.weight",
+        "shape": [
+          3072,
+          768
+        ],
+        "bytes": 9437184,
+        "current_crc32": 1060066934,
+        "historical_state_crc32": 1060066934,
+        "current_vs_historical_state_crc_equal": true,
+        "ema_positional_index": 69,
+        "historical_ema_crc32": 2100581129,
+        "current_vs_positional_ema_crc_equal": false
+      },
+      {
+        "name": "backbone.blocks.8.mlp.0.bias",
+        "shape": [
+          3072
+        ],
+        "bytes": 12288,
+        "current_crc32": 296745437,
+        "historical_state_crc32": 296745437,
+        "current_vs_historical_state_crc_equal": true,
+        "ema_positional_index": 70,
+        "historical_ema_crc32": 3923699282,
+        "current_vs_positional_ema_crc_equal": false
+      },
+      {
+        "name": "backbone.blocks.8.mlp.2.weight",
+        "shape": [
+          768,
+          3072
+        ],
+        "bytes": 9437184,
+        "current_crc32": 70815219,
+        "historical_state_crc32": 70815219,
+        "current_vs_historical_state_crc_equal": true,
+        "ema_positional_index": 71,
+        "historical_ema_crc32": 727144872,
+        "current_vs_positional_ema_crc_equal": false
+      },
+      {
+        "name": "backbone.blocks.8.mlp.2.bias",
+        "shape": [
+          768
+        ],
+        "bytes": 3072,
+        "current_crc32": 3887140359,
+        "historical_state_crc32": 3887140359,
+        "current_vs_historical_state_crc_equal": true,
+        "ema_positional_index": 72,
+        "historical_ema_crc32": 340841969,
+        "current_vs_positional_ema_crc_equal": false
+      },
+      {
+        "name": "backbone.blocks.9.norm1.weight",
+        "shape": [
+          768
+        ],
+        "bytes": 3072,
+        "current_crc32": 3302490444,
+        "historical_state_crc32": 3302490444,
+        "current_vs_historical_state_crc_equal": true,
+        "ema_positional_index": 73,
+        "historical_ema_crc32": 4069272093,
+        "current_vs_positional_ema_crc_equal": false
+      },
+      {
+        "name": "backbone.blocks.9.attn_qkv.weight",
+        "shape": [
+          2304,
+          768
+        ],
+        "bytes": 7077888,
+        "current_crc32": 3188470318,
+        "historical_state_crc32": 3188470318,
+        "current_vs_historical_state_crc_equal": true,
+        "ema_positional_index": 74,
+        "historical_ema_crc32": 1280602814,
+        "current_vs_positional_ema_crc_equal": false
+      },
+      {
+        "name": "backbone.blocks.9.attn_out.weight",
+        "shape": [
+          768,
+          768
+        ],
+        "bytes": 2359296,
+        "current_crc32": 774875263,
+        "historical_state_crc32": 774875263,
+        "current_vs_historical_state_crc_equal": true,
+        "ema_positional_index": 75,
+        "historical_ema_crc32": 1344990447,
+        "current_vs_positional_ema_crc_equal": false
+      },
+      {
+        "name": "backbone.blocks.9.norm2.weight",
+        "shape": [
+          768
+        ],
+        "bytes": 3072,
+        "current_crc32": 3259777113,
+        "historical_state_crc32": 3259777113,
+        "current_vs_historical_state_crc_equal": true,
+        "ema_positional_index": 76,
+        "historical_ema_crc32": 4121308135,
+        "current_vs_positional_ema_crc_equal": false
+      },
+      {
+        "name": "backbone.blocks.9.mlp.0.weight",
+        "shape": [
+          3072,
+          768
+        ],
+        "bytes": 9437184,
+        "current_crc32": 2211652523,
+        "historical_state_crc32": 2211652523,
+        "current_vs_historical_state_crc_equal": true,
+        "ema_positional_index": 77,
+        "historical_ema_crc32": 2352147031,
+        "current_vs_positional_ema_crc_equal": false
+      },
+      {
+        "name": "backbone.blocks.9.mlp.0.bias",
+        "shape": [
+          3072
+        ],
+        "bytes": 12288,
+        "current_crc32": 66046550,
+        "historical_state_crc32": 66046550,
+        "current_vs_historical_state_crc_equal": true,
+        "ema_positional_index": 78,
+        "historical_ema_crc32": 1498043037,
+        "current_vs_positional_ema_crc_equal": false
+      },
+      {
+        "name": "backbone.blocks.9.mlp.2.weight",
+        "shape": [
+          768,
+          3072
+        ],
+        "bytes": 9437184,
+        "current_crc32": 676260625,
+        "historical_state_crc32": 676260625,
+        "current_vs_historical_state_crc_equal": true,
+        "ema_positional_index": 79,
+        "historical_ema_crc32": 4211211871,
+        "current_vs_positional_ema_crc_equal": false
+      },
+      {
+        "name": "backbone.blocks.9.mlp.2.bias",
+        "shape": [
+          768
+        ],
+        "bytes": 3072,
+        "current_crc32": 3376289648,
+        "historical_state_crc32": 3376289648,
+        "current_vs_historical_state_crc_equal": true,
+        "ema_positional_index": 80,
+        "historical_ema_crc32": 3717184831,
+        "current_vs_positional_ema_crc_equal": false
+      },
+      {
+        "name": "backbone.blocks.10.norm1.weight",
+        "shape": [
+          768
+        ],
+        "bytes": 3072,
+        "current_crc32": 574151824,
+        "historical_state_crc32": 574151824,
+        "current_vs_historical_state_crc_equal": true,
+        "ema_positional_index": 81,
+        "historical_ema_crc32": 1471457737,
+        "current_vs_positional_ema_crc_equal": false
+      },
+      {
+        "name": "backbone.blocks.10.attn_qkv.weight",
+        "shape": [
+          2304,
+          768
+        ],
+        "bytes": 7077888,
+        "current_crc32": 4099265934,
+        "historical_state_crc32": 4099265934,
+        "current_vs_historical_state_crc_equal": true,
+        "ema_positional_index": 82,
+        "historical_ema_crc32": 3923329595,
+        "current_vs_positional_ema_crc_equal": false
+      },
+      {
+        "name": "backbone.blocks.10.attn_out.weight",
+        "shape": [
+          768,
+          768
+        ],
+        "bytes": 2359296,
+        "current_crc32": 2383959042,
+        "historical_state_crc32": 2383959042,
+        "current_vs_historical_state_crc_equal": true,
+        "ema_positional_index": 83,
+        "historical_ema_crc32": 2586773231,
+        "current_vs_positional_ema_crc_equal": false
+      },
+      {
+        "name": "backbone.blocks.10.norm2.weight",
+        "shape": [
+          768
+        ],
+        "bytes": 3072,
+        "current_crc32": 84422438,
+        "historical_state_crc32": 84422438,
+        "current_vs_historical_state_crc_equal": true,
+        "ema_positional_index": 84,
+        "historical_ema_crc32": 1972892166,
+        "current_vs_positional_ema_crc_equal": false
+      },
+      {
+        "name": "backbone.blocks.10.mlp.0.weight",
+        "shape": [
+          3072,
+          768
+        ],
+        "bytes": 9437184,
+        "current_crc32": 4103488755,
+        "historical_state_crc32": 4103488755,
+        "current_vs_historical_state_crc_equal": true,
+        "ema_positional_index": 85,
+        "historical_ema_crc32": 1251443693,
+        "current_vs_positional_ema_crc_equal": false
+      },
+      {
+        "name": "backbone.blocks.10.mlp.0.bias",
+        "shape": [
+          3072
+        ],
+        "bytes": 12288,
+        "current_crc32": 3660489724,
+        "historical_state_crc32": 3660489724,
+        "current_vs_historical_state_crc_equal": true,
+        "ema_positional_index": 86,
+        "historical_ema_crc32": 2334474799,
+        "current_vs_positional_ema_crc_equal": false
+      },
+      {
+        "name": "backbone.blocks.10.mlp.2.weight",
+        "shape": [
+          768,
+          3072
+        ],
+        "bytes": 9437184,
+        "current_crc32": 3371798993,
+        "historical_state_crc32": 3371798993,
+        "current_vs_historical_state_crc_equal": true,
+        "ema_positional_index": 87,
+        "historical_ema_crc32": 3985751615,
+        "current_vs_positional_ema_crc_equal": false
+      },
+      {
+        "name": "backbone.blocks.10.mlp.2.bias",
+        "shape": [
+          768
+        ],
+        "bytes": 3072,
+        "current_crc32": 341578567,
+        "historical_state_crc32": 341578567,
+        "current_vs_historical_state_crc_equal": true,
+        "ema_positional_index": 88,
+        "historical_ema_crc32": 1823962904,
+        "current_vs_positional_ema_crc_equal": false
+      },
+      {
+        "name": "backbone.blocks.11.norm1.weight",
+        "shape": [
+          768
+        ],
+        "bytes": 3072,
+        "current_crc32": 2879443996,
+        "historical_state_crc32": 2879443996,
+        "current_vs_historical_state_crc_equal": true,
+        "ema_positional_index": 89,
+        "historical_ema_crc32": 3338230926,
+        "current_vs_positional_ema_crc_equal": false
+      },
+      {
+        "name": "backbone.blocks.11.attn_qkv.weight",
+        "shape": [
+          2304,
+          768
+        ],
+        "bytes": 7077888,
+        "current_crc32": 1502438062,
+        "historical_state_crc32": 1502438062,
+        "current_vs_historical_state_crc_equal": true,
+        "ema_positional_index": 90,
+        "historical_ema_crc32": 4180210029,
+        "current_vs_positional_ema_crc_equal": false
+      },
+      {
+        "name": "backbone.blocks.11.attn_out.weight",
+        "shape": [
+          768,
+          768
+        ],
+        "bytes": 2359296,
+        "current_crc32": 2781352865,
+        "historical_state_crc32": 2781352865,
+        "current_vs_historical_state_crc_equal": true,
+        "ema_positional_index": 91,
+        "historical_ema_crc32": 1918011460,
+        "current_vs_positional_ema_crc_equal": false
+      },
+      {
+        "name": "backbone.blocks.11.norm2.weight",
+        "shape": [
+          768
+        ],
+        "bytes": 3072,
+        "current_crc32": 2720432765,
+        "historical_state_crc32": 2720432765,
+        "current_vs_historical_state_crc_equal": true,
+        "ema_positional_index": 92,
+        "historical_ema_crc32": 2219221708,
+        "current_vs_positional_ema_crc_equal": false
+      },
+      {
+        "name": "backbone.blocks.11.mlp.0.weight",
+        "shape": [
+          3072,
+          768
+        ],
+        "bytes": 9437184,
+        "current_crc32": 3709742883,
+        "historical_state_crc32": 3709742883,
+        "current_vs_historical_state_crc_equal": true,
+        "ema_positional_index": 93,
+        "historical_ema_crc32": 3264763704,
+        "current_vs_positional_ema_crc_equal": false
+      },
+      {
+        "name": "backbone.blocks.11.mlp.0.bias",
+        "shape": [
+          3072
+        ],
+        "bytes": 12288,
+        "current_crc32": 1602043096,
+        "historical_state_crc32": 1602043096,
+        "current_vs_historical_state_crc_equal": true,
+        "ema_positional_index": 94,
+        "historical_ema_crc32": 2852268485,
+        "current_vs_positional_ema_crc_equal": false
+      },
+      {
+        "name": "backbone.blocks.11.mlp.2.weight",
+        "shape": [
+          768,
+          3072
+        ],
+        "bytes": 9437184,
+        "current_crc32": 3101984758,
+        "historical_state_crc32": 3101984758,
+        "current_vs_historical_state_crc_equal": true,
+        "ema_positional_index": 95,
+        "historical_ema_crc32": 2983855287,
+        "current_vs_positional_ema_crc_equal": false
+      },
+      {
+        "name": "backbone.blocks.11.mlp.2.bias",
+        "shape": [
+          768
+        ],
+        "bytes": 3072,
+        "current_crc32": 1217763893,
+        "historical_state_crc32": 1217763893,
+        "current_vs_historical_state_crc_equal": true,
+        "ema_positional_index": 96,
+        "historical_ema_crc32": 2815063451,
+        "current_vs_positional_ema_crc_equal": false
+      },
+      {
+        "name": "backbone.noise_encoder.combined_proj.weight",
+        "shape": [
+          768,
+          1536
+        ],
+        "bytes": 4718592,
+        "current_crc32": 1180907294,
+        "historical_state_crc32": 1180907294,
+        "current_vs_historical_state_crc_equal": true,
+        "ema_positional_index": 97,
+        "historical_ema_crc32": 3849530840,
+        "current_vs_positional_ema_crc_equal": false
+      },
+      {
+        "name": "backbone.noise_encoder.combined_proj.bias",
+        "shape": [
+          768
+        ],
+        "bytes": 3072,
+        "current_crc32": 2244400666,
+        "historical_state_crc32": 2244400666,
+        "current_vs_historical_state_crc_equal": true,
+        "ema_positional_index": 98,
+        "historical_ema_crc32": 3614542527,
+        "current_vs_positional_ema_crc_equal": false
+      },
+      {
+        "name": "backbone.noise_encoder.norm.weight",
+        "shape": [
+          768
+        ],
+        "bytes": 3072,
+        "current_crc32": 2855984242,
+        "historical_state_crc32": 2855984242,
+        "current_vs_historical_state_crc_equal": true,
+        "ema_positional_index": 99,
+        "historical_ema_crc32": 1297894201,
+        "current_vs_positional_ema_crc_equal": false
+      },
+      {
+        "name": "backbone.noise_encoder.norm.bias",
+        "shape": [
+          768
+        ],
+        "bytes": 3072,
+        "current_crc32": 2889011190,
+        "historical_state_crc32": 2889011190,
+        "current_vs_historical_state_crc_equal": true,
+        "ema_positional_index": 100,
+        "historical_ema_crc32": 2008868273,
+        "current_vs_positional_ema_crc_equal": false
+      },
+      {
+        "name": "backbone.noise_encoder.mlp.0.weight",
+        "shape": [
+          3072,
+          768
+        ],
+        "bytes": 9437184,
+        "current_crc32": 2593919910,
+        "historical_state_crc32": 2593919910,
+        "current_vs_historical_state_crc_equal": true,
+        "ema_positional_index": 101,
+        "historical_ema_crc32": 3113834865,
+        "current_vs_positional_ema_crc_equal": false
+      },
+      {
+        "name": "backbone.noise_encoder.mlp.0.bias",
+        "shape": [
+          3072
+        ],
+        "bytes": 12288,
+        "current_crc32": 3812769522,
+        "historical_state_crc32": 3812769522,
+        "current_vs_historical_state_crc_equal": true,
+        "ema_positional_index": 102,
+        "historical_ema_crc32": 2038919285,
+        "current_vs_positional_ema_crc_equal": false
+      },
+      {
+        "name": "backbone.noise_encoder.mlp.2.weight",
+        "shape": [
+          768,
+          3072
+        ],
+        "bytes": 9437184,
+        "current_crc32": 1886923075,
+        "historical_state_crc32": 1886923075,
+        "current_vs_historical_state_crc_equal": true,
+        "ema_positional_index": 103,
+        "historical_ema_crc32": 2942908477,
+        "current_vs_positional_ema_crc_equal": false
+      },
+      {
+        "name": "backbone.noise_encoder.mlp.2.bias",
+        "shape": [
+          768
+        ],
+        "bytes": 3072,
+        "current_crc32": 2364646997,
+        "historical_state_crc32": 2364646997,
+        "current_vs_historical_state_crc_equal": true,
+        "ema_positional_index": 104,
+        "historical_ema_crc32": 411244065,
+        "current_vs_positional_ema_crc_equal": false
+      },
+      {
+        "name": "backbone.output_layer.norm_final.weight",
+        "shape": [
+          768
+        ],
+        "bytes": 3072,
+        "current_crc32": 634385180,
+        "historical_state_crc32": 634385180,
+        "current_vs_historical_state_crc_equal": true,
+        "ema_positional_index": 105,
+        "historical_ema_crc32": 3498493175,
+        "current_vs_positional_ema_crc_equal": false
+      },
+      {
+        "name": "backbone.output_layer.linear.weight",
+        "shape": [
+          30522,
+          768
+        ],
+        "bytes": 93763584,
+        "current_crc32": 850517245,
+        "historical_state_crc32": 850517245,
+        "current_vs_historical_state_crc_equal": true,
+        "ema_positional_index": 106,
+        "historical_ema_crc32": 77501733,
+        "current_vs_positional_ema_crc_equal": false
+      },
+      {
+        "name": "backbone.output_layer.linear.bias",
+        "shape": [
+          30522
+        ],
+        "bytes": 122088,
+        "current_crc32": 3393184281,
+        "historical_state_crc32": 3393184281,
+        "current_vs_historical_state_crc_equal": true,
+        "ema_positional_index": 107,
+        "historical_ema_crc32": 3821510013,
+        "current_vs_positional_ema_crc_equal": false
+      }
+    ]
+  },
+  "ar": {
+    "current_checkpoint_sha256": "e2463aa9de897dd2394580eeec7de23f0fe076931050b21612e8b06316ccc439",
+    "current_pickle_sha256": "ece02e92c861662f7eae8ea25d96765168c2cf097d867d74cd4ee150291a9cf9",
+    "state_tensors": 101,
+    "historical_state_crc_matches": 101,
+    "ema_parameters": 100,
+    "positional_ema_crc_matches": 0,
+    "comparisons": [
+      {
+        "name": "backbone.vocab_embed.embedding",
+        "shape": [
+          30522,
+          768
+        ],
+        "bytes": 93763584,
+        "current_crc32": 3934756222,
+        "historical_state_crc32": 3934756222,
+        "current_vs_historical_state_crc_equal": true,
+        "ema_positional_index": 0,
+        "historical_ema_crc32": 53766641,
+        "current_vs_positional_ema_crc_equal": false
+      },
+      {
+        "name": "backbone.rotary_emb.inv_freq",
+        "shape": [
+          32
+        ],
+        "bytes": 128,
+        "current_crc32": 653846907,
+        "historical_state_crc32": 653846907,
+        "current_vs_historical_state_crc_equal": true
+      },
+      {
+        "name": "backbone.blocks.0.norm1.weight",
+        "shape": [
+          768
+        ],
+        "bytes": 3072,
+        "current_crc32": 1932648654,
+        "historical_state_crc32": 1932648654,
+        "current_vs_historical_state_crc_equal": true,
+        "ema_positional_index": 1,
+        "historical_ema_crc32": 1617658822,
+        "current_vs_positional_ema_crc_equal": false
+      },
+      {
+        "name": "backbone.blocks.0.attn_qkv.weight",
+        "shape": [
+          2304,
+          768
+        ],
+        "bytes": 7077888,
+        "current_crc32": 108709437,
+        "historical_state_crc32": 108709437,
+        "current_vs_historical_state_crc_equal": true,
+        "ema_positional_index": 2,
+        "historical_ema_crc32": 2885036304,
+        "current_vs_positional_ema_crc_equal": false
+      },
+      {
+        "name": "backbone.blocks.0.attn_out.weight",
+        "shape": [
+          768,
+          768
+        ],
+        "bytes": 2359296,
+        "current_crc32": 3360254085,
+        "historical_state_crc32": 3360254085,
+        "current_vs_historical_state_crc_equal": true,
+        "ema_positional_index": 3,
+        "historical_ema_crc32": 98304851,
+        "current_vs_positional_ema_crc_equal": false
+      },
+      {
+        "name": "backbone.blocks.0.norm2.weight",
+        "shape": [
+          768
+        ],
+        "bytes": 3072,
+        "current_crc32": 3634136964,
+        "historical_state_crc32": 3634136964,
+        "current_vs_historical_state_crc_equal": true,
+        "ema_positional_index": 4,
+        "historical_ema_crc32": 787791055,
+        "current_vs_positional_ema_crc_equal": false
+      },
+      {
+        "name": "backbone.blocks.0.mlp.0.weight",
+        "shape": [
+          3072,
+          768
+        ],
+        "bytes": 9437184,
+        "current_crc32": 427362623,
+        "historical_state_crc32": 427362623,
+        "current_vs_historical_state_crc_equal": true,
+        "ema_positional_index": 5,
+        "historical_ema_crc32": 1445793211,
+        "current_vs_positional_ema_crc_equal": false
+      },
+      {
+        "name": "backbone.blocks.0.mlp.0.bias",
+        "shape": [
+          3072
+        ],
+        "bytes": 12288,
+        "current_crc32": 2592316608,
+        "historical_state_crc32": 2592316608,
+        "current_vs_historical_state_crc_equal": true,
+        "ema_positional_index": 6,
+        "historical_ema_crc32": 1552017518,
+        "current_vs_positional_ema_crc_equal": false
+      },
+      {
+        "name": "backbone.blocks.0.mlp.2.weight",
+        "shape": [
+          768,
+          3072
+        ],
+        "bytes": 9437184,
+        "current_crc32": 3664815448,
+        "historical_state_crc32": 3664815448,
+        "current_vs_historical_state_crc_equal": true,
+        "ema_positional_index": 7,
+        "historical_ema_crc32": 1791748564,
+        "current_vs_positional_ema_crc_equal": false
+      },
+      {
+        "name": "backbone.blocks.0.mlp.2.bias",
+        "shape": [
+          768
+        ],
+        "bytes": 3072,
+        "current_crc32": 3305198637,
+        "historical_state_crc32": 3305198637,
+        "current_vs_historical_state_crc_equal": true,
+        "ema_positional_index": 8,
+        "historical_ema_crc32": 362487552,
+        "current_vs_positional_ema_crc_equal": false
+      },
+      {
+        "name": "backbone.blocks.1.norm1.weight",
+        "shape": [
+          768
+        ],
+        "bytes": 3072,
+        "current_crc32": 3531064963,
+        "historical_state_crc32": 3531064963,
+        "current_vs_historical_state_crc_equal": true,
+        "ema_positional_index": 9,
+        "historical_ema_crc32": 2195222486,
+        "current_vs_positional_ema_crc_equal": false
+      },
+      {
+        "name": "backbone.blocks.1.attn_qkv.weight",
+        "shape": [
+          2304,
+          768
+        ],
+        "bytes": 7077888,
+        "current_crc32": 570905379,
+        "historical_state_crc32": 570905379,
+        "current_vs_historical_state_crc_equal": true,
+        "ema_positional_index": 10,
+        "historical_ema_crc32": 2696114636,
+        "current_vs_positional_ema_crc_equal": false
+      },
+      {
+        "name": "backbone.blocks.1.attn_out.weight",
+        "shape": [
+          768,
+          768
+        ],
+        "bytes": 2359296,
+        "current_crc32": 102475938,
+        "historical_state_crc32": 102475938,
+        "current_vs_historical_state_crc_equal": true,
+        "ema_positional_index": 11,
+        "historical_ema_crc32": 3539742213,
+        "current_vs_positional_ema_crc_equal": false
+      },
+      {
+        "name": "backbone.blocks.1.norm2.weight",
+        "shape": [
+          768
+        ],
+        "bytes": 3072,
+        "current_crc32": 1254773288,
+        "historical_state_crc32": 1254773288,
+        "current_vs_historical_state_crc_equal": true,
+        "ema_positional_index": 12,
+        "historical_ema_crc32": 2347429087,
+        "current_vs_positional_ema_crc_equal": false
+      },
+      {
+        "name": "backbone.blocks.1.mlp.0.weight",
+        "shape": [
+          3072,
+          768
+        ],
+        "bytes": 9437184,
+        "current_crc32": 145933716,
+        "historical_state_crc32": 145933716,
+        "current_vs_historical_state_crc_equal": true,
+        "ema_positional_index": 13,
+        "historical_ema_crc32": 1025476641,
+        "current_vs_positional_ema_crc_equal": false
+      },
+      {
+        "name": "backbone.blocks.1.mlp.0.bias",
+        "shape": [
+          3072
+        ],
+        "bytes": 12288,
+        "current_crc32": 3562436441,
+        "historical_state_crc32": 3562436441,
+        "current_vs_historical_state_crc_equal": true,
+        "ema_positional_index": 14,
+        "historical_ema_crc32": 160151894,
+        "current_vs_positional_ema_crc_equal": false
+      },
+      {
+        "name": "backbone.blocks.1.mlp.2.weight",
+        "shape": [
+          768,
+          3072
+        ],
+        "bytes": 9437184,
+        "current_crc32": 3716893253,
+        "historical_state_crc32": 3716893253,
+        "current_vs_historical_state_crc_equal": true,
+        "ema_positional_index": 15,
+        "historical_ema_crc32": 3128599785,
+        "current_vs_positional_ema_crc_equal": false
+      },
+      {
+        "name": "backbone.blocks.1.mlp.2.bias",
+        "shape": [
+          768
+        ],
+        "bytes": 3072,
+        "current_crc32": 1375102782,
+        "historical_state_crc32": 1375102782,
+        "current_vs_historical_state_crc_equal": true,
+        "ema_positional_index": 16,
+        "historical_ema_crc32": 2911938052,
+        "current_vs_positional_ema_crc_equal": false
+      },
+      {
+        "name": "backbone.blocks.2.norm1.weight",
+        "shape": [
+          768
+        ],
+        "bytes": 3072,
+        "current_crc32": 3770807869,
+        "historical_state_crc32": 3770807869,
+        "current_vs_historical_state_crc_equal": true,
+        "ema_positional_index": 17,
+        "historical_ema_crc32": 3854950374,
+        "current_vs_positional_ema_crc_equal": false
+      },
+      {
+        "name": "backbone.blocks.2.attn_qkv.weight",
+        "shape": [
+          2304,
+          768
+        ],
+        "bytes": 7077888,
+        "current_crc32": 3634212653,
+        "historical_state_crc32": 3634212653,
+        "current_vs_historical_state_crc_equal": true,
+        "ema_positional_index": 18,
+        "historical_ema_crc32": 603604333,
+        "current_vs_positional_ema_crc_equal": false
+      },
+      {
+        "name": "backbone.blocks.2.attn_out.weight",
+        "shape": [
+          768,
+          768
+        ],
+        "bytes": 2359296,
+        "current_crc32": 3022691590,
+        "historical_state_crc32": 3022691590,
+        "current_vs_historical_state_crc_equal": true,
+        "ema_positional_index": 19,
+        "historical_ema_crc32": 1221228490,
+        "current_vs_positional_ema_crc_equal": false
+      },
+      {
+        "name": "backbone.blocks.2.norm2.weight",
+        "shape": [
+          768
+        ],
+        "bytes": 3072,
+        "current_crc32": 3981948481,
+        "historical_state_crc32": 3981948481,
+        "current_vs_historical_state_crc_equal": true,
+        "ema_positional_index": 20,
+        "historical_ema_crc32": 1009127990,
+        "current_vs_positional_ema_crc_equal": false
+      },
+      {
+        "name": "backbone.blocks.2.mlp.0.weight",
+        "shape": [
+          3072,
+          768
+        ],
+        "bytes": 9437184,
+        "current_crc32": 53094856,
+        "historical_state_crc32": 53094856,
+        "current_vs_historical_state_crc_equal": true,
+        "ema_positional_index": 21,
+        "historical_ema_crc32": 4113504314,
+        "current_vs_positional_ema_crc_equal": false
+      },
+      {
+        "name": "backbone.blocks.2.mlp.0.bias",
+        "shape": [
+          3072
+        ],
+        "bytes": 12288,
+        "current_crc32": 2644655897,
+        "historical_state_crc32": 2644655897,
+        "current_vs_historical_state_crc_equal": true,
+        "ema_positional_index": 22,
+        "historical_ema_crc32": 2736664614,
+        "current_vs_positional_ema_crc_equal": false
+      },
+      {
+        "name": "backbone.blocks.2.mlp.2.weight",
+        "shape": [
+          768,
+          3072
+        ],
+        "bytes": 9437184,
+        "current_crc32": 3569495091,
+        "historical_state_crc32": 3569495091,
+        "current_vs_historical_state_crc_equal": true,
+        "ema_positional_index": 23,
+        "historical_ema_crc32": 3253887993,
+        "current_vs_positional_ema_crc_equal": false
+      },
+      {
+        "name": "backbone.blocks.2.mlp.2.bias",
+        "shape": [
+          768
+        ],
+        "bytes": 3072,
+        "current_crc32": 2786861897,
+        "historical_state_crc32": 2786861897,
+        "current_vs_historical_state_crc_equal": true,
+        "ema_positional_index": 24,
+        "historical_ema_crc32": 1707465137,
+        "current_vs_positional_ema_crc_equal": false
+      },
+      {
+        "name": "backbone.blocks.3.norm1.weight",
+        "shape": [
+          768
+        ],
+        "bytes": 3072,
+        "current_crc32": 1909259423,
+        "historical_state_crc32": 1909259423,
+        "current_vs_historical_state_crc_equal": true,
+        "ema_positional_index": 25,
+        "historical_ema_crc32": 3806301580,
+        "current_vs_positional_ema_crc_equal": false
+      },
+      {
+        "name": "backbone.blocks.3.attn_qkv.weight",
+        "shape": [
+          2304,
+          768
+        ],
+        "bytes": 7077888,
+        "current_crc32": 4245277112,
+        "historical_state_crc32": 4245277112,
+        "current_vs_historical_state_crc_equal": true,
+        "ema_positional_index": 26,
+        "historical_ema_crc32": 1248634301,
+        "current_vs_positional_ema_crc_equal": false
+      },
+      {
+        "name": "backbone.blocks.3.attn_out.weight",
+        "shape": [
+          768,
+          768
+        ],
+        "bytes": 2359296,
+        "current_crc32": 2487295345,
+        "historical_state_crc32": 2487295345,
+        "current_vs_historical_state_crc_equal": true,
+        "ema_positional_index": 27,
+        "historical_ema_crc32": 3117326304,
+        "current_vs_positional_ema_crc_equal": false
+      },
+      {
+        "name": "backbone.blocks.3.norm2.weight",
+        "shape": [
+          768
+        ],
+        "bytes": 3072,
+        "current_crc32": 185871161,
+        "historical_state_crc32": 185871161,
+        "current_vs_historical_state_crc_equal": true,
+        "ema_positional_index": 28,
+        "historical_ema_crc32": 2244455141,
+        "current_vs_positional_ema_crc_equal": false
+      },
+      {
+        "name": "backbone.blocks.3.mlp.0.weight",
+        "shape": [
+          3072,
+          768
+        ],
+        "bytes": 9437184,
+        "current_crc32": 3706417026,
+        "historical_state_crc32": 3706417026,
+        "current_vs_historical_state_crc_equal": true,
+        "ema_positional_index": 29,
+        "historical_ema_crc32": 3262450734,
+        "current_vs_positional_ema_crc_equal": false
+      },
+      {
+        "name": "backbone.blocks.3.mlp.0.bias",
+        "shape": [
+          3072
+        ],
+        "bytes": 12288,
+        "current_crc32": 3173103724,
+        "historical_state_crc32": 3173103724,
+        "current_vs_historical_state_crc_equal": true,
+        "ema_positional_index": 30,
+        "historical_ema_crc32": 922040615,
+        "current_vs_positional_ema_crc_equal": false
+      },
+      {
+        "name": "backbone.blocks.3.mlp.2.weight",
+        "shape": [
+          768,
+          3072
+        ],
+        "bytes": 9437184,
+        "current_crc32": 3012642692,
+        "historical_state_crc32": 3012642692,
+        "current_vs_historical_state_crc_equal": true,
+        "ema_positional_index": 31,
+        "historical_ema_crc32": 3261411359,
+        "current_vs_positional_ema_crc_equal": false
+      },
+      {
+        "name": "backbone.blocks.3.mlp.2.bias",
+        "shape": [
+          768
+        ],
+        "bytes": 3072,
+        "current_crc32": 609580303,
+        "historical_state_crc32": 609580303,
+        "current_vs_historical_state_crc_equal": true,
+        "ema_positional_index": 32,
+        "historical_ema_crc32": 436849854,
+        "current_vs_positional_ema_crc_equal": false
+      },
+      {
+        "name": "backbone.blocks.4.norm1.weight",
+        "shape": [
+          768
+        ],
+        "bytes": 3072,
+        "current_crc32": 104358676,
+        "historical_state_crc32": 104358676,
+        "current_vs_historical_state_crc_equal": true,
+        "ema_positional_index": 33,
+        "historical_ema_crc32": 1507887049,
+        "current_vs_positional_ema_crc_equal": false
+      },
+      {
+        "name": "backbone.blocks.4.attn_qkv.weight",
+        "shape": [
+          2304,
+          768
+        ],
+        "bytes": 7077888,
+        "current_crc32": 49589499,
+        "historical_state_crc32": 49589499,
+        "current_vs_historical_state_crc_equal": true,
+        "ema_positional_index": 34,
+        "historical_ema_crc32": 1374143961,
+        "current_vs_positional_ema_crc_equal": false
+      },
+      {
+        "name": "backbone.blocks.4.attn_out.weight",
+        "shape": [
+          768,
+          768
+        ],
+        "bytes": 2359296,
+        "current_crc32": 2737384842,
+        "historical_state_crc32": 2737384842,
+        "current_vs_historical_state_crc_equal": true,
+        "ema_positional_index": 35,
+        "historical_ema_crc32": 2666322617,
+        "current_vs_positional_ema_crc_equal": false
+      },
+      {
+        "name": "backbone.blocks.4.norm2.weight",
+        "shape": [
+          768
+        ],
+        "bytes": 3072,
+        "current_crc32": 1982652764,
+        "historical_state_crc32": 1982652764,
+        "current_vs_historical_state_crc_equal": true,
+        "ema_positional_index": 36,
+        "historical_ema_crc32": 140935533,
+        "current_vs_positional_ema_crc_equal": false
+      },
+      {
+        "name": "backbone.blocks.4.mlp.0.weight",
+        "shape": [
+          3072,
+          768
+        ],
+        "bytes": 9437184,
+        "current_crc32": 3232366934,
+        "historical_state_crc32": 3232366934,
+        "current_vs_historical_state_crc_equal": true,
+        "ema_positional_index": 37,
+        "historical_ema_crc32": 1760643110,
+        "current_vs_positional_ema_crc_equal": false
+      },
+      {
+        "name": "backbone.blocks.4.mlp.0.bias",
+        "shape": [
+          3072
+        ],
+        "bytes": 12288,
+        "current_crc32": 742744663,
+        "historical_state_crc32": 742744663,
+        "current_vs_historical_state_crc_equal": true,
+        "ema_positional_index": 38,
+        "historical_ema_crc32": 3650533925,
+        "current_vs_positional_ema_crc_equal": false
+      },
+      {
+        "name": "backbone.blocks.4.mlp.2.weight",
+        "shape": [
+          768,
+          3072
+        ],
+        "bytes": 9437184,
+        "current_crc32": 2594810215,
+        "historical_state_crc32": 2594810215,
+        "current_vs_historical_state_crc_equal": true,
+        "ema_positional_index": 39,
+        "historical_ema_crc32": 51016910,
+        "current_vs_positional_ema_crc_equal": false
+      },
+      {
+        "name": "backbone.blocks.4.mlp.2.bias",
+        "shape": [
+          768
+        ],
+        "bytes": 3072,
+        "current_crc32": 1573548353,
+        "historical_state_crc32": 1573548353,
+        "current_vs_historical_state_crc_equal": true,
+        "ema_positional_index": 40,
+        "historical_ema_crc32": 235061041,
+        "current_vs_positional_ema_crc_equal": false
+      },
+      {
+        "name": "backbone.blocks.5.norm1.weight",
+        "shape": [
+          768
+        ],
+        "bytes": 3072,
+        "current_crc32": 4049214117,
+        "historical_state_crc32": 4049214117,
+        "current_vs_historical_state_crc_equal": true,
+        "ema_positional_index": 41,
+        "historical_ema_crc32": 801654264,
+        "current_vs_positional_ema_crc_equal": false
+      },
+      {
+        "name": "backbone.blocks.5.attn_qkv.weight",
+        "shape": [
+          2304,
+          768
+        ],
+        "bytes": 7077888,
+        "current_crc32": 1016390252,
+        "historical_state_crc32": 1016390252,
+        "current_vs_historical_state_crc_equal": true,
+        "ema_positional_index": 42,
+        "historical_ema_crc32": 1956069054,
+        "current_vs_positional_ema_crc_equal": false
+      },
+      {
+        "name": "backbone.blocks.5.attn_out.weight",
+        "shape": [
+          768,
+          768
+        ],
+        "bytes": 2359296,
+        "current_crc32": 59791026,
+        "historical_state_crc32": 59791026,
+        "current_vs_historical_state_crc_equal": true,
+        "ema_positional_index": 43,
+        "historical_ema_crc32": 738391812,
+        "current_vs_positional_ema_crc_equal": false
+      },
+      {
+        "name": "backbone.blocks.5.norm2.weight",
+        "shape": [
+          768
+        ],
+        "bytes": 3072,
+        "current_crc32": 3668107001,
+        "historical_state_crc32": 3668107001,
+        "current_vs_historical_state_crc_equal": true,
+        "ema_positional_index": 44,
+        "historical_ema_crc32": 726713698,
+        "current_vs_positional_ema_crc_equal": false
+      },
+      {
+        "name": "backbone.blocks.5.mlp.0.weight",
+        "shape": [
+          3072,
+          768
+        ],
+        "bytes": 9437184,
+        "current_crc32": 880789760,
+        "historical_state_crc32": 880789760,
+        "current_vs_historical_state_crc_equal": true,
+        "ema_positional_index": 45,
+        "historical_ema_crc32": 1661227779,
+        "current_vs_positional_ema_crc_equal": false
+      },
+      {
+        "name": "backbone.blocks.5.mlp.0.bias",
+        "shape": [
+          3072
+        ],
+        "bytes": 12288,
+        "current_crc32": 2037349706,
+        "historical_state_crc32": 2037349706,
+        "current_vs_historical_state_crc_equal": true,
+        "ema_positional_index": 46,
+        "historical_ema_crc32": 1737658834,
+        "current_vs_positional_ema_crc_equal": false
+      },
+      {
+        "name": "backbone.blocks.5.mlp.2.weight",
+        "shape": [
+          768,
+          3072
+        ],
+        "bytes": 9437184,
+        "current_crc32": 2287396369,
+        "historical_state_crc32": 2287396369,
+        "current_vs_historical_state_crc_equal": true,
+        "ema_positional_index": 47,
+        "historical_ema_crc32": 258181145,
+        "current_vs_positional_ema_crc_equal": false
+      },
+      {
+        "name": "backbone.blocks.5.mlp.2.bias",
+        "shape": [
+          768
+        ],
+        "bytes": 3072,
+        "current_crc32": 1117537762,
+        "historical_state_crc32": 1117537762,
+        "current_vs_historical_state_crc_equal": true,
+        "ema_positional_index": 48,
+        "historical_ema_crc32": 1540236197,
+        "current_vs_positional_ema_crc_equal": false
+      },
+      {
+        "name": "backbone.blocks.6.norm1.weight",
+        "shape": [
+          768
+        ],
+        "bytes": 3072,
+        "current_crc32": 146103983,
+        "historical_state_crc32": 146103983,
+        "current_vs_historical_state_crc_equal": true,
+        "ema_positional_index": 49,
+        "historical_ema_crc32": 2763356580,
+        "current_vs_positional_ema_crc_equal": false
+      },
+      {
+        "name": "backbone.blocks.6.attn_qkv.weight",
+        "shape": [
+          2304,
+          768
+        ],
+        "bytes": 7077888,
+        "current_crc32": 2671510586,
+        "historical_state_crc32": 2671510586,
+        "current_vs_historical_state_crc_equal": true,
+        "ema_positional_index": 50,
+        "historical_ema_crc32": 2970569735,
+        "current_vs_positional_ema_crc_equal": false
+      },
+      {
+        "name": "backbone.blocks.6.attn_out.weight",
+        "shape": [
+          768,
+          768
+        ],
+        "bytes": 2359296,
+        "current_crc32": 2081689667,
+        "historical_state_crc32": 2081689667,
+        "current_vs_historical_state_crc_equal": true,
+        "ema_positional_index": 51,
+        "historical_ema_crc32": 1124932849,
+        "current_vs_positional_ema_crc_equal": false
+      },
+      {
+        "name": "backbone.blocks.6.norm2.weight",
+        "shape": [
+          768
+        ],
+        "bytes": 3072,
+        "current_crc32": 4053850000,
+        "historical_state_crc32": 4053850000,
+        "current_vs_historical_state_crc_equal": true,
+        "ema_positional_index": 52,
+        "historical_ema_crc32": 3576645067,
+        "current_vs_positional_ema_crc_equal": false
+      },
+      {
+        "name": "backbone.blocks.6.mlp.0.weight",
+        "shape": [
+          3072,
+          768
+        ],
+        "bytes": 9437184,
+        "current_crc32": 4076218503,
+        "historical_state_crc32": 4076218503,
+        "current_vs_historical_state_crc_equal": true,
+        "ema_positional_index": 53,
+        "historical_ema_crc32": 1221160698,
+        "current_vs_positional_ema_crc_equal": false
+      },
+      {
+        "name": "backbone.blocks.6.mlp.0.bias",
+        "shape": [
+          3072
+        ],
+        "bytes": 12288,
+        "current_crc32": 3338508579,
+        "historical_state_crc32": 3338508579,
+        "current_vs_historical_state_crc_equal": true,
+        "ema_positional_index": 54,
+        "historical_ema_crc32": 554444054,
+        "current_vs_positional_ema_crc_equal": false
+      },
+      {
+        "name": "backbone.blocks.6.mlp.2.weight",
+        "shape": [
+          768,
+          3072
+        ],
+        "bytes": 9437184,
+        "current_crc32": 2427685356,
+        "historical_state_crc32": 2427685356,
+        "current_vs_historical_state_crc_equal": true,
+        "ema_positional_index": 55,
+        "historical_ema_crc32": 1536542802,
+        "current_vs_positional_ema_crc_equal": false
+      },
+      {
+        "name": "backbone.blocks.6.mlp.2.bias",
+        "shape": [
+          768
+        ],
+        "bytes": 3072,
+        "current_crc32": 4103914579,
+        "historical_state_crc32": 4103914579,
+        "current_vs_historical_state_crc_equal": true,
+        "ema_positional_index": 56,
+        "historical_ema_crc32": 3120220127,
+        "current_vs_positional_ema_crc_equal": false
+      },
+      {
+        "name": "backbone.blocks.7.norm1.weight",
+        "shape": [
+          768
+        ],
+        "bytes": 3072,
+        "current_crc32": 3451376040,
+        "historical_state_crc32": 3451376040,
+        "current_vs_historical_state_crc_equal": true,
+        "ema_positional_index": 57,
+        "historical_ema_crc32": 1237788070,
+        "current_vs_positional_ema_crc_equal": false
+      },
+      {
+        "name": "backbone.blocks.7.attn_qkv.weight",
+        "shape": [
+          2304,
+          768
+        ],
+        "bytes": 7077888,
+        "current_crc32": 3884872888,
+        "historical_state_crc32": 3884872888,
+        "current_vs_historical_state_crc_equal": true,
+        "ema_positional_index": 58,
+        "historical_ema_crc32": 3942286941,
+        "current_vs_positional_ema_crc_equal": false
+      },
+      {
+        "name": "backbone.blocks.7.attn_out.weight",
+        "shape": [
+          768,
+          768
+        ],
+        "bytes": 2359296,
+        "current_crc32": 4255266126,
+        "historical_state_crc32": 4255266126,
+        "current_vs_historical_state_crc_equal": true,
+        "ema_positional_index": 59,
+        "historical_ema_crc32": 860818693,
+        "current_vs_positional_ema_crc_equal": false
+      },
+      {
+        "name": "backbone.blocks.7.norm2.weight",
+        "shape": [
+          768
+        ],
+        "bytes": 3072,
+        "current_crc32": 1562755271,
+        "historical_state_crc32": 1562755271,
+        "current_vs_historical_state_crc_equal": true,
+        "ema_positional_index": 60,
+        "historical_ema_crc32": 4265518370,
+        "current_vs_positional_ema_crc_equal": false
+      },
+      {
+        "name": "backbone.blocks.7.mlp.0.weight",
+        "shape": [
+          3072,
+          768
+        ],
+        "bytes": 9437184,
+        "current_crc32": 4206174117,
+        "historical_state_crc32": 4206174117,
+        "current_vs_historical_state_crc_equal": true,
+        "ema_positional_index": 61,
+        "historical_ema_crc32": 3678504562,
+        "current_vs_positional_ema_crc_equal": false
+      },
+      {
+        "name": "backbone.blocks.7.mlp.0.bias",
+        "shape": [
+          3072
+        ],
+        "bytes": 12288,
+        "current_crc32": 3109456300,
+        "historical_state_crc32": 3109456300,
+        "current_vs_historical_state_crc_equal": true,
+        "ema_positional_index": 62,
+        "historical_ema_crc32": 805775530,
+        "current_vs_positional_ema_crc_equal": false
+      },
+      {
+        "name": "backbone.blocks.7.mlp.2.weight",
+        "shape": [
+          768,
+          3072
+        ],
+        "bytes": 9437184,
+        "current_crc32": 3552558372,
+        "historical_state_crc32": 3552558372,
+        "current_vs_historical_state_crc_equal": true,
+        "ema_positional_index": 63,
+        "historical_ema_crc32": 1102402631,
+        "current_vs_positional_ema_crc_equal": false
+      },
+      {
+        "name": "backbone.blocks.7.mlp.2.bias",
+        "shape": [
+          768
+        ],
+        "bytes": 3072,
+        "current_crc32": 2951460442,
+        "historical_state_crc32": 2951460442,
+        "current_vs_historical_state_crc_equal": true,
+        "ema_positional_index": 64,
+        "historical_ema_crc32": 1032217250,
+        "current_vs_positional_ema_crc_equal": false
+      },
+      {
+        "name": "backbone.blocks.8.norm1.weight",
+        "shape": [
+          768
+        ],
+        "bytes": 3072,
+        "current_crc32": 4001601966,
+        "historical_state_crc32": 4001601966,
+        "current_vs_historical_state_crc_equal": true,
+        "ema_positional_index": 65,
+        "historical_ema_crc32": 2590388262,
+        "current_vs_positional_ema_crc_equal": false
+      },
+      {
+        "name": "backbone.blocks.8.attn_qkv.weight",
+        "shape": [
+          2304,
+          768
+        ],
+        "bytes": 7077888,
+        "current_crc32": 3222479796,
+        "historical_state_crc32": 3222479796,
+        "current_vs_historical_state_crc_equal": true,
+        "ema_positional_index": 66,
+        "historical_ema_crc32": 500304912,
+        "current_vs_positional_ema_crc_equal": false
+      },
+      {
+        "name": "backbone.blocks.8.attn_out.weight",
+        "shape": [
+          768,
+          768
+        ],
+        "bytes": 2359296,
+        "current_crc32": 838912304,
+        "historical_state_crc32": 838912304,
+        "current_vs_historical_state_crc_equal": true,
+        "ema_positional_index": 67,
+        "historical_ema_crc32": 4239662120,
+        "current_vs_positional_ema_crc_equal": false
+      },
+      {
+        "name": "backbone.blocks.8.norm2.weight",
+        "shape": [
+          768
+        ],
+        "bytes": 3072,
+        "current_crc32": 2854486325,
+        "historical_state_crc32": 2854486325,
+        "current_vs_historical_state_crc_equal": true,
+        "ema_positional_index": 68,
+        "historical_ema_crc32": 941430206,
+        "current_vs_positional_ema_crc_equal": false
+      },
+      {
+        "name": "backbone.blocks.8.mlp.0.weight",
+        "shape": [
+          3072,
+          768
+        ],
+        "bytes": 9437184,
+        "current_crc32": 2030328506,
+        "historical_state_crc32": 2030328506,
+        "current_vs_historical_state_crc_equal": true,
+        "ema_positional_index": 69,
+        "historical_ema_crc32": 3450726442,
+        "current_vs_positional_ema_crc_equal": false
+      },
+      {
+        "name": "backbone.blocks.8.mlp.0.bias",
+        "shape": [
+          3072
+        ],
+        "bytes": 12288,
+        "current_crc32": 258912875,
+        "historical_state_crc32": 258912875,
+        "current_vs_historical_state_crc_equal": true,
+        "ema_positional_index": 70,
+        "historical_ema_crc32": 2115706141,
+        "current_vs_positional_ema_crc_equal": false
+      },
+      {
+        "name": "backbone.blocks.8.mlp.2.weight",
+        "shape": [
+          768,
+          3072
+        ],
+        "bytes": 9437184,
+        "current_crc32": 2496279509,
+        "historical_state_crc32": 2496279509,
+        "current_vs_historical_state_crc_equal": true,
+        "ema_positional_index": 71,
+        "historical_ema_crc32": 356047210,
+        "current_vs_positional_ema_crc_equal": false
+      },
+      {
+        "name": "backbone.blocks.8.mlp.2.bias",
+        "shape": [
+          768
+        ],
+        "bytes": 3072,
+        "current_crc32": 2007538325,
+        "historical_state_crc32": 2007538325,
+        "current_vs_historical_state_crc_equal": true,
+        "ema_positional_index": 72,
+        "historical_ema_crc32": 3049843898,
+        "current_vs_positional_ema_crc_equal": false
+      },
+      {
+        "name": "backbone.blocks.9.norm1.weight",
+        "shape": [
+          768
+        ],
+        "bytes": 3072,
+        "current_crc32": 3450156012,
+        "historical_state_crc32": 3450156012,
+        "current_vs_historical_state_crc_equal": true,
+        "ema_positional_index": 73,
+        "historical_ema_crc32": 2777113394,
+        "current_vs_positional_ema_crc_equal": false
+      },
+      {
+        "name": "backbone.blocks.9.attn_qkv.weight",
+        "shape": [
+          2304,
+          768
+        ],
+        "bytes": 7077888,
+        "current_crc32": 1065818357,
+        "historical_state_crc32": 1065818357,
+        "current_vs_historical_state_crc_equal": true,
+        "ema_positional_index": 74,
+        "historical_ema_crc32": 2527939174,
+        "current_vs_positional_ema_crc_equal": false
+      },
+      {
+        "name": "backbone.blocks.9.attn_out.weight",
+        "shape": [
+          768,
+          768
+        ],
+        "bytes": 2359296,
+        "current_crc32": 4033187988,
+        "historical_state_crc32": 4033187988,
+        "current_vs_historical_state_crc_equal": true,
+        "ema_positional_index": 75,
+        "historical_ema_crc32": 1254938672,
+        "current_vs_positional_ema_crc_equal": false
+      },
+      {
+        "name": "backbone.blocks.9.norm2.weight",
+        "shape": [
+          768
+        ],
+        "bytes": 3072,
+        "current_crc32": 184011372,
+        "historical_state_crc32": 184011372,
+        "current_vs_historical_state_crc_equal": true,
+        "ema_positional_index": 76,
+        "historical_ema_crc32": 3282774597,
+        "current_vs_positional_ema_crc_equal": false
+      },
+      {
+        "name": "backbone.blocks.9.mlp.0.weight",
+        "shape": [
+          3072,
+          768
+        ],
+        "bytes": 9437184,
+        "current_crc32": 2474916938,
+        "historical_state_crc32": 2474916938,
+        "current_vs_historical_state_crc_equal": true,
+        "ema_positional_index": 77,
+        "historical_ema_crc32": 3938805965,
+        "current_vs_positional_ema_crc_equal": false
+      },
+      {
+        "name": "backbone.blocks.9.mlp.0.bias",
+        "shape": [
+          3072
+        ],
+        "bytes": 12288,
+        "current_crc32": 497196757,
+        "historical_state_crc32": 497196757,
+        "current_vs_historical_state_crc_equal": true,
+        "ema_positional_index": 78,
+        "historical_ema_crc32": 1409445827,
+        "current_vs_positional_ema_crc_equal": false
+      },
+      {
+        "name": "backbone.blocks.9.mlp.2.weight",
+        "shape": [
+          768,
+          3072
+        ],
+        "bytes": 9437184,
+        "current_crc32": 1827790839,
+        "historical_state_crc32": 1827790839,
+        "current_vs_historical_state_crc_equal": true,
+        "ema_positional_index": 79,
+        "historical_ema_crc32": 3428541726,
+        "current_vs_positional_ema_crc_equal": false
+      },
+      {
+        "name": "backbone.blocks.9.mlp.2.bias",
+        "shape": [
+          768
+        ],
+        "bytes": 3072,
+        "current_crc32": 2266169412,
+        "historical_state_crc32": 2266169412,
+        "current_vs_historical_state_crc_equal": true,
+        "ema_positional_index": 80,
+        "historical_ema_crc32": 336315988,
+        "current_vs_positional_ema_crc_equal": false
+      },
+      {
+        "name": "backbone.blocks.10.norm1.weight",
+        "shape": [
+          768
+        ],
+        "bytes": 3072,
+        "current_crc32": 1486360740,
+        "historical_state_crc32": 1486360740,
+        "current_vs_historical_state_crc_equal": true,
+        "ema_positional_index": 81,
+        "historical_ema_crc32": 469636183,
+        "current_vs_positional_ema_crc_equal": false
+      },
+      {
+        "name": "backbone.blocks.10.attn_qkv.weight",
+        "shape": [
+          2304,
+          768
+        ],
+        "bytes": 7077888,
+        "current_crc32": 3628107430,
+        "historical_state_crc32": 3628107430,
+        "current_vs_historical_state_crc_equal": true,
+        "ema_positional_index": 82,
+        "historical_ema_crc32": 548892106,
+        "current_vs_positional_ema_crc_equal": false
+      },
+      {
+        "name": "backbone.blocks.10.attn_out.weight",
+        "shape": [
+          768,
+          768
+        ],
+        "bytes": 2359296,
+        "current_crc32": 3107471385,
+        "historical_state_crc32": 3107471385,
+        "current_vs_historical_state_crc_equal": true,
+        "ema_positional_index": 83,
+        "historical_ema_crc32": 851428715,
+        "current_vs_positional_ema_crc_equal": false
+      },
+      {
+        "name": "backbone.blocks.10.norm2.weight",
+        "shape": [
+          768
+        ],
+        "bytes": 3072,
+        "current_crc32": 3237803810,
+        "historical_state_crc32": 3237803810,
+        "current_vs_historical_state_crc_equal": true,
+        "ema_positional_index": 84,
+        "historical_ema_crc32": 3519343177,
+        "current_vs_positional_ema_crc_equal": false
+      },
+      {
+        "name": "backbone.blocks.10.mlp.0.weight",
+        "shape": [
+          3072,
+          768
+        ],
+        "bytes": 9437184,
+        "current_crc32": 1024927400,
+        "historical_state_crc32": 1024927400,
+        "current_vs_historical_state_crc_equal": true,
+        "ema_positional_index": 85,
+        "historical_ema_crc32": 1161877263,
+        "current_vs_positional_ema_crc_equal": false
+      },
+      {
+        "name": "backbone.blocks.10.mlp.0.bias",
+        "shape": [
+          3072
+        ],
+        "bytes": 12288,
+        "current_crc32": 2278049136,
+        "historical_state_crc32": 2278049136,
+        "current_vs_historical_state_crc_equal": true,
+        "ema_positional_index": 86,
+        "historical_ema_crc32": 3056958634,
+        "current_vs_positional_ema_crc_equal": false
+      },
+      {
+        "name": "backbone.blocks.10.mlp.2.weight",
+        "shape": [
+          768,
+          3072
+        ],
+        "bytes": 9437184,
+        "current_crc32": 1845725030,
+        "historical_state_crc32": 1845725030,
+        "current_vs_historical_state_crc_equal": true,
+        "ema_positional_index": 87,
+        "historical_ema_crc32": 323486839,
+        "current_vs_positional_ema_crc_equal": false
+      },
+      {
+        "name": "backbone.blocks.10.mlp.2.bias",
+        "shape": [
+          768
+        ],
+        "bytes": 3072,
+        "current_crc32": 246720483,
+        "historical_state_crc32": 246720483,
+        "current_vs_historical_state_crc_equal": true,
+        "ema_positional_index": 88,
+        "historical_ema_crc32": 581674664,
+        "current_vs_positional_ema_crc_equal": false
+      },
+      {
+        "name": "backbone.blocks.11.norm1.weight",
+        "shape": [
+          768
+        ],
+        "bytes": 3072,
+        "current_crc32": 601993495,
+        "historical_state_crc32": 601993495,
+        "current_vs_historical_state_crc_equal": true,
+        "ema_positional_index": 89,
+        "historical_ema_crc32": 4019677115,
+        "current_vs_positional_ema_crc_equal": false
+      },
+      {
+        "name": "backbone.blocks.11.attn_qkv.weight",
+        "shape": [
+          2304,
+          768
+        ],
+        "bytes": 7077888,
+        "current_crc32": 1679757632,
+        "historical_state_crc32": 1679757632,
+        "current_vs_historical_state_crc_equal": true,
+        "ema_positional_index": 90,
+        "historical_ema_crc32": 678663042,
+        "current_vs_positional_ema_crc_equal": false
+      },
+      {
+        "name": "backbone.blocks.11.attn_out.weight",
+        "shape": [
+          768,
+          768
+        ],
+        "bytes": 2359296,
+        "current_crc32": 2514635920,
+        "historical_state_crc32": 2514635920,
+        "current_vs_historical_state_crc_equal": true,
+        "ema_positional_index": 91,
+        "historical_ema_crc32": 2285106284,
+        "current_vs_positional_ema_crc_equal": false
+      },
+      {
+        "name": "backbone.blocks.11.norm2.weight",
+        "shape": [
+          768
+        ],
+        "bytes": 3072,
+        "current_crc32": 2717199414,
+        "historical_state_crc32": 2717199414,
+        "current_vs_historical_state_crc_equal": true,
+        "ema_positional_index": 92,
+        "historical_ema_crc32": 666475072,
+        "current_vs_positional_ema_crc_equal": false
+      },
+      {
+        "name": "backbone.blocks.11.mlp.0.weight",
+        "shape": [
+          3072,
+          768
+        ],
+        "bytes": 9437184,
+        "current_crc32": 3436194701,
+        "historical_state_crc32": 3436194701,
+        "current_vs_historical_state_crc_equal": true,
+        "ema_positional_index": 93,
+        "historical_ema_crc32": 313870062,
+        "current_vs_positional_ema_crc_equal": false
+      },
+      {
+        "name": "backbone.blocks.11.mlp.0.bias",
+        "shape": [
+          3072
+        ],
+        "bytes": 12288,
+        "current_crc32": 1580655172,
+        "historical_state_crc32": 1580655172,
+        "current_vs_historical_state_crc_equal": true,
+        "ema_positional_index": 94,
+        "historical_ema_crc32": 3848747912,
+        "current_vs_positional_ema_crc_equal": false
+      },
+      {
+        "name": "backbone.blocks.11.mlp.2.weight",
+        "shape": [
+          768,
+          3072
+        ],
+        "bytes": 9437184,
+        "current_crc32": 4121468529,
+        "historical_state_crc32": 4121468529,
+        "current_vs_historical_state_crc_equal": true,
+        "ema_positional_index": 95,
+        "historical_ema_crc32": 3065928575,
+        "current_vs_positional_ema_crc_equal": false
+      },
+      {
+        "name": "backbone.blocks.11.mlp.2.bias",
+        "shape": [
+          768
+        ],
+        "bytes": 3072,
+        "current_crc32": 2241415551,
+        "historical_state_crc32": 2241415551,
+        "current_vs_historical_state_crc_equal": true,
+        "ema_positional_index": 96,
+        "historical_ema_crc32": 2612451301,
+        "current_vs_positional_ema_crc_equal": false
+      },
+      {
+        "name": "backbone.output_layer.norm_final.weight",
+        "shape": [
+          768
+        ],
+        "bytes": 3072,
+        "current_crc32": 3524442816,
+        "historical_state_crc32": 3524442816,
+        "current_vs_historical_state_crc_equal": true,
+        "ema_positional_index": 97,
+        "historical_ema_crc32": 859309145,
+        "current_vs_positional_ema_crc_equal": false
+      },
+      {
+        "name": "backbone.output_layer.linear.weight",
+        "shape": [
+          30522,
+          768
+        ],
+        "bytes": 93763584,
+        "current_crc32": 1890751120,
+        "historical_state_crc32": 1890751120,
+        "current_vs_historical_state_crc_equal": true,
+        "ema_positional_index": 98,
+        "historical_ema_crc32": 1675135411,
+        "current_vs_positional_ema_crc_equal": false
+      },
+      {
+        "name": "backbone.output_layer.linear.bias",
+        "shape": [
+          30522
+        ],
+        "bytes": 122088,
+        "current_crc32": 2676235314,
+        "historical_state_crc32": 2676235314,
+        "current_vs_historical_state_crc_equal": true,
+        "ema_positional_index": 99,
+        "historical_ema_crc32": 44760796,
+        "current_vs_positional_ema_crc_equal": false
+      }
+    ]
+  },
+  "limitations": "CRC32 equality is a screening result, not cryptographic or bytewise equality. EMA is an unnamed list; its mapping is a shape-checked positional hypothesis excluding rotary buffer, not verified training parameter registration order. No weight substitution or quality evaluation was performed."
+}

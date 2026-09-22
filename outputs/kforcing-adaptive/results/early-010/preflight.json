@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "synthetic_eos_cases": {
+    "head_eos_skips_decision_and_tail": true,
+    "discarded_tail_eos_does_not_stop": true,
+    "recomputed_eos_stops": true,
+    "partial_final_window": true
+  },
+  "old_visible_outputs": 32,
+  "replay_equivalence_cases": 8,
+  "cache_recompute_cases": 3,
+  "decoder_sha256": "8865edde2251dd5f602a39ff86f752d5464edfbdbee901a09aa3cd62bbc9d60a"
+}

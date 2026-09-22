@@ -1,0 +1,23 @@
+{
+  "prefixes": 64,
+  "seeds": [
+    907,
+    911
+  ],
+  "methods": [
+    "fixed2",
+    "fixed3",
+    "fixed4",
+    "learned",
+    "random_matched"
+  ],
+  "samples": 640,
+  "timing_repetitions": 3,
+  "generated_positions": 122,
+  "prefixes_sha256": "689628c997906eb80325d3fe2cbec7963f55f32b9b273a4d9e81b064d71b43c8",
+  "dataset_sha256": "d3c7b4b2a48c24e9ae8353d6316dbac1453b08f2d870da9fa096c941e8f4cc8a",
+  "model_sha256": "caeeec7c2327e2473dbbcac6d64fa596e7db70d74a8d780035cb06a8bc991aae",
+  "projection_sha256": "09bd00bb8642ee8acbdc19f60ba0b8b12551b993639229865a349dff48a23e9a",
+  "feature_code_sha256": "a84bdb40469d29103c509c1d321a84c8d8744ce95669af40641d5a8a23b7760b",
+  "protocol_sha256": "cb6a094c37f5a913e926e18c39eb2e0e973cd318a68ebf3982ddd5a0cd0c6e62"
+}

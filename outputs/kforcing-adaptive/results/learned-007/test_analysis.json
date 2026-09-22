@@ -1,0 +1,87 @@
+{
+  "chosen_model": "hidden82_alpha001",
+  "test_windows": 1024,
+  "test_prefixes": 128,
+  "fixed4_match_fraction": 0.327880859375,
+  "all_split_match_fraction": 0.338623046875,
+  "model_mse": 0.29252906787941857,
+  "constant_train_mean_mse": 0.2813570499420166,
+  "policies": {
+    "learned_half": {
+      "split_windows": 512,
+      "split_fraction": 0.5,
+      "teacher_token_match_fraction": 0.337890625,
+      "improvement_vs_matched_random_expectation": {
+        "mean": 0.004638671875,
+        "interval95": [
+          0.000244140625,
+          0.0087890625
+        ],
+        "prefix_clusters": 128
+      }
+    },
+    "confidence_half": {
+      "split_windows": 512,
+      "split_fraction": 0.5,
+      "teacher_token_match_fraction": 0.33349609375,
+      "improvement_vs_matched_random_expectation": {
+        "mean": 0.000244140625,
+        "interval95": [
+          -0.00390625,
+          0.00439453125
+        ],
+        "prefix_clusters": 128
+      }
+    },
+    "random_half": {
+      "split_windows": 512,
+      "split_fraction": 0.5,
+      "teacher_token_match_fraction": 0.332275390625,
+      "improvement_vs_matched_random_expectation": {
+        "mean": -0.0009765625,
+        "interval95": [
+          -0.0048828125,
+          0.0030517578125
+        ],
+        "prefix_clusters": 128
+      }
+    },
+    "oracle_half": {
+      "split_windows": 512,
+      "split_fraction": 0.5,
+      "teacher_token_match_fraction": 0.363037109375,
+      "improvement_vs_matched_random_expectation": {
+        "mean": 0.02978515625,
+        "interval95": [
+          0.0257568359375,
+          0.033447265625
+        ],
+        "prefix_clusters": 128
+      }
+    },
+    "locked_threshold": {
+      "split_windows": 575,
+      "split_fraction": 0.5615234375,
+      "teacher_token_match_fraction": 0.339111328125,
+      "improvement_vs_matched_random_expectation": {
+        "mean": 0.005198478698730469,
+        "interval95": [
+          0.0009371280670166015,
+          0.009345573186874387
+        ],
+        "prefix_clusters": 128
+      }
+    }
+  },
+  "learned_vs_random_realization": {
+    "mean": 0.005615234375,
+    "interval95": [
+      -0.00048828125,
+      0.01123046875
+    ],
+    "prefix_clusters": 128
+  },
+  "dev_gate_passed": false,
+  "online_experiment_gate_passed": false,
+  "limitation": "Only fresh six-token contexts and AR noise-coupled token agreement. No generation quality or throughput claim; test must not be reused for model selection."
+}

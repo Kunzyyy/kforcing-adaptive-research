@@ -1,0 +1,15 @@
+{
+  "passed": true,
+  "source_list_independently_resampled": true,
+  "all_noise_hashes_verified": 5448,
+  "all_eos_counts_and_label_arithmetic_verified": true,
+  "independent_primary_intervals": 3,
+  "frozen_model_fits_and_predictions_verified": true,
+  "fresh_pairs_exactly_replayed": 8,
+  "test_states": 681,
+  "test_sources": 380,
+  "advance_gate_passed": false,
+  "analysis_sha256": "78ff3337785b3f85b0fc98d9d827b47a5f80a47388db2d20b5c4ae046f06d719",
+  "verifier_sha256": "63b9d8caff2232e1e334f435ad266101f815d0c60d0a689a2dd829bfb00a3997",
+  "scoring_scope": "All score arithmetic/token counts checked; scorer builtin loss check retained, no second full evaluator pass."
+}

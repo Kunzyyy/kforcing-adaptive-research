@@ -1,0 +1,98 @@
+{
+  "completion/ar": {
+    "samples": 256,
+    "scored_tokens": 6155,
+    "gpt2_nll": 4.6273914922068125,
+    "gpt2_gen_ppl": 102.24700384117692,
+    "excluded_short": 0,
+    "mean_bert_new_tokens": 25.06640625
+  },
+  "completion/fixed4_bf16": {
+    "samples": 256,
+    "scored_tokens": 4385,
+    "gpt2_nll": 5.558769926160336,
+    "gpt2_gen_ppl": 259.5034315350533,
+    "excluded_short": 1,
+    "mean_bert_new_tokens": 19.0703125
+  },
+  "completion/fixed4_fp16": {
+    "samples": 256,
+    "scored_tokens": 4444,
+    "gpt2_nll": 5.5576120107480795,
+    "gpt2_gen_ppl": 259.2031224119803,
+    "excluded_short": 1,
+    "mean_bert_new_tokens": 19.34765625
+  },
+  "completion/fixed4_fp32": {
+    "samples": 256,
+    "scored_tokens": 4452,
+    "gpt2_nll": 5.541809481966099,
+    "gpt2_gen_ppl": 255.1392518938651,
+    "excluded_short": 1,
+    "mean_bert_new_tokens": 19.359375
+  },
+  "completion_bos/ar": {
+    "samples": 256,
+    "scored_tokens": 6411,
+    "gpt2_nll": 4.839996672293973,
+    "gpt2_gen_ppl": 126.468930877991,
+    "excluded_short": 0,
+    "mean_bert_new_tokens": 25.06640625
+  },
+  "completion_bos/fixed4_bf16": {
+    "samples": 256,
+    "scored_tokens": 4641,
+    "gpt2_nll": 5.796250449766041,
+    "gpt2_gen_ppl": 329.0634040799754,
+    "excluded_short": 0,
+    "mean_bert_new_tokens": 19.0703125
+  },
+  "completion_bos/fixed4_fp16": {
+    "samples": 256,
+    "scored_tokens": 4700,
+    "gpt2_nll": 5.787352551602303,
+    "gpt2_gen_ppl": 326.1484192722591,
+    "excluded_short": 0,
+    "mean_bert_new_tokens": 19.34765625
+  },
+  "completion_bos/fixed4_fp32": {
+    "samples": 256,
+    "scored_tokens": 4708,
+    "gpt2_nll": 5.772006478265067,
+    "gpt2_gen_ppl": 321.1815303080621,
+    "excluded_short": 0,
+    "mean_bert_new_tokens": 19.359375
+  },
+  "full_text/ar": {
+    "samples": 256,
+    "scored_tokens": 7468,
+    "gpt2_nll": 4.529244150142333,
+    "gpt2_gen_ppl": 92.68847602714649,
+    "excluded_short": 0,
+    "mean_bert_new_tokens": 25.06640625
+  },
+  "full_text/fixed4_bf16": {
+    "samples": 256,
+    "scored_tokens": 5706,
+    "gpt2_nll": 5.268428912799567,
+    "gpt2_gen_ppl": 194.1107578295461,
+    "excluded_short": 0,
+    "mean_bert_new_tokens": 19.0703125
+  },
+  "full_text/fixed4_fp16": {
+    "samples": 256,
+    "scored_tokens": 5765,
+    "gpt2_nll": 5.269279074689562,
+    "gpt2_gen_ppl": 194.27585356739925,
+    "excluded_short": 0,
+    "mean_bert_new_tokens": 19.34765625
+  },
+  "full_text/fixed4_fp32": {
+    "samples": 256,
+    "scored_tokens": 5773,
+    "gpt2_nll": 5.2560722351735,
+    "gpt2_gen_ppl": 191.72695206235352,
+    "excluded_short": 0,
+    "mean_bert_new_tokens": 19.359375
+  }
+}

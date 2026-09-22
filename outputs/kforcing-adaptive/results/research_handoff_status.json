@@ -1,0 +1,19 @@
+{
+  "completed_utc": "2026-09-21T06:18:45.674630+00:00",
+  "evidence_handoff_completed": true,
+  "archive": "outputs\\kforcing-research-handoff.zip",
+  "archive_sha256": "1287a8a1f6f210ff3774b0feb81ea147165fef26626686fb16262cdab43a8823",
+  "archive_bytes": 5940794,
+  "isolated_validation_passed": true,
+  "verification_scope": "recorded statistics, not fresh neural-model or hardware reproduction",
+  "new_research_experiment": false,
+  "new_adaptive_effect_established": false,
+  "human_ratings_received": 0,
+  "human_quality": "not_evaluated",
+  "reviewers_currently_available": false,
+  "baseline_quality_gap_resolved": false,
+  "research_packet_contains_method_labels": true,
+  "not_for_blind_reviewers": true,
+  "author_contact_sent": false,
+  "external_send": false
+}

@@ -1,0 +1,36 @@
+{
+  "created_utc": "2026-09-21T01:40:38.426976+00:00",
+  "code_input_hashes": {
+    "CONFIG_TOKENIZER_AUDIT_PLAN.md": "105820c9dd3a4465c8b457205579417cb72a9a0b4743a4570b30ff85310278e5",
+    "audit_historical_config.py": "a529cad4d6e15196dff94958df45cacea71acfb3bb228ce1c852dc36aeb5115e",
+    "checkpoint_pickle_metadata.py": "c1f65eac0b2356eef7729c6adef4be48c1c82ed6369300b045448ce6c41c6607",
+    "core.py": "24c16c1df17f94302a0a5746df210ec5906de49abe07dfc8f2862ead409d5cf8",
+    "audit_official.py": "04ca5932bccee91a9618b196fa39edf7a191a22f38ad82e3aa9149b7500e2f9f",
+    "upstream/models/pflm.py": "e188455e04eff640af7e0551e54d74c84dcc2d5bd447b24b1d0f1a67d82f59d8",
+    "upstream/models/autoregressive.py": "8fbecc2a28532ba18d63ac62eb57321ed14f44e596f2c4b9b379f12b05d221c8",
+    "upstream/models/transformer.py": "43b93ede2d55a37ec70d2fbdcdbe615be4847932a8565d4cdc5a49a611212812",
+    "upstream/batch_inference_with_prefix.py": "85769c80447ad186ced764b58e52e831a5043d433a63d7efa60a932256a6e3e1",
+    "results/baseline-016/prefixes.json": "b896d0e3aedb432bc5f57e7d213a6a7e7f69db77822d95457f6cc84c9b0681ad",
+    "results/baseline-016/samples.jsonl": "3c8d00e11fec817596630334ca8370c97b2e4e279e1db9de8f55510dc081d22e",
+    "results/baseline-016/author_probe/probe_cases.json": "71d8ff47f46b7bc2079ae604e14f987e7dda90a6d2604858855f01b6527d9619",
+    "results/public-history/historical_ar/data.pkl": "018d710683324e09ec7492052a4a5fd7dde5e2ef54d6f505fb16e7d51ab9464b",
+    "results/public-history/historical_ar/metadata_summary.json": "b40058ff8a4d5fe0a47993f3bef5fcda58897c6cca8227162716be68b4797198",
+    "results/public-history/historical_pflm/data.pkl": "e16f2a0aefb97ec085e42425ee7314d0c1baf9ec23770c857abc09980286baed",
+    "results/public-history/historical_pflm/metadata_summary.json": "9b6ee3f7464ea359f76317eada41e9d81567589b1fa49d8f9128b95099c18791"
+  },
+  "external_input_hashes": {
+    "work/pilot-data/vocab.txt": "07eced375cec144d27c900241f3e339478dec958f92fddbc551f295c992038a3",
+    "work/lm1b-data/test.parquet": "d3c7b4b2a48c24e9ae8353d6316dbac1453b08f2d870da9fa096c941e8f4cc8a",
+    "work/checkpoints/ar_best_lm1b.ckpt": "e2463aa9de897dd2394580eeec7de23f0fe076931050b21612e8b06316ccc439",
+    "work/checkpoints/pflm_lm1b_k4.ckpt": "3b013f0cf9a3acab4c20a1bb748beee6525432ef3f56a74df4957b898480a2c2"
+  },
+  "sources": 1024,
+  "samples": 2048,
+  "pflm_probe_cases": 160,
+  "ar_probe_cases": 40,
+  "generation_sources": 32,
+  "logit_absolute_tolerance": 1e-06,
+  "retrospective": true,
+  "preliminary_decode_check_already_observed": true,
+  "new_test": false
+}

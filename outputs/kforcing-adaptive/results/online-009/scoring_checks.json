@@ -1,0 +1,8 @@
+{
+  "builtin_loss_matches": true,
+  "evaluator_files_verified": true,
+  "repo": "openai-community/gpt2-large",
+  "revision": "32b71b12589c2f8d625668d2335a01cac3249519",
+  "precision": "fp32",
+  "scope": "Completion only, no BOS, first token unscored; corpus token weighting."
+}

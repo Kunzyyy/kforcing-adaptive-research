@@ -1,0 +1,107 @@
+{
+  "passed": true,
+  "old_cases": 12,
+  "changed_future_cases": 24,
+  "original_branches_exact": true,
+  "changed_future_replay_exact": true,
+  "state_exact": true,
+  "cases": [
+    {
+      "old_pair_id": "s11-256-1103-0",
+      "future_seed": 123000001
+    },
+    {
+      "old_pair_id": "s11-256-1103-0",
+      "future_seed": 123010001
+    },
+    {
+      "old_pair_id": "s11-256-1103-8",
+      "future_seed": 123000002
+    },
+    {
+      "old_pair_id": "s11-256-1103-8",
+      "future_seed": 123010002
+    },
+    {
+      "old_pair_id": "s11-256-1109-0",
+      "future_seed": 123000003
+    },
+    {
+      "old_pair_id": "s11-256-1109-0",
+      "future_seed": 123010003
+    },
+    {
+      "old_pair_id": "s11-256-1109-8",
+      "future_seed": 123000004
+    },
+    {
+      "old_pair_id": "s11-256-1109-8",
+      "future_seed": 123010004
+    },
+    {
+      "old_pair_id": "s11-256-1117-0",
+      "future_seed": 123000005
+    },
+    {
+      "old_pair_id": "s11-256-1117-0",
+      "future_seed": 123010005
+    },
+    {
+      "old_pair_id": "s11-256-1117-8",
+      "future_seed": 123000006
+    },
+    {
+      "old_pair_id": "s11-256-1117-8",
+      "future_seed": 123010006
+    },
+    {
+      "old_pair_id": "s11-256-1123-0",
+      "future_seed": 123000007
+    },
+    {
+      "old_pair_id": "s11-256-1123-0",
+      "future_seed": 123010007
+    },
+    {
+      "old_pair_id": "s11-256-1123-8",
+      "future_seed": 123000008
+    },
+    {
+      "old_pair_id": "s11-256-1123-8",
+      "future_seed": 123010008
+    },
+    {
+      "old_pair_id": "s11-257-1103-0",
+      "future_seed": 123000009
+    },
+    {
+      "old_pair_id": "s11-257-1103-0",
+      "future_seed": 123010009
+    },
+    {
+      "old_pair_id": "s11-257-1103-8",
+      "future_seed": 123000010
+    },
+    {
+      "old_pair_id": "s11-257-1103-8",
+      "future_seed": 123010010
+    },
+    {
+      "old_pair_id": "s11-257-1109-0",
+      "future_seed": 123000011
+    },
+    {
+      "old_pair_id": "s11-257-1109-0",
+      "future_seed": 123010011
+    },
+    {
+      "old_pair_id": "s11-257-1117-0",
+      "future_seed": 123000012
+    },
+    {
+      "old_pair_id": "s11-257-1117-0",
+      "future_seed": 123010012
+    }
+  ],
+  "collector_sha256": "6773b05465b5bbdfec033bea0464845c1e4c6406bbd440d15a486e0a047c89a3"
+}

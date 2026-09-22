@@ -1,0 +1,19 @@
+{
+  "created_utc": "2026-09-20T23:39:59.455644+00:00",
+  "sources": 384,
+  "seeds": [
+    1901
+  ],
+  "offsets": [
+    0,
+    8
+  ],
+  "repeats": 8,
+  "dataset_sha256": "d3c7b4b2a48c24e9ae8353d6316dbac1453b08f2d870da9fa096c941e8f4cc8a",
+  "tokenizer_sha256": "07eced375cec144d27c900241f3e339478dec958f92fddbc551f295c992038a3",
+  "locked_model_sha256": "0fb2e2b2c229b736c141c1e94096434c14a0e9a647a27c99170e194958d96756",
+  "artifact_hashes": {
+    "prefixes.json": "06f238e4d4dca2c766ca48ad261f5e3d7650fb3c815dbde5fb253ed9cdff8797",
+    "projection.npy": "09bd00bb8642ee8acbdc19f60ba0b8b12551b993639229865a349dff48a23e9a"
+  }
+}

@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>文本比较 · 独立评审</title>
+<style>
+:root{color-scheme:light;--ink:#173029;--muted:#52665f;--line:#cdd8d1;--accent:#19614a;--paper:#fffef9}
+*{box-sizing:border-box}body{margin:0;background:#eef2ed;color:var(--ink);font:16px/1.65 system-ui,"Microsoft YaHei",sans-serif}
+main{max-width:1100px;margin:auto;padding:32px 24px 100px}h1{font-size:30px;line-height:1.25;margin:8px 0 12px}h2{font-size:18px;margin:0 0 12px}p{margin:8px 0}.eyebrow{font-size:12px;letter-spacing:2px;color:var(--accent);font-weight:700}.muted{color:var(--muted)}
+.panel{background:var(--paper);border:1px solid var(--line);border-radius:14px;padding:22px;margin:18px 0}.row{display:flex;align-items:center;gap:12px;flex-wrap:wrap}.row.between{justify-content:space-between}.identity{flex:1;min-width:220px}.identity input{width:100%;max-width:340px;display:block}
+input[type=text],textarea,select{font:inherit;color:inherit;border:1px solid #91a69b;border-radius:7px;padding:8px 10px;background:white}textarea{display:block;width:100%;min-height:70px;resize:vertical}button,.filelabel{font:inherit;border:1px solid #8ca396;border-radius:8px;padding:8px 16px;background:white;color:var(--ink);cursor:pointer}button:hover,.filelabel:hover{background:#e5eee7}button:disabled{opacity:.45;cursor:default}.primary{background:var(--accent);color:white;border-color:var(--accent)}.primary:hover{background:#124d3b}.filelabel{display:inline-block}input[type=file]{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0,0,0,0)}input:focus-visible,button:focus-visible,textarea:focus-visible,select:focus-visible,summary:focus-visible,.filelabel:focus-within{outline:3px solid #d49f32;outline-offset:3px}
+progress{display:block;width:100%;height:10px;margin-top:12px;accent-color:var(--accent)}.prefix{border-left:3px solid #679c85;padding-left:14px}.english{font:19px/1.8 Georgia,"Times New Roman",serif;white-space:pre-wrap;overflow-wrap:anywhere;margin:0}.comparison{display:grid;grid-template-columns:1fr 1fr;gap:18px}.text-card{background:white;border:1px solid var(--line);border-radius:10px;padding:20px}.badge{display:inline-block;border-radius:6px;background:#e5eee7;font-weight:700;padding:1px 10px;margin-bottom:10px}.choices{display:flex;gap:10px;flex-wrap:wrap;border:0;padding:0;margin:24px 0 16px}.choices legend{font-weight:700;margin-bottom:10px}.choice{display:flex;gap:8px;align-items:center;cursor:pointer;padding:10px 14px;border:1px solid #91a69b;border-radius:8px;background:white}.choice:has(input:checked){background:#e0f0e5;border-color:var(--accent);box-shadow:inset 0 0 0 1px var(--accent)}input[type=checkbox],input[type=radio]{accent-color:var(--accent);width:18px;height:18px;vertical-align:middle}summary{cursor:pointer;font-weight:600}ol{padding-left:24px}.small{font-size:13px}.status{min-height:26px;font-size:14px;color:var(--muted)}.error{color:#922f24}.annotation{margin:14px 0}.footer{margin-top:22px;padding-top:16px;border-top:1px solid var(--line)}
+@media(max-width:700px){main{padding:20px 14px 70px}.panel{padding:17px}.comparison{grid-template-columns:1fr}.text-card{padding:16px}.english{font-size:18px}h1{font-size:25px}.choice{flex:1 1 40%}}
+</style>
+</head>
+<body><main>
+<header><div class="eyebrow">INDEPENDENT TEXT REVIEW</div><h1>哪段文字读起来更好？</h1><p class="muted">请独立比较前文衔接、语法、连贯与自然程度。所有操作在本地完成。</p></header>
+<section class="panel" aria-label="评审说明">
+<details open><summary>开始前，请阅读</summary><ol>
+<li>A、B 都是包含前文的完整文本；请结合前文判断整段质量。</li><li>选择更好的文本；没有明确差别选“相当”，确实无法判断选“无法判断”。不要只因更长或更短而投票。</li><li>如果两段都明显不可接受，请额外勾选；仍可判断哪段相对更好。无需查证新闻事实。</li><li>独立作答，不查看方法名称、评分或其他评审答案。可以休息后导入进度继续。</li><li>进度会尝试保存在当前浏览器。请定期导出备份；页面不会自动提交答案。</li>
+</ol></details>
+<div class="row"><label class="identity" for="alias">评审代号（不用真实姓名）<input id="alias" type="text" maxlength="80" placeholder="例如 reviewer-01" autocomplete="off"></label>
+<label><input id="human" type="checkbox"> 我确认这些选择由我本人独立阅读后作出。</label></div>
+</section>
+<section class="panel" aria-label="进度"><div class="row between"><strong id="progressLabel"></strong><span class="muted" id="position"></span></div><progress id="progress" max="80" value="0"></progress>
+<div class="row" style="margin-top:14px"><label for="jump">跳转至</label><select id="jump"></select><button id="unanswered" type="button">下一道未答</button><span id="saveStatus" class="status" role="status" aria-live="polite"></span></div></section>
+<section class="panel" aria-label="当前比较">
+<h2 id="questionTitle" tabindex="-1">文本比较</h2><div class="prefix"><span class="small muted">共同前文</span><p id="prefix" class="english" lang="en"></p></div>
+<p class="small muted" style="margin:18px 0 8px">以下两段均已包含前文。</p><div class="comparison"><article class="text-card"><span class="badge">A</span><p id="textA" class="english" lang="en"></p></article><article class="text-card"><span class="badge">B</span><p id="textB" class="english" lang="en"></p></article></div>
+<fieldset class="choices"><legend>综合来看，我认为</legend>
+<label class="choice"><input type="radio" name="choice" value="A"> A 更好</label><label class="choice"><input type="radio" name="choice" value="B"> B 更好</label><label class="choice"><input type="radio" name="choice" value="TIE"> 相当</label><label class="choice"><input type="radio" name="choice" value="SKIP"> 无法判断</label>
+</fieldset><div class="annotation"><label><input id="bothBad" type="checkbox"> 两段都明显不可接受</label></div>
+<label for="comment" class="small muted">判断依据（选填）</label><textarea id="comment" maxlength="2000" placeholder="例如：前后矛盾、语法问题、表达重复……"></textarea>
+<div class="row between footer"><button id="previous" type="button">上一道</button><button id="next" class="primary" type="button">保存并下一道</button></div>
+</section>
+<section class="panel" aria-label="保存与导出"><h2>保存你的评审</h2><p class="muted">未全部答完也可导出进度。全部完成后，填写代号、勾选独立评审声明，再导出最终答案。</p>
+<div class="row"><button id="export" class="primary" type="button">导出 JSON</button><label class="filelabel">导入进度<input id="import" type="file" accept=".json,application/json"></label></div><p id="message" class="status" role="status" aria-live="polite"></p><p class="small muted" id="packetLabel"></p></section>
+</main>
+<script>
+"use strict";
+const PACKET = /*TASK_DATA*/;
+const $ = id => document.getElementById(id);
+const CHOICES = new Set(["A","B","TIE","SKIP"]);
+const STORAGE = "blind-text-review:" + PACKET.packet_id;
+const taskIds = new Set(PACKET.tasks.map(t => t.id));
+let position = 0;
+let state = {alias:"",human:false,answers:Object.fromEntries(PACKET.tasks.map(t=>[t.id,{choice:null,both_bad:false,comment:""}]))};
+function notify(message,error=false){$("message").textContent=message;$("message").classList.toggle("error",error);}
+function validate(raw){
+ if(!raw || raw.schema_version!==1 || raw.packet_id!==PACKET.packet_id || raw.tasks_sha256!==PACKET.tasks_sha256) throw new Error("这份进度不属于当前评审包。");
+ if(raw.data_origin!=="human_self_reported") throw new Error("只能导入本评审页导出的人工作答进度。");
+ if(!raw.reviewer || typeof raw.reviewer.alias!=="string" || raw.reviewer.alias.length>80 || typeof raw.reviewer.human_confirmed!=="boolean") throw new Error("评审信息格式不正确。");
+ if(!Array.isArray(raw.answers) || raw.answers.length!==PACKET.tasks.length) throw new Error("任务数不一致。");
+ const answers=Object.create(null);
+ for(const a of raw.answers){
+  if(!a || !taskIds.has(a.task_id) || Object.hasOwn(answers,a.task_id) || !(a.choice===null || CHOICES.has(a.choice)) || typeof a.both_bad!=="boolean" || typeof a.comment!=="string" || a.comment.length>2000) throw new Error("答案格式、任务编号或重复项有误。");
+  answers[a.task_id]={choice:a.choice,both_bad:a.both_bad,comment:a.comment};
+ }
+ return {alias:raw.reviewer.alias,human:raw.reviewer.human_confirmed,answers};
+}
+function payload(){return {schema_version:1,packet_id:PACKET.packet_id,tasks_sha256:PACKET.tasks_sha256,data_origin:"human_self_reported",reviewer:{alias:state.alias.trim(),human_confirmed:state.human},exported_at:new Date().toISOString(),complete:Object.values(state.answers).every(a=>a.choice!==null),answers:PACKET.tasks.map(t=>({task_id:t.id,...state.answers[t.id]}))};}
+function save(){try{localStorage.setItem(STORAGE,JSON.stringify(payload()));$("saveStatus").textContent="已保存在当前浏览器";}catch(e){$("saveStatus").textContent="本地存储不可用，请导出备份";}}
+function updateProgress(){const n=Object.values(state.answers).filter(a=>a.choice!==null).length;$("progressLabel").textContent=`已作答 ${n} / ${PACKET.tasks.length}`;$("progress").max=PACKET.tasks.length;$("progress").value=n;$("position").textContent=`当前第 ${position+1} 道`;for(let i=0;i<PACKET.tasks.length;i++)$("jump").options[i].textContent=`${i+1}${state.answers[PACKET.tasks[i].id].choice===null?" · 未答":" · 已答"}`;}
+function render(){const t=PACKET.tasks[position],a=state.answers[t.id];$("prefix").textContent=t.prefix;$("textA").textContent=t.A;$("textB").textContent=t.B;$("questionTitle").textContent=`第 ${position+1} 道 · 文本比较`;document.querySelectorAll('input[name="choice"]').forEach(r=>r.checked=r.value===a.choice);$("bothBad").checked=a.both_bad;$("comment").value=a.comment;$("jump").value=position;$("previous").disabled=position===0;$("next").textContent=position===PACKET.tasks.length-1?"保存并检查完成情况":"保存并下一道";updateProgress();}
+function navigate(n){position=n;render();$("questionTitle").focus({preventScroll:true});}
+for(let i=0;i<PACKET.tasks.length;i++){const o=document.createElement("option");o.value=i;$("jump").append(o);}
+document.querySelectorAll('input[name="choice"]').forEach(r=>r.addEventListener("change",()=>{state.answers[PACKET.tasks[position].id].choice=r.value;save();updateProgress();}));
+$("bothBad").addEventListener("change",()=>{state.answers[PACKET.tasks[position].id].both_bad=$("bothBad").checked;save();});
+$("comment").addEventListener("input",()=>{state.answers[PACKET.tasks[position].id].comment=$("comment").value;save();});
+$("alias").addEventListener("input",()=>{state.alias=$("alias").value;save();});
+$("human").addEventListener("change",()=>{state.human=$("human").checked;save();});
+$("jump").addEventListener("change",()=>navigate(Number($("jump").value)));
+$("previous").addEventListener("click",()=>navigate(position-1));
+$("next").addEventListener("click",()=>{save();if(position<PACKET.tasks.length-1)navigate(position+1);else{const missing=Object.values(state.answers).filter(a=>a.choice===null).length;notify(missing?`还有 ${missing} 道未作答，可用“下一道未答”继续。`:"全部完成。请确认代号和独立评审声明，然后导出 JSON。");$("export").focus();}});
+$("unanswered").addEventListener("click",()=>{for(let step=1;step<=PACKET.tasks.length;step++){const i=(position+step)%PACKET.tasks.length;if(state.answers[PACKET.tasks[i].id].choice===null){navigate(i);return;}}notify("全部任务均已作答。");});
+$("export").addEventListener("click",()=>{const data=payload();if(!data.reviewer.alias){notify("请先填写评审代号，以便保存进度。",true);$("alias").focus();return;}if(data.complete&&!data.reviewer.human_confirmed){notify("导出完整答案前，请确认独立评审声明。",true);$("human").focus();return;}const blob=new Blob([JSON.stringify(data,null,2)],{type:"application/json;charset=utf-8"});const url=URL.createObjectURL(blob),a=document.createElement("a");a.href=url;a.download=`${PACKET.packet_id}-${data.reviewer.alias.replace(/[^a-zA-Z0-9_-]/g,"_")}-${data.complete?"complete":"progress"}.json`;document.body.append(a);a.click();a.remove();setTimeout(()=>URL.revokeObjectURL(url),1000);notify(data.complete?"已导出完整答案。请保留 JSON 文件；页面未发送任何数据。":"已导出进度。之后可导入继续作答。");});
+$("import").addEventListener("change",async event=>{const file=event.target.files[0];if(!file)return;try{if(file.size>1000000)throw new Error("文件过大，请选择本页导出的 JSON。");const imported=validate(JSON.parse(await file.text()));if(Object.values(state.answers).some(a=>a.choice!==null)&&!window.confirm("导入会替换当前浏览器中的这份进度。继续吗？"))return;state=imported;$("alias").value=state.alias;$("human").checked=state.human;position=0;save();render();notify("进度已导入。");}catch(e){notify(`无法导入：${e.message}`,true);}finally{event.target.value="";}});
+try{const saved=localStorage.getItem(STORAGE);if(saved){state=validate(JSON.parse(saved));$("saveStatus").textContent="已恢复当前浏览器进度";}}catch(e){$("saveStatus").textContent="无法恢复本地进度，可导入备份";}
+$("alias").value=state.alias;$("human").checked=state.human;$("packetLabel").textContent="评审包编号："+PACKET.packet_id;render();
+</script></body></html>

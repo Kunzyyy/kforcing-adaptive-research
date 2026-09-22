@@ -1,0 +1,8 @@
+{
+  "passed": true,
+  "outputs": 1536,
+  "timing_runs": 4608,
+  "repeated_tokens_and_decisions_identical": true,
+  "learned_replay_tokens_identical": true,
+  "locked_calibration_sha256": "1f59ee36c8e8e1b096967fba0fbdadb5624806a30ff0d25b37b18d8cb8d0f9bc"
+}

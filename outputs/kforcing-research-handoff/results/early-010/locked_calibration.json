@@ -1,0 +1,150 @@
+{
+  "learned_calls_per_token": 0.39460247994164843,
+  "counts": {
+    "learned": {
+      "calls": 541,
+      "tokens": 1371,
+      "candidates": 1814
+    },
+    "random_00": {
+      "calls": 346,
+      "tokens": 1299,
+      "candidates": 1384
+    },
+    "random_01": {
+      "calls": 370,
+      "tokens": 1261,
+      "candidates": 1420
+    },
+    "random_02": {
+      "calls": 412,
+      "tokens": 1299,
+      "candidates": 1520
+    },
+    "random_03": {
+      "calls": 454,
+      "tokens": 1353,
+      "candidates": 1626
+    },
+    "random_04": {
+      "calls": 495,
+      "tokens": 1367,
+      "candidates": 1716
+    },
+    "random_05": {
+      "calls": 546,
+      "tokens": 1421,
+      "candidates": 1844
+    },
+    "random_06": {
+      "calls": 602,
+      "tokens": 1494,
+      "candidates": 1992
+    },
+    "random_07": {
+      "calls": 641,
+      "tokens": 1483,
+      "candidates": 2064
+    },
+    "random_08": {
+      "calls": 689,
+      "tokens": 1487,
+      "candidates": 2162
+    },
+    "random_09": {
+      "calls": 745,
+      "tokens": 1535,
+      "candidates": 2302
+    },
+    "random_10": {
+      "calls": 778,
+      "tokens": 1517,
+      "candidates": 2360
+    }
+  },
+  "ranking": [
+    {
+      "method": "random_00",
+      "probability": 0.0,
+      "calls_per_token": 0.2663587374903772,
+      "absolute_log_cost_ratio": 0.3930348408970425
+    },
+    {
+      "method": "random_01",
+      "probability": 0.1,
+      "calls_per_token": 0.2934179222839017,
+      "absolute_log_cost_ratio": 0.29628092961081653
+    },
+    {
+      "method": "random_02",
+      "probability": 0.2,
+      "calls_per_token": 0.317167051578137,
+      "absolute_log_cost_ratio": 0.21845026660524033
+    },
+    {
+      "method": "random_03",
+      "probability": 0.3,
+      "calls_per_token": 0.3355506282335551,
+      "absolute_log_cost_ratio": 0.16210602941360713
+    },
+    {
+      "method": "random_04",
+      "probability": 0.4,
+      "calls_per_token": 0.3621068032187271,
+      "absolute_log_cost_ratio": 0.08593967343942642
+    },
+    {
+      "method": "random_05",
+      "probability": 0.5,
+      "calls_per_token": 0.3842364532019704,
+      "absolute_log_cost_ratio": 0.026620751636362776
+    },
+    {
+      "method": "random_06",
+      "probability": 0.6,
+      "calls_per_token": 0.4029451137884873,
+      "absolute_log_cost_ratio": 0.020921480331891368
+    },
+    {
+      "method": "random_07",
+      "probability": 0.7,
+      "calls_per_token": 0.4322319622387053,
+      "absolute_log_cost_ratio": 0.09108351549857081
+    },
+    {
+      "method": "random_08",
+      "probability": 0.8,
+      "calls_per_token": 0.4633490248823134,
+      "absolute_log_cost_ratio": 0.16060172526933628
+    },
+    {
+      "method": "random_09",
+      "probability": 0.9,
+      "calls_per_token": 0.48534201954397393,
+      "absolute_log_cost_ratio": 0.20697495907409483
+    },
+    {
+      "method": "random_10",
+      "probability": 1.0,
+      "calls_per_token": 0.5128543177323666,
+      "absolute_log_cost_ratio": 0.26211294554569237
+    }
+  ],
+  "chosen": {
+    "method": "random_06",
+    "probability": 0.6,
+    "calls_per_token": 0.4029451137884873,
+    "absolute_log_cost_ratio": 0.020921480331891368
+  },
+  "probabilities": {
+    "random_low": 0.5,
+    "random_cal": 0.6,
+    "random_high": 0.7
+  },
+  "calibration_sha256": "3c12455cbfa552fdd0c40524776ecbe2f80edc04f61a8a76210cd239c1fe33df",
+  "prefixes_sha256": "780661ae7133cffe5ecf3b2040e74603b99e2fe96c321dea179f880ac7d06de1",
+  "decoder_sha256": "8865edde2251dd5f602a39ff86f752d5464edfbdbee901a09aa3cd62bbc9d60a",
+  "runner_sha256": "fa02b46ce7ccf8690d1a74d1e7816f3803bfccbfb14f95b58dc762af807cc2a3",
+  "quality_labels_used": false,
+  "test_generated": false
+}

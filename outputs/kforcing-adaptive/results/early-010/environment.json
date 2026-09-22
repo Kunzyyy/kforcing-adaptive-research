@@ -1,0 +1,11 @@
+{
+  "torch": "2.11.0+cu128",
+  "cuda": "12.8",
+  "gpu": "NVIDIA GeForce RTX 5060 Laptop GPU",
+  "precision": "fp32",
+  "threads": 4,
+  "tf32": false,
+  "decoder_sha256": "8865edde2251dd5f602a39ff86f752d5464edfbdbee901a09aa3cd62bbc9d60a",
+  "runner_sha256": "fa02b46ce7ccf8690d1a74d1e7816f3803bfccbfb14f95b58dc762af807cc2a3",
+  "locked_calibration_sha256": "1f59ee36c8e8e1b096967fba0fbdadb5624806a30ff0d25b37b18d8cb8d0f9bc"
+}

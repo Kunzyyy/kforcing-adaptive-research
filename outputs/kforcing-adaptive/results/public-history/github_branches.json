@@ -1,0 +1,29 @@
+{
+  "url": "https://api.github.com/repos/alibaba-damo-academy/K-Forcing/branches?per_page=100",
+  "observed_utc": "2026-09-21T00:55:27.910413+00:00",
+  "status": 200,
+  "headers": {
+    "date": "Mon, 21 Sep 2026 00:55:29 GMT",
+    "etag": "W/\"2299734b476d39af7f9deeef3438375e80d2338540a8dba6000e10ffcf4a747e\"",
+    "x-ratelimit-remaining": "57"
+  },
+  "response_sha256": "2299734b476d39af7f9deeef3438375e80d2338540a8dba6000e10ffcf4a747e",
+  "data": [
+    {
+      "name": "gh-pages",
+      "commit": {
+        "sha": "d00fad1188d15e2654134d0dc81cebe4a827ee5e",
+        "url": "https://api.github.com/repos/alibaba-damo-academy/K-Forcing/commits/d00fad1188d15e2654134d0dc81cebe4a827ee5e"
+      },
+      "protected": false
+    },
+    {
+      "name": "main",
+      "commit": {
+        "sha": "706caa332a69d509b7fc2fa53ac7819f381a8c78",
+        "url": "https://api.github.com/repos/alibaba-damo-academy/K-Forcing/commits/706caa332a69d509b7fc2fa53ac7819f381a8c78"
+      },
+      "protected": false
+    }
+  ]
+}

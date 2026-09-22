@@ -1,0 +1,13 @@
+{
+  "observed_utc": "2026-09-21T00:55:27.909010+00:00",
+  "github_current_commit": "706caa332a69d509b7fc2fa53ac7819f381a8c78",
+  "huggingface_current_revision": "16b984316bdd4585f17b11d0e61a58d236c2febc",
+  "local_pins_still_current": true,
+  "complete_main_ancestor_commits": 27,
+  "hf_revision_count": 11,
+  "historical_lm1b_checkpoint_revisions_found": true,
+  "remote_writes": false,
+  "public_issues_at_snapshot": 0,
+  "hf_discussions_at_snapshot": 0,
+  "limitations": "Public snapshots only; cannot describe unpublished lab activity. Static AMP-normalized AST equality does not prove dependency-level numeric equivalence."
+}

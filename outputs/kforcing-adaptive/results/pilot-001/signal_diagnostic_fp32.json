@@ -1,0 +1,1056 @@
+{
+  "summary": {
+    "total_branches": 44,
+    "retained_branches": 35,
+    "eos_excluded": 9,
+    "first_two_match_fraction": 1.0,
+    "spearman_previous_margin_vs_short_gain": 0.10894566584685116,
+    "mean_teacher_nll_gain_from_short": 1.6082780872072493,
+    "groups": {
+      "True": {
+        "count": 21,
+        "mean_gain": 1.2814605406352453,
+        "positive_gain_fraction": 0.7619047619047619
+      },
+      "False": {
+        "count": 14,
+        "mean_gain": 2.0985044070652554,
+        "positive_gain_fraction": 0.7857142857142857
+      }
+    },
+    "scope": "Validation only; same four output positions; no frequency penalty; EOS branches excluded. Expected useful sign is negative correlation. Small dependent branch sample, exploratory only.",
+    "branch_precision": "fp32",
+    "trajectory_precision": "bf16"
+  },
+  "rows": [
+    {
+      "prompt_id": "validation-000",
+      "position": 10,
+      "seed": 101,
+      "previous_margin": 6.0,
+      "low_margin": false,
+      "first_two_match": true,
+      "eos_excluded": true,
+      "tokens_fixed4": [
+        2197,
+        2077,
+        1010,
+        102
+      ],
+      "tokens_two_plus_two": [
+        2197,
+        2077,
+        1996,
+        25096
+      ]
+    },
+    {
+      "prompt_id": "validation-000",
+      "position": 10,
+      "seed": 202,
+      "previous_margin": 6.0,
+      "low_margin": false,
+      "first_two_match": true,
+      "eos_excluded": false,
+      "tokens_fixed4": [
+        2197,
+        3204,
+        2007,
+        2007
+      ],
+      "tokens_two_plus_two": [
+        2197,
+        3204,
+        2007,
+        6044
+      ],
+      "nll_fixed4": 4.542746543884277,
+      "nll_two_plus_two": 3.1445865631103516,
+      "gain_from_short": 1.3981599807739258
+    },
+    {
+      "prompt_id": "validation-000",
+      "position": 14,
+      "seed": 101,
+      "previous_margin": 1.140625,
+      "low_margin": true,
+      "first_two_match": true,
+      "eos_excluded": true,
+      "tokens_fixed4": [
+        2136,
+        1012,
+        102,
+        5671
+      ],
+      "tokens_two_plus_two": [
+        2136,
+        1012,
+        102,
+        12471
+      ]
+    },
+    {
+      "prompt_id": "validation-000",
+      "position": 14,
+      "seed": 202,
+      "previous_margin": 1.140625,
+      "low_margin": true,
+      "first_two_match": true,
+      "eos_excluded": false,
+      "tokens_fixed4": [
+        6187,
+        2077,
+        2010,
+        7007
+      ],
+      "tokens_two_plus_two": [
+        6187,
+        2077,
+        5241,
+        2000
+      ],
+      "nll_fixed4": 8.38100814819336,
+      "nll_two_plus_two": 8.409388542175293,
+      "gain_from_short": -0.028380393981933594
+    },
+    {
+      "prompt_id": "validation-000",
+      "position": 18,
+      "seed": 101,
+      "previous_margin": 2.0625,
+      "low_margin": false,
+      "first_two_match": true,
+      "eos_excluded": false,
+      "tokens_fixed4": [
+        2000,
+        1996,
+        1996,
+        3349
+      ],
+      "tokens_two_plus_two": [
+        2000,
+        1996,
+        3050,
+        3349
+      ],
+      "nll_fixed4": 5.840641975402832,
+      "nll_two_plus_two": 1.3792147636413574,
+      "gain_from_short": 4.461427211761475
+    },
+    {
+      "prompt_id": "validation-000",
+      "position": 18,
+      "seed": 202,
+      "previous_margin": 2.0625,
+      "low_margin": false,
+      "first_two_match": true,
+      "eos_excluded": true,
+      "tokens_fixed4": [
+        2000,
+        10108,
+        2000,
+        2000
+      ],
+      "tokens_two_plus_two": [
+        2000,
+        10108,
+        1012,
+        102
+      ]
+    },
+    {
+      "prompt_id": "validation-001",
+      "position": 10,
+      "seed": 101,
+      "previous_margin": 2.375,
+      "low_margin": false,
+      "first_two_match": true,
+      "eos_excluded": false,
+      "tokens_fixed4": [
+        3382,
+        1997,
+        1996,
+        12365
+      ],
+      "tokens_two_plus_two": [
+        3382,
+        1997,
+        1037,
+        12365
+      ],
+      "nll_fixed4": 2.7868666648864746,
+      "nll_two_plus_two": 1.9803297519683838,
+      "gain_from_short": 0.8065369129180908
+    },
+    {
+      "prompt_id": "validation-001",
+      "position": 10,
+      "seed": 202,
+      "previous_margin": 2.375,
+      "low_margin": false,
+      "first_two_match": true,
+      "eos_excluded": false,
+      "tokens_fixed4": [
+        3891,
+        2005,
+        8350,
+        1998
+      ],
+      "tokens_two_plus_two": [
+        3891,
+        2005,
+        8350,
+        1998
+      ],
+      "nll_fixed4": 2.2804136276245117,
+      "nll_two_plus_two": 2.2804136276245117,
+      "gain_from_short": 0.0
+    },
+    {
+      "prompt_id": "validation-001",
+      "position": 14,
+      "seed": 101,
+      "previous_margin": 3.96875,
+      "low_margin": false,
+      "first_two_match": true,
+      "eos_excluded": false,
+      "tokens_fixed4": [
+        1998,
+        2056,
+        1996,
+        8350
+      ],
+      "tokens_two_plus_two": [
+        1998,
+        2056,
+        1996,
+        11279
+      ],
+      "nll_fixed4": 3.9367246627807617,
+      "nll_two_plus_two": 4.443358421325684,
+      "gain_from_short": -0.5066337585449219
+    },
+    {
+      "prompt_id": "validation-001",
+      "position": 14,
+      "seed": 202,
+      "previous_margin": 3.96875,
+      "low_margin": false,
+      "first_two_match": true,
+      "eos_excluded": true,
+      "tokens_fixed4": [
+        2021,
+        8519,
+        2360,
+        102
+      ],
+      "tokens_two_plus_two": [
+        2021,
+        8519,
+        2360,
+        2107
+      ]
+    },
+    {
+      "prompt_id": "validation-001",
+      "position": 18,
+      "seed": 101,
+      "previous_margin": 0.828125,
+      "low_margin": true,
+      "first_two_match": true,
+      "eos_excluded": false,
+      "tokens_fixed4": [
+        3036,
+        4584,
+        2003,
+        8995
+      ],
+      "tokens_two_plus_two": [
+        3036,
+        4584,
+        1998,
+        8519
+      ],
+      "nll_fixed4": 6.720269203186035,
+      "nll_two_plus_two": 2.8553128242492676,
+      "gain_from_short": 3.8649563789367676
+    },
+    {
+      "prompt_id": "validation-001",
+      "position": 18,
+      "seed": 202,
+      "previous_margin": 0.828125,
+      "low_margin": true,
+      "first_two_match": true,
+      "eos_excluded": false,
+      "tokens_fixed4": [
+        4584,
+        8519,
+        1012,
+        1012
+      ],
+      "tokens_two_plus_two": [
+        4584,
+        8519,
+        2360,
+        2071
+      ],
+      "nll_fixed4": 5.8746232986450195,
+      "nll_two_plus_two": 4.377450942993164,
+      "gain_from_short": 1.4971723556518555
+    },
+    {
+      "prompt_id": "validation-002",
+      "position": 10,
+      "seed": 101,
+      "previous_margin": 2.578125,
+      "low_margin": false,
+      "first_two_match": true,
+      "eos_excluded": false,
+      "tokens_fixed4": [
+        1037,
+        1012,
+        1997,
+        1012
+      ],
+      "tokens_two_plus_two": [
+        1037,
+        1012,
+        1047,
+        1012
+      ],
+      "nll_fixed4": 7.455110549926758,
+      "nll_two_plus_two": 2.4097986221313477,
+      "gain_from_short": 5.04531192779541
+    },
+    {
+      "prompt_id": "validation-002",
+      "position": 10,
+      "seed": 202,
+      "previous_margin": 2.578125,
+      "low_margin": false,
+      "first_two_match": true,
+      "eos_excluded": true,
+      "tokens_fixed4": [
+        2029,
+        13974,
+        102,
+        2003
+      ],
+      "tokens_two_plus_two": [
+        2029,
+        13974,
+        2195,
+        4865
+      ]
+    },
+    {
+      "prompt_id": "validation-003",
+      "position": 10,
+      "seed": 101,
+      "previous_margin": 0.609375,
+      "low_margin": true,
+      "first_two_match": true,
+      "eos_excluded": false,
+      "tokens_fixed4": [
+        4017,
+        1997,
+        1996,
+        13157
+      ],
+      "tokens_two_plus_two": [
+        4017,
+        1997,
+        1037,
+        14163
+      ],
+      "nll_fixed4": 4.913686752319336,
+      "nll_two_plus_two": 5.668144226074219,
+      "gain_from_short": -0.7544574737548828
+    },
+    {
+      "prompt_id": "validation-003",
+      "position": 10,
+      "seed": 202,
+      "previous_margin": 0.609375,
+      "low_margin": true,
+      "first_two_match": true,
+      "eos_excluded": false,
+      "tokens_fixed4": [
+        4017,
+        28696,
+        2020,
+        2020
+      ],
+      "tokens_two_plus_two": [
+        4017,
+        28696,
+        2102,
+        2020
+      ],
+      "nll_fixed4": 11.254859924316406,
+      "nll_two_plus_two": 4.721319675445557,
+      "gain_from_short": 6.53354024887085
+    },
+    {
+      "prompt_id": "validation-003",
+      "position": 14,
+      "seed": 101,
+      "previous_margin": 1.046875,
+      "low_margin": true,
+      "first_two_match": true,
+      "eos_excluded": false,
+      "tokens_fixed4": [
+        1999,
+        2755,
+        1010,
+        1010
+      ],
+      "tokens_two_plus_two": [
+        1999,
+        2755,
+        1010,
+        14652
+      ],
+      "nll_fixed4": 2.229923963546753,
+      "nll_two_plus_two": 2.1137871742248535,
+      "gain_from_short": 0.11613678932189941
+    },
+    {
+      "prompt_id": "validation-003",
+      "position": 14,
+      "seed": 202,
+      "previous_margin": 1.046875,
+      "low_margin": true,
+      "first_two_match": true,
+      "eos_excluded": false,
+      "tokens_fixed4": [
+        1999,
+        11305,
+        1010,
+        1010
+      ],
+      "tokens_two_plus_two": [
+        1999,
+        11305,
+        1010,
+        6149
+      ],
+      "nll_fixed4": 3.168544292449951,
+      "nll_two_plus_two": 2.6523313522338867,
+      "gain_from_short": 0.5162129402160645
+    },
+    {
+      "prompt_id": "validation-003",
+      "position": 18,
+      "seed": 101,
+      "previous_margin": 1.609375,
+      "low_margin": true,
+      "first_two_match": true,
+      "eos_excluded": false,
+      "tokens_fixed4": [
+        1010,
+        2021,
+        1996,
+        8112
+      ],
+      "tokens_two_plus_two": [
+        1010,
+        2021,
+        1996,
+        14056
+      ],
+      "nll_fixed4": 3.1306746006011963,
+      "nll_two_plus_two": 3.2107582092285156,
+      "gain_from_short": -0.08008360862731934
+    },
+    {
+      "prompt_id": "validation-003",
+      "position": 18,
+      "seed": 202,
+      "previous_margin": 1.609375,
+      "low_margin": true,
+      "first_two_match": true,
+      "eos_excluded": true,
+      "tokens_fixed4": [
+        1012,
+        102,
+        2003,
+        102
+      ],
+      "tokens_two_plus_two": [
+        1012,
+        102,
+        1996,
+        1012
+      ]
+    },
+    {
+      "prompt_id": "validation-004",
+      "position": 10,
+      "seed": 101,
+      "previous_margin": 1.828125,
+      "low_margin": true,
+      "first_two_match": true,
+      "eos_excluded": false,
+      "tokens_fixed4": [
+        1000,
+        2009,
+        1005,
+        1012
+      ],
+      "tokens_two_plus_two": [
+        1000,
+        2009,
+        2001,
+        1012
+      ],
+      "nll_fixed4": 5.106475830078125,
+      "nll_two_plus_two": 3.3547329902648926,
+      "gain_from_short": 1.7517428398132324
+    },
+    {
+      "prompt_id": "validation-004",
+      "position": 10,
+      "seed": 202,
+      "previous_margin": 1.828125,
+      "low_margin": true,
+      "first_two_match": true,
+      "eos_excluded": false,
+      "tokens_fixed4": [
+        2021,
+        11853,
+        1010,
+        1012
+      ],
+      "tokens_two_plus_two": [
+        2021,
+        11853,
+        1010,
+        1010
+      ],
+      "nll_fixed4": 4.4276323318481445,
+      "nll_two_plus_two": 4.626403331756592,
+      "gain_from_short": -0.19877099990844727
+    },
+    {
+      "prompt_id": "validation-004",
+      "position": 14,
+      "seed": 101,
+      "previous_margin": 1.4375,
+      "low_margin": true,
+      "first_two_match": true,
+      "eos_excluded": false,
+      "tokens_fixed4": [
+        2000,
+        1996,
+        2034,
+        9000
+      ],
+      "tokens_two_plus_two": [
+        2000,
+        1996,
+        2168,
+        1997
+      ],
+      "nll_fixed4": 4.728268146514893,
+      "nll_two_plus_two": 4.993838310241699,
+      "gain_from_short": -0.26557016372680664
+    },
+    {
+      "prompt_id": "validation-004",
+      "position": 14,
+      "seed": 202,
+      "previous_margin": 1.4375,
+      "low_margin": true,
+      "first_two_match": true,
+      "eos_excluded": false,
+      "tokens_fixed4": [
+        2011,
+        17710,
+        11149,
+        1055
+      ],
+      "tokens_two_plus_two": [
+        2011,
+        17710,
+        11149,
+        1998
+      ],
+      "nll_fixed4": 5.151071548461914,
+      "nll_two_plus_two": 3.459651231765747,
+      "gain_from_short": 1.691420316696167
+    },
+    {
+      "prompt_id": "validation-004",
+      "position": 18,
+      "seed": 101,
+      "previous_margin": 5.5,
+      "low_margin": false,
+      "first_two_match": true,
+      "eos_excluded": false,
+      "tokens_fixed4": [
+        1012,
+        4063,
+        1012,
+        17710
+      ],
+      "tokens_two_plus_two": [
+        1012,
+        4063,
+        2386,
+        1998
+      ],
+      "nll_fixed4": 7.239651679992676,
+      "nll_two_plus_two": 4.635363578796387,
+      "gain_from_short": 2.604288101196289
+    },
+    {
+      "prompt_id": "validation-004",
+      "position": 18,
+      "seed": 202,
+      "previous_margin": 5.5,
+      "low_margin": false,
+      "first_two_match": true,
+      "eos_excluded": true,
+      "tokens_fixed4": [
+        1012,
+        18690,
+        1012,
+        102
+      ],
+      "tokens_two_plus_two": [
+        1012,
+        18690,
+        2121,
+        1012
+      ]
+    },
+    {
+      "prompt_id": "validation-005",
+      "position": 10,
+      "seed": 101,
+      "previous_margin": 1.96875,
+      "low_margin": false,
+      "first_two_match": true,
+      "eos_excluded": false,
+      "tokens_fixed4": [
+        2004,
+        2070,
+        1010,
+        1010
+      ],
+      "tokens_two_plus_two": [
+        2004,
+        2070,
+        1997,
+        2149
+      ],
+      "nll_fixed4": 5.893519401550293,
+      "nll_two_plus_two": 3.010815382003784,
+      "gain_from_short": 2.882704019546509
+    },
+    {
+      "prompt_id": "validation-005",
+      "position": 10,
+      "seed": 202,
+      "previous_margin": 1.96875,
+      "low_margin": false,
+      "first_two_match": true,
+      "eos_excluded": false,
+      "tokens_fixed4": [
+        2012,
+        16216,
+        1010,
+        1010
+      ],
+      "tokens_two_plus_two": [
+        2012,
+        16216,
+        8939,
+        3678
+      ],
+      "nll_fixed4": 6.091570854187012,
+      "nll_two_plus_two": 4.920520305633545,
+      "gain_from_short": 1.1710505485534668
+    },
+    {
+      "prompt_id": "validation-005",
+      "position": 14,
+      "seed": 101,
+      "previous_margin": 1.359375,
+      "low_margin": true,
+      "first_two_match": true,
+      "eos_excluded": false,
+      "tokens_fixed4": [
+        2265,
+        2097,
+        2022,
+        1056
+      ],
+      "tokens_two_plus_two": [
+        2265,
+        2097,
+        2022,
+        9813
+      ],
+      "nll_fixed4": 4.10065221786499,
+      "nll_two_plus_two": 3.3723092079162598,
+      "gain_from_short": 0.7283430099487305
+    },
+    {
+      "prompt_id": "validation-005",
+      "position": 14,
+      "seed": 202,
+      "previous_margin": 1.359375,
+      "low_margin": true,
+      "first_two_match": true,
+      "eos_excluded": false,
+      "tokens_fixed4": [
+        2878,
+        15867,
+        2097,
+        2097
+      ],
+      "tokens_two_plus_two": [
+        2878,
+        15867,
+        2000,
+        5247
+      ],
+      "nll_fixed4": 9.48952865600586,
+      "nll_two_plus_two": 6.8621320724487305,
+      "gain_from_short": 2.627396583557129
+    },
+    {
+      "prompt_id": "validation-005",
+      "position": 18,
+      "seed": 101,
+      "previous_margin": 0.796875,
+      "low_margin": true,
+      "first_two_match": true,
+      "eos_excluded": false,
+      "tokens_fixed4": [
+        2213,
+        2097,
+        1010,
+        1056
+      ],
+      "tokens_two_plus_two": [
+        2213,
+        2097,
+        2022,
+        9749
+      ],
+      "nll_fixed4": 5.33298921585083,
+      "nll_two_plus_two": 3.8700523376464844,
+      "gain_from_short": 1.4629368782043457
+    },
+    {
+      "prompt_id": "validation-005",
+      "position": 18,
+      "seed": 202,
+      "previous_margin": 0.796875,
+      "low_margin": true,
+      "first_two_match": true,
+      "eos_excluded": false,
+      "tokens_fixed4": [
+        5244,
+        3215,
+        2097,
+        2097
+      ],
+      "tokens_two_plus_two": [
+        5244,
+        3215,
+        2097,
+        3613
+      ],
+      "nll_fixed4": 5.687763690948486,
+      "nll_two_plus_two": 4.543512344360352,
+      "gain_from_short": 1.1442513465881348
+    },
+    {
+      "prompt_id": "validation-006",
+      "position": 10,
+      "seed": 101,
+      "previous_margin": 5.546875,
+      "low_margin": false,
+      "first_two_match": true,
+      "eos_excluded": false,
+      "tokens_fixed4": [
+        2002,
+        2038,
+        1010,
+        1055
+      ],
+      "tokens_two_plus_two": [
+        2002,
+        2038,
+        2018,
+        8439
+      ],
+      "nll_fixed4": 6.2271199226379395,
+      "nll_two_plus_two": 6.255784034729004,
+      "gain_from_short": -0.028664112091064453
+    },
+    {
+      "prompt_id": "validation-006",
+      "position": 10,
+      "seed": 202,
+      "previous_margin": 5.546875,
+      "low_margin": false,
+      "first_two_match": true,
+      "eos_excluded": false,
+      "tokens_fixed4": [
+        2040,
+        7837,
+        2037,
+        2037
+      ],
+      "tokens_two_plus_two": [
+        2040,
+        7837,
+        2013,
+        5928
+      ],
+      "nll_fixed4": 8.01119613647461,
+      "nll_two_plus_two": 3.785350799560547,
+      "gain_from_short": 4.2258453369140625
+    },
+    {
+      "prompt_id": "validation-006",
+      "position": 14,
+      "seed": 101,
+      "previous_margin": 0.34375,
+      "low_margin": true,
+      "first_two_match": true,
+      "eos_excluded": false,
+      "tokens_fixed4": [
+        2203,
+        1010,
+        2001,
+        9196
+      ],
+      "tokens_two_plus_two": [
+        2203,
+        1010,
+        2001,
+        10141
+      ],
+      "nll_fixed4": 2.8924272060394287,
+      "nll_two_plus_two": 2.7395312786102295,
+      "gain_from_short": 0.15289592742919922
+    },
+    {
+      "prompt_id": "validation-006",
+      "position": 14,
+      "seed": 202,
+      "previous_margin": 0.34375,
+      "low_margin": true,
+      "first_two_match": true,
+      "eos_excluded": false,
+      "tokens_fixed4": [
+        2616,
+        1997,
+        2037,
+        1010
+      ],
+      "tokens_two_plus_two": [
+        2616,
+        1997,
+        2028,
+        1010
+      ],
+      "nll_fixed4": 2.989758014678955,
+      "nll_two_plus_two": 1.2433209419250488,
+      "gain_from_short": 1.7464370727539062
+    },
+    {
+      "prompt_id": "validation-006",
+      "position": 18,
+      "seed": 101,
+      "previous_margin": 3.40625,
+      "low_margin": false,
+      "first_two_match": true,
+      "eos_excluded": false,
+      "tokens_fixed4": [
+        1000,
+        2038,
+        1005,
+        1055
+      ],
+      "tokens_two_plus_two": [
+        1000,
+        2038,
+        1037,
+        13454
+      ],
+      "nll_fixed4": 3.8426852226257324,
+      "nll_two_plus_two": 2.996933937072754,
+      "gain_from_short": 0.8457512855529785
+    },
+    {
+      "prompt_id": "validation-006",
+      "position": 18,
+      "seed": 202,
+      "previous_margin": 3.40625,
+      "low_margin": false,
+      "first_two_match": true,
+      "eos_excluded": false,
+      "tokens_fixed4": [
+        1000,
+        7459,
+        1010,
+        1010
+      ],
+      "tokens_two_plus_two": [
+        1000,
+        7459,
+        2166,
+        1998
+      ],
+      "nll_fixed4": 4.957282543182373,
+      "nll_two_plus_two": 2.7075557708740234,
+      "gain_from_short": 2.2497267723083496
+    },
+    {
+      "prompt_id": "validation-007",
+      "position": 10,
+      "seed": 101,
+      "previous_margin": 3.53125,
+      "low_margin": false,
+      "first_two_match": true,
+      "eos_excluded": true,
+      "tokens_fixed4": [
+        2179,
+        2000,
+        1037,
+        102
+      ],
+      "tokens_two_plus_two": [
+        2179,
+        2000,
+        2022,
+        9787
+      ]
+    },
+    {
+      "prompt_id": "validation-007",
+      "position": 10,
+      "seed": 202,
+      "previous_margin": 3.53125,
+      "low_margin": false,
+      "first_two_match": true,
+      "eos_excluded": false,
+      "tokens_fixed4": [
+        2915,
+        2757,
+        2010,
+        2010
+      ],
+      "tokens_two_plus_two": [
+        2915,
+        2757,
+        2011,
+        2610
+      ],
+      "nll_fixed4": 6.350098609924316,
+      "nll_two_plus_two": 2.1265411376953125,
+      "gain_from_short": 4.223557472229004
+    },
+    {
+      "prompt_id": "validation-007",
+      "position": 14,
+      "seed": 101,
+      "previous_margin": 0.78125,
+      "low_margin": true,
+      "first_two_match": true,
+      "eos_excluded": false,
+      "tokens_fixed4": [
+        1011,
+        2136,
+        2136,
+        2040
+      ],
+      "tokens_two_plus_two": [
+        1011,
+        2136,
+        1010,
+        5338
+      ],
+      "nll_fixed4": 2.9818365573883057,
+      "nll_two_plus_two": 2.7554283142089844,
+      "gain_from_short": 0.2264082431793213
+    },
+    {
+      "prompt_id": "validation-007",
+      "position": 14,
+      "seed": 202,
+      "previous_margin": 0.78125,
+      "low_margin": true,
+      "first_two_match": true,
+      "eos_excluded": false,
+      "tokens_fixed4": [
+        1012,
+        1052,
+        1999,
+        2012
+      ],
+      "tokens_two_plus_two": [
+        1012,
+        1052,
+        1012,
+        4932
+      ],
+      "nll_fixed4": 5.611185073852539,
+      "nll_two_plus_two": 1.7585762739181519,
+      "gain_from_short": 3.852608799934387
+    },
+    {
+      "prompt_id": "validation-007",
+      "position": 18,
+      "seed": 101,
+      "previous_margin": 0.609375,
+      "low_margin": true,
+      "first_two_match": true,
+      "eos_excluded": true,
+      "tokens_fixed4": [
+        1996,
+        3675,
+        1010,
+        102
+      ],
+      "tokens_two_plus_two": [
+        1996,
+        3675,
+        1010,
+        9382
+      ]
+    },
+    {
+      "prompt_id": "validation-007",
+      "position": 18,
+      "seed": 202,
+      "previous_margin": 0.609375,
+      "low_margin": true,
+      "first_two_match": true,
+      "eos_excluded": false,
+      "tokens_fixed4": [
+        2546,
+        8400,
+        1012,
+        1999
+      ],
+      "tokens_two_plus_two": [
+        2546,
+        8400,
+        4005,
+        2012
+      ],
+      "nll_fixed4": 7.006633281707764,
+      "nll_two_plus_two": 6.681159019470215,
+      "gain_from_short": 0.32547426223754883
+    }
+  ]
+}

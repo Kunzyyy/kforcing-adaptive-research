@@ -1,0 +1,11 @@
+{
+  "passed": true,
+  "records": 2560,
+  "control_records": 512,
+  "max_old_control_nll_abs_difference": 0.0,
+  "builtin_loss_crosscheck": true,
+  "scores_sha256": "a23074c6aed37147b3f4e5e060f813a2ea57e38010226f27907e16ff58ab907b",
+  "samples_sha256": "3c8d00e11fec817596630334ca8370c97b2e4e279e1db9de8f55510dc081d22e",
+  "evaluator_revision": "32b71b12589c2f8d625668d2335a01cac3249519",
+  "manifest_sha256": "1fd855fa669144d0f977faa6c051368a1f429a7ae1189de6e105469a550b28b4"
+}

@@ -1,0 +1,19 @@
+{
+  "passed": true,
+  "completed_utc": "2026-09-21T12:11:17.107830+00:00",
+  "verifier_sha256": "bbfdaf47e481bdd4f6c6acac372d6c01f8bf1ce49b2811aada889f009189a02a",
+  "manifest_sha256": "ac8453e42f5b2b45fb66a1f948e5538fa98975701617e7758af0b10b58c86dde",
+  "analysis_sha256": "7c6e5787bf1a2a4e242ab2d937ec61fe29edd6a6662dc168e3953df702300268",
+  "states": 446,
+  "sources": 253,
+  "augmented_least_squares_fits": 30,
+  "oof_predictions_recomputed": 2676,
+  "max_prediction_error": 3.9968028886505635e-15,
+  "intervals_recomputed": 4,
+  "prior19_predictions_reproduced": true,
+  "grouped_source_separation_verified": true,
+  "training_fold_only_targets_verified": true,
+  "development_screen_passed": false,
+  "old_test_inputs": false,
+  "scope": "Independent numerical audit of the single local-target19 candidate; reused development data, no independent confirmation."
+}

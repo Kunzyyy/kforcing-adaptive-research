@@ -1,0 +1,8 @@
+{
+  "passed": true,
+  "old_states": 16,
+  "exact_branches": true,
+  "exact_features": true,
+  "collector_sha256": "f0992c92fcf24a02d05fbbc0e5fd68c446ac87fab8f7f4eb5c15165dd2c7a870",
+  "pair_implementation_sha256": "6773b05465b5bbdfec033bea0464845c1e4c6406bbd440d15a486e0a047c89a3"
+}

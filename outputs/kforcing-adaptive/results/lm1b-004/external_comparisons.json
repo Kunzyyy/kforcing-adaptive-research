@@ -1,0 +1,170 @@
+{
+  "comparisons": {
+    "fixed2_vs_ar": {
+      "prefixes": 128,
+      "clusters": 128,
+      "cluster_unit": "prefix",
+      "gpt2_nll_difference": 0.130648654148529,
+      "nll_difference95": [
+        -0.022433902086250866,
+        0.2842083593985387
+      ],
+      "gen_ppl_ratio": 1.1395673287140147,
+      "gen_ppl_ratio95": [
+        0.9778158666461929,
+        1.328709751077302
+      ]
+    },
+    "fixed2_recommended_vs_ar": {
+      "prefixes": 128,
+      "clusters": 128,
+      "cluster_unit": "prefix",
+      "gpt2_nll_difference": 0.10767995454234569,
+      "nll_difference95": [
+        -0.04288590113579942,
+        0.25815956748812097
+      ],
+      "gen_ppl_ratio": 1.1136912565153114,
+      "gen_ppl_ratio95": [
+        0.9580206929041883,
+        1.2945453694972668
+      ]
+    },
+    "fixed2_recommended_vs_zero_penalty": {
+      "prefixes": 128,
+      "clusters": 128,
+      "cluster_unit": "prefix",
+      "gpt2_nll_difference": -0.022968699606183307,
+      "nll_difference95": [
+        -0.14154598648761213,
+        0.05358171194497386
+      ],
+      "gen_ppl_ratio": 0.9772930729526056,
+      "gen_ppl_ratio95": [
+        0.8680152576941619,
+        1.0550431978772388
+      ]
+    },
+    "fixed3_vs_ar": {
+      "prefixes": 128,
+      "clusters": 128,
+      "cluster_unit": "prefix",
+      "gpt2_nll_difference": 0.3709287906388097,
+      "nll_difference95": [
+        0.22832311273581335,
+        0.5085945585686293
+      ],
+      "gen_ppl_ratio": 1.4490798816598929,
+      "gen_ppl_ratio95": [
+        1.2564912481741317,
+        1.662952369631195
+      ]
+    },
+    "fixed3_recommended_vs_ar": {
+      "prefixes": 128,
+      "clusters": 128,
+      "cluster_unit": "prefix",
+      "gpt2_nll_difference": 0.488522323820205,
+      "nll_difference95": [
+        0.3483495592861687,
+        0.6279061952126322
+      ],
+      "gen_ppl_ratio": 1.629905966384973,
+      "gen_ppl_ratio95": [
+        1.4167273934102838,
+        1.8736833421133976
+      ]
+    },
+    "fixed3_recommended_vs_zero_penalty": {
+      "prefixes": 128,
+      "clusters": 128,
+      "cluster_unit": "prefix",
+      "gpt2_nll_difference": 0.11759353318139532,
+      "nll_difference95": [
+        0.057194430835253954,
+        0.17727970602206658
+      ],
+      "gen_ppl_ratio": 1.1247868299144057,
+      "gen_ppl_ratio95": [
+        1.0588616657406267,
+        1.1939650056285043
+      ]
+    },
+    "fixed4_vs_ar": {
+      "prefixes": 128,
+      "clusters": 128,
+      "cluster_unit": "prefix",
+      "gpt2_nll_difference": 0.9144179906949574,
+      "nll_difference95": [
+        0.7335852155769007,
+        1.0851263981410826
+      ],
+      "gen_ppl_ratio": 2.4953225282660245,
+      "gen_ppl_ratio95": [
+        2.0825335712494106,
+        2.9598139100729526
+      ]
+    },
+    "fixed4_recommended_vs_ar": {
+      "prefixes": 128,
+      "clusters": 128,
+      "cluster_unit": "prefix",
+      "gpt2_nll_difference": 1.005776867591674,
+      "nll_difference95": [
+        0.825943518451831,
+        1.1808208795281232
+      ],
+      "gen_ppl_ratio": 2.7340304276479497,
+      "gen_ppl_ratio95": [
+        2.284034777951801,
+        3.257046748818723
+      ]
+    },
+    "fixed4_recommended_vs_zero_penalty": {
+      "prefixes": 128,
+      "clusters": 128,
+      "cluster_unit": "prefix",
+      "gpt2_nll_difference": 0.09135887689671662,
+      "nll_difference95": [
+        0.018236985583220133,
+        0.1760068916616099
+      ],
+      "gen_ppl_ratio": 1.0956621425398667,
+      "gen_ppl_ratio95": [
+        1.0184042949299448,
+        1.192446276558578
+      ]
+    },
+    "old_current_vs_random_commit": {
+      "prefixes": 32,
+      "clusters": 16,
+      "cluster_unit": "article",
+      "gpt2_nll_difference": -0.03398872234832595,
+      "nll_difference95": [
+        -0.21093541511192646,
+        0.14593876080857315
+      ],
+      "gen_ppl_ratio": 0.9665824053557212,
+      "gen_ppl_ratio95": [
+        0.8098263677376549,
+        1.1571253244617543
+      ]
+    },
+    "old_current_vs_fixed3": {
+      "prefixes": 32,
+      "clusters": 16,
+      "cluster_unit": "article",
+      "gpt2_nll_difference": 0.15469937874094786,
+      "nll_difference95": [
+        -0.027556190921644273,
+        0.3672776929649402
+      ],
+      "gen_ppl_ratio": 1.1673069910558875,
+      "gen_ppl_ratio95": [
+        0.9728200173642549,
+        1.4437987962207253
+      ]
+    }
+  },
+  "scope": "External completion-only GPT-2 scoring. LM1B prefix bootstrap preserves both seeds; source-document grouping unavailable in shuffled LM1B parquet. Older experiment uses article clusters and is an audit, not a new selection set."
+}

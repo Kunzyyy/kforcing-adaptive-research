@@ -1,0 +1,21 @@
+{
+  "created_utc": "2026-09-21T05:52:33.296349+00:00",
+  "input_hashes": {
+    "results/decision-confirm/test_pairs.jsonl": "56f037a2952458b4b627f6db4f2e418c2f2ce7555a3822494d012241b51ec932",
+    "results/decision-confirm/test_labels.jsonl": "f5579d973611b1968ec51829935d6e5a938366f2050a706df96ff664e32549ef",
+    "results/decision-confirm/test_states.jsonl": "db45ef90b519de2cb36ac106a21af365718358d987462b6cf9150884cee9176f",
+    "results/decision-confirm/frozen_predictions.json": "44023ea57c21619c0a2621c20e6ae023ef062532e3f7e0896219e1ff656bb3ce",
+    "results/decision-confirm/analysis.json": "78ff3337785b3f85b0fc98d9d827b47a5f80a47388db2d20b5c4ae046f06d719",
+    "results/decision-confirm/scoring_prediction_link.json": "6d69b9e3d6330b44f081f5562dfac6c20fac68755dbad66f6a9bb1aad6aaf27b",
+    "results/decision-confirm/test_scoring.json": "3b0a7824416dd8070f6a424d63c1dbca9b1135686ee42fb05ea49202515bc3b1",
+    "COMPUTE_BUDGET_AUDIT_PLAN.md": "c97317088a9dd0aff0021b285833a6c521bef3ff3b7b17067012ef5c1eaf5ad9",
+    "audit_compute_budget.py": "7ef627eb6e791eaf8d6133ae741fdda55411b7d66afcbd29696bb6498799ad12"
+  },
+  "outputs": {
+    "state_statistics.jsonl": "406f95f564cfd374bed54aed9b73627ce3e110d4f4d2fb36c462e7b8df29c556",
+    "bootstrap_indices.npz": "72bf8cec2afcb7bfbccd58572c86c10d1d58fce318222ae4d7a739ab60d928ef",
+    "analysis.json": "d70d43d8617cee689f18cae5ab8c5cbadfc86b1530cafa152ac7011fb84cc24a"
+  },
+  "plan_is_retrospective": true,
+  "blind_review_inputs_read": false
+}

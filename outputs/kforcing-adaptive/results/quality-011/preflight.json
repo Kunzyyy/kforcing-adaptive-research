@@ -1,0 +1,110 @@
+{
+  "passed": true,
+  "paired_old_cases": 20,
+  "cases": [
+    {
+      "prompt_id": "s10-032",
+      "seed": 1009,
+      "offset": 0
+    },
+    {
+      "prompt_id": "s10-032",
+      "seed": 1009,
+      "offset": 8
+    },
+    {
+      "prompt_id": "s10-032",
+      "seed": 1013,
+      "offset": 0
+    },
+    {
+      "prompt_id": "s10-032",
+      "seed": 1013,
+      "offset": 8
+    },
+    {
+      "prompt_id": "s10-033",
+      "seed": 1009,
+      "offset": 0
+    },
+    {
+      "prompt_id": "s10-033",
+      "seed": 1009,
+      "offset": 8
+    },
+    {
+      "prompt_id": "s10-033",
+      "seed": 1013,
+      "offset": 0
+    },
+    {
+      "prompt_id": "s10-034",
+      "seed": 1009,
+      "offset": 0
+    },
+    {
+      "prompt_id": "s10-034",
+      "seed": 1009,
+      "offset": 8
+    },
+    {
+      "prompt_id": "s10-034",
+      "seed": 1013,
+      "offset": 0
+    },
+    {
+      "prompt_id": "s10-034",
+      "seed": 1013,
+      "offset": 8
+    },
+    {
+      "prompt_id": "s10-035",
+      "seed": 1009,
+      "offset": 0
+    },
+    {
+      "prompt_id": "s10-035",
+      "seed": 1009,
+      "offset": 8
+    },
+    {
+      "prompt_id": "s10-035",
+      "seed": 1013,
+      "offset": 0
+    },
+    {
+      "prompt_id": "s10-036",
+      "seed": 1009,
+      "offset": 0
+    },
+    {
+      "prompt_id": "s10-036",
+      "seed": 1013,
+      "offset": 0
+    },
+    {
+      "prompt_id": "s10-037",
+      "seed": 1009,
+      "offset": 0
+    },
+    {
+      "prompt_id": "s10-037",
+      "seed": 1009,
+      "offset": 8
+    },
+    {
+      "prompt_id": "s10-037",
+      "seed": 1013,
+      "offset": 0
+    },
+    {
+      "prompt_id": "s10-037",
+      "seed": 1013,
+      "offset": 8
+    }
+  ],
+  "keep4_matches": true,
+  "single_intervention_matches": true,
+  "feature_recompute_matches": true,
+  "collector_sha256": "87471d66a4a50fd82802f8eae15287b8ccbc61f0f1545fb18a03ee159fb74ed9"
+}

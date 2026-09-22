@@ -1,0 +1,63 @@
+[
+  {
+    "prompt_id": "validation-000",
+    "position": 18,
+    "seed": 202,
+    "bf16": {
+      "max_abs_logit_difference": 0.3125,
+      "first_two_match": false,
+      "tokens_width4": [
+        [
+          2000,
+          6044
+        ]
+      ],
+      "tokens_width2": [
+        [
+          2000,
+          10108
+        ]
+      ],
+      "top_margin_width4": [
+        [
+          2.25,
+          0.125
+        ]
+      ],
+      "top_margin_width2": [
+        [
+          2.0,
+          0.125
+        ]
+      ]
+    },
+    "fp32": {
+      "max_abs_logit_difference": 2.765655517578125e-05,
+      "first_two_match": true,
+      "tokens_width4": [
+        [
+          2000,
+          10108
+        ]
+      ],
+      "tokens_width2": [
+        [
+          2000,
+          10108
+        ]
+      ],
+      "top_margin_width4": [
+        [
+          2.2940139770507812,
+          0.1285724639892578
+        ]
+      ],
+      "top_margin_width2": [
+        [
+          2.2940216064453125,
+          0.12858009338378906
+        ]
+      ]
+    }
+  }
+]

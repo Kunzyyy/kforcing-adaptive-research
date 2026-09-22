@@ -1,0 +1,18 @@
+{
+  "passed": true,
+  "attempted_states": 384,
+  "state_status_counts": {
+    "paired": 340,
+    "unreachable_eos": 30,
+    "head_eos": 14
+  },
+  "pairs": 2720,
+  "pairs_sha256": "80ae67c543baf3148b8335b0c707b3b6b4927632e1261f7020f913b29ba6ec9e",
+  "states_sha256": "d0aa812cfb8e5aca8d5d84411fbefd23b32c9e7278e87a50fc9d68727b4a9f53",
+  "collector_sha256": "6773b05465b5bbdfec033bea0464845c1e4c6406bbd440d15a486e0a047c89a3",
+  "locked_model_sha256": null,
+  "manifest_sha256": "c89e4e19b1e3573cfbf8a04043b4ab35b34eb3980b94fc400ede6bb9bf135828",
+  "torch": "2.11.0+cu128",
+  "cuda": "12.8",
+  "gpu": "NVIDIA GeForce RTX 5060 Laptop GPU"
+}

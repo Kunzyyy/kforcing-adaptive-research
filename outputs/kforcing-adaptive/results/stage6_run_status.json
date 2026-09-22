@@ -1,0 +1,11 @@
+{
+  "collection_exit": 0,
+  "analysis_exit": 0,
+  "final_independent_audit_exit": 0,
+  "checkpoint_metadata_read_exit": 0,
+  "windows": 1024,
+  "positions_per_branch": 4096,
+  "source": "Observed execution-tool exit results",
+  "audit_fix": "Initial audit script had an unmatched parenthesis; fixed before successful audit, no change to raw experiment data",
+  "limitation": "Local coupling diagnostic only; adaptive and paper-reproduction claims remain unestablished"
+}

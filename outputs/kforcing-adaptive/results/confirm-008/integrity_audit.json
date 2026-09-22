@@ -1,0 +1,16 @@
+{
+  "passed": true,
+  "new_source_sentences": 384,
+  "contexts": 512,
+  "windows": 4096,
+  "prior_source_row_overlap": 0,
+  "prior_sentence_hash_overlap": 0,
+  "prior_six_token_prefix_overlap": 0,
+  "model_and_projection_unchanged": true,
+  "all_predictions_recomputed": true,
+  "primary_bootstrap_independently_reconstructed": true,
+  "long_context_noise_pairing_verified": true,
+  "nll_single_sequence_crosscheck_branches": 24,
+  "local_confirmation_passed": true,
+  "limitation": "No independent full model rerun; NLL crosscheck covers selected rows only. Source-document independence and online quality/performance remain untested."
+}

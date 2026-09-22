@@ -1,0 +1,16 @@
+{
+  "passed": true,
+  "new_sources": 128,
+  "calibration_sources": 32,
+  "test_sources": 96,
+  "calibration_outputs": 768,
+  "test_outputs": 1536,
+  "timing_runs": 4608,
+  "no_post_eos_windows": true,
+  "eos_and_recomputation_counts": true,
+  "frozen_predictor": true,
+  "calibration_selection_independently_rebuilt": true,
+  "random_choices_independently_rebuilt": true,
+  "replay_equivalence_pairs": 192,
+  "data_isolation": true
+}

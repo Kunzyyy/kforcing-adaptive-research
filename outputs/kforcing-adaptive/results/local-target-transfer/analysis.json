@@ -1,0 +1,61 @@
+{
+  "states": 446,
+  "sources": 253,
+  "fits": 30,
+  "methods": {
+    "full_target19": {
+      "own_target_oof_mse": 0.5351327841273088,
+      "own_target_fold_mean_mse": 0.5551902514856145,
+      "gain_vs_random": {
+        "estimate": 0.0809675799640678,
+        "interval": [
+          0.04881110795324335,
+          0.11573203748557405
+        ],
+        "coverage": 0.95
+      }
+    },
+    "local_target19": {
+      "own_target_oof_mse": 10.947443053411195,
+      "own_target_fold_mean_mse": 11.430271016760392,
+      "gain_vs_random": {
+        "estimate": 0.02495135502509852,
+        "interval": [
+          -0.007751417240704198,
+          0.058812086284547954
+        ],
+        "coverage": 0.95
+      }
+    }
+  },
+  "primary": {
+    "vs_full_target19": {
+      "estimate": -0.0560162249389693,
+      "interval": [
+        -0.10394591169772285,
+        -0.009396156040901176
+      ],
+      "coverage": 0.975
+    },
+    "vs_heuristic": {
+      "estimate": -0.00876757733560417,
+      "interval": [
+        -0.05906964246291233,
+        0.04076064556507954
+      ],
+      "coverage": 0.975
+    }
+  },
+  "development_screen_passed": false,
+  "prior19_predictions_reproduced": true,
+  "one_candidate": true,
+  "retrospective_development": true,
+  "independent_confirmation": false,
+  "old_test_inputs": false,
+  "new_online_timing": false,
+  "new_human_quality_result": false,
+  "outputs": {
+    "fits.json": "326315ac976fa0fd3dc518d6c499d6c94bf24f3db4ad4b6733b73212e88c9301",
+    "oof_predictions.jsonl": "180ded71687a23b6f4876d65794e1d7ed2f4965d642601227256723ae8869111"
+  }
+}

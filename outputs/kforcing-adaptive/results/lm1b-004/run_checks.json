@@ -1,0 +1,6 @@
+{
+  "quality_samples": 1024,
+  "batch_timing_records": 608,
+  "repeated_batch_fingerprint_mismatches": 0,
+  "all_full_sequences_length_128": true
+}

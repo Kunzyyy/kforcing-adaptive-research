@@ -1,0 +1,12 @@
+{
+  "completed": true,
+  "completed_utc": "2026-09-21T01:48:18.344554+00:00",
+  "tokenizer_checks_passed": true,
+  "model_config_checks_passed": true,
+  "integrity_audit_passed": true,
+  "baseline_quality_gap_resolved": false,
+  "new_quality_evaluation": false,
+  "new_adaptive_test": false,
+  "inquiry_package": "outputs\\kforcing-reproduction-inquiry.zip",
+  "author_contact_sent": false
+}

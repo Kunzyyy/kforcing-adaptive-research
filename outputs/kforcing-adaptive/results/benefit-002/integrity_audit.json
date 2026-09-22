@@ -1,0 +1,9 @@
+{
+  "passed": true,
+  "branches": 662,
+  "prefixes": 176,
+  "disjoint_article_splits": true,
+  "no_old_prefixes": true,
+  "locked_model_predictions_verified": true,
+  "limitation": "Structural and arithmetic validation, not proof of quality or universal correctness."
+}

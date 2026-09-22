@@ -1,0 +1,522 @@
+{
+  "attempted_states": 384,
+  "status_counts": {
+    "paired": 340,
+    "unreachable_eos": 30,
+    "head_eos": 14
+  },
+  "paired_rollouts": 2720,
+  "full_scored_states": 340,
+  "excluded_incomplete_scoring": [],
+  "overall": {
+    "states": 340,
+    "source_clusters": 95,
+    "metrics": {
+      "mean_gain": {
+        "estimate": 0.15791649478220823,
+        "interval95": [
+          0.07871924073567449,
+          0.23879933204459625
+        ],
+        "valid_bootstrap_draws": 4000
+      },
+      "within_variance": {
+        "estimate": 0.8311259630582138,
+        "interval95": [
+          0.7508022596774756,
+          0.9225634445687354
+        ],
+        "valid_bootstrap_draws": 4000
+      },
+      "state_mean_variance": {
+        "estimate": 0.572482725270125,
+        "interval95": [
+          0.4200634982205815,
+          0.7570228073025765
+        ],
+        "valid_bootstrap_draws": 4000
+      },
+      "between_variance_raw": {
+        "estimate": 0.4685919798878483,
+        "interval95": [
+          0.3179844538733574,
+          0.6501257914235469
+        ],
+        "valid_bootstrap_draws": 4000
+      },
+      "single_label_reliability": {
+        "estimate": 0.3605335930238017,
+        "interval95": [
+          0.277610300779201,
+          0.4378899897228291
+        ],
+        "valid_bootstrap_draws": 4000
+      },
+      "mean8_reliability": {
+        "estimate": 0.8185259732802312,
+        "interval95": [
+          0.754562379065836,
+          0.8617273757628541
+        ],
+        "valid_bootstrap_draws": 4000
+      },
+      "half_mean_correlation": {
+        "estimate": 0.703330814101228,
+        "interval95": [
+          0.6039754278535726,
+          0.7799649340201199
+        ],
+        "valid_bootstrap_draws": 4000
+      },
+      "mixed_positive_negative_fraction": {
+        "estimate": 0.7294117647058823,
+        "interval95": [
+          0.6803519061583577,
+          0.7767863612836439
+        ],
+        "valid_bootstrap_draws": 4000
+      },
+      "half_same_strict_sign_fraction": {
+        "estimate": 0.5970588235294118,
+        "interval95": [
+          0.5375330071450761,
+          0.6550749625187406
+        ],
+        "valid_bootstrap_draws": 4000
+      },
+      "half_opposite_sign_fraction": {
+        "estimate": 0.2911764705882353,
+        "interval95": [
+          0.23764768106385317,
+          0.34571696171263894
+        ],
+        "valid_bootstrap_draws": 4000
+      },
+      "half_has_zero_fraction": {
+        "estimate": 0.11176470588235295,
+        "interval95": [
+          0.07854984894259819,
+          0.14792899408284024
+        ],
+        "valid_bootstrap_draws": 4000
+      },
+      "all_zero_fraction": {
+        "estimate": 0.11176470588235295,
+        "interval95": [
+          0.07854984894259819,
+          0.14792899408284024
+        ],
+        "valid_bootstrap_draws": 4000
+      },
+      "exact_constant_fraction": {
+        "estimate": 0.1264705882352941,
+        "interval95": [
+          0.09194807182207712,
+          0.16292523768366468
+        ],
+        "valid_bootstrap_draws": 4000
+      },
+      "half_a_selection_gain_on_b": {
+        "estimate": 0.1770368657149112,
+        "interval95": [
+          0.12946208917277804,
+          0.2277964738061102
+        ],
+        "valid_bootstrap_draws": 4000
+      },
+      "half_b_selection_gain_on_a": {
+        "estimate": 0.16203608301866126,
+        "interval95": [
+          0.11513930108301527,
+          0.21191175484099609
+        ],
+        "valid_bootstrap_draws": 4000
+      },
+      "cross_half_selection_gain": {
+        "estimate": 0.16953647436678623,
+        "interval95": [
+          0.12406335602246191,
+          0.2184879474078286
+        ],
+        "valid_bootstrap_draws": 4000
+      },
+      "same_half_selection_gain": {
+        "estimate": 0.28552836292172235,
+        "interval95": [
+          0.2539652316879241,
+          0.32078662216243764
+        ],
+        "valid_bootstrap_draws": 4000
+      },
+      "old_prediction_correlation": {
+        "estimate": 0.0038282470997509067,
+        "interval95": [
+          -0.10129365122678513,
+          0.10714854451273743
+        ],
+        "valid_bootstrap_draws": 4000
+      },
+      "old_mse_to_mean8": {
+        "estimate": 0.6069391200538582,
+        "interval95": [
+          0.45251426746406703,
+          0.7957831833428266
+        ],
+        "valid_bootstrap_draws": 4000
+      },
+      "old_selection_gain": {
+        "estimate": -0.014575303396079035,
+        "interval95": [
+          -0.05639467400747118,
+          0.0264015645950628
+        ],
+        "valid_bootstrap_draws": 4000
+      },
+      "quality_prediction_correlation": {
+        "estimate": -0.001607963576780033,
+        "interval95": [
+          -0.09394207045900907,
+          0.088601285327362
+        ],
+        "valid_bootstrap_draws": 4000
+      },
+      "quality_mse_to_mean8": {
+        "estimate": 0.5957609619165465,
+        "interval95": [
+          0.44140307854140653,
+          0.7841101218432631
+        ],
+        "valid_bootstrap_draws": 4000
+      },
+      "quality_selection_gain": {
+        "estimate": -0.020078416259605835,
+        "interval95": [
+          -0.05938843128048101,
+          0.015952153489681268
+        ],
+        "valid_bootstrap_draws": 4000
+      }
+    }
+  },
+  "strata": {
+    "same_candidates": {
+      "states": 35,
+      "source_clusters": 29,
+      "metrics": {
+        "mean_gain": {
+          "estimate": 0.0,
+          "interval95": [
+            0.0,
+            0.0
+          ],
+          "valid_bootstrap_draws": 4000
+        },
+        "within_variance": {
+          "estimate": 0.0,
+          "interval95": [
+            0.0,
+            0.0
+          ],
+          "valid_bootstrap_draws": 4000
+        },
+        "state_mean_variance": {
+          "estimate": 0.0,
+          "interval95": [
+            0.0,
+            0.0
+          ],
+          "valid_bootstrap_draws": 4000
+        },
+        "between_variance_raw": {
+          "estimate": 0.0,
+          "interval95": [
+            0.0,
+            0.0
+          ],
+          "valid_bootstrap_draws": 4000
+        },
+        "single_label_reliability": {
+          "estimate": null,
+          "interval95": null,
+          "valid_bootstrap_draws": 0
+        },
+        "mean8_reliability": {
+          "estimate": null,
+          "interval95": null,
+          "valid_bootstrap_draws": 0
+        },
+        "half_mean_correlation": {
+          "estimate": null,
+          "interval95": null,
+          "valid_bootstrap_draws": 0
+        },
+        "mixed_positive_negative_fraction": {
+          "estimate": 0.0,
+          "interval95": [
+            0.0,
+            0.0
+          ],
+          "valid_bootstrap_draws": 4000
+        },
+        "half_same_strict_sign_fraction": {
+          "estimate": 0.0,
+          "interval95": [
+            0.0,
+            0.0
+          ],
+          "valid_bootstrap_draws": 4000
+        },
+        "half_opposite_sign_fraction": {
+          "estimate": 0.0,
+          "interval95": [
+            0.0,
+            0.0
+          ],
+          "valid_bootstrap_draws": 4000
+        },
+        "half_has_zero_fraction": {
+          "estimate": 1.0,
+          "interval95": [
+            1.0,
+            1.0
+          ],
+          "valid_bootstrap_draws": 4000
+        },
+        "all_zero_fraction": {
+          "estimate": 1.0,
+          "interval95": [
+            1.0,
+            1.0
+          ],
+          "valid_bootstrap_draws": 4000
+        },
+        "exact_constant_fraction": {
+          "estimate": 1.0,
+          "interval95": [
+            1.0,
+            1.0
+          ],
+          "valid_bootstrap_draws": 4000
+        }
+      }
+    },
+    "different_candidates": {
+      "states": 305,
+      "source_clusters": 94,
+      "metrics": {
+        "mean_gain": {
+          "estimate": 0.17603805975721573,
+          "interval95": [
+            0.09097434534509784,
+            0.2661952783218312
+          ],
+          "valid_bootstrap_draws": 4000
+        },
+        "within_variance": {
+          "estimate": 0.9265010735730909,
+          "interval95": [
+            0.8373666664858144,
+            1.0241729171725378
+          ],
+          "valid_bootstrap_draws": 4000
+        },
+        "state_mean_variance": {
+          "estimate": 0.6351929865114907,
+          "interval95": [
+            0.45721715671816,
+            0.8382792827160144
+          ],
+          "valid_bootstrap_draws": 4000
+        },
+        "between_variance_raw": {
+          "estimate": 0.5193803523148544,
+          "interval95": [
+            0.3467023554318051,
+            0.7187427817102031
+          ],
+          "valid_bootstrap_draws": 4000
+        },
+        "single_label_reliability": {
+          "estimate": 0.35921365543228573,
+          "interval95": [
+            0.27158984821113247,
+            0.43482391249089564
+          ],
+          "valid_bootstrap_draws": 4000
+        },
+        "mean8_reliability": {
+          "estimate": 0.8176733108583508,
+          "interval95": [
+            0.7489218273922478,
+            0.860235262401181
+          ],
+          "valid_bootstrap_draws": 4000
+        },
+        "half_mean_correlation": {
+          "estimate": 0.7020654362618002,
+          "interval95": [
+            0.5987660677933964,
+            0.7792222076799945
+          ],
+          "valid_bootstrap_draws": 4000
+        },
+        "mixed_positive_negative_fraction": {
+          "estimate": 0.8131147540983606,
+          "interval95": [
+            0.7658227848101266,
+            0.858595571095571
+          ],
+          "valid_bootstrap_draws": 4000
+        },
+        "half_same_strict_sign_fraction": {
+          "estimate": 0.6655737704918033,
+          "interval95": [
+            0.605860843147081,
+            0.7275750372322145
+          ],
+          "valid_bootstrap_draws": 4000
+        },
+        "half_opposite_sign_fraction": {
+          "estimate": 0.32459016393442625,
+          "interval95": [
+            0.26440677966101694,
+            0.3836075884111764
+          ],
+          "valid_bootstrap_draws": 4000
+        },
+        "half_has_zero_fraction": {
+          "estimate": 0.009836065573770493,
+          "interval95": [
+            0.0,
+            0.022435897435897436
+          ],
+          "valid_bootstrap_draws": 4000
+        },
+        "all_zero_fraction": {
+          "estimate": 0.009836065573770493,
+          "interval95": [
+            0.0,
+            0.022435897435897436
+          ],
+          "valid_bootstrap_draws": 4000
+        },
+        "exact_constant_fraction": {
+          "estimate": 0.02622950819672131,
+          "interval95": [
+            0.009868421052631578,
+            0.04501607717041801
+          ],
+          "valid_bootstrap_draws": 4000
+        }
+      }
+    },
+    "both_current_eos": {
+      "states": 12,
+      "source_clusters": 11,
+      "metrics": {
+        "mean_gain": {
+          "estimate": 0.0,
+          "interval95": [
+            0.0,
+            0.0
+          ],
+          "valid_bootstrap_draws": 4000
+        },
+        "within_variance": {
+          "estimate": 0.0,
+          "interval95": [
+            0.0,
+            0.0
+          ],
+          "valid_bootstrap_draws": 4000
+        },
+        "state_mean_variance": {
+          "estimate": 0.0,
+          "interval95": [
+            0.0,
+            0.0
+          ],
+          "valid_bootstrap_draws": 4000
+        },
+        "between_variance_raw": {
+          "estimate": 0.0,
+          "interval95": [
+            0.0,
+            0.0
+          ],
+          "valid_bootstrap_draws": 4000
+        },
+        "single_label_reliability": {
+          "estimate": null,
+          "interval95": null,
+          "valid_bootstrap_draws": 0
+        },
+        "mean8_reliability": {
+          "estimate": null,
+          "interval95": null,
+          "valid_bootstrap_draws": 0
+        },
+        "half_mean_correlation": {
+          "estimate": null,
+          "interval95": null,
+          "valid_bootstrap_draws": 0
+        },
+        "mixed_positive_negative_fraction": {
+          "estimate": 0.0,
+          "interval95": [
+            0.0,
+            0.0
+          ],
+          "valid_bootstrap_draws": 4000
+        },
+        "half_same_strict_sign_fraction": {
+          "estimate": 0.0,
+          "interval95": [
+            0.0,
+            0.0
+          ],
+          "valid_bootstrap_draws": 4000
+        },
+        "half_opposite_sign_fraction": {
+          "estimate": 0.0,
+          "interval95": [
+            0.0,
+            0.0
+          ],
+          "valid_bootstrap_draws": 4000
+        },
+        "half_has_zero_fraction": {
+          "estimate": 1.0,
+          "interval95": [
+            1.0,
+            1.0
+          ],
+          "valid_bootstrap_draws": 4000
+        },
+        "all_zero_fraction": {
+          "estimate": 1.0,
+          "interval95": [
+            1.0,
+            1.0
+          ],
+          "valid_bootstrap_draws": 4000
+        },
+        "exact_constant_fraction": {
+          "estimate": 1.0,
+          "interval95": [
+            1.0,
+            1.0
+          ],
+          "valid_bootstrap_draws": 4000
+        }
+      }
+    }
+  },
+  "inference": "Descriptive source-cluster bootstrap; unadjusted 95% intervals; eight futures held fixed within each state; no online advance gate.",
+  "frozen_models": {
+    "old_model.json": "caeeec7c2327e2473dbbcac6d64fa596e7db70d74a8d780035cb06a8bc991aae",
+    "quality_model.json": "924ff02fa03502d2027c7f49a952c6b0fc32a698863c431db8bc169186daecf1"
+  },
+  "labels_sha256": "e15bd9d1f7a69389ce362845e4a882d4c5fe23f4d56c92e37fbd834227f8c17c",
+  "code_sha256": "a80a6228d552aa804f36a6ded18f01d45f3d1ab36048650a0dea4c873952b07c"
+}

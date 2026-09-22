@@ -1,0 +1,2762 @@
+[
+  {
+    "max_abs_difference": 0.0,
+    "argmax_disagreements": 0,
+    "shape": [
+      1,
+      30522
+    ],
+    "bitwise_equal": true,
+    "model": "pflm",
+    "prompt_id": "lm1b-000",
+    "context_length": 6,
+    "k": 1,
+    "published_probe_argmax_match": true
+  },
+  {
+    "max_abs_difference": 0.0,
+    "argmax_disagreements": 0,
+    "shape": [
+      1,
+      30522
+    ],
+    "bitwise_equal": true,
+    "model": "pflm",
+    "prompt_id": "lm1b-001",
+    "context_length": 6,
+    "k": 1,
+    "published_probe_argmax_match": true
+  },
+  {
+    "max_abs_difference": 0.0,
+    "argmax_disagreements": 0,
+    "shape": [
+      1,
+      30522
+    ],
+    "bitwise_equal": true,
+    "model": "pflm",
+    "prompt_id": "lm1b-002",
+    "context_length": 6,
+    "k": 1,
+    "published_probe_argmax_match": true
+  },
+  {
+    "max_abs_difference": 0.0,
+    "argmax_disagreements": 0,
+    "shape": [
+      1,
+      30522
+    ],
+    "bitwise_equal": true,
+    "model": "pflm",
+    "prompt_id": "lm1b-003",
+    "context_length": 6,
+    "k": 1,
+    "published_probe_argmax_match": true
+  },
+  {
+    "max_abs_difference": 0.0,
+    "argmax_disagreements": 0,
+    "shape": [
+      1,
+      30522
+    ],
+    "bitwise_equal": true,
+    "model": "pflm",
+    "prompt_id": "lm1b-004",
+    "context_length": 6,
+    "k": 1,
+    "published_probe_argmax_match": true
+  },
+  {
+    "max_abs_difference": 0.0,
+    "argmax_disagreements": 0,
+    "shape": [
+      1,
+      30522
+    ],
+    "bitwise_equal": true,
+    "model": "pflm",
+    "prompt_id": "lm1b-005",
+    "context_length": 6,
+    "k": 1,
+    "published_probe_argmax_match": true
+  },
+  {
+    "max_abs_difference": 0.0,
+    "argmax_disagreements": 0,
+    "shape": [
+      1,
+      30522
+    ],
+    "bitwise_equal": true,
+    "model": "pflm",
+    "prompt_id": "lm1b-006",
+    "context_length": 6,
+    "k": 1,
+    "published_probe_argmax_match": true
+  },
+  {
+    "max_abs_difference": 0.0,
+    "argmax_disagreements": 0,
+    "shape": [
+      1,
+      30522
+    ],
+    "bitwise_equal": true,
+    "model": "pflm",
+    "prompt_id": "lm1b-007",
+    "context_length": 6,
+    "k": 1,
+    "published_probe_argmax_match": true
+  },
+  {
+    "max_abs_difference": 0.0,
+    "argmax_disagreements": 0,
+    "shape": [
+      2,
+      30522
+    ],
+    "bitwise_equal": true,
+    "model": "pflm",
+    "prompt_id": "lm1b-000",
+    "context_length": 6,
+    "k": 2,
+    "published_probe_argmax_match": true
+  },
+  {
+    "max_abs_difference": 0.0,
+    "argmax_disagreements": 0,
+    "shape": [
+      2,
+      30522
+    ],
+    "bitwise_equal": true,
+    "model": "pflm",
+    "prompt_id": "lm1b-001",
+    "context_length": 6,
+    "k": 2,
+    "published_probe_argmax_match": true
+  },
+  {
+    "max_abs_difference": 0.0,
+    "argmax_disagreements": 0,
+    "shape": [
+      2,
+      30522
+    ],
+    "bitwise_equal": true,
+    "model": "pflm",
+    "prompt_id": "lm1b-002",
+    "context_length": 6,
+    "k": 2,
+    "published_probe_argmax_match": true
+  },
+  {
+    "max_abs_difference": 0.0,
+    "argmax_disagreements": 0,
+    "shape": [
+      2,
+      30522
+    ],
+    "bitwise_equal": true,
+    "model": "pflm",
+    "prompt_id": "lm1b-003",
+    "context_length": 6,
+    "k": 2,
+    "published_probe_argmax_match": true
+  },
+  {
+    "max_abs_difference": 0.0,
+    "argmax_disagreements": 0,
+    "shape": [
+      2,
+      30522
+    ],
+    "bitwise_equal": true,
+    "model": "pflm",
+    "prompt_id": "lm1b-004",
+    "context_length": 6,
+    "k": 2,
+    "published_probe_argmax_match": true
+  },
+  {
+    "max_abs_difference": 0.0,
+    "argmax_disagreements": 0,
+    "shape": [
+      2,
+      30522
+    ],
+    "bitwise_equal": true,
+    "model": "pflm",
+    "prompt_id": "lm1b-005",
+    "context_length": 6,
+    "k": 2,
+    "published_probe_argmax_match": true
+  },
+  {
+    "max_abs_difference": 0.0,
+    "argmax_disagreements": 0,
+    "shape": [
+      2,
+      30522
+    ],
+    "bitwise_equal": true,
+    "model": "pflm",
+    "prompt_id": "lm1b-006",
+    "context_length": 6,
+    "k": 2,
+    "published_probe_argmax_match": true
+  },
+  {
+    "max_abs_difference": 0.0,
+    "argmax_disagreements": 0,
+    "shape": [
+      2,
+      30522
+    ],
+    "bitwise_equal": true,
+    "model": "pflm",
+    "prompt_id": "lm1b-007",
+    "context_length": 6,
+    "k": 2,
+    "published_probe_argmax_match": true
+  },
+  {
+    "max_abs_difference": 0.0,
+    "argmax_disagreements": 0,
+    "shape": [
+      3,
+      30522
+    ],
+    "bitwise_equal": true,
+    "model": "pflm",
+    "prompt_id": "lm1b-000",
+    "context_length": 6,
+    "k": 3,
+    "published_probe_argmax_match": true
+  },
+  {
+    "max_abs_difference": 0.0,
+    "argmax_disagreements": 0,
+    "shape": [
+      3,
+      30522
+    ],
+    "bitwise_equal": true,
+    "model": "pflm",
+    "prompt_id": "lm1b-001",
+    "context_length": 6,
+    "k": 3,
+    "published_probe_argmax_match": true
+  },
+  {
+    "max_abs_difference": 0.0,
+    "argmax_disagreements": 0,
+    "shape": [
+      3,
+      30522
+    ],
+    "bitwise_equal": true,
+    "model": "pflm",
+    "prompt_id": "lm1b-002",
+    "context_length": 6,
+    "k": 3,
+    "published_probe_argmax_match": true
+  },
+  {
+    "max_abs_difference": 0.0,
+    "argmax_disagreements": 0,
+    "shape": [
+      3,
+      30522
+    ],
+    "bitwise_equal": true,
+    "model": "pflm",
+    "prompt_id": "lm1b-003",
+    "context_length": 6,
+    "k": 3,
+    "published_probe_argmax_match": true
+  },
+  {
+    "max_abs_difference": 0.0,
+    "argmax_disagreements": 0,
+    "shape": [
+      3,
+      30522
+    ],
+    "bitwise_equal": true,
+    "model": "pflm",
+    "prompt_id": "lm1b-004",
+    "context_length": 6,
+    "k": 3,
+    "published_probe_argmax_match": true
+  },
+  {
+    "max_abs_difference": 0.0,
+    "argmax_disagreements": 0,
+    "shape": [
+      3,
+      30522
+    ],
+    "bitwise_equal": true,
+    "model": "pflm",
+    "prompt_id": "lm1b-005",
+    "context_length": 6,
+    "k": 3,
+    "published_probe_argmax_match": true
+  },
+  {
+    "max_abs_difference": 0.0,
+    "argmax_disagreements": 0,
+    "shape": [
+      3,
+      30522
+    ],
+    "bitwise_equal": true,
+    "model": "pflm",
+    "prompt_id": "lm1b-006",
+    "context_length": 6,
+    "k": 3,
+    "published_probe_argmax_match": true
+  },
+  {
+    "max_abs_difference": 0.0,
+    "argmax_disagreements": 0,
+    "shape": [
+      3,
+      30522
+    ],
+    "bitwise_equal": true,
+    "model": "pflm",
+    "prompt_id": "lm1b-007",
+    "context_length": 6,
+    "k": 3,
+    "published_probe_argmax_match": true
+  },
+  {
+    "max_abs_difference": 0.0,
+    "argmax_disagreements": 0,
+    "shape": [
+      4,
+      30522
+    ],
+    "bitwise_equal": true,
+    "model": "pflm",
+    "prompt_id": "lm1b-000",
+    "context_length": 6,
+    "k": 4,
+    "published_probe_argmax_match": true
+  },
+  {
+    "max_abs_difference": 0.0,
+    "argmax_disagreements": 0,
+    "shape": [
+      4,
+      30522
+    ],
+    "bitwise_equal": true,
+    "model": "pflm",
+    "prompt_id": "lm1b-001",
+    "context_length": 6,
+    "k": 4,
+    "published_probe_argmax_match": true
+  },
+  {
+    "max_abs_difference": 0.0,
+    "argmax_disagreements": 0,
+    "shape": [
+      4,
+      30522
+    ],
+    "bitwise_equal": true,
+    "model": "pflm",
+    "prompt_id": "lm1b-002",
+    "context_length": 6,
+    "k": 4,
+    "published_probe_argmax_match": true
+  },
+  {
+    "max_abs_difference": 0.0,
+    "argmax_disagreements": 0,
+    "shape": [
+      4,
+      30522
+    ],
+    "bitwise_equal": true,
+    "model": "pflm",
+    "prompt_id": "lm1b-003",
+    "context_length": 6,
+    "k": 4,
+    "published_probe_argmax_match": true
+  },
+  {
+    "max_abs_difference": 0.0,
+    "argmax_disagreements": 0,
+    "shape": [
+      4,
+      30522
+    ],
+    "bitwise_equal": true,
+    "model": "pflm",
+    "prompt_id": "lm1b-004",
+    "context_length": 6,
+    "k": 4,
+    "published_probe_argmax_match": true
+  },
+  {
+    "max_abs_difference": 0.0,
+    "argmax_disagreements": 0,
+    "shape": [
+      4,
+      30522
+    ],
+    "bitwise_equal": true,
+    "model": "pflm",
+    "prompt_id": "lm1b-005",
+    "context_length": 6,
+    "k": 4,
+    "published_probe_argmax_match": true
+  },
+  {
+    "max_abs_difference": 0.0,
+    "argmax_disagreements": 0,
+    "shape": [
+      4,
+      30522
+    ],
+    "bitwise_equal": true,
+    "model": "pflm",
+    "prompt_id": "lm1b-006",
+    "context_length": 6,
+    "k": 4,
+    "published_probe_argmax_match": true
+  },
+  {
+    "max_abs_difference": 0.0,
+    "argmax_disagreements": 0,
+    "shape": [
+      4,
+      30522
+    ],
+    "bitwise_equal": true,
+    "model": "pflm",
+    "prompt_id": "lm1b-007",
+    "context_length": 6,
+    "k": 4,
+    "published_probe_argmax_match": true
+  },
+  {
+    "max_abs_difference": 0.0,
+    "argmax_disagreements": 0,
+    "shape": [
+      1,
+      30522
+    ],
+    "bitwise_equal": true,
+    "model": "pflm",
+    "prompt_id": "lm1b-000",
+    "context_length": 10,
+    "k": 1,
+    "published_probe_argmax_match": true
+  },
+  {
+    "max_abs_difference": 0.0,
+    "argmax_disagreements": 0,
+    "shape": [
+      1,
+      30522
+    ],
+    "bitwise_equal": true,
+    "model": "pflm",
+    "prompt_id": "lm1b-001",
+    "context_length": 10,
+    "k": 1,
+    "published_probe_argmax_match": true
+  },
+  {
+    "max_abs_difference": 0.0,
+    "argmax_disagreements": 0,
+    "shape": [
+      1,
+      30522
+    ],
+    "bitwise_equal": true,
+    "model": "pflm",
+    "prompt_id": "lm1b-002",
+    "context_length": 10,
+    "k": 1,
+    "published_probe_argmax_match": true
+  },
+  {
+    "max_abs_difference": 0.0,
+    "argmax_disagreements": 0,
+    "shape": [
+      1,
+      30522
+    ],
+    "bitwise_equal": true,
+    "model": "pflm",
+    "prompt_id": "lm1b-003",
+    "context_length": 10,
+    "k": 1,
+    "published_probe_argmax_match": true
+  },
+  {
+    "max_abs_difference": 0.0,
+    "argmax_disagreements": 0,
+    "shape": [
+      1,
+      30522
+    ],
+    "bitwise_equal": true,
+    "model": "pflm",
+    "prompt_id": "lm1b-004",
+    "context_length": 10,
+    "k": 1,
+    "published_probe_argmax_match": true
+  },
+  {
+    "max_abs_difference": 0.0,
+    "argmax_disagreements": 0,
+    "shape": [
+      1,
+      30522
+    ],
+    "bitwise_equal": true,
+    "model": "pflm",
+    "prompt_id": "lm1b-005",
+    "context_length": 10,
+    "k": 1,
+    "published_probe_argmax_match": true
+  },
+  {
+    "max_abs_difference": 0.0,
+    "argmax_disagreements": 0,
+    "shape": [
+      1,
+      30522
+    ],
+    "bitwise_equal": true,
+    "model": "pflm",
+    "prompt_id": "lm1b-006",
+    "context_length": 10,
+    "k": 1,
+    "published_probe_argmax_match": true
+  },
+  {
+    "max_abs_difference": 0.0,
+    "argmax_disagreements": 0,
+    "shape": [
+      1,
+      30522
+    ],
+    "bitwise_equal": true,
+    "model": "pflm",
+    "prompt_id": "lm1b-007",
+    "context_length": 10,
+    "k": 1,
+    "published_probe_argmax_match": true
+  },
+  {
+    "max_abs_difference": 0.0,
+    "argmax_disagreements": 0,
+    "shape": [
+      2,
+      30522
+    ],
+    "bitwise_equal": true,
+    "model": "pflm",
+    "prompt_id": "lm1b-000",
+    "context_length": 10,
+    "k": 2,
+    "published_probe_argmax_match": true
+  },
+  {
+    "max_abs_difference": 0.0,
+    "argmax_disagreements": 0,
+    "shape": [
+      2,
+      30522
+    ],
+    "bitwise_equal": true,
+    "model": "pflm",
+    "prompt_id": "lm1b-001",
+    "context_length": 10,
+    "k": 2,
+    "published_probe_argmax_match": true
+  },
+  {
+    "max_abs_difference": 0.0,
+    "argmax_disagreements": 0,
+    "shape": [
+      2,
+      30522
+    ],
+    "bitwise_equal": true,
+    "model": "pflm",
+    "prompt_id": "lm1b-002",
+    "context_length": 10,
+    "k": 2,
+    "published_probe_argmax_match": true
+  },
+  {
+    "max_abs_difference": 0.0,
+    "argmax_disagreements": 0,
+    "shape": [
+      2,
+      30522
+    ],
+    "bitwise_equal": true,
+    "model": "pflm",
+    "prompt_id": "lm1b-003",
+    "context_length": 10,
+    "k": 2,
+    "published_probe_argmax_match": true
+  },
+  {
+    "max_abs_difference": 0.0,
+    "argmax_disagreements": 0,
+    "shape": [
+      2,
+      30522
+    ],
+    "bitwise_equal": true,
+    "model": "pflm",
+    "prompt_id": "lm1b-004",
+    "context_length": 10,
+    "k": 2,
+    "published_probe_argmax_match": true
+  },
+  {
+    "max_abs_difference": 0.0,
+    "argmax_disagreements": 0,
+    "shape": [
+      2,
+      30522
+    ],
+    "bitwise_equal": true,
+    "model": "pflm",
+    "prompt_id": "lm1b-005",
+    "context_length": 10,
+    "k": 2,
+    "published_probe_argmax_match": true
+  },
+  {
+    "max_abs_difference": 0.0,
+    "argmax_disagreements": 0,
+    "shape": [
+      2,
+      30522
+    ],
+    "bitwise_equal": true,
+    "model": "pflm",
+    "prompt_id": "lm1b-006",
+    "context_length": 10,
+    "k": 2,
+    "published_probe_argmax_match": true
+  },
+  {
+    "max_abs_difference": 0.0,
+    "argmax_disagreements": 0,
+    "shape": [
+      2,
+      30522
+    ],
+    "bitwise_equal": true,
+    "model": "pflm",
+    "prompt_id": "lm1b-007",
+    "context_length": 10,
+    "k": 2,
+    "published_probe_argmax_match": true
+  },
+  {
+    "max_abs_difference": 0.0,
+    "argmax_disagreements": 0,
+    "shape": [
+      3,
+      30522
+    ],
+    "bitwise_equal": true,
+    "model": "pflm",
+    "prompt_id": "lm1b-000",
+    "context_length": 10,
+    "k": 3,
+    "published_probe_argmax_match": true
+  },
+  {
+    "max_abs_difference": 0.0,
+    "argmax_disagreements": 0,
+    "shape": [
+      3,
+      30522
+    ],
+    "bitwise_equal": true,
+    "model": "pflm",
+    "prompt_id": "lm1b-001",
+    "context_length": 10,
+    "k": 3,
+    "published_probe_argmax_match": true
+  },
+  {
+    "max_abs_difference": 0.0,
+    "argmax_disagreements": 0,
+    "shape": [
+      3,
+      30522
+    ],
+    "bitwise_equal": true,
+    "model": "pflm",
+    "prompt_id": "lm1b-002",
+    "context_length": 10,
+    "k": 3,
+    "published_probe_argmax_match": true
+  },
+  {
+    "max_abs_difference": 0.0,
+    "argmax_disagreements": 0,
+    "shape": [
+      3,
+      30522
+    ],
+    "bitwise_equal": true,
+    "model": "pflm",
+    "prompt_id": "lm1b-003",
+    "context_length": 10,
+    "k": 3,
+    "published_probe_argmax_match": true
+  },
+  {
+    "max_abs_difference": 0.0,
+    "argmax_disagreements": 0,
+    "shape": [
+      3,
+      30522
+    ],
+    "bitwise_equal": true,
+    "model": "pflm",
+    "prompt_id": "lm1b-004",
+    "context_length": 10,
+    "k": 3,
+    "published_probe_argmax_match": true
+  },
+  {
+    "max_abs_difference": 0.0,
+    "argmax_disagreements": 0,
+    "shape": [
+      3,
+      30522
+    ],
+    "bitwise_equal": true,
+    "model": "pflm",
+    "prompt_id": "lm1b-005",
+    "context_length": 10,
+    "k": 3,
+    "published_probe_argmax_match": true
+  },
+  {
+    "max_abs_difference": 0.0,
+    "argmax_disagreements": 0,
+    "shape": [
+      3,
+      30522
+    ],
+    "bitwise_equal": true,
+    "model": "pflm",
+    "prompt_id": "lm1b-006",
+    "context_length": 10,
+    "k": 3,
+    "published_probe_argmax_match": true
+  },
+  {
+    "max_abs_difference": 0.0,
+    "argmax_disagreements": 0,
+    "shape": [
+      3,
+      30522
+    ],
+    "bitwise_equal": true,
+    "model": "pflm",
+    "prompt_id": "lm1b-007",
+    "context_length": 10,
+    "k": 3,
+    "published_probe_argmax_match": true
+  },
+  {
+    "max_abs_difference": 0.0,
+    "argmax_disagreements": 0,
+    "shape": [
+      4,
+      30522
+    ],
+    "bitwise_equal": true,
+    "model": "pflm",
+    "prompt_id": "lm1b-000",
+    "context_length": 10,
+    "k": 4,
+    "published_probe_argmax_match": true
+  },
+  {
+    "max_abs_difference": 0.0,
+    "argmax_disagreements": 0,
+    "shape": [
+      4,
+      30522
+    ],
+    "bitwise_equal": true,
+    "model": "pflm",
+    "prompt_id": "lm1b-001",
+    "context_length": 10,
+    "k": 4,
+    "published_probe_argmax_match": true
+  },
+  {
+    "max_abs_difference": 0.0,
+    "argmax_disagreements": 0,
+    "shape": [
+      4,
+      30522
+    ],
+    "bitwise_equal": true,
+    "model": "pflm",
+    "prompt_id": "lm1b-002",
+    "context_length": 10,
+    "k": 4,
+    "published_probe_argmax_match": true
+  },
+  {
+    "max_abs_difference": 0.0,
+    "argmax_disagreements": 0,
+    "shape": [
+      4,
+      30522
+    ],
+    "bitwise_equal": true,
+    "model": "pflm",
+    "prompt_id": "lm1b-003",
+    "context_length": 10,
+    "k": 4,
+    "published_probe_argmax_match": true
+  },
+  {
+    "max_abs_difference": 0.0,
+    "argmax_disagreements": 0,
+    "shape": [
+      4,
+      30522
+    ],
+    "bitwise_equal": true,
+    "model": "pflm",
+    "prompt_id": "lm1b-004",
+    "context_length": 10,
+    "k": 4,
+    "published_probe_argmax_match": true
+  },
+  {
+    "max_abs_difference": 0.0,
+    "argmax_disagreements": 0,
+    "shape": [
+      4,
+      30522
+    ],
+    "bitwise_equal": true,
+    "model": "pflm",
+    "prompt_id": "lm1b-005",
+    "context_length": 10,
+    "k": 4,
+    "published_probe_argmax_match": true
+  },
+  {
+    "max_abs_difference": 0.0,
+    "argmax_disagreements": 0,
+    "shape": [
+      4,
+      30522
+    ],
+    "bitwise_equal": true,
+    "model": "pflm",
+    "prompt_id": "lm1b-006",
+    "context_length": 10,
+    "k": 4,
+    "published_probe_argmax_match": true
+  },
+  {
+    "max_abs_difference": 0.0,
+    "argmax_disagreements": 0,
+    "shape": [
+      4,
+      30522
+    ],
+    "bitwise_equal": true,
+    "model": "pflm",
+    "prompt_id": "lm1b-007",
+    "context_length": 10,
+    "k": 4,
+    "published_probe_argmax_match": true
+  },
+  {
+    "max_abs_difference": 0.0,
+    "argmax_disagreements": 0,
+    "shape": [
+      1,
+      30522
+    ],
+    "bitwise_equal": true,
+    "model": "pflm",
+    "prompt_id": "lm1b-000",
+    "context_length": 14,
+    "k": 1,
+    "published_probe_argmax_match": true
+  },
+  {
+    "max_abs_difference": 0.0,
+    "argmax_disagreements": 0,
+    "shape": [
+      1,
+      30522
+    ],
+    "bitwise_equal": true,
+    "model": "pflm",
+    "prompt_id": "lm1b-001",
+    "context_length": 14,
+    "k": 1,
+    "published_probe_argmax_match": true
+  },
+  {
+    "max_abs_difference": 0.0,
+    "argmax_disagreements": 0,
+    "shape": [
+      1,
+      30522
+    ],
+    "bitwise_equal": true,
+    "model": "pflm",
+    "prompt_id": "lm1b-002",
+    "context_length": 14,
+    "k": 1,
+    "published_probe_argmax_match": true
+  },
+  {
+    "max_abs_difference": 0.0,
+    "argmax_disagreements": 0,
+    "shape": [
+      1,
+      30522
+    ],
+    "bitwise_equal": true,
+    "model": "pflm",
+    "prompt_id": "lm1b-003",
+    "context_length": 14,
+    "k": 1,
+    "published_probe_argmax_match": true
+  },
+  {
+    "max_abs_difference": 0.0,
+    "argmax_disagreements": 0,
+    "shape": [
+      1,
+      30522
+    ],
+    "bitwise_equal": true,
+    "model": "pflm",
+    "prompt_id": "lm1b-004",
+    "context_length": 14,
+    "k": 1,
+    "published_probe_argmax_match": true
+  },
+  {
+    "max_abs_difference": 0.0,
+    "argmax_disagreements": 0,
+    "shape": [
+      1,
+      30522
+    ],
+    "bitwise_equal": true,
+    "model": "pflm",
+    "prompt_id": "lm1b-005",
+    "context_length": 14,
+    "k": 1,
+    "published_probe_argmax_match": true
+  },
+  {
+    "max_abs_difference": 0.0,
+    "argmax_disagreements": 0,
+    "shape": [
+      1,
+      30522
+    ],
+    "bitwise_equal": true,
+    "model": "pflm",
+    "prompt_id": "lm1b-006",
+    "context_length": 14,
+    "k": 1,
+    "published_probe_argmax_match": true
+  },
+  {
+    "max_abs_difference": 0.0,
+    "argmax_disagreements": 0,
+    "shape": [
+      1,
+      30522
+    ],
+    "bitwise_equal": true,
+    "model": "pflm",
+    "prompt_id": "lm1b-007",
+    "context_length": 14,
+    "k": 1,
+    "published_probe_argmax_match": true
+  },
+  {
+    "max_abs_difference": 0.0,
+    "argmax_disagreements": 0,
+    "shape": [
+      2,
+      30522
+    ],
+    "bitwise_equal": true,
+    "model": "pflm",
+    "prompt_id": "lm1b-000",
+    "context_length": 14,
+    "k": 2,
+    "published_probe_argmax_match": true
+  },
+  {
+    "max_abs_difference": 0.0,
+    "argmax_disagreements": 0,
+    "shape": [
+      2,
+      30522
+    ],
+    "bitwise_equal": true,
+    "model": "pflm",
+    "prompt_id": "lm1b-001",
+    "context_length": 14,
+    "k": 2,
+    "published_probe_argmax_match": true
+  },
+  {
+    "max_abs_difference": 0.0,
+    "argmax_disagreements": 0,
+    "shape": [
+      2,
+      30522
+    ],
+    "bitwise_equal": true,
+    "model": "pflm",
+    "prompt_id": "lm1b-002",
+    "context_length": 14,
+    "k": 2,
+    "published_probe_argmax_match": true
+  },
+  {
+    "max_abs_difference": 0.0,
+    "argmax_disagreements": 0,
+    "shape": [
+      2,
+      30522
+    ],
+    "bitwise_equal": true,
+    "model": "pflm",
+    "prompt_id": "lm1b-003",
+    "context_length": 14,
+    "k": 2,
+    "published_probe_argmax_match": true
+  },
+  {
+    "max_abs_difference": 0.0,
+    "argmax_disagreements": 0,
+    "shape": [
+      2,
+      30522
+    ],
+    "bitwise_equal": true,
+    "model": "pflm",
+    "prompt_id": "lm1b-004",
+    "context_length": 14,
+    "k": 2,
+    "published_probe_argmax_match": true
+  },
+  {
+    "max_abs_difference": 0.0,
+    "argmax_disagreements": 0,
+    "shape": [
+      2,
+      30522
+    ],
+    "bitwise_equal": true,
+    "model": "pflm",
+    "prompt_id": "lm1b-005",
+    "context_length": 14,
+    "k": 2,
+    "published_probe_argmax_match": true
+  },
+  {
+    "max_abs_difference": 0.0,
+    "argmax_disagreements": 0,
+    "shape": [
+      2,
+      30522
+    ],
+    "bitwise_equal": true,
+    "model": "pflm",
+    "prompt_id": "lm1b-006",
+    "context_length": 14,
+    "k": 2,
+    "published_probe_argmax_match": true
+  },
+  {
+    "max_abs_difference": 0.0,
+    "argmax_disagreements": 0,
+    "shape": [
+      2,
+      30522
+    ],
+    "bitwise_equal": true,
+    "model": "pflm",
+    "prompt_id": "lm1b-007",
+    "context_length": 14,
+    "k": 2,
+    "published_probe_argmax_match": true
+  },
+  {
+    "max_abs_difference": 0.0,
+    "argmax_disagreements": 0,
+    "shape": [
+      3,
+      30522
+    ],
+    "bitwise_equal": true,
+    "model": "pflm",
+    "prompt_id": "lm1b-000",
+    "context_length": 14,
+    "k": 3,
+    "published_probe_argmax_match": true
+  },
+  {
+    "max_abs_difference": 0.0,
+    "argmax_disagreements": 0,
+    "shape": [
+      3,
+      30522
+    ],
+    "bitwise_equal": true,
+    "model": "pflm",
+    "prompt_id": "lm1b-001",
+    "context_length": 14,
+    "k": 3,
+    "published_probe_argmax_match": true
+  },
+  {
+    "max_abs_difference": 0.0,
+    "argmax_disagreements": 0,
+    "shape": [
+      3,
+      30522
+    ],
+    "bitwise_equal": true,
+    "model": "pflm",
+    "prompt_id": "lm1b-002",
+    "context_length": 14,
+    "k": 3,
+    "published_probe_argmax_match": true
+  },
+  {
+    "max_abs_difference": 0.0,
+    "argmax_disagreements": 0,
+    "shape": [
+      3,
+      30522
+    ],
+    "bitwise_equal": true,
+    "model": "pflm",
+    "prompt_id": "lm1b-003",
+    "context_length": 14,
+    "k": 3,
+    "published_probe_argmax_match": true
+  },
+  {
+    "max_abs_difference": 0.0,
+    "argmax_disagreements": 0,
+    "shape": [
+      3,
+      30522
+    ],
+    "bitwise_equal": true,
+    "model": "pflm",
+    "prompt_id": "lm1b-004",
+    "context_length": 14,
+    "k": 3,
+    "published_probe_argmax_match": true
+  },
+  {
+    "max_abs_difference": 0.0,
+    "argmax_disagreements": 0,
+    "shape": [
+      3,
+      30522
+    ],
+    "bitwise_equal": true,
+    "model": "pflm",
+    "prompt_id": "lm1b-005",
+    "context_length": 14,
+    "k": 3,
+    "published_probe_argmax_match": true
+  },
+  {
+    "max_abs_difference": 0.0,
+    "argmax_disagreements": 0,
+    "shape": [
+      3,
+      30522
+    ],
+    "bitwise_equal": true,
+    "model": "pflm",
+    "prompt_id": "lm1b-006",
+    "context_length": 14,
+    "k": 3,
+    "published_probe_argmax_match": true
+  },
+  {
+    "max_abs_difference": 0.0,
+    "argmax_disagreements": 0,
+    "shape": [
+      3,
+      30522
+    ],
+    "bitwise_equal": true,
+    "model": "pflm",
+    "prompt_id": "lm1b-007",
+    "context_length": 14,
+    "k": 3,
+    "published_probe_argmax_match": true
+  },
+  {
+    "max_abs_difference": 0.0,
+    "argmax_disagreements": 0,
+    "shape": [
+      4,
+      30522
+    ],
+    "bitwise_equal": true,
+    "model": "pflm",
+    "prompt_id": "lm1b-000",
+    "context_length": 14,
+    "k": 4,
+    "published_probe_argmax_match": true
+  },
+  {
+    "max_abs_difference": 0.0,
+    "argmax_disagreements": 0,
+    "shape": [
+      4,
+      30522
+    ],
+    "bitwise_equal": true,
+    "model": "pflm",
+    "prompt_id": "lm1b-001",
+    "context_length": 14,
+    "k": 4,
+    "published_probe_argmax_match": true
+  },
+  {
+    "max_abs_difference": 0.0,
+    "argmax_disagreements": 0,
+    "shape": [
+      4,
+      30522
+    ],
+    "bitwise_equal": true,
+    "model": "pflm",
+    "prompt_id": "lm1b-002",
+    "context_length": 14,
+    "k": 4,
+    "published_probe_argmax_match": true
+  },
+  {
+    "max_abs_difference": 0.0,
+    "argmax_disagreements": 0,
+    "shape": [
+      4,
+      30522
+    ],
+    "bitwise_equal": true,
+    "model": "pflm",
+    "prompt_id": "lm1b-003",
+    "context_length": 14,
+    "k": 4,
+    "published_probe_argmax_match": true
+  },
+  {
+    "max_abs_difference": 0.0,
+    "argmax_disagreements": 0,
+    "shape": [
+      4,
+      30522
+    ],
+    "bitwise_equal": true,
+    "model": "pflm",
+    "prompt_id": "lm1b-004",
+    "context_length": 14,
+    "k": 4,
+    "published_probe_argmax_match": true
+  },
+  {
+    "max_abs_difference": 0.0,
+    "argmax_disagreements": 0,
+    "shape": [
+      4,
+      30522
+    ],
+    "bitwise_equal": true,
+    "model": "pflm",
+    "prompt_id": "lm1b-005",
+    "context_length": 14,
+    "k": 4,
+    "published_probe_argmax_match": true
+  },
+  {
+    "max_abs_difference": 0.0,
+    "argmax_disagreements": 0,
+    "shape": [
+      4,
+      30522
+    ],
+    "bitwise_equal": true,
+    "model": "pflm",
+    "prompt_id": "lm1b-006",
+    "context_length": 14,
+    "k": 4,
+    "published_probe_argmax_match": true
+  },
+  {
+    "max_abs_difference": 0.0,
+    "argmax_disagreements": 0,
+    "shape": [
+      4,
+      30522
+    ],
+    "bitwise_equal": true,
+    "model": "pflm",
+    "prompt_id": "lm1b-007",
+    "context_length": 14,
+    "k": 4,
+    "published_probe_argmax_match": true
+  },
+  {
+    "max_abs_difference": 0.0,
+    "argmax_disagreements": 0,
+    "shape": [
+      1,
+      30522
+    ],
+    "bitwise_equal": true,
+    "model": "pflm",
+    "prompt_id": "lm1b-000",
+    "context_length": 30,
+    "k": 1,
+    "published_probe_argmax_match": true
+  },
+  {
+    "max_abs_difference": 0.0,
+    "argmax_disagreements": 0,
+    "shape": [
+      1,
+      30522
+    ],
+    "bitwise_equal": true,
+    "model": "pflm",
+    "prompt_id": "lm1b-001",
+    "context_length": 30,
+    "k": 1,
+    "published_probe_argmax_match": true
+  },
+  {
+    "max_abs_difference": 0.0,
+    "argmax_disagreements": 0,
+    "shape": [
+      1,
+      30522
+    ],
+    "bitwise_equal": true,
+    "model": "pflm",
+    "prompt_id": "lm1b-002",
+    "context_length": 30,
+    "k": 1,
+    "published_probe_argmax_match": true
+  },
+  {
+    "max_abs_difference": 0.0,
+    "argmax_disagreements": 0,
+    "shape": [
+      1,
+      30522
+    ],
+    "bitwise_equal": true,
+    "model": "pflm",
+    "prompt_id": "lm1b-003",
+    "context_length": 30,
+    "k": 1,
+    "published_probe_argmax_match": true
+  },
+  {
+    "max_abs_difference": 0.0,
+    "argmax_disagreements": 0,
+    "shape": [
+      1,
+      30522
+    ],
+    "bitwise_equal": true,
+    "model": "pflm",
+    "prompt_id": "lm1b-004",
+    "context_length": 30,
+    "k": 1,
+    "published_probe_argmax_match": true
+  },
+  {
+    "max_abs_difference": 0.0,
+    "argmax_disagreements": 0,
+    "shape": [
+      1,
+      30522
+    ],
+    "bitwise_equal": true,
+    "model": "pflm",
+    "prompt_id": "lm1b-005",
+    "context_length": 30,
+    "k": 1,
+    "published_probe_argmax_match": true
+  },
+  {
+    "max_abs_difference": 0.0,
+    "argmax_disagreements": 0,
+    "shape": [
+      1,
+      30522
+    ],
+    "bitwise_equal": true,
+    "model": "pflm",
+    "prompt_id": "lm1b-006",
+    "context_length": 30,
+    "k": 1,
+    "published_probe_argmax_match": true
+  },
+  {
+    "max_abs_difference": 0.0,
+    "argmax_disagreements": 0,
+    "shape": [
+      1,
+      30522
+    ],
+    "bitwise_equal": true,
+    "model": "pflm",
+    "prompt_id": "lm1b-007",
+    "context_length": 30,
+    "k": 1,
+    "published_probe_argmax_match": true
+  },
+  {
+    "max_abs_difference": 0.0,
+    "argmax_disagreements": 0,
+    "shape": [
+      2,
+      30522
+    ],
+    "bitwise_equal": true,
+    "model": "pflm",
+    "prompt_id": "lm1b-000",
+    "context_length": 30,
+    "k": 2,
+    "published_probe_argmax_match": true
+  },
+  {
+    "max_abs_difference": 0.0,
+    "argmax_disagreements": 0,
+    "shape": [
+      2,
+      30522
+    ],
+    "bitwise_equal": true,
+    "model": "pflm",
+    "prompt_id": "lm1b-001",
+    "context_length": 30,
+    "k": 2,
+    "published_probe_argmax_match": true
+  },
+  {
+    "max_abs_difference": 0.0,
+    "argmax_disagreements": 0,
+    "shape": [
+      2,
+      30522
+    ],
+    "bitwise_equal": true,
+    "model": "pflm",
+    "prompt_id": "lm1b-002",
+    "context_length": 30,
+    "k": 2,
+    "published_probe_argmax_match": true
+  },
+  {
+    "max_abs_difference": 0.0,
+    "argmax_disagreements": 0,
+    "shape": [
+      2,
+      30522
+    ],
+    "bitwise_equal": true,
+    "model": "pflm",
+    "prompt_id": "lm1b-003",
+    "context_length": 30,
+    "k": 2,
+    "published_probe_argmax_match": true
+  },
+  {
+    "max_abs_difference": 0.0,
+    "argmax_disagreements": 0,
+    "shape": [
+      2,
+      30522
+    ],
+    "bitwise_equal": true,
+    "model": "pflm",
+    "prompt_id": "lm1b-004",
+    "context_length": 30,
+    "k": 2,
+    "published_probe_argmax_match": true
+  },
+  {
+    "max_abs_difference": 0.0,
+    "argmax_disagreements": 0,
+    "shape": [
+      2,
+      30522
+    ],
+    "bitwise_equal": true,
+    "model": "pflm",
+    "prompt_id": "lm1b-005",
+    "context_length": 30,
+    "k": 2,
+    "published_probe_argmax_match": true
+  },
+  {
+    "max_abs_difference": 0.0,
+    "argmax_disagreements": 0,
+    "shape": [
+      2,
+      30522
+    ],
+    "bitwise_equal": true,
+    "model": "pflm",
+    "prompt_id": "lm1b-006",
+    "context_length": 30,
+    "k": 2,
+    "published_probe_argmax_match": true
+  },
+  {
+    "max_abs_difference": 0.0,
+    "argmax_disagreements": 0,
+    "shape": [
+      2,
+      30522
+    ],
+    "bitwise_equal": true,
+    "model": "pflm",
+    "prompt_id": "lm1b-007",
+    "context_length": 30,
+    "k": 2,
+    "published_probe_argmax_match": true
+  },
+  {
+    "max_abs_difference": 0.0,
+    "argmax_disagreements": 0,
+    "shape": [
+      3,
+      30522
+    ],
+    "bitwise_equal": true,
+    "model": "pflm",
+    "prompt_id": "lm1b-000",
+    "context_length": 30,
+    "k": 3,
+    "published_probe_argmax_match": true
+  },
+  {
+    "max_abs_difference": 0.0,
+    "argmax_disagreements": 0,
+    "shape": [
+      3,
+      30522
+    ],
+    "bitwise_equal": true,
+    "model": "pflm",
+    "prompt_id": "lm1b-001",
+    "context_length": 30,
+    "k": 3,
+    "published_probe_argmax_match": true
+  },
+  {
+    "max_abs_difference": 0.0,
+    "argmax_disagreements": 0,
+    "shape": [
+      3,
+      30522
+    ],
+    "bitwise_equal": true,
+    "model": "pflm",
+    "prompt_id": "lm1b-002",
+    "context_length": 30,
+    "k": 3,
+    "published_probe_argmax_match": true
+  },
+  {
+    "max_abs_difference": 0.0,
+    "argmax_disagreements": 0,
+    "shape": [
+      3,
+      30522
+    ],
+    "bitwise_equal": true,
+    "model": "pflm",
+    "prompt_id": "lm1b-003",
+    "context_length": 30,
+    "k": 3,
+    "published_probe_argmax_match": true
+  },
+  {
+    "max_abs_difference": 0.0,
+    "argmax_disagreements": 0,
+    "shape": [
+      3,
+      30522
+    ],
+    "bitwise_equal": true,
+    "model": "pflm",
+    "prompt_id": "lm1b-004",
+    "context_length": 30,
+    "k": 3,
+    "published_probe_argmax_match": true
+  },
+  {
+    "max_abs_difference": 0.0,
+    "argmax_disagreements": 0,
+    "shape": [
+      3,
+      30522
+    ],
+    "bitwise_equal": true,
+    "model": "pflm",
+    "prompt_id": "lm1b-005",
+    "context_length": 30,
+    "k": 3,
+    "published_probe_argmax_match": true
+  },
+  {
+    "max_abs_difference": 0.0,
+    "argmax_disagreements": 0,
+    "shape": [
+      3,
+      30522
+    ],
+    "bitwise_equal": true,
+    "model": "pflm",
+    "prompt_id": "lm1b-006",
+    "context_length": 30,
+    "k": 3,
+    "published_probe_argmax_match": true
+  },
+  {
+    "max_abs_difference": 0.0,
+    "argmax_disagreements": 0,
+    "shape": [
+      3,
+      30522
+    ],
+    "bitwise_equal": true,
+    "model": "pflm",
+    "prompt_id": "lm1b-007",
+    "context_length": 30,
+    "k": 3,
+    "published_probe_argmax_match": true
+  },
+  {
+    "max_abs_difference": 0.0,
+    "argmax_disagreements": 0,
+    "shape": [
+      4,
+      30522
+    ],
+    "bitwise_equal": true,
+    "model": "pflm",
+    "prompt_id": "lm1b-000",
+    "context_length": 30,
+    "k": 4,
+    "published_probe_argmax_match": true
+  },
+  {
+    "max_abs_difference": 0.0,
+    "argmax_disagreements": 0,
+    "shape": [
+      4,
+      30522
+    ],
+    "bitwise_equal": true,
+    "model": "pflm",
+    "prompt_id": "lm1b-001",
+    "context_length": 30,
+    "k": 4,
+    "published_probe_argmax_match": true
+  },
+  {
+    "max_abs_difference": 0.0,
+    "argmax_disagreements": 0,
+    "shape": [
+      4,
+      30522
+    ],
+    "bitwise_equal": true,
+    "model": "pflm",
+    "prompt_id": "lm1b-002",
+    "context_length": 30,
+    "k": 4,
+    "published_probe_argmax_match": true
+  },
+  {
+    "max_abs_difference": 0.0,
+    "argmax_disagreements": 0,
+    "shape": [
+      4,
+      30522
+    ],
+    "bitwise_equal": true,
+    "model": "pflm",
+    "prompt_id": "lm1b-003",
+    "context_length": 30,
+    "k": 4,
+    "published_probe_argmax_match": true
+  },
+  {
+    "max_abs_difference": 0.0,
+    "argmax_disagreements": 0,
+    "shape": [
+      4,
+      30522
+    ],
+    "bitwise_equal": true,
+    "model": "pflm",
+    "prompt_id": "lm1b-004",
+    "context_length": 30,
+    "k": 4,
+    "published_probe_argmax_match": true
+  },
+  {
+    "max_abs_difference": 0.0,
+    "argmax_disagreements": 0,
+    "shape": [
+      4,
+      30522
+    ],
+    "bitwise_equal": true,
+    "model": "pflm",
+    "prompt_id": "lm1b-005",
+    "context_length": 30,
+    "k": 4,
+    "published_probe_argmax_match": true
+  },
+  {
+    "max_abs_difference": 0.0,
+    "argmax_disagreements": 0,
+    "shape": [
+      4,
+      30522
+    ],
+    "bitwise_equal": true,
+    "model": "pflm",
+    "prompt_id": "lm1b-006",
+    "context_length": 30,
+    "k": 4,
+    "published_probe_argmax_match": true
+  },
+  {
+    "max_abs_difference": 0.0,
+    "argmax_disagreements": 0,
+    "shape": [
+      4,
+      30522
+    ],
+    "bitwise_equal": true,
+    "model": "pflm",
+    "prompt_id": "lm1b-007",
+    "context_length": 30,
+    "k": 4,
+    "published_probe_argmax_match": true
+  },
+  {
+    "max_abs_difference": 0.0,
+    "argmax_disagreements": 0,
+    "shape": [
+      1,
+      30522
+    ],
+    "bitwise_equal": true,
+    "model": "pflm",
+    "prompt_id": "lm1b-000",
+    "context_length": 70,
+    "k": 1,
+    "published_probe_argmax_match": true
+  },
+  {
+    "max_abs_difference": 0.0,
+    "argmax_disagreements": 0,
+    "shape": [
+      1,
+      30522
+    ],
+    "bitwise_equal": true,
+    "model": "pflm",
+    "prompt_id": "lm1b-001",
+    "context_length": 70,
+    "k": 1,
+    "published_probe_argmax_match": true
+  },
+  {
+    "max_abs_difference": 0.0,
+    "argmax_disagreements": 0,
+    "shape": [
+      1,
+      30522
+    ],
+    "bitwise_equal": true,
+    "model": "pflm",
+    "prompt_id": "lm1b-002",
+    "context_length": 70,
+    "k": 1,
+    "published_probe_argmax_match": true
+  },
+  {
+    "max_abs_difference": 0.0,
+    "argmax_disagreements": 0,
+    "shape": [
+      1,
+      30522
+    ],
+    "bitwise_equal": true,
+    "model": "pflm",
+    "prompt_id": "lm1b-003",
+    "context_length": 70,
+    "k": 1,
+    "published_probe_argmax_match": true
+  },
+  {
+    "max_abs_difference": 0.0,
+    "argmax_disagreements": 0,
+    "shape": [
+      1,
+      30522
+    ],
+    "bitwise_equal": true,
+    "model": "pflm",
+    "prompt_id": "lm1b-004",
+    "context_length": 70,
+    "k": 1,
+    "published_probe_argmax_match": true
+  },
+  {
+    "max_abs_difference": 0.0,
+    "argmax_disagreements": 0,
+    "shape": [
+      1,
+      30522
+    ],
+    "bitwise_equal": true,
+    "model": "pflm",
+    "prompt_id": "lm1b-005",
+    "context_length": 70,
+    "k": 1,
+    "published_probe_argmax_match": true
+  },
+  {
+    "max_abs_difference": 0.0,
+    "argmax_disagreements": 0,
+    "shape": [
+      1,
+      30522
+    ],
+    "bitwise_equal": true,
+    "model": "pflm",
+    "prompt_id": "lm1b-006",
+    "context_length": 70,
+    "k": 1,
+    "published_probe_argmax_match": true
+  },
+  {
+    "max_abs_difference": 0.0,
+    "argmax_disagreements": 0,
+    "shape": [
+      1,
+      30522
+    ],
+    "bitwise_equal": true,
+    "model": "pflm",
+    "prompt_id": "lm1b-007",
+    "context_length": 70,
+    "k": 1,
+    "published_probe_argmax_match": true
+  },
+  {
+    "max_abs_difference": 0.0,
+    "argmax_disagreements": 0,
+    "shape": [
+      2,
+      30522
+    ],
+    "bitwise_equal": true,
+    "model": "pflm",
+    "prompt_id": "lm1b-000",
+    "context_length": 70,
+    "k": 2,
+    "published_probe_argmax_match": true
+  },
+  {
+    "max_abs_difference": 0.0,
+    "argmax_disagreements": 0,
+    "shape": [
+      2,
+      30522
+    ],
+    "bitwise_equal": true,
+    "model": "pflm",
+    "prompt_id": "lm1b-001",
+    "context_length": 70,
+    "k": 2,
+    "published_probe_argmax_match": true
+  },
+  {
+    "max_abs_difference": 0.0,
+    "argmax_disagreements": 0,
+    "shape": [
+      2,
+      30522
+    ],
+    "bitwise_equal": true,
+    "model": "pflm",
+    "prompt_id": "lm1b-002",
+    "context_length": 70,
+    "k": 2,
+    "published_probe_argmax_match": true
+  },
+  {
+    "max_abs_difference": 0.0,
+    "argmax_disagreements": 0,
+    "shape": [
+      2,
+      30522
+    ],
+    "bitwise_equal": true,
+    "model": "pflm",
+    "prompt_id": "lm1b-003",
+    "context_length": 70,
+    "k": 2,
+    "published_probe_argmax_match": true
+  },
+  {
+    "max_abs_difference": 0.0,
+    "argmax_disagreements": 0,
+    "shape": [
+      2,
+      30522
+    ],
+    "bitwise_equal": true,
+    "model": "pflm",
+    "prompt_id": "lm1b-004",
+    "context_length": 70,
+    "k": 2,
+    "published_probe_argmax_match": true
+  },
+  {
+    "max_abs_difference": 0.0,
+    "argmax_disagreements": 0,
+    "shape": [
+      2,
+      30522
+    ],
+    "bitwise_equal": true,
+    "model": "pflm",
+    "prompt_id": "lm1b-005",
+    "context_length": 70,
+    "k": 2,
+    "published_probe_argmax_match": true
+  },
+  {
+    "max_abs_difference": 0.0,
+    "argmax_disagreements": 0,
+    "shape": [
+      2,
+      30522
+    ],
+    "bitwise_equal": true,
+    "model": "pflm",
+    "prompt_id": "lm1b-006",
+    "context_length": 70,
+    "k": 2,
+    "published_probe_argmax_match": true
+  },
+  {
+    "max_abs_difference": 0.0,
+    "argmax_disagreements": 0,
+    "shape": [
+      2,
+      30522
+    ],
+    "bitwise_equal": true,
+    "model": "pflm",
+    "prompt_id": "lm1b-007",
+    "context_length": 70,
+    "k": 2,
+    "published_probe_argmax_match": true
+  },
+  {
+    "max_abs_difference": 0.0,
+    "argmax_disagreements": 0,
+    "shape": [
+      3,
+      30522
+    ],
+    "bitwise_equal": true,
+    "model": "pflm",
+    "prompt_id": "lm1b-000",
+    "context_length": 70,
+    "k": 3,
+    "published_probe_argmax_match": true
+  },
+  {
+    "max_abs_difference": 0.0,
+    "argmax_disagreements": 0,
+    "shape": [
+      3,
+      30522
+    ],
+    "bitwise_equal": true,
+    "model": "pflm",
+    "prompt_id": "lm1b-001",
+    "context_length": 70,
+    "k": 3,
+    "published_probe_argmax_match": true
+  },
+  {
+    "max_abs_difference": 0.0,
+    "argmax_disagreements": 0,
+    "shape": [
+      3,
+      30522
+    ],
+    "bitwise_equal": true,
+    "model": "pflm",
+    "prompt_id": "lm1b-002",
+    "context_length": 70,
+    "k": 3,
+    "published_probe_argmax_match": true
+  },
+  {
+    "max_abs_difference": 0.0,
+    "argmax_disagreements": 0,
+    "shape": [
+      3,
+      30522
+    ],
+    "bitwise_equal": true,
+    "model": "pflm",
+    "prompt_id": "lm1b-003",
+    "context_length": 70,
+    "k": 3,
+    "published_probe_argmax_match": true
+  },
+  {
+    "max_abs_difference": 0.0,
+    "argmax_disagreements": 0,
+    "shape": [
+      3,
+      30522
+    ],
+    "bitwise_equal": true,
+    "model": "pflm",
+    "prompt_id": "lm1b-004",
+    "context_length": 70,
+    "k": 3,
+    "published_probe_argmax_match": true
+  },
+  {
+    "max_abs_difference": 0.0,
+    "argmax_disagreements": 0,
+    "shape": [
+      3,
+      30522
+    ],
+    "bitwise_equal": true,
+    "model": "pflm",
+    "prompt_id": "lm1b-005",
+    "context_length": 70,
+    "k": 3,
+    "published_probe_argmax_match": true
+  },
+  {
+    "max_abs_difference": 0.0,
+    "argmax_disagreements": 0,
+    "shape": [
+      3,
+      30522
+    ],
+    "bitwise_equal": true,
+    "model": "pflm",
+    "prompt_id": "lm1b-006",
+    "context_length": 70,
+    "k": 3,
+    "published_probe_argmax_match": true
+  },
+  {
+    "max_abs_difference": 0.0,
+    "argmax_disagreements": 0,
+    "shape": [
+      3,
+      30522
+    ],
+    "bitwise_equal": true,
+    "model": "pflm",
+    "prompt_id": "lm1b-007",
+    "context_length": 70,
+    "k": 3,
+    "published_probe_argmax_match": true
+  },
+  {
+    "max_abs_difference": 0.0,
+    "argmax_disagreements": 0,
+    "shape": [
+      4,
+      30522
+    ],
+    "bitwise_equal": true,
+    "model": "pflm",
+    "prompt_id": "lm1b-000",
+    "context_length": 70,
+    "k": 4,
+    "published_probe_argmax_match": true
+  },
+  {
+    "max_abs_difference": 0.0,
+    "argmax_disagreements": 0,
+    "shape": [
+      4,
+      30522
+    ],
+    "bitwise_equal": true,
+    "model": "pflm",
+    "prompt_id": "lm1b-001",
+    "context_length": 70,
+    "k": 4,
+    "published_probe_argmax_match": true
+  },
+  {
+    "max_abs_difference": 0.0,
+    "argmax_disagreements": 0,
+    "shape": [
+      4,
+      30522
+    ],
+    "bitwise_equal": true,
+    "model": "pflm",
+    "prompt_id": "lm1b-002",
+    "context_length": 70,
+    "k": 4,
+    "published_probe_argmax_match": true
+  },
+  {
+    "max_abs_difference": 0.0,
+    "argmax_disagreements": 0,
+    "shape": [
+      4,
+      30522
+    ],
+    "bitwise_equal": true,
+    "model": "pflm",
+    "prompt_id": "lm1b-003",
+    "context_length": 70,
+    "k": 4,
+    "published_probe_argmax_match": true
+  },
+  {
+    "max_abs_difference": 0.0,
+    "argmax_disagreements": 0,
+    "shape": [
+      4,
+      30522
+    ],
+    "bitwise_equal": true,
+    "model": "pflm",
+    "prompt_id": "lm1b-004",
+    "context_length": 70,
+    "k": 4,
+    "published_probe_argmax_match": true
+  },
+  {
+    "max_abs_difference": 0.0,
+    "argmax_disagreements": 0,
+    "shape": [
+      4,
+      30522
+    ],
+    "bitwise_equal": true,
+    "model": "pflm",
+    "prompt_id": "lm1b-005",
+    "context_length": 70,
+    "k": 4,
+    "published_probe_argmax_match": true
+  },
+  {
+    "max_abs_difference": 0.0,
+    "argmax_disagreements": 0,
+    "shape": [
+      4,
+      30522
+    ],
+    "bitwise_equal": true,
+    "model": "pflm",
+    "prompt_id": "lm1b-006",
+    "context_length": 70,
+    "k": 4,
+    "published_probe_argmax_match": true
+  },
+  {
+    "max_abs_difference": 0.0,
+    "argmax_disagreements": 0,
+    "shape": [
+      4,
+      30522
+    ],
+    "bitwise_equal": true,
+    "model": "pflm",
+    "prompt_id": "lm1b-007",
+    "context_length": 70,
+    "k": 4,
+    "published_probe_argmax_match": true
+  },
+  {
+    "max_abs_difference": 0.0,
+    "argmax_disagreements": 0,
+    "shape": [
+      1,
+      30522
+    ],
+    "bitwise_equal": true,
+    "model": "ar",
+    "prompt_id": "lm1b-000",
+    "context_length": 6,
+    "k": 4
+  },
+  {
+    "max_abs_difference": 0.0,
+    "argmax_disagreements": 0,
+    "shape": [
+      1,
+      30522
+    ],
+    "bitwise_equal": true,
+    "model": "ar",
+    "prompt_id": "lm1b-001",
+    "context_length": 6,
+    "k": 4
+  },
+  {
+    "max_abs_difference": 0.0,
+    "argmax_disagreements": 0,
+    "shape": [
+      1,
+      30522
+    ],
+    "bitwise_equal": true,
+    "model": "ar",
+    "prompt_id": "lm1b-002",
+    "context_length": 6,
+    "k": 4
+  },
+  {
+    "max_abs_difference": 0.0,
+    "argmax_disagreements": 0,
+    "shape": [
+      1,
+      30522
+    ],
+    "bitwise_equal": true,
+    "model": "ar",
+    "prompt_id": "lm1b-003",
+    "context_length": 6,
+    "k": 4
+  },
+  {
+    "max_abs_difference": 0.0,
+    "argmax_disagreements": 0,
+    "shape": [
+      1,
+      30522
+    ],
+    "bitwise_equal": true,
+    "model": "ar",
+    "prompt_id": "lm1b-004",
+    "context_length": 6,
+    "k": 4
+  },
+  {
+    "max_abs_difference": 0.0,
+    "argmax_disagreements": 0,
+    "shape": [
+      1,
+      30522
+    ],
+    "bitwise_equal": true,
+    "model": "ar",
+    "prompt_id": "lm1b-005",
+    "context_length": 6,
+    "k": 4
+  },
+  {
+    "max_abs_difference": 0.0,
+    "argmax_disagreements": 0,
+    "shape": [
+      1,
+      30522
+    ],
+    "bitwise_equal": true,
+    "model": "ar",
+    "prompt_id": "lm1b-006",
+    "context_length": 6,
+    "k": 4
+  },
+  {
+    "max_abs_difference": 0.0,
+    "argmax_disagreements": 0,
+    "shape": [
+      1,
+      30522
+    ],
+    "bitwise_equal": true,
+    "model": "ar",
+    "prompt_id": "lm1b-007",
+    "context_length": 6,
+    "k": 4
+  },
+  {
+    "max_abs_difference": 0.0,
+    "argmax_disagreements": 0,
+    "shape": [
+      1,
+      30522
+    ],
+    "bitwise_equal": true,
+    "model": "ar",
+    "prompt_id": "lm1b-000",
+    "context_length": 10,
+    "k": 4
+  },
+  {
+    "max_abs_difference": 0.0,
+    "argmax_disagreements": 0,
+    "shape": [
+      1,
+      30522
+    ],
+    "bitwise_equal": true,
+    "model": "ar",
+    "prompt_id": "lm1b-001",
+    "context_length": 10,
+    "k": 4
+  },
+  {
+    "max_abs_difference": 0.0,
+    "argmax_disagreements": 0,
+    "shape": [
+      1,
+      30522
+    ],
+    "bitwise_equal": true,
+    "model": "ar",
+    "prompt_id": "lm1b-002",
+    "context_length": 10,
+    "k": 4
+  },
+  {
+    "max_abs_difference": 0.0,
+    "argmax_disagreements": 0,
+    "shape": [
+      1,
+      30522
+    ],
+    "bitwise_equal": true,
+    "model": "ar",
+    "prompt_id": "lm1b-003",
+    "context_length": 10,
+    "k": 4
+  },
+  {
+    "max_abs_difference": 0.0,
+    "argmax_disagreements": 0,
+    "shape": [
+      1,
+      30522
+    ],
+    "bitwise_equal": true,
+    "model": "ar",
+    "prompt_id": "lm1b-004",
+    "context_length": 10,
+    "k": 4
+  },
+  {
+    "max_abs_difference": 0.0,
+    "argmax_disagreements": 0,
+    "shape": [
+      1,
+      30522
+    ],
+    "bitwise_equal": true,
+    "model": "ar",
+    "prompt_id": "lm1b-005",
+    "context_length": 10,
+    "k": 4
+  },
+  {
+    "max_abs_difference": 0.0,
+    "argmax_disagreements": 0,
+    "shape": [
+      1,
+      30522
+    ],
+    "bitwise_equal": true,
+    "model": "ar",
+    "prompt_id": "lm1b-006",
+    "context_length": 10,
+    "k": 4
+  },
+  {
+    "max_abs_difference": 0.0,
+    "argmax_disagreements": 0,
+    "shape": [
+      1,
+      30522
+    ],
+    "bitwise_equal": true,
+    "model": "ar",
+    "prompt_id": "lm1b-007",
+    "context_length": 10,
+    "k": 4
+  },
+  {
+    "max_abs_difference": 0.0,
+    "argmax_disagreements": 0,
+    "shape": [
+      1,
+      30522
+    ],
+    "bitwise_equal": true,
+    "model": "ar",
+    "prompt_id": "lm1b-000",
+    "context_length": 14,
+    "k": 4
+  },
+  {
+    "max_abs_difference": 0.0,
+    "argmax_disagreements": 0,
+    "shape": [
+      1,
+      30522
+    ],
+    "bitwise_equal": true,
+    "model": "ar",
+    "prompt_id": "lm1b-001",
+    "context_length": 14,
+    "k": 4
+  },
+  {
+    "max_abs_difference": 0.0,
+    "argmax_disagreements": 0,
+    "shape": [
+      1,
+      30522
+    ],
+    "bitwise_equal": true,
+    "model": "ar",
+    "prompt_id": "lm1b-002",
+    "context_length": 14,
+    "k": 4
+  },
+  {
+    "max_abs_difference": 0.0,
+    "argmax_disagreements": 0,
+    "shape": [
+      1,
+      30522
+    ],
+    "bitwise_equal": true,
+    "model": "ar",
+    "prompt_id": "lm1b-003",
+    "context_length": 14,
+    "k": 4
+  },
+  {
+    "max_abs_difference": 0.0,
+    "argmax_disagreements": 0,
+    "shape": [
+      1,
+      30522
+    ],
+    "bitwise_equal": true,
+    "model": "ar",
+    "prompt_id": "lm1b-004",
+    "context_length": 14,
+    "k": 4
+  },
+  {
+    "max_abs_difference": 0.0,
+    "argmax_disagreements": 0,
+    "shape": [
+      1,
+      30522
+    ],
+    "bitwise_equal": true,
+    "model": "ar",
+    "prompt_id": "lm1b-005",
+    "context_length": 14,
+    "k": 4
+  },
+  {
+    "max_abs_difference": 0.0,
+    "argmax_disagreements": 0,
+    "shape": [
+      1,
+      30522
+    ],
+    "bitwise_equal": true,
+    "model": "ar",
+    "prompt_id": "lm1b-006",
+    "context_length": 14,
+    "k": 4
+  },
+  {
+    "max_abs_difference": 0.0,
+    "argmax_disagreements": 0,
+    "shape": [
+      1,
+      30522
+    ],
+    "bitwise_equal": true,
+    "model": "ar",
+    "prompt_id": "lm1b-007",
+    "context_length": 14,
+    "k": 4
+  },
+  {
+    "max_abs_difference": 0.0,
+    "argmax_disagreements": 0,
+    "shape": [
+      1,
+      30522
+    ],
+    "bitwise_equal": true,
+    "model": "ar",
+    "prompt_id": "lm1b-000",
+    "context_length": 30,
+    "k": 4
+  },
+  {
+    "max_abs_difference": 0.0,
+    "argmax_disagreements": 0,
+    "shape": [
+      1,
+      30522
+    ],
+    "bitwise_equal": true,
+    "model": "ar",
+    "prompt_id": "lm1b-001",
+    "context_length": 30,
+    "k": 4
+  },
+  {
+    "max_abs_difference": 0.0,
+    "argmax_disagreements": 0,
+    "shape": [
+      1,
+      30522
+    ],
+    "bitwise_equal": true,
+    "model": "ar",
+    "prompt_id": "lm1b-002",
+    "context_length": 30,
+    "k": 4
+  },
+  {
+    "max_abs_difference": 0.0,
+    "argmax_disagreements": 0,
+    "shape": [
+      1,
+      30522
+    ],
+    "bitwise_equal": true,
+    "model": "ar",
+    "prompt_id": "lm1b-003",
+    "context_length": 30,
+    "k": 4
+  },
+  {
+    "max_abs_difference": 0.0,
+    "argmax_disagreements": 0,
+    "shape": [
+      1,
+      30522
+    ],
+    "bitwise_equal": true,
+    "model": "ar",
+    "prompt_id": "lm1b-004",
+    "context_length": 30,
+    "k": 4
+  },
+  {
+    "max_abs_difference": 0.0,
+    "argmax_disagreements": 0,
+    "shape": [
+      1,
+      30522
+    ],
+    "bitwise_equal": true,
+    "model": "ar",
+    "prompt_id": "lm1b-005",
+    "context_length": 30,
+    "k": 4
+  },
+  {
+    "max_abs_difference": 0.0,
+    "argmax_disagreements": 0,
+    "shape": [
+      1,
+      30522
+    ],
+    "bitwise_equal": true,
+    "model": "ar",
+    "prompt_id": "lm1b-006",
+    "context_length": 30,
+    "k": 4
+  },
+  {
+    "max_abs_difference": 0.0,
+    "argmax_disagreements": 0,
+    "shape": [
+      1,
+      30522
+    ],
+    "bitwise_equal": true,
+    "model": "ar",
+    "prompt_id": "lm1b-007",
+    "context_length": 30,
+    "k": 4
+  },
+  {
+    "max_abs_difference": 0.0,
+    "argmax_disagreements": 0,
+    "shape": [
+      1,
+      30522
+    ],
+    "bitwise_equal": true,
+    "model": "ar",
+    "prompt_id": "lm1b-000",
+    "context_length": 70,
+    "k": 4
+  },
+  {
+    "max_abs_difference": 0.0,
+    "argmax_disagreements": 0,
+    "shape": [
+      1,
+      30522
+    ],
+    "bitwise_equal": true,
+    "model": "ar",
+    "prompt_id": "lm1b-001",
+    "context_length": 70,
+    "k": 4
+  },
+  {
+    "max_abs_difference": 0.0,
+    "argmax_disagreements": 0,
+    "shape": [
+      1,
+      30522
+    ],
+    "bitwise_equal": true,
+    "model": "ar",
+    "prompt_id": "lm1b-002",
+    "context_length": 70,
+    "k": 4
+  },
+  {
+    "max_abs_difference": 0.0,
+    "argmax_disagreements": 0,
+    "shape": [
+      1,
+      30522
+    ],
+    "bitwise_equal": true,
+    "model": "ar",
+    "prompt_id": "lm1b-003",
+    "context_length": 70,
+    "k": 4
+  },
+  {
+    "max_abs_difference": 0.0,
+    "argmax_disagreements": 0,
+    "shape": [
+      1,
+      30522
+    ],
+    "bitwise_equal": true,
+    "model": "ar",
+    "prompt_id": "lm1b-004",
+    "context_length": 70,
+    "k": 4
+  },
+  {
+    "max_abs_difference": 0.0,
+    "argmax_disagreements": 0,
+    "shape": [
+      1,
+      30522
+    ],
+    "bitwise_equal": true,
+    "model": "ar",
+    "prompt_id": "lm1b-005",
+    "context_length": 70,
+    "k": 4
+  },
+  {
+    "max_abs_difference": 0.0,
+    "argmax_disagreements": 0,
+    "shape": [
+      1,
+      30522
+    ],
+    "bitwise_equal": true,
+    "model": "ar",
+    "prompt_id": "lm1b-006",
+    "context_length": 70,
+    "k": 4
+  },
+  {
+    "max_abs_difference": 0.0,
+    "argmax_disagreements": 0,
+    "shape": [
+      1,
+      30522
+    ],
+    "bitwise_equal": true,
+    "model": "ar",
+    "prompt_id": "lm1b-007",
+    "context_length": 70,
+    "k": 4
+  }
+]

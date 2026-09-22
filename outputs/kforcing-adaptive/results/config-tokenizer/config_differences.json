@@ -1,0 +1,98 @@
+{
+  "pflm": {
+    "cond_dim": {
+      "current": 1024,
+      "historical": 128
+    },
+    "gradient_checkpointing": {
+      "current": "<absent>",
+      "historical": false
+    },
+    "length": {
+      "current": "<absent>",
+      "historical": 128
+    },
+    "max_k": {
+      "current": "<absent>",
+      "historical": 4
+    },
+    "model_type": {
+      "current": "<absent>",
+      "historical": "causal"
+    },
+    "name": {
+      "current": "<absent>",
+      "historical": "small"
+    },
+    "resume_from_checkpoint": {
+      "current": "<absent>",
+      "historical": "/mnt/eff_nas/tangzhiwei.tzw/PFLM/outputs/lm1b/2026.03.11/102005/checkpoints/best.ckpt"
+    },
+    "scale_by_sigma": {
+      "current": false,
+      "historical": true
+    },
+    "tau_max": {
+      "current": "<absent>",
+      "historical": 1.0
+    },
+    "tau_min": {
+      "current": "<absent>",
+      "historical": 1.0
+    },
+    "teacher_checkpoint_path": {
+      "current": "<absent>",
+      "historical": "/mnt/eff_nas/tangzhiwei.tzw/PFLM/outputs/lm1b/2026.03.10/060405/checkpoints/best.ckpt"
+    },
+    "teacher_type": {
+      "current": "<absent>",
+      "historical": "mtp"
+    },
+    "tie_word_embeddings": {
+      "current": "<absent>",
+      "historical": false
+    },
+    "type": {
+      "current": "<absent>",
+      "historical": "ddit"
+    },
+    "vocab_size": {
+      "current": 30522,
+      "historical": "<absent>"
+    }
+  },
+  "ar": {
+    "cond_dim": {
+      "current": 1024,
+      "historical": 128
+    },
+    "dropout": {
+      "current": 0.0,
+      "historical": 0.1
+    },
+    "length": {
+      "current": "<absent>",
+      "historical": 128
+    },
+    "name": {
+      "current": "<absent>",
+      "historical": "small"
+    },
+    "scale_by_sigma": {
+      "current": false,
+      "historical": true
+    },
+    "tie_word_embeddings": {
+      "current": "<absent>",
+      "historical": false
+    },
+    "type": {
+      "current": "<absent>",
+      "historical": "ddit"
+    },
+    "vocab_size": {
+      "current": 30522,
+      "historical": "<absent>"
+    }
+  }
+}

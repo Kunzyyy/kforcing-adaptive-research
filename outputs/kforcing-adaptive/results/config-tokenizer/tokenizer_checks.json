@@ -1,0 +1,15 @@
+{
+  "vocabulary_entries": 30522,
+  "vocabularies_identical": true,
+  "source_sentences": 1024,
+  "encoding_differences": 0,
+  "prefix_differences": 0,
+  "generated_outputs": 2048,
+  "decode_differences": 0,
+  "bos_eos_attribute_difference": "Current fast tokenizer attributes are None; experiments explicitly use historical-equivalent IDs 101/102.",
+  "transformers": "4.55.0",
+  "original_library_version_recreated": false,
+  "encoding_sha256": "70771acce2ffd2ba687983d90892c4d33e616fb210ed77099bdf8fd4d4f505a9",
+  "decoding_sha256": "ac099af50a913a544f57340c4e46375cd769f28943013fafe91d8ede18d9beb9",
+  "passed": true
+}

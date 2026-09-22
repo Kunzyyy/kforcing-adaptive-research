@@ -1,0 +1,446 @@
+{
+  "retrospective": true,
+  "refitted": false,
+  "states": 682,
+  "sources": 381,
+  "pairs": 5456,
+  "excluded_pairs": 8,
+  "bootstrap_reps": 4000,
+  "bootstrap_seed": 21092026,
+  "means": {
+    "full_gain": {
+      "estimate": 0.22487278651760673,
+      "interval": [
+        0.16620845956685287,
+        0.28627319172052534
+      ],
+      "coverage": 0.95
+    },
+    "common_gain": {
+      "estimate": 0.25462206907760465,
+      "interval": [
+        0.1917389446516543,
+        0.32434837324233967
+      ],
+      "coverage": 0.95
+    },
+    "remainder": {
+      "estimate": -0.02974928255999792,
+      "interval": [
+        -0.06827755849841835,
+        0.007389893587879695
+      ],
+      "coverage": 0.95
+    },
+    "teacher_gain": {
+      "estimate": 0.27499044933446753,
+      "interval": [
+        0.21816674624259572,
+        0.3314698500001009
+      ],
+      "coverage": 0.95
+    },
+    "bert_length_change": {
+      "estimate": 0.18291788856304986,
+      "interval": [
+        -0.36931641957324185,
+        0.7229376555238458
+      ],
+      "coverage": 0.95
+    },
+    "gpt2_length_change": {
+      "estimate": 0.5218108504398827,
+      "interval": [
+        0.005387787012770048,
+        1.0567038043478263
+      ],
+      "coverage": 0.95
+    },
+    "calls_change": {
+      "estimate": 1.0403225806451613,
+      "interval": [
+        0.9029349973925446,
+        1.1753767591228932
+      ],
+      "coverage": 0.95
+    },
+    "candidate_change": {
+      "estimate": 2.1649560117302054,
+      "interval": [
+        1.6178463130535234,
+        2.7032658790266137
+      ],
+      "coverage": 0.95
+    }
+  },
+  "frozen_policies": {
+    "linear14": {
+      "full_gain": {
+        "vs_random": {
+          "estimate": 0.00941441748734994,
+          "interval": [
+            -0.02001369553304023,
+            0.04050999223106946
+          ],
+          "coverage": 0.95
+        },
+        "vs_heuristic": {
+          "estimate": -0.012971935615236265,
+          "interval": [
+            -0.05813025039281828,
+            0.03641477629147001
+          ],
+          "coverage": 0.95
+        }
+      },
+      "common_gain": {
+        "vs_random": {
+          "estimate": 0.026583540397777824,
+          "interval": [
+            -0.006701965897260427,
+            0.0637860083891384
+          ],
+          "coverage": 0.95
+        },
+        "vs_heuristic": {
+          "estimate": 0.0025213434102416654,
+          "interval": [
+            -0.04969605238227256,
+            0.06552708606637028
+          ],
+          "coverage": 0.95
+        }
+      },
+      "teacher_gain": {
+        "vs_random": {
+          "estimate": 0.02903754872333612,
+          "interval": [
+            -0.0018753379015624852,
+            0.05872078079180815
+          ],
+          "coverage": 0.95
+        },
+        "vs_heuristic": {
+          "estimate": -0.022984127117131145,
+          "interval": [
+            -0.0650115483623384,
+            0.02110304922032788
+          ],
+          "coverage": 0.95
+        }
+      }
+    },
+    "rbf14": {
+      "full_gain": {
+        "vs_random": {
+          "estimate": 0.03351687103046302,
+          "interval": [
+            0.0032543894389647134,
+            0.06599951615527726
+          ],
+          "coverage": 0.95
+        },
+        "vs_heuristic": {
+          "estimate": 0.01113051792787681,
+          "interval": [
+            -0.033477285989709844,
+            0.06127123358097012
+          ],
+          "coverage": 0.95
+        }
+      },
+      "common_gain": {
+        "vs_random": {
+          "estimate": 0.04534360470724116,
+          "interval": [
+            0.011178324672872076,
+            0.0835198105103366
+          ],
+          "coverage": 0.95
+        },
+        "vs_heuristic": {
+          "estimate": 0.021281407719705,
+          "interval": [
+            -0.03006192474687287,
+            0.08586943462925548
+          ],
+          "coverage": 0.95
+        }
+      },
+      "teacher_gain": {
+        "vs_random": {
+          "estimate": 0.03243442851748233,
+          "interval": [
+            0.001985482756171145,
+            0.06328432988419193
+          ],
+          "coverage": 0.95
+        },
+        "vs_heuristic": {
+          "estimate": -0.019587247322984933,
+          "interval": [
+            -0.061672039741754656,
+            0.025182126990803733
+          ],
+          "coverage": 0.95
+        }
+      }
+    },
+    "heuristic": {
+      "full_gain": {
+        "vs_random": {
+          "estimate": 0.022386353102586205,
+          "interval": [
+            -0.010900523327596643,
+            0.05325048439215108
+          ],
+          "coverage": 0.95
+        },
+        "vs_heuristic": {
+          "estimate": 0.0,
+          "interval": [
+            0.0,
+            0.0
+          ],
+          "coverage": 0.95
+        }
+      },
+      "common_gain": {
+        "vs_random": {
+          "estimate": 0.024062196987536158,
+          "interval": [
+            -0.014860740596409272,
+            0.05972467525485993
+          ],
+          "coverage": 0.95
+        },
+        "vs_heuristic": {
+          "estimate": 0.0,
+          "interval": [
+            0.0,
+            0.0
+          ],
+          "coverage": 0.95
+        }
+      },
+      "teacher_gain": {
+        "vs_random": {
+          "estimate": 0.05202167584046727,
+          "interval": [
+            0.02042953807764614,
+            0.08214587206310613
+          ],
+          "coverage": 0.95
+        },
+        "vs_heuristic": {
+          "estimate": 0.0,
+          "interval": [
+            0.0,
+            0.0
+          ],
+          "coverage": 0.95
+        }
+      }
+    }
+  },
+  "corpus": {
+    "full_gpt2": {
+      "keep4": {
+        "mean_nll": {
+          "estimate": 5.372075547245531,
+          "interval": [
+            5.264224428787294,
+            5.475443718729973
+          ],
+          "coverage": 0.95
+        },
+        "ppl": {
+          "estimate": 215.3092888614062,
+          "interval": [
+            193.29633556409686,
+            238.7563841097337
+          ]
+        }
+      },
+      "split22": {
+        "mean_nll": {
+          "estimate": 5.245449476803473,
+          "interval": [
+            5.137958164218748,
+            5.34102533872536
+          ],
+          "coverage": 0.95
+        },
+        "ppl": {
+          "estimate": 189.70106229689145,
+          "interval": [
+            170.367550380046,
+            208.72661608989574
+          ]
+        }
+      },
+      "nll_gain": {
+        "estimate": 0.1266260704420583,
+        "interval": [
+          0.06890162163822289,
+          0.1875329308502146
+        ],
+        "coverage": 0.95
+      }
+    },
+    "common_gpt2": {
+      "keep4": {
+        "mean_nll": {
+          "estimate": 5.52909954827834,
+          "interval": [
+            5.412234961448155,
+            5.638607510954202
+          ],
+          "coverage": 0.95
+        },
+        "ppl": {
+          "estimate": 251.91696979486937,
+          "interval": [
+            224.13195459970888,
+            281.0710574781136
+          ]
+        }
+      },
+      "split22": {
+        "mean_nll": {
+          "estimate": 5.370153134371533,
+          "interval": [
+            5.256405194477753,
+            5.47082661919286
+          ],
+          "coverage": 0.95
+        },
+        "ppl": {
+          "estimate": 214.89577311395735,
+          "interval": [
+            191.79079996370533,
+            237.6565630645927
+          ]
+        }
+      },
+      "nll_gain": {
+        "estimate": 0.15894641390680686,
+        "interval": [
+          0.1217434364019646,
+          0.1989124218454479
+        ],
+        "coverage": 0.95
+      }
+    },
+    "ar_teacher": {
+      "keep4": {
+        "mean_nll": {
+          "estimate": 4.116497138389926,
+          "interval": [
+            4.0269989453721475,
+            4.207505091920617
+          ],
+          "coverage": 0.95
+        },
+        "ppl": {
+          "estimate": 61.343985984534996,
+          "interval": [
+            56.09232227794615,
+            67.1887008931404
+          ]
+        }
+      },
+      "split22": {
+        "mean_nll": {
+          "estimate": 3.9366164621058504,
+          "interval": [
+            3.861084744839562,
+            4.010154752891741
+          ],
+          "coverage": 0.95
+        },
+        "ppl": {
+          "estimate": 51.244918511409786,
+          "interval": [
+            47.51686709946893,
+            55.15540536152928
+          ]
+        }
+      },
+      "nll_gain": {
+        "estimate": 0.17988067628407567,
+        "interval": [
+          0.11667013107403462,
+          0.241576485760497
+        ],
+        "coverage": 0.95
+      }
+    }
+  },
+  "outcome_defined_length_strata": {
+    "split_shorter": {
+      "pairs": 1842,
+      "mean_full_gain": -0.10620520513435207,
+      "mean_common_gain": 0.2504374318548314,
+      "mean_gpt2_length_change": -9.871878393051032
+    },
+    "equal": {
+      "pairs": 1510,
+      "mean_full_gain": 0.06776146425599903,
+      "mean_common_gain": 0.06776145939284157,
+      "mean_gpt2_length_change": 0.0
+    },
+    "split_longer": {
+      "pairs": 2104,
+      "mean_full_gain": 0.6274791350147244,
+      "mean_common_gain": 0.39239185158156886,
+      "mean_gpt2_length_change": 9.995722433460076
+    }
+  },
+  "state_correlations": {
+    "full_gain_vs_common_gain": 0.8365249216260731,
+    "full_gain_vs_teacher_gain": 0.5709883071525819,
+    "common_gain_vs_teacher_gain": 0.5692322805830855,
+    "full_gain_vs_gpt2_length_change": 0.3014862796805941,
+    "common_gain_vs_gpt2_length_change": -0.0119065869439446,
+    "full_gain_split_half": 0.7309091816595358,
+    "common_gain_split_half": 0.8430332785137341
+  },
+  "identical_text_pairs": 1040,
+  "eos_counts": {
+    "keep": 5436,
+    "split": 5448
+  },
+  "offsets": {
+    "0": {
+      "full_gain": 0.27910045799880057,
+      "common_gain": 0.33238940276952134,
+      "remainder": -0.05328894477072081,
+      "teacher_gain": 0.3215193851358748,
+      "bert_length_change": -0.07644356955380577,
+      "gpt2_length_change": 0.43700787401574803,
+      "calls_change": 0.972769028871391,
+      "candidate_change": 1.8943569553805775
+    },
+    "8": {
+      "full_gain": 0.15623244487529833,
+      "common_gain": 0.1561856765971387,
+      "remainder": 4.6768278159637905e-05,
+      "teacher_gain": 0.21609501896790223,
+      "bert_length_change": 0.5112126245847176,
+      "gpt2_length_change": 0.6291528239202658,
+      "calls_change": 1.1258305647840532,
+      "candidate_change": 2.5074750830564785
+    }
+  },
+  "prior_gate_unchanged": false,
+  "code_sha256": "b4379c9b181222c7782e81c8556b0e59d18450fec3b3ead8feda3c50aaec3dde",
+  "token_losses_sha256": "83c71f0f2c35fd9a528804a808ef0f51b788dfd61ae2934bddd96db1052d09e2",
+  "limitations": [
+    "Previously examined test data; descriptive diagnostic only.",
+    "Common horizon is outcome-dependent; remainder is not a causal length effect.",
+    "GPT-2 is the training proxy; AR teacher is a model diagnostic, not human quality.",
+    "Frozen cohort half-selection is not a deployable policy or timing comparison.",
+    "Intervals condition on fitted models, cohort ranks and the eight sampled futures."
+  ]
+}

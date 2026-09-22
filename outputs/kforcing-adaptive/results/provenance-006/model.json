@@ -1,0 +1,113 @@
+{
+  "_id": "6a28ca8164d854cf1d47f959",
+  "id": "zwave/K-Forcing",
+  "private": false,
+  "pipeline_tag": "text-generation",
+  "tags": [
+    "language-model",
+    "multi-token-prediction",
+    "push-forward-language-model",
+    "text-generation",
+    "distillation",
+    "dataset:lm1b",
+    "dataset:openwebtext",
+    "arxiv:2606.10820",
+    "arxiv:2406.07524",
+    "license:mit",
+    "region:us"
+  ],
+  "downloads": 0,
+  "likes": 2,
+  "modelId": "zwave/K-Forcing",
+  "author": "zwave",
+  "sha": "16b984316bdd4585f17b11d0e61a58d236c2febc",
+  "lastModified": "2026-06-10T03:35:12.000Z",
+  "gated": false,
+  "disabled": false,
+  "widgetData": [
+    {
+      "text": "Hi, what can you help me with?"
+    },
+    {
+      "text": "What is 84 * 3 / 2?"
+    },
+    {
+      "text": "Tell me an interesting fact about the universe!"
+    },
+    {
+      "text": "Explain quantum computing in simple terms."
+    }
+  ],
+  "model-index": null,
+  "config": {},
+  "cardData": {
+    "license": "mit",
+    "tags": [
+      "language-model",
+      "multi-token-prediction",
+      "push-forward-language-model",
+      "text-generation",
+      "distillation"
+    ],
+    "datasets": [
+      "lm1b",
+      "openwebtext"
+    ],
+    "arxiv": "2606.10820"
+  },
+  "siblings": [
+    {
+      "rfilename": ".gitattributes",
+      "blobId": "a6344aac8c09253b3b630fb776ae94478aa0275b",
+      "size": 1519
+    },
+    {
+      "rfilename": "README.md",
+      "blobId": "8357d8134fad73ccddc25190e1c3c0361a1d6fab",
+      "size": 4427
+    },
+    {
+      "rfilename": "ar_best_lm1b.ckpt",
+      "blobId": "323b65c4fd4f727a7e1f50f474f1b80a4d85d767",
+      "size": 527687989,
+      "lfs": {
+        "sha256": "e2463aa9de897dd2394580eeec7de23f0fe076931050b21612e8b06316ccc439",
+        "size": 527687989,
+        "pointerSize": 134
+      }
+    },
+    {
+      "rfilename": "ar_openwebtxt.ckpt",
+      "blobId": "271215d0fdad0e1d9b3e85a65d8f3a14f3476b20",
+      "size": 649025054,
+      "lfs": {
+        "sha256": "1c4511a3410ea116007aca8eb0abfe2582f9f0223790e934f1dd0b8fc39d438d",
+        "size": 649025054,
+        "pointerSize": 134
+      }
+    },
+    {
+      "rfilename": "pflm_lm1b_k4.ckpt",
+      "blobId": "68432715ae005815de4173cbe1e01fd554641be0",
+      "size": 551319437,
+      "lfs": {
+        "sha256": "3b013f0cf9a3acab4c20a1bb748beee6525432ef3f56a74df4957b898480a2c2",
+        "size": 551319437,
+        "pointerSize": 134
+      }
+    },
+    {
+      "rfilename": "pflm_owt_k4.ckpt",
+      "blobId": "0d9e0b09de268670fc54da5756b528fc5eaacead",
+      "size": 672656284,
+      "lfs": {
+        "sha256": "2b24294e1215901e51460b249e5e10b9dba5741dc6f985b5c7f89df050af06df",
+        "size": 672656284,
+        "pointerSize": 134
+      }
+    }
+  ],
+  "spaces": [],
+  "createdAt": "2026-06-10T02:22:57.000Z",
+  "usedStorage": 12008358000
+}

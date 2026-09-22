@@ -1,0 +1,52 @@
+{
+  "passed": true,
+  "completed_utc": "2026-09-21T01:10:14.071603+00:00",
+  "analysis_sha256": "16d95862b7705e0223fb3fea9722f7af5e51a90227a41b4e9032d3bdbd8f7fca",
+  "verifier_sha256": "ab9a4c461a31992cd5842c9c44cc0ff24a87da1ecd5981c2c4c9f6b50ee5b38b",
+  "prior_scientific_files_unchanged": true,
+  "model_checks": {
+    "ar": {
+      "parameter_tensors": 100,
+      "changed_parameters": 100,
+      "maximum_absolute_parameter_change": 0.5679588317871094,
+      "buffer_identical": true,
+      "ema_tensor_bytes": 527649000,
+      "downloaded_span_bytes": 556005776,
+      "range_overhead_bytes": 28356776,
+      "local_metadata_parser_matches_loaded_tensors": true,
+      "extracted_tensor_sha256_and_crc_verified": true
+    },
+    "pflm": {
+      "parameter_tensors": 108,
+      "changed_parameters": 108,
+      "maximum_absolute_parameter_change": 0.01020101085305214,
+      "buffer_identical": true,
+      "ema_tensor_bytes": 551266536,
+      "downloaded_span_bytes": 591417872,
+      "range_overhead_bytes": 40151336,
+      "local_metadata_parser_matches_loaded_tensors": true,
+      "extracted_tensor_sha256_and_crc_verified": true
+    }
+  },
+  "source_history_commits": 27,
+  "hf_revisions": 11,
+  "sample_and_score_checks": 512,
+  "independent_statistics": {
+    "ar": {
+      "delta": -0.054567372980436346,
+      "interval95": [
+        -0.24773860388243668,
+        0.12124645209399484
+      ]
+    },
+    "fixed4": {
+      "delta": 0.04044779330322257,
+      "interval95": [
+        -0.10936886030632395,
+        0.17972963682329224
+      ]
+    }
+  },
+  "remote_pickle_code_executed": false,
+  "limitations": "Does not verify full historical LFS digest, author EMA registration order, original hardware, or paper checkpoint identity. GPT2 forward not independently reimplemented; built-in loss and historical controls checked."
+}

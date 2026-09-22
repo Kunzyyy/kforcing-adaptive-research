@@ -1,0 +1,27 @@
+{
+  "sources": 96,
+  "seeds": [
+    1201,
+    1213
+  ],
+  "offsets": [
+    0,
+    8
+  ],
+  "repeats": 8,
+  "dataset_sha256": "d3c7b4b2a48c24e9ae8353d6316dbac1453b08f2d870da9fa096c941e8f4cc8a",
+  "code_hashes": {
+    "STAGE12_PROTOCOL.md": "1625682603d348aa9b9e393a83e203d490594ff5a7e116f44b176502d7115233",
+    "repeat_rollout_quality.py": "6773b05465b5bbdfec033bea0464845c1e4c6406bbd440d15a486e0a047c89a3",
+    "analyze_rollout_stability.py": "a80a6228d552aa804f36a6ded18f01d45f3d1ab36048650a0dea4c873952b07c",
+    "learn_local_gain.py": "a84bdb40469d29103c509c1d321a84c8d8744ce95669af40641d5a8a23b7760b",
+    "score_rollout_quality.py": "e3228e6b1d6a6445892095ca41dbc4aae56463e5c0db20b66a4e5d5c30bcef7c",
+    "early_stop_decoder.py": "8865edde2251dd5f602a39ff86f752d5464edfbdbee901a09aa3cd62bbc9d60a"
+  },
+  "artifact_hashes": {
+    "prefixes.json": "c401961e90d98b8af34ef9c31ac82c3573be15027cdd37e46fd59ebffbe11fcc",
+    "projection.npy": "09bd00bb8642ee8acbdc19f60ba0b8b12551b993639229865a349dff48a23e9a",
+    "old_model.json": "caeeec7c2327e2473dbbcac6d64fa596e7db70d74a8d780035cb06a8bc991aae",
+    "quality_model.json": "924ff02fa03502d2027c7f49a952c6b0fc32a698863c431db8bc169186daecf1"
+  }
+}

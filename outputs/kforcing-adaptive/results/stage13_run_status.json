@@ -1,0 +1,57 @@
+{
+  "stage": 13,
+  "completed": true,
+  "commands": [
+    {
+      "action": "prepare",
+      "process_exit_code": 0
+    },
+    {
+      "action": "preflight",
+      "process_exit_code": 0
+    },
+    {
+      "action": "collect_train",
+      "process_exit_code": 0
+    },
+    {
+      "action": "score_train",
+      "process_exit_code": 0
+    },
+    {
+      "action": "collect_dev",
+      "process_exit_code": 0
+    },
+    {
+      "action": "score_dev",
+      "process_exit_code": 0
+    },
+    {
+      "action": "fit_and_lock",
+      "process_exit_code": 0
+    },
+    {
+      "action": "collect_test",
+      "process_exit_code": 0
+    },
+    {
+      "action": "score_test",
+      "process_exit_code": 0
+    },
+    {
+      "action": "evaluate",
+      "process_exit_code": 0
+    },
+    {
+      "action": "audit",
+      "process_exit_code": 0
+    }
+  ],
+  "result_dir": "results/averaged-013",
+  "report": "第十三阶段实验报告.md",
+  "online_tested": false,
+  "fitted_models_per_configuration": 9,
+  "candidate_configurations": 6,
+  "advance_gate_passed": false,
+  "audit_sha256": "f3c580eee3acdbc29c585e16d2b2b1b1acc547ea3c3012eb571915c0e58fac48"
+}

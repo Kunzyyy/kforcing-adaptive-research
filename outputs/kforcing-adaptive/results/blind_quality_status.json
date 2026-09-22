@@ -1,0 +1,18 @@
+{
+  "tool_preparation_completed": true,
+  "completed_utc": "2026-09-21T04:16:15.452967+00:00",
+  "packet_id": "bq-e8aebf0779f8a643",
+  "main_sources": 64,
+  "reviewer_tasks": 80,
+  "minimum_reviewers": 2,
+  "integrity_audit_passed": true,
+  "browser_checks_passed": true,
+  "human_ratings_received": 0,
+  "quality_result": "not_evaluated",
+  "new_generation": false,
+  "new_model_fit": false,
+  "new_adaptive_effect_established": false,
+  "baseline_quality_gap_resolved": false,
+  "externally_sent": false,
+  "next_required_input": "At least two independent completed human reviewer JSON files"
+}

@@ -1,0 +1,42 @@
+{
+  "completed": true,
+  "completed_utc": "2026-09-21T05:58:45.416697+00:00",
+  "retrospective": true,
+  "states": 681,
+  "sources": 380,
+  "paired_futures": 5448,
+  "branch_counts_verified": 10896,
+  "primary_old_points_reproduced": true,
+  "integrity_audit_passed": true,
+  "cost_proxies": [
+    "forward_calls",
+    "computed_candidates"
+  ],
+  "normalized_combined19_vs_confidence14": {
+    "calls": {
+      "estimate": -0.0002995140311048139,
+      "interval": [
+        -0.019243055111399513,
+        0.018627812472140105
+      ]
+    },
+    "candidates": {
+      "estimate": -0.011887372906238078,
+      "interval": [
+        -0.03816880463115494,
+        0.013939426499483706
+      ]
+    }
+  },
+  "prior_confirmation_gate_passed": false,
+  "new_confirmation_gate_defined": false,
+  "new_model_fit": false,
+  "new_generation": false,
+  "wall_clock_measured": false,
+  "new_adaptive_effect_established": false,
+  "baseline_quality_gap_resolved": false,
+  "human_ratings_received": 0,
+  "human_quality_result": "not_evaluated",
+  "reviewer_packet_unchanged": true,
+  "externally_sent": false
+}

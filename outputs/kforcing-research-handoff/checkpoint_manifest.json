@@ -1,0 +1,14 @@
+[
+  {
+    "filename": "ar_best_lm1b.ckpt",
+    "sha256": "e2463aa9de897dd2394580eeec7de23f0fe076931050b21612e8b06316ccc439",
+    "size": 527687989,
+    "revision": "16b984316bdd4585f17b11d0e61a58d236c2febc"
+  },
+  {
+    "filename": "pflm_lm1b_k4.ckpt",
+    "sha256": "3b013f0cf9a3acab4c20a1bb748beee6525432ef3f56a74df4957b898480a2c2",
+    "size": 551319437,
+    "revision": "16b984316bdd4585f17b11d0e61a58d236c2febc"
+  }
+]

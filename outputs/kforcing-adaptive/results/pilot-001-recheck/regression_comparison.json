@@ -1,0 +1,7 @@
+{
+  "samples": 200,
+  "identical_token_sequences": 200,
+  "max_teacher_nll_difference": 0.0,
+  "same_data_and_seeds": true,
+  "interpretation": "Regression recheck only; not independent new statistical evidence."
+}

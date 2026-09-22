@@ -1,0 +1,55 @@
+{
+  "created_utc": "2026-09-20T15:43:10.308257+00:00",
+  "sources": 1024,
+  "dataset_sha256": "d3c7b4b2a48c24e9ae8353d6316dbac1453b08f2d870da9fa096c941e8f4cc8a",
+  "code_hashes": {
+    "STAGE16_PROTOCOL.md": "3388fe9292768bcc4023481e164f2a4e98213cb5d93630a2f95d9e9c77a7b5fa",
+    "reference_pflm.py": "36e6cf40bef4821ba7bde6d43559ac2e83ceb28d230e3df0ffe6c46c658b98ec",
+    "diagnose_baseline.py": "10093de39d804529e4ae9e8074174b83da4b53ea5259cb82e9a9e1db309ad782",
+    "core.py": "24c16c1df17f94302a0a5746df210ec5906de49abe07dfc8f2862ead409d5cf8",
+    "collect_benefit.py": "583ab7397fb4d3132e3b6c8b41664fb22f819aeacd105a752bba1a7ef4e6408f",
+    "confirm_lowdim.py": "2553e0b49606a99f9bc4d4889ae63367e46db62b7016689550b773e9e9985b64",
+    "external_gpt2_score.py": "d6568e9882fe91e36b54b809015f0765d9037a48c65a814e7e51b736b7c37234",
+    "audit_official.py": "04ca5932bccee91a9618b196fa39edf7a191a22f38ad82e3aa9149b7500e2f9f",
+    "upstream/models/pflm.py": "e188455e04eff640af7e0551e54d74c84dcc2d5bd447b24b1d0f1a67d82f59d8",
+    "upstream/models/transformer.py": "43b93ede2d55a37ec70d2fbdcdbe615be4847932a8565d4cdc5a49a611212812",
+    "upstream/models/autoregressive.py": "8fbecc2a28532ba18d63ac62eb57321ed14f44e596f2c4b9b379f12b05d221c8",
+    "upstream/batch_inference_with_prefix.py": "85769c80447ad186ced764b58e52e831a5043d433a63d7efa60a932256a6e3e1"
+  },
+  "input_hashes": {
+    "lm1b-004/prefixes.json": "8113b01011d4fbfd28c3b79929427bd44773546542ec48b32c392eb3990b23a9",
+    "learned-007/prefixes.json": "c85b9749357d7b1d1d4dbf7e9155a22fb2133b72bc8a251fcaf90b58c24bbdf6",
+    "pilot-001/prefixes.json": "f9e1992fc51742c48456599e479f06cb4b79fdf4070aae72e4b8551d771b08cb",
+    "benefit-002/prefixes.json": "ec3d48f7c416e6d1087fff85e4dd3175be83d35a68774af1db78b8eeb4d76958",
+    "current-003/fresh_prefixes.json": "1a2ba87410670a1681dec5aba5955fb6160e802b7de075c2d6afe0670c3b8d87",
+    "confirm-008/sources.json": "1da7d9ed5b4b694356cdaa3d7e4e8a310c703179b9d0093812df59dc45c58643",
+    "online-009/prefixes.json": "689628c997906eb80325d3fe2cbec7963f55f32b9b273a4d9e81b064d71b43c8",
+    "early-010/prefixes.json": "780661ae7133cffe5ecf3b2040e74603b99e2fe96c321dea179f880ac7d06de1",
+    "quality-011/prefixes.json": "23b2f5519dde0a4ac0a7af99dfaa4bb6bf30e17b229868d1993b14da810f1af9",
+    "stability-012/prefixes.json": "c401961e90d98b8af34ef9c31ac82c3573be15027cdd37e46fd59ebffbe11fcc",
+    "averaged-013/prefixes.json": "af917bf9247a47d4b011b9768bc6dc528e161ee67451a4bd622ed71b0bcad67a",
+    "lowdim-015/prefixes.json": "f8b59de01107f9574e8bb9e8a6110a3f060ae8b85c766b0aeab49bc771ea9910",
+    "lm1b-004/samples.jsonl": "e8e6f5fd311a2a0e3a7646723ff5377d3474df53efff1e2668ab3795edf765aa",
+    "lm1b-004/external_scores.jsonl": "f1de1851f97c680cebbf876e6ee4bb869e1d25c51a16fe4a9aedd6737ddb43fb"
+  },
+  "artifact_hashes": {
+    "prefixes.json": "b896d0e3aedb432bc5f57e7d213a6a7e7f69db77822d95457f6cc84c9b0681ad",
+    "released_transformer.py": "705c31b181589b07f0ec8b2cffcf545ea4518ee51eea6e2ea4d504428ed24225"
+  },
+  "checkpoint_manifest_sha256": "c2753458d4c7068bc0ef08cce5d41b828e9eea71137c32a6d1c86392c59113df",
+  "gpt2_manifest_sha256": "d7d06e48f0749ad4812d0fabc413c50d877934f44bc2ae1f852011268a0944b4",
+  "tokenizer_sha256": "07eced375cec144d27c900241f3e339478dec958f92fddbc551f295c992038a3",
+  "paper": "https://arxiv.org/html/2606.10820v2",
+  "paper_lm1b_genppl": {
+    "ar": 104.8,
+    "fixed4": 127.6
+  },
+  "paper_table4": {
+    "backbone_million": 108,
+    "noise_encoder_million": 5.9,
+    "normalization": "RMSNorm (pre-norm)"
+  },
+  "bootstrap_seed": 16112004,
+  "bootstrap_repeats": 4000,
+  "exploratory_diagnostic": true
+}

@@ -1,0 +1,1060 @@
+{
+  "states": 681,
+  "sources": 380,
+  "paired_futures": 5448,
+  "selected_states": 340,
+  "mean_all_split_gain": 0.19304668052297255,
+  "policies": {
+    "keep4": {
+      "expected_intervention_probability": 0.0,
+      "expected_selected_states": 0.0,
+      "changes_vs_keep4": {
+        "gain": {
+          "estimate": 0.0,
+          "interval": [
+            0.0,
+            0.0
+          ],
+          "coverage": 0.95
+        },
+        "calls": {
+          "estimate": 0.0,
+          "interval": [
+            0.0,
+            0.0
+          ],
+          "coverage": 0.95
+        },
+        "candidates": {
+          "estimate": 0.0,
+          "interval": [
+            0.0,
+            0.0
+          ],
+          "coverage": 0.95
+        },
+        "visible_tokens": {
+          "estimate": 0.0,
+          "interval": [
+            0.0,
+            0.0
+          ],
+          "coverage": 0.95
+        },
+        "direct_calls": {
+          "estimate": 0.0,
+          "interval": [
+            0.0,
+            0.0
+          ],
+          "coverage": 0.95
+        },
+        "direct_candidates": {
+          "estimate": 0.0,
+          "interval": [
+            0.0,
+            0.0
+          ],
+          "coverage": 0.95
+        },
+        "future_calls": {
+          "estimate": 0.0,
+          "interval": [
+            0.0,
+            0.0
+          ],
+          "coverage": 0.95
+        },
+        "future_candidates": {
+          "estimate": 0.0,
+          "interval": [
+            0.0,
+            0.0
+          ],
+          "coverage": 0.95
+        },
+        "identical_interventions": {
+          "estimate": 0.0,
+          "interval": [
+            0.0,
+            0.0
+          ],
+          "coverage": 0.95
+        },
+        "identical_extra_calls": {
+          "estimate": 0.0,
+          "interval": [
+            0.0,
+            0.0
+          ],
+          "coverage": 0.95
+        },
+        "identical_extra_candidates": {
+          "estimate": 0.0,
+          "interval": [
+            0.0,
+            0.0
+          ],
+          "coverage": 0.95
+        }
+      },
+      "absolute": {
+        "calls": {
+          "estimate": 5.591593245227607,
+          "interval": [
+            5.399286634756995,
+            5.780191953163926
+          ],
+          "coverage": 0.95
+        },
+        "candidates": {
+          "estimate": 22.35022026431718,
+          "interval": [
+            21.584436419057177,
+            23.09956103055257
+          ],
+          "coverage": 0.95
+        },
+        "visible_tokens": {
+          "estimate": 20.982562408223203,
+          "interval": [
+            20.224954359165427,
+            21.72439328801836
+          ],
+          "coverage": 0.95
+        }
+      },
+      "percent_change_vs_keep4": {
+        "calls": {
+          "estimate": 0.0,
+          "interval": [
+            0.0,
+            0.0
+          ],
+          "coverage": 0.95
+        },
+        "candidates": {
+          "estimate": 0.0,
+          "interval": [
+            0.0,
+            0.0
+          ],
+          "coverage": 0.95
+        },
+        "visible_tokens": {
+          "estimate": 0.0,
+          "interval": [
+            0.0,
+            0.0
+          ],
+          "coverage": 0.95
+        }
+      },
+      "identical_fraction_among_interventions": null
+    },
+    "all_split": {
+      "expected_intervention_probability": 1.0,
+      "expected_selected_states": 681.0,
+      "changes_vs_keep4": {
+        "gain": {
+          "estimate": 0.19304668052297255,
+          "interval": [
+            0.1443941149298381,
+            0.24090506993776786
+          ],
+          "coverage": 0.95
+        },
+        "calls": {
+          "estimate": 1.0512114537444934,
+          "interval": [
+            0.8957042266637586,
+            1.1982998981771387
+          ],
+          "coverage": 0.95
+        },
+        "candidates": {
+          "estimate": 2.212555066079295,
+          "interval": [
+            1.5970778545946904,
+            2.7959125210067675
+          ],
+          "coverage": 0.95
+        },
+        "visible_tokens": {
+          "estimate": 0.18135095447870778,
+          "interval": [
+            -0.43442760356639776,
+            0.7611021531468813
+          ],
+          "coverage": 0.95
+        },
+        "direct_calls": {
+          "estimate": 1.0,
+          "interval": [
+            1.0,
+            1.0
+          ],
+          "coverage": 0.95
+        },
+        "direct_candidates": {
+          "estimate": 2.0,
+          "interval": [
+            2.0,
+            2.0
+          ],
+          "coverage": 0.95
+        },
+        "future_calls": {
+          "estimate": 0.051211453744493395,
+          "interval": [
+            -0.10429577333624142,
+            0.19829989817713864
+          ],
+          "coverage": 0.95
+        },
+        "future_candidates": {
+          "estimate": 0.21255506607929514,
+          "interval": [
+            -0.40292214540530963,
+            0.7959125210067679
+          ],
+          "coverage": 0.95
+        },
+        "identical_interventions": {
+          "estimate": 0.18795888399412627,
+          "interval": [
+            0.15882178390644092,
+            0.218475073313783
+          ],
+          "coverage": 0.95
+        },
+        "identical_extra_calls": {
+          "estimate": 0.18795888399412627,
+          "interval": [
+            0.15882178390644092,
+            0.218475073313783
+          ],
+          "coverage": 0.95
+        },
+        "identical_extra_candidates": {
+          "estimate": 0.37591776798825255,
+          "interval": [
+            0.31764356781288183,
+            0.436950146627566
+          ],
+          "coverage": 0.95
+        }
+      },
+      "absolute": {
+        "calls": {
+          "estimate": 6.6428046989721,
+          "interval": [
+            6.475500263477476,
+            6.80738118520945
+          ],
+          "coverage": 0.95
+        },
+        "candidates": {
+          "estimate": 24.562775330396477,
+          "interval": [
+            23.892960379390473,
+            25.22139399205561
+          ],
+          "coverage": 0.95
+        },
+        "visible_tokens": {
+          "estimate": 21.163913362701912,
+          "interval": [
+            20.492535213726214,
+            21.818939007781058
+          ],
+          "coverage": 0.95
+        }
+      },
+      "percent_change_vs_keep4": {
+        "calls": {
+          "estimate": 18.79985556248564,
+          "interval": [
+            15.622982271752395,
+            21.900405318839788
+          ],
+          "coverage": 0.95
+        },
+        "candidates": {
+          "estimate": 9.899477678131467,
+          "interval": [
+            6.97443786590205,
+            12.776910472217851
+          ],
+          "coverage": 0.95
+        },
+        "visible_tokens": {
+          "estimate": 0.8642936498910885,
+          "interval": [
+            -2.0035526180317325,
+            3.727553238582339
+          ],
+          "coverage": 0.95
+        }
+      },
+      "identical_fraction_among_interventions": 0.18795888399412627
+    },
+    "random_half": {
+      "expected_intervention_probability": 0.49926578560939794,
+      "expected_selected_states": 340.0,
+      "changes_vs_keep4": {
+        "gain": {
+          "estimate": 0.09638160261058835,
+          "interval": [
+            0.0720910412278193,
+            0.12027565899976662
+          ],
+          "coverage": 0.95
+        },
+        "calls": {
+          "estimate": 0.5248339122953418,
+          "interval": [
+            0.44719447439893967,
+            0.5982701400590706
+          ],
+          "coverage": 0.95
+        },
+        "candidates": {
+          "estimate": 1.1046530432701327,
+          "interval": [
+            0.7973663297535899,
+            1.3959034612955963
+          ],
+          "coverage": 0.95
+        },
+        "visible_tokens": {
+          "estimate": 0.09054232675882623,
+          "interval": [
+            -0.21689483878498564,
+            0.37999226441988204
+          ],
+          "coverage": 0.95
+        },
+        "direct_calls": {
+          "estimate": 0.49926578560939794,
+          "interval": [
+            0.4992657856093979,
+            0.499265785609398
+          ],
+          "coverage": 0.95
+        },
+        "direct_candidates": {
+          "estimate": 0.9985315712187959,
+          "interval": [
+            0.9985315712187958,
+            0.998531571218796
+          ],
+          "coverage": 0.95
+        },
+        "future_calls": {
+          "estimate": 0.025568126685943847,
+          "interval": [
+            -0.05207131121045825,
+            0.09900435444967275
+          ],
+          "coverage": 0.95
+        },
+        "future_candidates": {
+          "estimate": 0.10612147205133683,
+          "interval": [
+            -0.20116524146520595,
+            0.39737189007680046
+          ],
+          "coverage": 0.95
+        },
+        "identical_interventions": {
+          "estimate": 0.09384143987959315,
+          "interval": [
+            0.07929428271393525,
+            0.10907712911407666
+          ],
+          "coverage": 0.95
+        },
+        "identical_extra_calls": {
+          "estimate": 0.09384143987959315,
+          "interval": [
+            0.07929428271393525,
+            0.10907712911407666
+          ],
+          "coverage": 0.95
+        },
+        "identical_extra_candidates": {
+          "estimate": 0.1876828797591863,
+          "interval": [
+            0.1585885654278705,
+            0.21815425822815332
+          ],
+          "coverage": 0.95
+        }
+      },
+      "absolute": {
+        "calls": {
+          "estimate": 6.116427157522948,
+          "interval": [
+            5.9502155209895085,
+            6.280407068084057
+          ],
+          "coverage": 0.95
+        },
+        "candidates": {
+          "estimate": 23.454873307587313,
+          "interval": [
+            22.794253511133437,
+            24.10824105051028
+          ],
+          "coverage": 0.95
+        },
+        "visible_tokens": {
+          "estimate": 21.073104734982028,
+          "interval": [
+            20.42188442565244,
+            21.71344630550362
+          ],
+          "coverage": 0.95
+        }
+      },
+      "percent_change_vs_keep4": {
+        "calls": {
+          "estimate": 9.386124656747603,
+          "interval": [
+            7.800020517468157,
+            10.934123066674784
+          ],
+          "coverage": 0.95
+        },
+        "candidates": {
+          "estimate": 4.942470500095006,
+          "interval": [
+            3.4820982003035192,
+            6.379074244572788
+          ],
+          "coverage": 0.95
+        },
+        "visible_tokens": {
+          "estimate": 0.43151224811008837,
+          "interval": [
+            -1.0003052718513787,
+            1.861039796061667
+          ],
+          "coverage": 0.95
+        }
+      },
+      "identical_fraction_among_interventions": 0.18795888399412627
+    },
+    "combined19": {
+      "expected_intervention_probability": 0.49926578560939794,
+      "expected_selected_states": 340.0,
+      "changes_vs_keep4": {
+        "gain": {
+          "estimate": 0.14057725811689203,
+          "interval": [
+            0.10044665834547685,
+            0.1801882181597723
+          ],
+          "coverage": 0.95
+        },
+        "calls": {
+          "estimate": 0.5653450807635829,
+          "interval": [
+            0.4415961993830379,
+            0.6782518858221888
+          ],
+          "coverage": 0.95
+        },
+        "candidates": {
+          "estimate": 1.2661527165932451,
+          "interval": [
+            0.7940486335430126,
+            1.6945022711390636
+          ],
+          "coverage": 0.95
+        },
+        "visible_tokens": {
+          "estimate": 0.25477239353891334,
+          "interval": [
+            -0.21566360615012758,
+            0.6707064605651297
+          ],
+          "coverage": 0.95
+        },
+        "direct_calls": {
+          "estimate": 0.49926578560939794,
+          "interval": [
+            0.46086891042430594,
+            0.536982946298984
+          ],
+          "coverage": 0.95
+        },
+        "direct_candidates": {
+          "estimate": 0.9985315712187959,
+          "interval": [
+            0.9217378208486119,
+            1.073965892597968
+          ],
+          "coverage": 0.95
+        },
+        "future_calls": {
+          "estimate": 0.06607929515418502,
+          "interval": [
+            -0.05297115274889007,
+            0.1719979138901108
+          ],
+          "coverage": 0.95
+        },
+        "future_candidates": {
+          "estimate": 0.26762114537444937,
+          "interval": [
+            -0.20252261944168595,
+            0.688446966005224
+          ],
+          "coverage": 0.95
+        },
+        "identical_interventions": {
+          "estimate": 0.07195301027900147,
+          "interval": [
+            0.05401263007810007,
+            0.09173200859291086
+          ],
+          "coverage": 0.95
+        },
+        "identical_extra_calls": {
+          "estimate": 0.07195301027900147,
+          "interval": [
+            0.05401263007810007,
+            0.09173200859291086
+          ],
+          "coverage": 0.95
+        },
+        "identical_extra_candidates": {
+          "estimate": 0.14390602055800295,
+          "interval": [
+            0.10802526015620013,
+            0.18346401718582173
+          ],
+          "coverage": 0.95
+        }
+      },
+      "absolute": {
+        "calls": {
+          "estimate": 6.15693832599119,
+          "interval": [
+            5.981615610609088,
+            6.324131461127143
+          ],
+          "coverage": 0.95
+        },
+        "candidates": {
+          "estimate": 23.616372980910427,
+          "interval": [
+            22.932476220005245,
+            24.277269087973398
+          ],
+          "coverage": 0.95
+        },
+        "visible_tokens": {
+          "estimate": 21.237334801762117,
+          "interval": [
+            20.55444976028264,
+            21.89843884997948
+          ],
+          "coverage": 0.95
+        }
+      },
+      "percent_change_vs_keep4": {
+        "calls": {
+          "estimate": 10.110626005317926,
+          "interval": [
+            7.719727340948215,
+            12.284681167202741
+          ],
+          "coverage": 0.95
+        },
+        "candidates": {
+          "estimate": 5.665056995499491,
+          "interval": [
+            3.4785682025497047,
+            7.684613979535912
+          ],
+          "coverage": 0.95
+        },
+        "visible_tokens": {
+          "estimate": 1.2142101073368732,
+          "interval": [
+            -0.9896739937922318,
+            3.250747429455067
+          ],
+          "coverage": 0.95
+        }
+      },
+      "identical_fraction_among_interventions": 0.14411764705882354
+    },
+    "confidence14": {
+      "expected_intervention_probability": 0.49926578560939794,
+      "expected_selected_states": 340.0,
+      "changes_vs_keep4": {
+        "gain": {
+          "estimate": 0.1261344168324916,
+          "interval": [
+            0.0875884514483616,
+            0.16410868757254005
+          ],
+          "coverage": 0.95
+        },
+        "calls": {
+          "estimate": 0.5060572687224669,
+          "interval": [
+            0.38970244392721115,
+            0.6077210691689466
+          ],
+          "coverage": 0.95
+        },
+        "candidates": {
+          "estimate": 1.0290014684287812,
+          "interval": [
+            0.5893066964351737,
+            1.4170472201126512
+          ],
+          "coverage": 0.95
+        },
+        "visible_tokens": {
+          "estimate": 0.013215859030837005,
+          "interval": [
+            -0.41401161960280836,
+            0.4048209107201043
+          ],
+          "coverage": 0.95
+        },
+        "direct_calls": {
+          "estimate": 0.49926578560939794,
+          "interval": [
+            0.4611913450369299,
+            0.5355600190358883
+          ],
+          "coverage": 0.95
+        },
+        "direct_candidates": {
+          "estimate": 0.9985315712187959,
+          "interval": [
+            0.9223826900738598,
+            1.0711200380717767
+          ],
+          "coverage": 0.95
+        },
+        "future_calls": {
+          "estimate": 0.006791483113069016,
+          "interval": [
+            -0.10279646170469875,
+            0.10518092867678046
+          ],
+          "coverage": 0.95
+        },
+        "future_candidates": {
+          "estimate": 0.030469897209985317,
+          "interval": [
+            -0.4015467458721784,
+            0.41975407347791716
+          ],
+          "coverage": 0.95
+        },
+        "identical_interventions": {
+          "estimate": 0.05726872246696035,
+          "interval": [
+            0.04105421570353323,
+            0.075
+          ],
+          "coverage": 0.95
+        },
+        "identical_extra_calls": {
+          "estimate": 0.05726872246696035,
+          "interval": [
+            0.04105421570353323,
+            0.075
+          ],
+          "coverage": 0.95
+        },
+        "identical_extra_candidates": {
+          "estimate": 0.1145374449339207,
+          "interval": [
+            0.08210843140706646,
+            0.15
+          ],
+          "coverage": 0.95
+        }
+      },
+      "absolute": {
+        "calls": {
+          "estimate": 6.097650513950073,
+          "interval": [
+            5.90915722867945,
+            6.277539158100832
+          ],
+          "coverage": 0.95
+        },
+        "candidates": {
+          "estimate": 23.37922173274596,
+          "interval": [
+            22.635978257717053,
+            24.08249092895943
+          ],
+          "coverage": 0.95
+        },
+        "visible_tokens": {
+          "estimate": 20.99577826725404,
+          "interval": [
+            20.268876468776497,
+            21.689511289395842
+          ],
+          "coverage": 0.95
+        }
+      },
+      "percent_change_vs_keep4": {
+        "calls": {
+          "estimate": 9.050323343071922,
+          "interval": [
+            6.829625728933255,
+            10.999023160600577
+          ],
+          "coverage": 0.95
+        },
+        "candidates": {
+          "estimate": 4.603988042442758,
+          "interval": [
+            2.5958008026151953,
+            6.411335250115229
+          ],
+          "coverage": 0.95
+        },
+        "visible_tokens": {
+          "estimate": 0.06298496234024127,
+          "interval": [
+            -1.9553024643679113,
+            1.952035699961888
+          ],
+          "coverage": 0.95
+        }
+      },
+      "identical_fraction_among_interventions": 0.11470588235294119
+    },
+    "heuristic": {
+      "expected_intervention_probability": 0.49926578560939794,
+      "expected_selected_states": 340.0,
+      "changes_vs_keep4": {
+        "gain": {
+          "estimate": 0.11692417543399229,
+          "interval": [
+            0.08034848628541125,
+            0.15101203615470904
+          ],
+          "coverage": 0.95
+        },
+        "calls": {
+          "estimate": 0.5730543318649045,
+          "interval": [
+            0.4420031678562836,
+            0.6983518153933171
+          ],
+          "coverage": 0.95
+        },
+        "candidates": {
+          "estimate": 1.2962555066079295,
+          "interval": [
+            0.800334005354923,
+            1.761646841673503
+          ],
+          "coverage": 0.95
+        },
+        "visible_tokens": {
+          "estimate": 0.2712922173274596,
+          "interval": [
+            -0.2113973547102677,
+            0.7216728050595238
+          ],
+          "coverage": 0.95
+        },
+        "direct_calls": {
+          "estimate": 0.49926578560939794,
+          "interval": [
+            0.4604076461963084,
+            0.5370975242481952
+          ],
+          "coverage": 0.95
+        },
+        "direct_candidates": {
+          "estimate": 0.9985315712187959,
+          "interval": [
+            0.9208152923926168,
+            1.0741950484963905
+          ],
+          "coverage": 0.95
+        },
+        "future_calls": {
+          "estimate": 0.07378854625550661,
+          "interval": [
+            -0.04744635116182704,
+            0.18831409670047616
+          ],
+          "coverage": 0.95
+        },
+        "future_candidates": {
+          "estimate": 0.2977239353891336,
+          "interval": [
+            -0.18282430131384603,
+            0.7532563868019047
+          ],
+          "coverage": 0.95
+        },
+        "identical_interventions": {
+          "estimate": 0.02936857562408223,
+          "interval": [
+            0.017569546120058566,
+            0.042709867452135494
+          ],
+          "coverage": 0.95
+        },
+        "identical_extra_calls": {
+          "estimate": 0.02936857562408223,
+          "interval": [
+            0.017569546120058566,
+            0.042709867452135494
+          ],
+          "coverage": 0.95
+        },
+        "identical_extra_candidates": {
+          "estimate": 0.05873715124816446,
+          "interval": [
+            0.03513909224011713,
+            0.08541973490427099
+          ],
+          "coverage": 0.95
+        }
+      },
+      "absolute": {
+        "calls": {
+          "estimate": 6.164647577092511,
+          "interval": [
+            5.978141806581848,
+            6.346453643379133
+          ],
+          "coverage": 0.95
+        },
+        "candidates": {
+          "estimate": 23.64647577092511,
+          "interval": [
+            22.928469558599698,
+            24.35022435313411
+          ],
+          "coverage": 0.95
+        },
+        "visible_tokens": {
+          "estimate": 21.253854625550662,
+          "interval": [
+            20.53856851628055,
+            21.92811985597796
+          ],
+          "coverage": 0.95
+        }
+      },
+      "percent_change_vs_keep4": {
+        "calls": {
+          "estimate": 10.248498178117716,
+          "interval": [
+            7.790205118597421,
+            12.716104043413434
+          ],
+          "coverage": 0.95
+        },
+        "candidates": {
+          "estimate": 5.799743766630532,
+          "interval": [
+            3.4958313205620004,
+            8.027118867705493
+          ],
+          "coverage": 0.95
+        },
+        "visible_tokens": {
+          "estimate": 1.2929413102621747,
+          "interval": [
+            -0.9854388367720383,
+            3.486488327449073
+          ],
+          "coverage": 0.95
+        }
+      },
+      "identical_fraction_among_interventions": 0.058823529411764705
+    }
+  },
+  "cost_normalization": {
+    "calls": {
+      "feasible_at_point": true,
+      "common_extra_cost": 0.5060572687224669,
+      "retention_probability": {
+        "random_half": 0.9642236465041751,
+        "combined19": 0.8951298701298701,
+        "confidence14": 1.0,
+        "heuristic": 0.8830877642536835
+      },
+      "normalized_gain": {
+        "random_half": {
+          "estimate": 0.09293342032509783,
+          "interval": [
+            0.06479572242215914,
+            0.11694275382412841
+          ],
+          "matched_extra_cost": 0.5060572687224669,
+          "expected_intervention_probability": 0.48140387637506543
+        },
+        "combined19": {
+          "estimate": 0.1258349028013868,
+          "interval": [
+            0.0883339061574889,
+            0.15851826525953744
+          ],
+          "matched_extra_cost": 0.5060572687224669,
+          "expected_intervention_probability": 0.44690771783282796
+        },
+        "confidence14": {
+          "estimate": 0.1261344168324916,
+          "interval": [
+            0.08652515224347158,
+            0.16131600983610805
+          ],
+          "matched_extra_cost": 0.5060572687224669,
+          "expected_intervention_probability": 0.49926578560939794
+        },
+        "heuristic": {
+          "estimate": 0.10325430867120972,
+          "interval": [
+            0.06743404239376125,
+            0.13339017670313605
+          ],
+          "matched_extra_cost": 0.5060572687224669,
+          "expected_intervention_probability": 0.44089550638216213
+        }
+      },
+      "comparisons": {
+        "combined19_vs_random_half": {
+          "estimate": 0.03290148247628896,
+          "interval": [
+            0.01172730126393517,
+            0.053887761596733155
+          ]
+        },
+        "combined19_vs_confidence14": {
+          "estimate": -0.0002995140311048139,
+          "interval": [
+            -0.019243055111399513,
+            0.018627812472140105
+          ]
+        },
+        "combined19_vs_heuristic": {
+          "estimate": 0.022580594130177073,
+          "interval": [
+            -0.006877401836977038,
+            0.050898664275803605
+          ]
+        }
+      },
+      "bootstrap_infeasible": 0,
+      "bootstrap_repeats": 4000,
+      "interval_status": "descriptive",
+      "posthoc_cost_calibration": true,
+      "deployable_policy": false
+    },
+    "candidates": {
+      "feasible_at_point": true,
+      "common_extra_cost": 1.0290014684287812,
+      "retention_probability": {
+        "random_half": 0.9315155330424852,
+        "combined19": 0.8126993331400406,
+        "confidence14": 1.0,
+        "heuristic": 0.7938261115831209
+      },
+      "normalized_gain": {
+        "random_half": {
+          "estimate": 0.0897809599312912,
+          "interval": [
+            0.05300658915083722,
+            0.11546914710367383
+          ],
+          "matched_extra_cost": 1.0290014684287812,
+          "expected_intervention_probability": 0.4650738344118135
+        },
+        "combined19": {
+          "estimate": 0.11424704392625352,
+          "interval": [
+            0.0739735174217614,
+            0.14764854775239114
+          ],
+          "matched_extra_cost": 1.0290014684287812,
+          "expected_intervention_probability": 0.40575297102439617
+        },
+        "confidence14": {
+          "estimate": 0.1261344168324916,
+          "interval": [
+            0.08451462524716447,
+            0.16070796420517408
+          ],
+          "matched_extra_cost": 1.0290014684287812,
+          "expected_intervention_probability": 0.49926578560939794
+        },
+        "heuristic": {
+          "estimate": 0.09281746353482877,
+          "interval": [
+            0.05336954983183563,
+            0.1259642608062646
+          ],
+          "matched_extra_cost": 1.0290014684287812,
+          "expected_intervention_probability": 0.39633021723680045
+        }
+      },
+      "comparisons": {
+        "combined19_vs_random_half": {
+          "estimate": 0.02446608399496232,
+          "interval": [
+            0.0002384545612471617,
+            0.050415688408489034
+          ]
+        },
+        "combined19_vs_confidence14": {
+          "estimate": -0.011887372906238078,
+          "interval": [
+            -0.03816880463115494,
+            0.013939426499483706
+          ]
+        },
+        "combined19_vs_heuristic": {
+          "estimate": 0.021429580391424757,
+          "interval": [
+            -0.01140056105414909,
+            0.053649038759062184
+          ]
+        }
+      },
+      "bootstrap_infeasible": 0,
+      "bootstrap_repeats": 4000,
+      "interval_status": "descriptive",
+      "posthoc_cost_calibration": true,
+      "deployable_policy": false
+    }
+  },
+  "old_primary_points_reproduced": true,
+  "old_advance_gate_passed": false,
+  "new_advance_gate_defined": false,
+  "new_model_fit": false,
+  "new_generation": false,
+  "wall_clock_measured": false,
+  "human_ratings_received": 0,
+  "scope": "retrospective fixed-rank single-intervention cost sensitivity, optimized GPT-2 proxy",
+  "bootstrap": {
+    "seed": 22222001,
+    "repeats": 4000,
+    "unit": "source",
+    "fixed_ranks": true,
+    "resample_future": false
+  }
+}

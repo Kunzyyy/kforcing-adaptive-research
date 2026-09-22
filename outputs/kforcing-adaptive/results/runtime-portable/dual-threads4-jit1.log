@@ -1,0 +1,27 @@
+{"iteration": 0, "metric": 4.325096554226345, "tokens": 9}
+{"iteration": 1, "metric": 1.8343701362609863, "tokens": 3}
+{"iteration": 2, "metric": 2.260624749319894, "tokens": 14}
+{"iteration": 3, "metric": 4.454183959960938, "tokens": 5}
+{"iteration": 4, "metric": 2.2580604553222656, "tokens": 3}
+{"iteration": 5, "metric": 4.002529144287109, "tokens": 10}
+{"iteration": 6, "metric": 1.894039471944173, "tokens": 3}
+{"iteration": 7, "metric": 3.105661392211914, "tokens": 16}
+{"iteration": 8, "metric": 2.0873378117879233, "tokens": 3}
+{"iteration": 9, "metric": 3.6149485111236572, "tokens": 8}
+{"iteration": 10, "metric": 3.9207555982801647, "tokens": 9}
+{"iteration": 11, "metric": 1.9784056345621746, "tokens": 3}
+{"iteration": 12, "metric": 4.086266768606086, "tokens": 19}
+{"iteration": 13, "metric": 2.469926039377848, "tokens": 3}
+{"iteration": 14, "metric": 2.469926039377848, "tokens": 3}
+{"iteration": 15, "metric": 2.6929448445638022, "tokens": 3}
+{"iteration": 16, "metric": 4.9850568771362305, "tokens": 32}
+{"iteration": 17, "metric": 4.508241271972656, "tokens": 5}
+{"iteration": 18, "metric": 2.606100082397461, "tokens": 3}
+{"iteration": 19, "metric": 4.1957761591131035, "tokens": 11}
+{"iteration": 20, "metric": 2.0014757428850447, "tokens": 7}
+{"iteration": 21, "metric": 4.263785111276727, "tokens": 19}
+{"iteration": 22, "metric": 2.0873378117879233, "tokens": 3}
+{"iteration": 23, "metric": 3.1687418619791665, "tokens": 3}
+returned_from_child_work
+
+STDERR

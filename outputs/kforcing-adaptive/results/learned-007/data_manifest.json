@@ -1,0 +1,22 @@
+{
+  "source_sha256": "d3c7b4b2a48c24e9ae8353d6316dbac1453b08f2d870da9fa096c941e8f4cc8a",
+  "prefix_sha256": "c85b9749357d7b1d1d4dbf7e9155a22fb2133b72bc8a251fcaf90b58c24bbdf6",
+  "projection_sha256": "09bd00bb8642ee8acbdc19f60ba0b8b12551b993639229865a349dff48a23e9a",
+  "split_counts": {
+    "train": 256,
+    "dev": 64,
+    "test": 128
+  },
+  "seeds": [
+    761,
+    769,
+    773,
+    787,
+    797,
+    809,
+    811,
+    821
+  ],
+  "excluded_prior_lm1b_rows": 128,
+  "split_unit": "Unique six-token prefix and raw sentence hash; document identity unavailable"
+}

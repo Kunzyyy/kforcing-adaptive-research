@@ -1,0 +1,109 @@
+{
+  "passed": true,
+  "files_verified": 38,
+  "baseline": {
+    "passed": true,
+    "sources": 1024,
+    "new_score_records": 2048,
+    "methods": {
+      "ar": {
+        "gen_ppl": 114.38885127080691,
+        "interval95": [
+          108.24267600185543,
+          120.64708057151617
+        ]
+      },
+      "fixed4": {
+        "gen_ppl": 215.71285409978606,
+        "interval95": [
+          190.41392278996284,
+          241.0408167111923
+        ]
+      }
+    },
+    "scope": "recorded score arithmetic only; paper configuration not aligned"
+  },
+  "online": {
+    "passed": true,
+    "sources": 96,
+    "timings": 4608,
+    "primary": {
+      "ppl_ratio": {
+        "estimate": 1.0860111133915589,
+        "interval": [
+          0.9050670703278698,
+          1.3072869713427187
+        ],
+        "coverage": 0.975
+      },
+      "visible_throughput_ratio": {
+        "estimate": 0.9820108321163489,
+        "interval": [
+          0.936611406432696,
+          1.0296073709788662
+        ],
+        "coverage": 0.975
+      }
+    },
+    "advance_gate_passed": false,
+    "model": "earlier hidden82, not the later combined19 model",
+    "recorded_timing_reaggregated": true,
+    "new_hardware_timing": false
+  },
+  "offline_confirmation": {
+    "passed": true,
+    "states": 681,
+    "sources": 380,
+    "primary": {
+      "vs_random": {
+        "estimate": 0.04419565550630368,
+        "interval": [
+          0.013968525626093707,
+          0.07455130537853208
+        ],
+        "coverage": 0.9833333333333333
+      },
+      "vs_confidence14": {
+        "estimate": 0.014442841284400449,
+        "interval": [
+          -0.008352495519763662,
+          0.03848569956216035
+        ],
+        "coverage": 0.9833333333333333
+      },
+      "vs_heuristic": {
+        "estimate": 0.02365308268289975,
+        "interval": [
+          -0.014375090811930558,
+          0.06190220410590328
+        ],
+        "coverage": 0.9833333333333333
+      }
+    },
+    "advance_gate_passed": false,
+    "fixed_ranks": true,
+    "stored_model_predictions_recomputed": 1362
+  },
+  "compute_budget": {
+    "passed": true,
+    "verifier_sha256": "46eb884de6ae555f9670c1ed80f3228f592ed0663658af279dc0d7996cd33a84",
+    "manifest_sha256": "f877c3bbff1d64bbca29d1fd056ffa5e571631c323119aab75ae8128b7c564ce",
+    "analysis_sha256": "d70d43d8617cee689f18cae5ab8c5cbadfc86b1530cafa152ac7011fb84cc24a",
+    "branch_schedules_reconstructed": 10896,
+    "state_aggregates_checked": 681,
+    "frozen_rankings_checked": 3,
+    "old_primary_points_reproduced": 3,
+    "bootstrap_repeats": 4000,
+    "bootstrap_aggregation": "independent multinomial matrix path",
+    "intervals_checked": 116,
+    "normalized_policy_points_checked": 8,
+    "analytic_synthetic_checks": 6,
+    "old_failure_gate_unchanged": true,
+    "wall_clock_measured": false,
+    "human_ratings_received": 0
+  },
+  "human_quality": "not_evaluated",
+  "new_model_generation": false,
+  "new_gpu_timing": false,
+  "verification_scope": "record integrity and statistical reproduction; not a rerun of the neural models"
+}

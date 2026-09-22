@@ -1,0 +1,20 @@
+[
+  {
+    "name": "ar_best_lm1b.ckpt",
+    "wrapper_keys": [
+      "state_dict"
+    ],
+    "tensor_entries": 101,
+    "all_entries_tensors": true,
+    "has_training_metadata": false
+  },
+  {
+    "name": "pflm_lm1b_k4.ckpt",
+    "wrapper_keys": [
+      "state_dict"
+    ],
+    "tensor_entries": 109,
+    "all_entries_tensors": true,
+    "has_training_metadata": false
+  }
+]

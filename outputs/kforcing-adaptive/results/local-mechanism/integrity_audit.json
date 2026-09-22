@@ -1,0 +1,20 @@
+{
+  "passed": true,
+  "completed_utc": "2026-09-21T12:07:03.897705+00:00",
+  "verifier_sha256": "42ef7845781cde844c7ca81d8d321826bb8e67ed774fb7eaa3b4bd6a0fe3a0de",
+  "manifest_sha256": "071c16791d1dbddbe9cc0fac2802db4f217351f7126c4f499ed103cd98d06559",
+  "analysis_sha256": "eae2ba5df8f412d3be4215a8c850af8b82140cb2bb1edd585065792d5342f2b5",
+  "scoring_sha256": "ae328c934ebc88a83ad369fba3f0d2734a49fa5cad45b67db392cb907723b923",
+  "states_verified": 446,
+  "branches_verified": 892,
+  "teacher_probe_states": 12,
+  "teacher_probe_token_losses": 48,
+  "max_float64_nll_error": 5.842602170957889e-07,
+  "folds_reconstructed": 15,
+  "intervals_recomputed": 11,
+  "prior19_point_reproduced": true,
+  "train_dev_whitelist_verified": true,
+  "primary_decision_reproduced": true,
+  "local_target_followup_signal": true,
+  "scope": "Independent arithmetic on saved evidence; not independent confirmation, a deployable policy, or human quality evidence."
+}

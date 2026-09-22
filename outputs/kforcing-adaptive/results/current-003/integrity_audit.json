@@ -1,0 +1,25 @@
+{
+  "passed": true,
+  "fresh_prompts": 32,
+  "fresh_articles": 16,
+  "local_branches": 124,
+  "timed_runs": 960,
+  "unique_outputs": 320,
+  "repeats_per_output": 3,
+  "exact_repeat_token_matches": true,
+  "locked_controller_verified": true,
+  "discard_accounting_verified": true,
+  "budgets": {
+    "current": {
+      "eligible_steps": 348,
+      "short_eligible_steps": 185,
+      "short_eligible_fraction": 0.5316091954022989
+    },
+    "random_commit": {
+      "eligible_steps": 344,
+      "short_eligible_steps": 152,
+      "short_eligible_fraction": 0.4418604651162791
+    }
+  },
+  "scope": "Structural and arithmetic checks; not a claim of human quality or universal runtime stability."
+}

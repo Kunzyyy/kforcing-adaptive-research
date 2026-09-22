@@ -1,0 +1,19 @@
+{
+  "created_utc": "2026-09-21T00:55:32.303393+00:00",
+  "collector_sha256": "bcaaae351bc566a5a06fa3a6f65a96611f280924ed4af597ba5d736d79cf37dc",
+  "pinned_code": "706caa332a69d509b7fc2fa53ac7819f381a8c78",
+  "pinned_model": "16b984316bdd4585f17b11d0e61a58d236c2febc",
+  "checkpoint_downloads": false,
+  "remote_writes": false,
+  "evidence_sha256": {
+    "github_branches.json": "b78883cd9efd3c8b013fd02218225a7d53f17c5f0cac380c71c051798cace514",
+    "github_commits.json": "f0aa51b5d002c33473b271c7346ff60fe91f0851d7b5dfeb65f5e2d2a9e68439",
+    "github_issues.json": "bf4d3174e7647273546ebfa99640ce0ce348946f11d3efd019cc43d052c8f153",
+    "github_releases.json": "16b27ceb033453b6839a58787b599d36120435ac5949d0757d53a56ea69b1776",
+    "github_tags.json": "3b5159db35ae1b3777d061e32e4fee5ef1cfa6c251880d9dc63c624552006149",
+    "hf_commits.json": "8eb825a057b3104c04b0e18faac8cd30c015eda9b15a7e91a3a2ed579478126b",
+    "hf_discussions.json": "3f5c5e6be83d0c630a502bcb6aa4c0d4a1ccedbdaff31a2775ac8b53d4ae9ffc",
+    "hf_historical_trees.json": "6482daf8374ce66ea2186162bc96b38e18d802cdeee07d6d80515627f6e94575",
+    "hf_model.json": "655f17c7a5ae8f5f2d9fd1afbdf69540e3c28b4f935527ed5aa1c2ed624901e1"
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "sources": 1024,
+  "methods": {
+    "ar": {
+      "samples": 1024,
+      "nll": 4.739603620270242,
+      "gen_ppl": 114.38885127080691,
+      "gen_ppl_interval95": [
+        108.24267600185543,
+        120.64708057151617
+      ],
+      "scored_tokens": 23837,
+      "excluded_short": 5,
+      "mean_bert_new_tokens": 24.4306640625,
+      "eos_stopped": 1024,
+      "leading_wordpiece_fragments": 63
+    },
+    "fixed4": {
+      "samples": 1024,
+      "nll": 5.373948144108126,
+      "gen_ppl": 215.71285409978606,
+      "gen_ppl_interval95": [
+        190.41392278996284,
+        241.0408167111923
+      ],
+      "scored_tokens": 18609,
+      "excluded_short": 8,
+      "mean_bert_new_tokens": 20.5234375,
+      "eos_stopped": 1020,
+      "leading_wordpiece_fragments": 64
+    }
+  },
+  "fixed4_over_ar_ppl_ratio": {
+    "estimate": 1.8857856487176556,
+    "interval95": [
+      1.658216744229657,
+      2.1308840692344386
+    ]
+  },
+  "paper_reference": {
+    "ar": 104.8,
+    "fixed4": 127.6
+  },
+  "paper_reference_not_hypothesis_test": true,
+  "source_cluster_bootstrap_repeats": 4000,
+  "bootstrap_seed": 16112004,
+  "scores_sha256": "a23074c6aed37147b3f4e5e060f813a2ea57e38010226f27907e16ff58ab907b",
+  "manifest_sha256": "1fd855fa669144d0f977faa6c051368a1f429a7ae1189de6e105469a550b28b4",
+  "reference_probe_passed": true,
+  "limitations": [
+    "Original paper prompts and exact checkpoint correspondence remain unknown.",
+    "Local CLI precision/RTX/SDPA environment; not H100/bf16 reproduction.",
+    "Fresh baseline-only diagnostic, not a new adaptive method confirmation."
+  ]
+}

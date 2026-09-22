@@ -1,0 +1,32 @@
+[
+  {
+    "case": "ar",
+    "threads": 4,
+    "jit": "1",
+    "helper_backend": "eager",
+    "iterations": 24,
+    "exit_code": 0,
+    "seconds": 9.184074640274048,
+    "completed_marker": true
+  },
+  {
+    "case": "dual",
+    "threads": 4,
+    "jit": "1",
+    "helper_backend": "eager",
+    "iterations": 24,
+    "exit_code": 0,
+    "seconds": 8.947700500488281,
+    "completed_marker": true
+  },
+  {
+    "case": "alternating",
+    "threads": 4,
+    "jit": "1",
+    "helper_backend": "eager",
+    "iterations": 24,
+    "exit_code": 0,
+    "seconds": 13.846780061721802,
+    "completed_marker": true
+  }
+]

@@ -1,0 +1,18 @@
+{
+  "source": "Natural execution-tool exit results observed during stage 3",
+  "feature_replay_exit": 0,
+  "development_screening_exit": 0,
+  "fresh_article_selection_exit": 0,
+  "fresh_branch_collection_exit": 0,
+  "fresh_teacher_scoring_exit": 0,
+  "fresh_analysis_exit": 0,
+  "online_calibration_exit": 0,
+  "online_benchmark_and_scoring_exit": 0,
+  "online_analysis_exit": 0,
+  "independent_audit_exit": 0,
+  "current_feature_tests_passed": 3,
+  "commit_decoder_tests_passed": 4,
+  "unique_online_generations": 320,
+  "timed_runs": 960,
+  "caution": "Development gate passed; fresh local and online advantage not established. No human-rated quality result."
+}

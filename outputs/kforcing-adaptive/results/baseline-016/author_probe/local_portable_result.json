@@ -1,0 +1,2417 @@
+{
+  "checkpoint_sha256": "3b013f0cf9a3acab4c20a1bb748beee6525432ef3f56a74df4957b898480a2c2",
+  "cases_sha256": "71d8ff47f46b7bc2079ae604e14f987e7dda90a6d2604858855f01b6527d9619",
+  "repository": "C:\\Users\\Lenovo\\Documents\\Codex\\2026-09-15\\new-chat\\outputs\\kforcing-adaptive\\upstream",
+  "imported_model_source": "C:\\Users\\Lenovo\\Documents\\Codex\\2026-09-15\\new-chat\\outputs\\kforcing-adaptive\\upstream\\models\\pflm.py",
+  "imported_model_source_sha256": "e188455e04eff640af7e0551e54d74c84dcc2d5bd447b24b1d0f1a67d82f59d8",
+  "torch": "2.11.0+cu128",
+  "cuda": "12.8",
+  "device": "NVIDIA GeForce RTX 5060 Laptop GPU",
+  "precision": "fp32 weights, no outer autocast, TF32 disabled",
+  "cases": 160,
+  "candidate_positions": 400,
+  "argmax_disagreements": 0,
+  "records": [
+    {
+      "prompt_id": "lm1b-000",
+      "context_length": 6,
+      "k": 1,
+      "actual_argmax": [
+        2024
+      ],
+      "expected_argmax": [
+        2024
+      ],
+      "differing_positions": 0
+    },
+    {
+      "prompt_id": "lm1b-001",
+      "context_length": 6,
+      "k": 1,
+      "actual_argmax": [
+        4505
+      ],
+      "expected_argmax": [
+        4505
+      ],
+      "differing_positions": 0
+    },
+    {
+      "prompt_id": "lm1b-002",
+      "context_length": 6,
+      "k": 1,
+      "actual_argmax": [
+        2420
+      ],
+      "expected_argmax": [
+        2420
+      ],
+      "differing_positions": 0
+    },
+    {
+      "prompt_id": "lm1b-003",
+      "context_length": 6,
+      "k": 1,
+      "actual_argmax": [
+        12012
+      ],
+      "expected_argmax": [
+        12012
+      ],
+      "differing_positions": 0
+    },
+    {
+      "prompt_id": "lm1b-004",
+      "context_length": 6,
+      "k": 1,
+      "actual_argmax": [
+        1010
+      ],
+      "expected_argmax": [
+        1010
+      ],
+      "differing_positions": 0
+    },
+    {
+      "prompt_id": "lm1b-005",
+      "context_length": 6,
+      "k": 1,
+      "actual_argmax": [
+        9924
+      ],
+      "expected_argmax": [
+        9924
+      ],
+      "differing_positions": 0
+    },
+    {
+      "prompt_id": "lm1b-006",
+      "context_length": 6,
+      "k": 1,
+      "actual_argmax": [
+        8951
+      ],
+      "expected_argmax": [
+        8951
+      ],
+      "differing_positions": 0
+    },
+    {
+      "prompt_id": "lm1b-007",
+      "context_length": 6,
+      "k": 1,
+      "actual_argmax": [
+        2091
+      ],
+      "expected_argmax": [
+        2091
+      ],
+      "differing_positions": 0
+    },
+    {
+      "prompt_id": "lm1b-000",
+      "context_length": 6,
+      "k": 2,
+      "actual_argmax": [
+        2024,
+        2241
+      ],
+      "expected_argmax": [
+        2024,
+        2241
+      ],
+      "differing_positions": 0
+    },
+    {
+      "prompt_id": "lm1b-001",
+      "context_length": 6,
+      "k": 2,
+      "actual_argmax": [
+        4505,
+        3539
+      ],
+      "expected_argmax": [
+        4505,
+        3539
+      ],
+      "differing_positions": 0
+    },
+    {
+      "prompt_id": "lm1b-002",
+      "context_length": 6,
+      "k": 2,
+      "actual_argmax": [
+        2420,
+        2002
+      ],
+      "expected_argmax": [
+        2420,
+        2002
+      ],
+      "differing_positions": 0
+    },
+    {
+      "prompt_id": "lm1b-003",
+      "context_length": 6,
+      "k": 2,
+      "actual_argmax": [
+        12012,
+        4297
+      ],
+      "expected_argmax": [
+        12012,
+        4297
+      ],
+      "differing_positions": 0
+    },
+    {
+      "prompt_id": "lm1b-004",
+      "context_length": 6,
+      "k": 2,
+      "actual_argmax": [
+        1010,
+        2020
+      ],
+      "expected_argmax": [
+        1010,
+        2020
+      ],
+      "differing_positions": 0
+    },
+    {
+      "prompt_id": "lm1b-005",
+      "context_length": 6,
+      "k": 2,
+      "actual_argmax": [
+        9924,
+        1997
+      ],
+      "expected_argmax": [
+        9924,
+        1997
+      ],
+      "differing_positions": 0
+    },
+    {
+      "prompt_id": "lm1b-006",
+      "context_length": 6,
+      "k": 2,
+      "actual_argmax": [
+        8951,
+        1005
+      ],
+      "expected_argmax": [
+        8951,
+        1005
+      ],
+      "differing_positions": 0
+    },
+    {
+      "prompt_id": "lm1b-007",
+      "context_length": 6,
+      "k": 2,
+      "actual_argmax": [
+        2091,
+        2005
+      ],
+      "expected_argmax": [
+        2091,
+        2005
+      ],
+      "differing_positions": 0
+    },
+    {
+      "prompt_id": "lm1b-000",
+      "context_length": 6,
+      "k": 3,
+      "actual_argmax": [
+        2024,
+        2241,
+        2000
+      ],
+      "expected_argmax": [
+        2024,
+        2241,
+        2000
+      ],
+      "differing_positions": 0
+    },
+    {
+      "prompt_id": "lm1b-001",
+      "context_length": 6,
+      "k": 3,
+      "actual_argmax": [
+        4505,
+        3539,
+        2704
+      ],
+      "expected_argmax": [
+        4505,
+        3539,
+        2704
+      ],
+      "differing_positions": 0
+    },
+    {
+      "prompt_id": "lm1b-002",
+      "context_length": 6,
+      "k": 3,
+      "actual_argmax": [
+        2420,
+        2002,
+        2038
+      ],
+      "expected_argmax": [
+        2420,
+        2002,
+        2038
+      ],
+      "differing_positions": 0
+    },
+    {
+      "prompt_id": "lm1b-003",
+      "context_length": 6,
+      "k": 3,
+      "actual_argmax": [
+        12012,
+        4297,
+        1012
+      ],
+      "expected_argmax": [
+        12012,
+        4297,
+        1012
+      ],
+      "differing_positions": 0
+    },
+    {
+      "prompt_id": "lm1b-004",
+      "context_length": 6,
+      "k": 3,
+      "actual_argmax": [
+        1010,
+        2020,
+        2426
+      ],
+      "expected_argmax": [
+        1010,
+        2020,
+        2426
+      ],
+      "differing_positions": 0
+    },
+    {
+      "prompt_id": "lm1b-005",
+      "context_length": 6,
+      "k": 3,
+      "actual_argmax": [
+        9924,
+        1997,
+        2015
+      ],
+      "expected_argmax": [
+        9924,
+        1997,
+        2015
+      ],
+      "differing_positions": 0
+    },
+    {
+      "prompt_id": "lm1b-006",
+      "context_length": 6,
+      "k": 3,
+      "actual_argmax": [
+        8951,
+        1005,
+        13294
+      ],
+      "expected_argmax": [
+        8951,
+        1005,
+        13294
+      ],
+      "differing_positions": 0
+    },
+    {
+      "prompt_id": "lm1b-007",
+      "context_length": 6,
+      "k": 3,
+      "actual_argmax": [
+        2091,
+        2005,
+        1996
+      ],
+      "expected_argmax": [
+        2091,
+        2005,
+        1996
+      ],
+      "differing_positions": 0
+    },
+    {
+      "prompt_id": "lm1b-000",
+      "context_length": 6,
+      "k": 4,
+      "actual_argmax": [
+        2024,
+        2241,
+        2000,
+        1037
+      ],
+      "expected_argmax": [
+        2024,
+        2241,
+        2000,
+        1037
+      ],
+      "differing_positions": 0
+    },
+    {
+      "prompt_id": "lm1b-001",
+      "context_length": 6,
+      "k": 4,
+      "actual_argmax": [
+        4505,
+        3539,
+        2704,
+        6425
+      ],
+      "expected_argmax": [
+        4505,
+        3539,
+        2704,
+        6425
+      ],
+      "differing_positions": 0
+    },
+    {
+      "prompt_id": "lm1b-002",
+      "context_length": 6,
+      "k": 4,
+      "actual_argmax": [
+        2420,
+        2002,
+        2038,
+        2042
+      ],
+      "expected_argmax": [
+        2420,
+        2002,
+        2038,
+        2042
+      ],
+      "differing_positions": 0
+    },
+    {
+      "prompt_id": "lm1b-003",
+      "context_length": 6,
+      "k": 4,
+      "actual_argmax": [
+        12012,
+        4297,
+        1012,
+        1012
+      ],
+      "expected_argmax": [
+        12012,
+        4297,
+        1012,
+        1012
+      ],
+      "differing_positions": 0
+    },
+    {
+      "prompt_id": "lm1b-004",
+      "context_length": 6,
+      "k": 4,
+      "actual_argmax": [
+        1010,
+        2020,
+        2426,
+        1999
+      ],
+      "expected_argmax": [
+        1010,
+        2020,
+        2426,
+        1999
+      ],
+      "differing_positions": 0
+    },
+    {
+      "prompt_id": "lm1b-005",
+      "context_length": 6,
+      "k": 4,
+      "actual_argmax": [
+        9924,
+        1997,
+        2015,
+        1997
+      ],
+      "expected_argmax": [
+        9924,
+        1997,
+        2015,
+        1997
+      ],
+      "differing_positions": 0
+    },
+    {
+      "prompt_id": "lm1b-006",
+      "context_length": 6,
+      "k": 4,
+      "actual_argmax": [
+        8951,
+        1005,
+        13294,
+        1010
+      ],
+      "expected_argmax": [
+        8951,
+        1005,
+        13294,
+        1010
+      ],
+      "differing_positions": 0
+    },
+    {
+      "prompt_id": "lm1b-007",
+      "context_length": 6,
+      "k": 4,
+      "actual_argmax": [
+        2091,
+        2005,
+        1996,
+        16773
+      ],
+      "expected_argmax": [
+        2091,
+        2005,
+        1996,
+        16773
+      ],
+      "differing_positions": 0
+    },
+    {
+      "prompt_id": "lm1b-000",
+      "context_length": 10,
+      "k": 1,
+      "actual_argmax": [
+        1996
+      ],
+      "expected_argmax": [
+        1996
+      ],
+      "differing_positions": 0
+    },
+    {
+      "prompt_id": "lm1b-001",
+      "context_length": 10,
+      "k": 1,
+      "actual_argmax": [
+        2925
+      ],
+      "expected_argmax": [
+        2925
+      ],
+      "differing_positions": 0
+    },
+    {
+      "prompt_id": "lm1b-002",
+      "context_length": 10,
+      "k": 1,
+      "actual_argmax": [
+        2042
+      ],
+      "expected_argmax": [
+        2042
+      ],
+      "differing_positions": 0
+    },
+    {
+      "prompt_id": "lm1b-003",
+      "context_length": 10,
+      "k": 1,
+      "actual_argmax": [
+        1012
+      ],
+      "expected_argmax": [
+        1012
+      ],
+      "differing_positions": 0
+    },
+    {
+      "prompt_id": "lm1b-004",
+      "context_length": 10,
+      "k": 1,
+      "actual_argmax": [
+        2202
+      ],
+      "expected_argmax": [
+        2202
+      ],
+      "differing_positions": 0
+    },
+    {
+      "prompt_id": "lm1b-005",
+      "context_length": 10,
+      "k": 1,
+      "actual_argmax": [
+        8167
+      ],
+      "expected_argmax": [
+        8167
+      ],
+      "differing_positions": 0
+    },
+    {
+      "prompt_id": "lm1b-006",
+      "context_length": 10,
+      "k": 1,
+      "actual_argmax": [
+        4216
+      ],
+      "expected_argmax": [
+        4216
+      ],
+      "differing_positions": 0
+    },
+    {
+      "prompt_id": "lm1b-007",
+      "context_length": 10,
+      "k": 1,
+      "actual_argmax": [
+        2129
+      ],
+      "expected_argmax": [
+        2129
+      ],
+      "differing_positions": 0
+    },
+    {
+      "prompt_id": "lm1b-000",
+      "context_length": 10,
+      "k": 2,
+      "actual_argmax": [
+        1996,
+        3647
+      ],
+      "expected_argmax": [
+        1996,
+        3647
+      ],
+      "differing_positions": 0
+    },
+    {
+      "prompt_id": "lm1b-001",
+      "context_length": 10,
+      "k": 2,
+      "actual_argmax": [
+        2925,
+        1010
+      ],
+      "expected_argmax": [
+        2925,
+        1010
+      ],
+      "differing_positions": 0
+    },
+    {
+      "prompt_id": "lm1b-002",
+      "context_length": 10,
+      "k": 2,
+      "actual_argmax": [
+        2042,
+        4214
+      ],
+      "expected_argmax": [
+        2042,
+        4214
+      ],
+      "differing_positions": 0
+    },
+    {
+      "prompt_id": "lm1b-003",
+      "context_length": 10,
+      "k": 2,
+      "actual_argmax": [
+        1012,
+        1998
+      ],
+      "expected_argmax": [
+        1012,
+        1998
+      ],
+      "differing_positions": 0
+    },
+    {
+      "prompt_id": "lm1b-004",
+      "context_length": 10,
+      "k": 2,
+      "actual_argmax": [
+        2202,
+        2173
+      ],
+      "expected_argmax": [
+        2202,
+        2173
+      ],
+      "differing_positions": 0
+    },
+    {
+      "prompt_id": "lm1b-005",
+      "context_length": 10,
+      "k": 2,
+      "actual_argmax": [
+        8167,
+        2555
+      ],
+      "expected_argmax": [
+        8167,
+        2555
+      ],
+      "differing_positions": 0
+    },
+    {
+      "prompt_id": "lm1b-006",
+      "context_length": 10,
+      "k": 2,
+      "actual_argmax": [
+        4216,
+        4216
+      ],
+      "expected_argmax": [
+        4216,
+        4216
+      ],
+      "differing_positions": 0
+    },
+    {
+      "prompt_id": "lm1b-007",
+      "context_length": 10,
+      "k": 2,
+      "actual_argmax": [
+        2129,
+        19181
+      ],
+      "expected_argmax": [
+        2129,
+        19181
+      ],
+      "differing_positions": 0
+    },
+    {
+      "prompt_id": "lm1b-000",
+      "context_length": 10,
+      "k": 3,
+      "actual_argmax": [
+        1996,
+        3647,
+        6496
+      ],
+      "expected_argmax": [
+        1996,
+        3647,
+        6496
+      ],
+      "differing_positions": 0
+    },
+    {
+      "prompt_id": "lm1b-001",
+      "context_length": 10,
+      "k": 3,
+      "actual_argmax": [
+        2925,
+        1010,
+        10930
+      ],
+      "expected_argmax": [
+        2925,
+        1010,
+        10930
+      ],
+      "differing_positions": 0
+    },
+    {
+      "prompt_id": "lm1b-002",
+      "context_length": 10,
+      "k": 3,
+      "actual_argmax": [
+        2042,
+        4214,
+        2000
+      ],
+      "expected_argmax": [
+        2042,
+        4214,
+        2000
+      ],
+      "differing_positions": 0
+    },
+    {
+      "prompt_id": "lm1b-003",
+      "context_length": 10,
+      "k": 3,
+      "actual_argmax": [
+        1012,
+        1998,
+        5253
+      ],
+      "expected_argmax": [
+        1012,
+        1998,
+        5253
+      ],
+      "differing_positions": 0
+    },
+    {
+      "prompt_id": "lm1b-004",
+      "context_length": 10,
+      "k": 3,
+      "actual_argmax": [
+        2202,
+        2173,
+        1996
+      ],
+      "expected_argmax": [
+        2202,
+        2173,
+        1996
+      ],
+      "differing_positions": 0
+    },
+    {
+      "prompt_id": "lm1b-005",
+      "context_length": 10,
+      "k": 3,
+      "actual_argmax": [
+        8167,
+        2555,
+        1010
+      ],
+      "expected_argmax": [
+        8167,
+        2555,
+        1010
+      ],
+      "differing_positions": 0
+    },
+    {
+      "prompt_id": "lm1b-006",
+      "context_length": 10,
+      "k": 3,
+      "actual_argmax": [
+        4216,
+        4216,
+        1010
+      ],
+      "expected_argmax": [
+        4216,
+        4216,
+        1010
+      ],
+      "differing_positions": 0
+    },
+    {
+      "prompt_id": "lm1b-007",
+      "context_length": 10,
+      "k": 3,
+      "actual_argmax": [
+        2129,
+        19181,
+        29599
+      ],
+      "expected_argmax": [
+        2129,
+        19181,
+        29599
+      ],
+      "differing_positions": 0
+    },
+    {
+      "prompt_id": "lm1b-000",
+      "context_length": 10,
+      "k": 4,
+      "actual_argmax": [
+        1996,
+        3647,
+        6496,
+        8910
+      ],
+      "expected_argmax": [
+        1996,
+        3647,
+        6496,
+        8910
+      ],
+      "differing_positions": 0
+    },
+    {
+      "prompt_id": "lm1b-001",
+      "context_length": 10,
+      "k": 4,
+      "actual_argmax": [
+        2925,
+        1010,
+        10930,
+        18528
+      ],
+      "expected_argmax": [
+        2925,
+        1010,
+        10930,
+        18528
+      ],
+      "differing_positions": 0
+    },
+    {
+      "prompt_id": "lm1b-002",
+      "context_length": 10,
+      "k": 4,
+      "actual_argmax": [
+        2042,
+        4214,
+        2000,
+        3796
+      ],
+      "expected_argmax": [
+        2042,
+        4214,
+        2000,
+        3796
+      ],
+      "differing_positions": 0
+    },
+    {
+      "prompt_id": "lm1b-003",
+      "context_length": 10,
+      "k": 4,
+      "actual_argmax": [
+        1012,
+        1998,
+        5253,
+        6156
+      ],
+      "expected_argmax": [
+        1012,
+        1998,
+        5253,
+        6156
+      ],
+      "differing_positions": 0
+    },
+    {
+      "prompt_id": "lm1b-004",
+      "context_length": 10,
+      "k": 4,
+      "actual_argmax": [
+        2202,
+        2173,
+        1996,
+        3251
+      ],
+      "expected_argmax": [
+        2202,
+        2173,
+        1996,
+        3251
+      ],
+      "differing_positions": 0
+    },
+    {
+      "prompt_id": "lm1b-005",
+      "context_length": 10,
+      "k": 4,
+      "actual_argmax": [
+        8167,
+        2555,
+        1010,
+        1996
+      ],
+      "expected_argmax": [
+        8167,
+        2555,
+        1010,
+        1996
+      ],
+      "differing_positions": 0
+    },
+    {
+      "prompt_id": "lm1b-006",
+      "context_length": 10,
+      "k": 4,
+      "actual_argmax": [
+        4216,
+        4216,
+        1010,
+        2988
+      ],
+      "expected_argmax": [
+        4216,
+        4216,
+        1010,
+        2988
+      ],
+      "differing_positions": 0
+    },
+    {
+      "prompt_id": "lm1b-007",
+      "context_length": 10,
+      "k": 4,
+      "actual_argmax": [
+        2129,
+        19181,
+        29599,
+        1010
+      ],
+      "expected_argmax": [
+        2129,
+        19181,
+        29599,
+        1010
+      ],
+      "differing_positions": 0
+    },
+    {
+      "prompt_id": "lm1b-000",
+      "context_length": 14,
+      "k": 1,
+      "actual_argmax": [
+        1997
+      ],
+      "expected_argmax": [
+        1997
+      ],
+      "differing_positions": 0
+    },
+    {
+      "prompt_id": "lm1b-001",
+      "context_length": 14,
+      "k": 1,
+      "actual_argmax": [
+        1011
+      ],
+      "expected_argmax": [
+        1011
+      ],
+      "differing_positions": 0
+    },
+    {
+      "prompt_id": "lm1b-002",
+      "context_length": 14,
+      "k": 1,
+      "actual_argmax": [
+        3490
+      ],
+      "expected_argmax": [
+        3490
+      ],
+      "differing_positions": 0
+    },
+    {
+      "prompt_id": "lm1b-003",
+      "context_length": 14,
+      "k": 1,
+      "actual_argmax": [
+        7082
+      ],
+      "expected_argmax": [
+        7082
+      ],
+      "differing_positions": 0
+    },
+    {
+      "prompt_id": "lm1b-004",
+      "context_length": 14,
+      "k": 1,
+      "actual_argmax": [
+        4125
+      ],
+      "expected_argmax": [
+        4125
+      ],
+      "differing_positions": 0
+    },
+    {
+      "prompt_id": "lm1b-005",
+      "context_length": 14,
+      "k": 1,
+      "actual_argmax": [
+        2087
+      ],
+      "expected_argmax": [
+        2087
+      ],
+      "differing_positions": 0
+    },
+    {
+      "prompt_id": "lm1b-006",
+      "context_length": 14,
+      "k": 1,
+      "actual_argmax": [
+        4420
+      ],
+      "expected_argmax": [
+        4420
+      ],
+      "differing_positions": 0
+    },
+    {
+      "prompt_id": "lm1b-007",
+      "context_length": 14,
+      "k": 1,
+      "actual_argmax": [
+        1996
+      ],
+      "expected_argmax": [
+        1996
+      ],
+      "differing_positions": 0
+    },
+    {
+      "prompt_id": "lm1b-000",
+      "context_length": 14,
+      "k": 2,
+      "actual_argmax": [
+        1997,
+        1996
+      ],
+      "expected_argmax": [
+        1997,
+        1996
+      ],
+      "differing_positions": 0
+    },
+    {
+      "prompt_id": "lm1b-001",
+      "context_length": 14,
+      "k": 2,
+      "actual_argmax": [
+        1011,
+        6335
+      ],
+      "expected_argmax": [
+        1011,
+        6335
+      ],
+      "differing_positions": 0
+    },
+    {
+      "prompt_id": "lm1b-002",
+      "context_length": 14,
+      "k": 2,
+      "actual_argmax": [
+        3490,
+        4063
+      ],
+      "expected_argmax": [
+        3490,
+        4063
+      ],
+      "differing_positions": 0
+    },
+    {
+      "prompt_id": "lm1b-003",
+      "context_length": 14,
+      "k": 2,
+      "actual_argmax": [
+        7082,
+        2338
+      ],
+      "expected_argmax": [
+        7082,
+        2338
+      ],
+      "differing_positions": 0
+    },
+    {
+      "prompt_id": "lm1b-004",
+      "context_length": 14,
+      "k": 2,
+      "actual_argmax": [
+        4125,
+        1996
+      ],
+      "expected_argmax": [
+        4125,
+        1996
+      ],
+      "differing_positions": 0
+    },
+    {
+      "prompt_id": "lm1b-005",
+      "context_length": 14,
+      "k": 2,
+      "actual_argmax": [
+        2087,
+        1997
+      ],
+      "expected_argmax": [
+        2087,
+        1997
+      ],
+      "differing_positions": 0
+    },
+    {
+      "prompt_id": "lm1b-006",
+      "context_length": 14,
+      "k": 2,
+      "actual_argmax": [
+        4420,
+        1005
+      ],
+      "expected_argmax": [
+        4420,
+        1005
+      ],
+      "differing_positions": 0
+    },
+    {
+      "prompt_id": "lm1b-007",
+      "context_length": 14,
+      "k": 2,
+      "actual_argmax": [
+        1996,
+        2187
+      ],
+      "expected_argmax": [
+        1996,
+        2187
+      ],
+      "differing_positions": 0
+    },
+    {
+      "prompt_id": "lm1b-000",
+      "context_length": 14,
+      "k": 3,
+      "actual_argmax": [
+        1997,
+        1996,
+        2797
+      ],
+      "expected_argmax": [
+        1997,
+        1996,
+        2797
+      ],
+      "differing_positions": 0
+    },
+    {
+      "prompt_id": "lm1b-001",
+      "context_length": 14,
+      "k": 3,
+      "actual_argmax": [
+        1011,
+        6335,
+        1997
+      ],
+      "expected_argmax": [
+        1011,
+        6335,
+        1997
+      ],
+      "differing_positions": 0
+    },
+    {
+      "prompt_id": "lm1b-002",
+      "context_length": 14,
+      "k": 3,
+      "actual_argmax": [
+        3490,
+        4063,
+        2003
+      ],
+      "expected_argmax": [
+        3490,
+        4063,
+        2003
+      ],
+      "differing_positions": 0
+    },
+    {
+      "prompt_id": "lm1b-003",
+      "context_length": 14,
+      "k": 3,
+      "actual_argmax": [
+        7082,
+        2338,
+        2000
+      ],
+      "expected_argmax": [
+        7082,
+        2338,
+        2000
+      ],
+      "differing_positions": 0
+    },
+    {
+      "prompt_id": "lm1b-004",
+      "context_length": 14,
+      "k": 3,
+      "actual_argmax": [
+        4125,
+        1996,
+        7224
+      ],
+      "expected_argmax": [
+        4125,
+        1996,
+        7224
+      ],
+      "differing_positions": 0
+    },
+    {
+      "prompt_id": "lm1b-005",
+      "context_length": 14,
+      "k": 3,
+      "actual_argmax": [
+        2087,
+        1997,
+        1996
+      ],
+      "expected_argmax": [
+        2087,
+        1997,
+        1996
+      ],
+      "differing_positions": 0
+    },
+    {
+      "prompt_id": "lm1b-006",
+      "context_length": 14,
+      "k": 3,
+      "actual_argmax": [
+        4420,
+        1005,
+        1055
+      ],
+      "expected_argmax": [
+        4420,
+        1005,
+        1055
+      ],
+      "differing_positions": 0
+    },
+    {
+      "prompt_id": "lm1b-007",
+      "context_length": 14,
+      "k": 3,
+      "actual_argmax": [
+        1996,
+        2187,
+        1997
+      ],
+      "expected_argmax": [
+        1996,
+        2187,
+        1997
+      ],
+      "differing_positions": 0
+    },
+    {
+      "prompt_id": "lm1b-000",
+      "context_length": 14,
+      "k": 4,
+      "actual_argmax": [
+        1997,
+        1996,
+        2797,
+        12012
+      ],
+      "expected_argmax": [
+        1997,
+        1996,
+        2797,
+        12012
+      ],
+      "differing_positions": 0
+    },
+    {
+      "prompt_id": "lm1b-001",
+      "context_length": 14,
+      "k": 4,
+      "actual_argmax": [
+        1011,
+        6335,
+        1997,
+        1996
+      ],
+      "expected_argmax": [
+        1011,
+        6335,
+        1997,
+        1996
+      ],
+      "differing_positions": 0
+    },
+    {
+      "prompt_id": "lm1b-002",
+      "context_length": 14,
+      "k": 4,
+      "actual_argmax": [
+        3490,
+        4063,
+        2003,
+        2667
+      ],
+      "expected_argmax": [
+        3490,
+        4063,
+        2003,
+        2667
+      ],
+      "differing_positions": 0
+    },
+    {
+      "prompt_id": "lm1b-003",
+      "context_length": 14,
+      "k": 4,
+      "actual_argmax": [
+        7082,
+        2338,
+        2000,
+        8619
+      ],
+      "expected_argmax": [
+        7082,
+        2338,
+        2000,
+        8619
+      ],
+      "differing_positions": 0
+    },
+    {
+      "prompt_id": "lm1b-004",
+      "context_length": 14,
+      "k": 4,
+      "actual_argmax": [
+        4125,
+        1996,
+        7224,
+        1012
+      ],
+      "expected_argmax": [
+        4125,
+        1996,
+        7224,
+        1012
+      ],
+      "differing_positions": 0
+    },
+    {
+      "prompt_id": "lm1b-005",
+      "context_length": 14,
+      "k": 4,
+      "actual_argmax": [
+        2087,
+        1997,
+        1996,
+        3901
+      ],
+      "expected_argmax": [
+        2087,
+        1997,
+        1996,
+        3901
+      ],
+      "differing_positions": 0
+    },
+    {
+      "prompt_id": "lm1b-006",
+      "context_length": 14,
+      "k": 4,
+      "actual_argmax": [
+        4420,
+        1005,
+        1055,
+        10930
+      ],
+      "expected_argmax": [
+        4420,
+        1005,
+        1055,
+        10930
+      ],
+      "differing_positions": 0
+    },
+    {
+      "prompt_id": "lm1b-007",
+      "context_length": 14,
+      "k": 4,
+      "actual_argmax": [
+        1996,
+        2187,
+        1997,
+        1010
+      ],
+      "expected_argmax": [
+        1996,
+        2187,
+        1997,
+        1010
+      ],
+      "differing_positions": 0
+    },
+    {
+      "prompt_id": "lm1b-000",
+      "context_length": 30,
+      "k": 1,
+      "actual_argmax": [
+        7368
+      ],
+      "expected_argmax": [
+        7368
+      ],
+      "differing_positions": 0
+    },
+    {
+      "prompt_id": "lm1b-001",
+      "context_length": 30,
+      "k": 1,
+      "actual_argmax": [
+        102
+      ],
+      "expected_argmax": [
+        102
+      ],
+      "differing_positions": 0
+    },
+    {
+      "prompt_id": "lm1b-002",
+      "context_length": 30,
+      "k": 1,
+      "actual_argmax": [
+        17854
+      ],
+      "expected_argmax": [
+        17854
+      ],
+      "differing_positions": 0
+    },
+    {
+      "prompt_id": "lm1b-003",
+      "context_length": 30,
+      "k": 1,
+      "actual_argmax": [
+        102
+      ],
+      "expected_argmax": [
+        102
+      ],
+      "differing_positions": 0
+    },
+    {
+      "prompt_id": "lm1b-004",
+      "context_length": 30,
+      "k": 1,
+      "actual_argmax": [
+        1012
+      ],
+      "expected_argmax": [
+        1012
+      ],
+      "differing_positions": 0
+    },
+    {
+      "prompt_id": "lm1b-005",
+      "context_length": 30,
+      "k": 1,
+      "actual_argmax": [
+        2866
+      ],
+      "expected_argmax": [
+        2866
+      ],
+      "differing_positions": 0
+    },
+    {
+      "prompt_id": "lm1b-006",
+      "context_length": 30,
+      "k": 1,
+      "actual_argmax": [
+        21117
+      ],
+      "expected_argmax": [
+        21117
+      ],
+      "differing_positions": 0
+    },
+    {
+      "prompt_id": "lm1b-007",
+      "context_length": 30,
+      "k": 1,
+      "actual_argmax": [
+        11854
+      ],
+      "expected_argmax": [
+        11854
+      ],
+      "differing_positions": 0
+    },
+    {
+      "prompt_id": "lm1b-000",
+      "context_length": 30,
+      "k": 2,
+      "actual_argmax": [
+        7368,
+        2008
+      ],
+      "expected_argmax": [
+        7368,
+        2008
+      ],
+      "differing_positions": 0
+    },
+    {
+      "prompt_id": "lm1b-001",
+      "context_length": 30,
+      "k": 2,
+      "actual_argmax": [
+        102,
+        1012
+      ],
+      "expected_argmax": [
+        102,
+        1012
+      ],
+      "differing_positions": 0
+    },
+    {
+      "prompt_id": "lm1b-002",
+      "context_length": 30,
+      "k": 2,
+      "actual_argmax": [
+        17854,
+        22325
+      ],
+      "expected_argmax": [
+        17854,
+        22325
+      ],
+      "differing_positions": 0
+    },
+    {
+      "prompt_id": "lm1b-003",
+      "context_length": 30,
+      "k": 2,
+      "actual_argmax": [
+        102,
+        1012
+      ],
+      "expected_argmax": [
+        102,
+        1012
+      ],
+      "differing_positions": 0
+    },
+    {
+      "prompt_id": "lm1b-004",
+      "context_length": 30,
+      "k": 2,
+      "actual_argmax": [
+        1012,
+        1012
+      ],
+      "expected_argmax": [
+        1012,
+        1012
+      ],
+      "differing_positions": 0
+    },
+    {
+      "prompt_id": "lm1b-005",
+      "context_length": 30,
+      "k": 2,
+      "actual_argmax": [
+        2866,
+        1012
+      ],
+      "expected_argmax": [
+        2866,
+        1012
+      ],
+      "differing_positions": 0
+    },
+    {
+      "prompt_id": "lm1b-006",
+      "context_length": 30,
+      "k": 2,
+      "actual_argmax": [
+        21117,
+        27633
+      ],
+      "expected_argmax": [
+        21117,
+        27633
+      ],
+      "differing_positions": 0
+    },
+    {
+      "prompt_id": "lm1b-007",
+      "context_length": 30,
+      "k": 2,
+      "actual_argmax": [
+        11854,
+        2001
+      ],
+      "expected_argmax": [
+        11854,
+        2001
+      ],
+      "differing_positions": 0
+    },
+    {
+      "prompt_id": "lm1b-000",
+      "context_length": 30,
+      "k": 3,
+      "actual_argmax": [
+        7368,
+        2008,
+        2071
+      ],
+      "expected_argmax": [
+        7368,
+        2008,
+        2071
+      ],
+      "differing_positions": 0
+    },
+    {
+      "prompt_id": "lm1b-001",
+      "context_length": 30,
+      "k": 3,
+      "actual_argmax": [
+        102,
+        1012,
+        1012
+      ],
+      "expected_argmax": [
+        102,
+        1012,
+        1012
+      ],
+      "differing_positions": 0
+    },
+    {
+      "prompt_id": "lm1b-002",
+      "context_length": 30,
+      "k": 3,
+      "actual_argmax": [
+        17854,
+        22325,
+        1055
+      ],
+      "expected_argmax": [
+        17854,
+        22325,
+        1055
+      ],
+      "differing_positions": 0
+    },
+    {
+      "prompt_id": "lm1b-003",
+      "context_length": 30,
+      "k": 3,
+      "actual_argmax": [
+        102,
+        1012,
+        102
+      ],
+      "expected_argmax": [
+        102,
+        1012,
+        102
+      ],
+      "differing_positions": 0
+    },
+    {
+      "prompt_id": "lm1b-004",
+      "context_length": 30,
+      "k": 3,
+      "actual_argmax": [
+        1012,
+        1012,
+        1012
+      ],
+      "expected_argmax": [
+        1012,
+        1012,
+        1012
+      ],
+      "differing_positions": 0
+    },
+    {
+      "prompt_id": "lm1b-005",
+      "context_length": 30,
+      "k": 3,
+      "actual_argmax": [
+        2866,
+        1012,
+        102
+      ],
+      "expected_argmax": [
+        2866,
+        1012,
+        102
+      ],
+      "differing_positions": 0
+    },
+    {
+      "prompt_id": "lm1b-006",
+      "context_length": 30,
+      "k": 3,
+      "actual_argmax": [
+        21117,
+        27633,
+        2001
+      ],
+      "expected_argmax": [
+        21117,
+        27633,
+        2001
+      ],
+      "differing_positions": 0
+    },
+    {
+      "prompt_id": "lm1b-007",
+      "context_length": 30,
+      "k": 3,
+      "actual_argmax": [
+        11854,
+        2001,
+        102
+      ],
+      "expected_argmax": [
+        11854,
+        2001,
+        102
+      ],
+      "differing_positions": 0
+    },
+    {
+      "prompt_id": "lm1b-000",
+      "context_length": 30,
+      "k": 4,
+      "actual_argmax": [
+        7368,
+        2008,
+        2071,
+        3426
+      ],
+      "expected_argmax": [
+        7368,
+        2008,
+        2071,
+        3426
+      ],
+      "differing_positions": 0
+    },
+    {
+      "prompt_id": "lm1b-001",
+      "context_length": 30,
+      "k": 4,
+      "actual_argmax": [
+        102,
+        1012,
+        1012,
+        1012
+      ],
+      "expected_argmax": [
+        102,
+        1012,
+        1012,
+        1012
+      ],
+      "differing_positions": 0
+    },
+    {
+      "prompt_id": "lm1b-002",
+      "context_length": 30,
+      "k": 4,
+      "actual_argmax": [
+        17854,
+        22325,
+        1055,
+        12629
+      ],
+      "expected_argmax": [
+        17854,
+        22325,
+        1055,
+        12629
+      ],
+      "differing_positions": 0
+    },
+    {
+      "prompt_id": "lm1b-003",
+      "context_length": 30,
+      "k": 4,
+      "actual_argmax": [
+        102,
+        1012,
+        102,
+        1010
+      ],
+      "expected_argmax": [
+        102,
+        1012,
+        102,
+        1010
+      ],
+      "differing_positions": 0
+    },
+    {
+      "prompt_id": "lm1b-004",
+      "context_length": 30,
+      "k": 4,
+      "actual_argmax": [
+        1012,
+        1012,
+        1012,
+        1012
+      ],
+      "expected_argmax": [
+        1012,
+        1012,
+        1012,
+        1012
+      ],
+      "differing_positions": 0
+    },
+    {
+      "prompt_id": "lm1b-005",
+      "context_length": 30,
+      "k": 4,
+      "actual_argmax": [
+        2866,
+        1012,
+        102,
+        1012
+      ],
+      "expected_argmax": [
+        2866,
+        1012,
+        102,
+        1012
+      ],
+      "differing_positions": 0
+    },
+    {
+      "prompt_id": "lm1b-006",
+      "context_length": 30,
+      "k": 4,
+      "actual_argmax": [
+        21117,
+        27633,
+        2001,
+        8225
+      ],
+      "expected_argmax": [
+        21117,
+        27633,
+        2001,
+        8225
+      ],
+      "differing_positions": 0
+    },
+    {
+      "prompt_id": "lm1b-007",
+      "context_length": 30,
+      "k": 4,
+      "actual_argmax": [
+        11854,
+        2001,
+        102,
+        1996
+      ],
+      "expected_argmax": [
+        11854,
+        2001,
+        102,
+        1996
+      ],
+      "differing_positions": 0
+    },
+    {
+      "prompt_id": "lm1b-000",
+      "context_length": 70,
+      "k": 1,
+      "actual_argmax": [
+        1011
+      ],
+      "expected_argmax": [
+        1011
+      ],
+      "differing_positions": 0
+    },
+    {
+      "prompt_id": "lm1b-001",
+      "context_length": 70,
+      "k": 1,
+      "actual_argmax": [
+        6335
+      ],
+      "expected_argmax": [
+        6335
+      ],
+      "differing_positions": 0
+    },
+    {
+      "prompt_id": "lm1b-002",
+      "context_length": 70,
+      "k": 1,
+      "actual_argmax": [
+        1012
+      ],
+      "expected_argmax": [
+        1012
+      ],
+      "differing_positions": 0
+    },
+    {
+      "prompt_id": "lm1b-003",
+      "context_length": 70,
+      "k": 1,
+      "actual_argmax": [
+        1011
+      ],
+      "expected_argmax": [
+        1011
+      ],
+      "differing_positions": 0
+    },
+    {
+      "prompt_id": "lm1b-004",
+      "context_length": 70,
+      "k": 1,
+      "actual_argmax": [
+        102
+      ],
+      "expected_argmax": [
+        102
+      ],
+      "differing_positions": 0
+    },
+    {
+      "prompt_id": "lm1b-005",
+      "context_length": 70,
+      "k": 1,
+      "actual_argmax": [
+        4002
+      ],
+      "expected_argmax": [
+        4002
+      ],
+      "differing_positions": 0
+    },
+    {
+      "prompt_id": "lm1b-006",
+      "context_length": 70,
+      "k": 1,
+      "actual_argmax": [
+        1012
+      ],
+      "expected_argmax": [
+        1012
+      ],
+      "differing_positions": 0
+    },
+    {
+      "prompt_id": "lm1b-007",
+      "context_length": 70,
+      "k": 1,
+      "actual_argmax": [
+        1012
+      ],
+      "expected_argmax": [
+        1012
+      ],
+      "differing_positions": 0
+    },
+    {
+      "prompt_id": "lm1b-000",
+      "context_length": 70,
+      "k": 2,
+      "actual_argmax": [
+        1011,
+        8635
+      ],
+      "expected_argmax": [
+        1011,
+        8635
+      ],
+      "differing_positions": 0
+    },
+    {
+      "prompt_id": "lm1b-001",
+      "context_length": 70,
+      "k": 2,
+      "actual_argmax": [
+        6335,
+        6335
+      ],
+      "expected_argmax": [
+        6335,
+        6335
+      ],
+      "differing_positions": 0
+    },
+    {
+      "prompt_id": "lm1b-002",
+      "context_length": 70,
+      "k": 2,
+      "actual_argmax": [
+        1012,
+        1012
+      ],
+      "expected_argmax": [
+        1012,
+        1012
+      ],
+      "differing_positions": 0
+    },
+    {
+      "prompt_id": "lm1b-003",
+      "context_length": 70,
+      "k": 2,
+      "actual_argmax": [
+        1011,
+        1011
+      ],
+      "expected_argmax": [
+        1011,
+        1011
+      ],
+      "differing_positions": 0
+    },
+    {
+      "prompt_id": "lm1b-004",
+      "context_length": 70,
+      "k": 2,
+      "actual_argmax": [
+        102,
+        1012
+      ],
+      "expected_argmax": [
+        102,
+        1012
+      ],
+      "differing_positions": 0
+    },
+    {
+      "prompt_id": "lm1b-005",
+      "context_length": 70,
+      "k": 2,
+      "actual_argmax": [
+        4002,
+        2566
+      ],
+      "expected_argmax": [
+        4002,
+        2566
+      ],
+      "differing_positions": 0
+    },
+    {
+      "prompt_id": "lm1b-006",
+      "context_length": 70,
+      "k": 2,
+      "actual_argmax": [
+        1012,
+        1012
+      ],
+      "expected_argmax": [
+        1012,
+        1012
+      ],
+      "differing_positions": 0
+    },
+    {
+      "prompt_id": "lm1b-007",
+      "context_length": 70,
+      "k": 2,
+      "actual_argmax": [
+        1012,
+        102
+      ],
+      "expected_argmax": [
+        1012,
+        102
+      ],
+      "differing_positions": 0
+    },
+    {
+      "prompt_id": "lm1b-000",
+      "context_length": 70,
+      "k": 3,
+      "actual_argmax": [
+        1011,
+        8635,
+        2024
+      ],
+      "expected_argmax": [
+        1011,
+        8635,
+        2024
+      ],
+      "differing_positions": 0
+    },
+    {
+      "prompt_id": "lm1b-001",
+      "context_length": 70,
+      "k": 3,
+      "actual_argmax": [
+        6335,
+        6335,
+        6335
+      ],
+      "expected_argmax": [
+        6335,
+        6335,
+        6335
+      ],
+      "differing_positions": 0
+    },
+    {
+      "prompt_id": "lm1b-002",
+      "context_length": 70,
+      "k": 3,
+      "actual_argmax": [
+        1012,
+        1012,
+        1012
+      ],
+      "expected_argmax": [
+        1012,
+        1012,
+        1012
+      ],
+      "differing_positions": 0
+    },
+    {
+      "prompt_id": "lm1b-003",
+      "context_length": 70,
+      "k": 3,
+      "actual_argmax": [
+        1011,
+        1011,
+        1011
+      ],
+      "expected_argmax": [
+        1011,
+        1011,
+        1011
+      ],
+      "differing_positions": 0
+    },
+    {
+      "prompt_id": "lm1b-004",
+      "context_length": 70,
+      "k": 3,
+      "actual_argmax": [
+        102,
+        1012,
+        1012
+      ],
+      "expected_argmax": [
+        102,
+        1012,
+        1012
+      ],
+      "differing_positions": 0
+    },
+    {
+      "prompt_id": "lm1b-005",
+      "context_length": 70,
+      "k": 3,
+      "actual_argmax": [
+        4002,
+        2566,
+        3178
+      ],
+      "expected_argmax": [
+        4002,
+        2566,
+        3178
+      ],
+      "differing_positions": 0
+    },
+    {
+      "prompt_id": "lm1b-006",
+      "context_length": 70,
+      "k": 3,
+      "actual_argmax": [
+        1012,
+        1012,
+        2167
+      ],
+      "expected_argmax": [
+        1012,
+        1012,
+        2167
+      ],
+      "differing_positions": 0
+    },
+    {
+      "prompt_id": "lm1b-007",
+      "context_length": 70,
+      "k": 3,
+      "actual_argmax": [
+        1012,
+        102,
+        10272
+      ],
+      "expected_argmax": [
+        1012,
+        102,
+        10272
+      ],
+      "differing_positions": 0
+    },
+    {
+      "prompt_id": "lm1b-000",
+      "context_length": 70,
+      "k": 4,
+      "actual_argmax": [
+        1011,
+        8635,
+        2024,
+        1996
+      ],
+      "expected_argmax": [
+        1011,
+        8635,
+        2024,
+        1996
+      ],
+      "differing_positions": 0
+    },
+    {
+      "prompt_id": "lm1b-001",
+      "context_length": 70,
+      "k": 4,
+      "actual_argmax": [
+        6335,
+        6335,
+        6335,
+        6335
+      ],
+      "expected_argmax": [
+        6335,
+        6335,
+        6335,
+        6335
+      ],
+      "differing_positions": 0
+    },
+    {
+      "prompt_id": "lm1b-002",
+      "context_length": 70,
+      "k": 4,
+      "actual_argmax": [
+        1012,
+        1012,
+        1012,
+        1012
+      ],
+      "expected_argmax": [
+        1012,
+        1012,
+        1012,
+        1012
+      ],
+      "differing_positions": 0
+    },
+    {
+      "prompt_id": "lm1b-003",
+      "context_length": 70,
+      "k": 4,
+      "actual_argmax": [
+        1011,
+        1011,
+        1011,
+        1011
+      ],
+      "expected_argmax": [
+        1011,
+        1011,
+        1011,
+        1011
+      ],
+      "differing_positions": 0
+    },
+    {
+      "prompt_id": "lm1b-004",
+      "context_length": 70,
+      "k": 4,
+      "actual_argmax": [
+        102,
+        1012,
+        1012,
+        1012
+      ],
+      "expected_argmax": [
+        102,
+        1012,
+        1012,
+        1012
+      ],
+      "differing_positions": 0
+    },
+    {
+      "prompt_id": "lm1b-005",
+      "context_length": 70,
+      "k": 4,
+      "actual_argmax": [
+        4002,
+        2566,
+        3178,
+        1012
+      ],
+      "expected_argmax": [
+        4002,
+        2566,
+        3178,
+        1012
+      ],
+      "differing_positions": 0
+    },
+    {
+      "prompt_id": "lm1b-006",
+      "context_length": 70,
+      "k": 4,
+      "actual_argmax": [
+        1012,
+        1012,
+        2167,
+        4420
+      ],
+      "expected_argmax": [
+        1012,
+        1012,
+        2167,
+        4420
+      ],
+      "differing_positions": 0
+    },
+    {
+      "prompt_id": "lm1b-007",
+      "context_length": 70,
+      "k": 4,
+      "actual_argmax": [
+        1012,
+        102,
+        10272,
+        1012
+      ],
+      "expected_argmax": [
+        1012,
+        102,
+        10272,
+        1012
+      ],
+      "differing_positions": 0
+    }
+  ],
+  "interpretation": "A match checks these fixed inputs only. A mismatch identifies an environment/source difference to inspect, not an attribution of fault."
+}

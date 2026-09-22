@@ -1,0 +1,18 @@
+{
+  "source": "Observed natural execution-tool exit results",
+  "prepare_exit": 0,
+  "train_collection_exit": 0,
+  "dev_collection_exit": 0,
+  "model_selection_exit": 0,
+  "test_collection_exit": 0,
+  "test_evaluation_exit": 0,
+  "independent_audit_exit": 0,
+  "train_windows": 2048,
+  "dev_windows": 512,
+  "test_windows": 1024,
+  "features": 82,
+  "model": "hidden82_alpha001",
+  "dev_gate": false,
+  "online_gate": false,
+  "notes": "Base models frozen; no new external text-quality or online timing experiment. Test labels collected only after frozen model saved."
+}

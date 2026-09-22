@@ -1,0 +1,43 @@
+{
+  "passed": true,
+  "completed_utc": "2026-09-21T01:44:07.913407+00:00",
+  "manifest_sha256": "76a40af0c215ae8e6d9c75b29a0be66bcbd9354474ce81d1ffa05ae0e0069295",
+  "verifier_sha256": "a948c4441e77f44abd297268a283b2b7f27b8c919821ad6bbb83dec7dcd4637b",
+  "tokenizer_checks_sha256": "d804995afe35be0d521bfb15ff43873ba6ae38398ebe2cc882f56a99a1858218",
+  "model_checks_sha256": "519b855ed17b0246a6df653f80729b5b553967aa9cb8c941d16e405ba32cae53",
+  "previous_scientific_files_unchanged": true,
+  "record_counts": {
+    "vocab": 30522,
+    "source_encodings": 1024,
+    "decodes": 2048,
+    "fixed_input_cases": 200,
+    "cache_batches": 10,
+    "generation_pairs": 64
+  },
+  "static_cond_dim_unused_in_blocks_and_head": true,
+  "scale_by_sigma_read_expressions": [
+    {
+      "file": "autoregressive.py",
+      "expression": "config.model.scale_by_sigma"
+    }
+  ],
+  "independent_cpu_construction": {
+    "ar": {
+      "cond_dim": 128,
+      "scale_by_sigma": true,
+      "dropout": 0.1,
+      "all_modules_eval": true,
+      "all_weights_identical": true,
+      "strict_load": true
+    },
+    "pflm": {
+      "cond_dim": 128,
+      "scale_by_sigma": true,
+      "dropout": 0.0,
+      "all_modules_eval": true,
+      "all_weights_identical": true,
+      "strict_load": true
+    }
+  },
+  "limitations": "Record/structure/source integrity audit; GPU forward comparisons and tokenization runs were not independently reimplemented. Current source/library only, no original training environment validation."
+}

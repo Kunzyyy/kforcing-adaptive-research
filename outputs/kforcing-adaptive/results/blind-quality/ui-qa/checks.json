@@ -1,0 +1,30 @@
+{
+  "passed": true,
+  "packet_id": "bq-e8aebf0779f8a643",
+  "script_sha256": "08112b768ef6218004de287f7d7f3aaaf4769324c5576d6ba62dd66f29c252cc",
+  "checks": [
+    "blank initial state",
+    "text fidelity",
+    "alias required",
+    "A/skip annotation and navigation",
+    "autosave/reload",
+    "unanswered navigation",
+    "partial JSON export",
+    "wrong-packet import rejected",
+    "partial restore",
+    "80 answers via UI",
+    "human declaration required",
+    "complete export schema",
+    "mobile no overflow",
+    "zero script errors",
+    "zero HTTP requests"
+  ],
+  "screenshots": [
+    "desktop-blank.png",
+    "mobile-blank.png"
+  ],
+  "synthetic_interactions_only": true,
+  "human_ratings_received": 0,
+  "synthetic_rating_files_retained": false,
+  "isolated_browser_context_closed": true
+}

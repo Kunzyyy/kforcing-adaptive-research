@@ -1,0 +1,297 @@
+{
+  "learned": {
+    "all_windows": 3840,
+    "all_split_fraction": 0.7114583333333333,
+    "windows_starting_before_eos": 712,
+    "split_fraction_before_eos": 0.5224719101123596,
+    "windows_starting_at_or_after_visible_end": 3128,
+    "split_fraction_after_visible_end": 0.7544757033248082,
+    "split_count_min": 6,
+    "split_count_max": 30
+  },
+  "random_matched": {
+    "all_windows": 3840,
+    "all_split_fraction": 0.7114583333333333,
+    "windows_starting_before_eos": 698,
+    "split_fraction_before_eos": 0.6977077363896849,
+    "windows_starting_at_or_after_visible_end": 3142,
+    "split_fraction_after_visible_end": 0.7145130490133673,
+    "split_count_min": 6,
+    "split_count_max": 30
+  },
+  "learned_position_statistics": [
+    {
+      "window_index": 0,
+      "context_length": 6,
+      "all_split_fraction": 0.4921875,
+      "all_mean_score": 0.024589078115738253,
+      "visible_histories": 128,
+      "visible_split_fraction": 0.4921875
+    },
+    {
+      "window_index": 1,
+      "context_length": 10,
+      "all_split_fraction": 0.4375,
+      "all_mean_score": 0.007602842059566729,
+      "visible_histories": 121,
+      "visible_split_fraction": 0.4380165289256198
+    },
+    {
+      "window_index": 2,
+      "context_length": 14,
+      "all_split_fraction": 0.5703125,
+      "all_mean_score": 0.033357013597530585,
+      "visible_histories": 109,
+      "visible_split_fraction": 0.5596330275229358
+    },
+    {
+      "window_index": 3,
+      "context_length": 18,
+      "all_split_fraction": 0.515625,
+      "all_mean_score": 0.030295946642498062,
+      "visible_histories": 95,
+      "visible_split_fraction": 0.47368421052631576
+    },
+    {
+      "window_index": 4,
+      "context_length": 22,
+      "all_split_fraction": 0.6171875,
+      "all_mean_score": 0.04522583746772767,
+      "visible_histories": 78,
+      "visible_split_fraction": 0.5641025641025641
+    },
+    {
+      "window_index": 5,
+      "context_length": 26,
+      "all_split_fraction": 0.6484375,
+      "all_mean_score": 0.06367438910793133,
+      "visible_histories": 57,
+      "visible_split_fraction": 0.5964912280701754
+    },
+    {
+      "window_index": 6,
+      "context_length": 30,
+      "all_split_fraction": 0.65625,
+      "all_mean_score": 0.06445979623474615,
+      "visible_histories": 41,
+      "visible_split_fraction": 0.7073170731707317
+    },
+    {
+      "window_index": 7,
+      "context_length": 34,
+      "all_split_fraction": 0.5859375,
+      "all_mean_score": 0.04932435081603905,
+      "visible_histories": 27,
+      "visible_split_fraction": 0.3333333333333333
+    },
+    {
+      "window_index": 8,
+      "context_length": 38,
+      "all_split_fraction": 0.671875,
+      "all_mean_score": 0.06462654457392064,
+      "visible_histories": 15,
+      "visible_split_fraction": 0.6666666666666666
+    },
+    {
+      "window_index": 9,
+      "context_length": 42,
+      "all_split_fraction": 0.6640625,
+      "all_mean_score": 0.06242738248874964,
+      "visible_histories": 12,
+      "visible_split_fraction": 0.5833333333333334
+    },
+    {
+      "window_index": 10,
+      "context_length": 46,
+      "all_split_fraction": 0.7265625,
+      "all_mean_score": 0.08304942067508322,
+      "visible_histories": 8,
+      "visible_split_fraction": 0.625
+    },
+    {
+      "window_index": 11,
+      "context_length": 50,
+      "all_split_fraction": 0.640625,
+      "all_mean_score": 0.06441765086249347,
+      "visible_histories": 6,
+      "visible_split_fraction": 0.3333333333333333
+    },
+    {
+      "window_index": 12,
+      "context_length": 54,
+      "all_split_fraction": 0.703125,
+      "all_mean_score": 0.0881985377152629,
+      "visible_histories": 2,
+      "visible_split_fraction": 0.5
+    },
+    {
+      "window_index": 13,
+      "context_length": 58,
+      "all_split_fraction": 0.7109375,
+      "all_mean_score": 0.0911892958743325,
+      "visible_histories": 1,
+      "visible_split_fraction": 1.0
+    },
+    {
+      "window_index": 14,
+      "context_length": 62,
+      "all_split_fraction": 0.7890625,
+      "all_mean_score": 0.09676127552227941,
+      "visible_histories": 1,
+      "visible_split_fraction": 1.0
+    },
+    {
+      "window_index": 15,
+      "context_length": 66,
+      "all_split_fraction": 0.7578125,
+      "all_mean_score": 0.09555523440538266,
+      "visible_histories": 1,
+      "visible_split_fraction": 1.0
+    },
+    {
+      "window_index": 16,
+      "context_length": 70,
+      "all_split_fraction": 0.78125,
+      "all_mean_score": 0.1035098267117771,
+      "visible_histories": 1,
+      "visible_split_fraction": 1.0
+    },
+    {
+      "window_index": 17,
+      "context_length": 74,
+      "all_split_fraction": 0.7734375,
+      "all_mean_score": 0.10136456024957904,
+      "visible_histories": 1,
+      "visible_split_fraction": 0.0
+    },
+    {
+      "window_index": 18,
+      "context_length": 78,
+      "all_split_fraction": 0.78125,
+      "all_mean_score": 0.09824441699490513,
+      "visible_histories": 1,
+      "visible_split_fraction": 0.0
+    },
+    {
+      "window_index": 19,
+      "context_length": 82,
+      "all_split_fraction": 0.7734375,
+      "all_mean_score": 0.11275060880959668,
+      "visible_histories": 1,
+      "visible_split_fraction": 0.0
+    },
+    {
+      "window_index": 20,
+      "context_length": 86,
+      "all_split_fraction": 0.796875,
+      "all_mean_score": 0.11949814807797471,
+      "visible_histories": 1,
+      "visible_split_fraction": 1.0
+    },
+    {
+      "window_index": 21,
+      "context_length": 90,
+      "all_split_fraction": 0.7890625,
+      "all_mean_score": 0.11749689718367798,
+      "visible_histories": 1,
+      "visible_split_fraction": 1.0
+    },
+    {
+      "window_index": 22,
+      "context_length": 94,
+      "all_split_fraction": 0.7890625,
+      "all_mean_score": 0.11210182458026022,
+      "visible_histories": 1,
+      "visible_split_fraction": 0.0
+    },
+    {
+      "window_index": 23,
+      "context_length": 98,
+      "all_split_fraction": 0.796875,
+      "all_mean_score": 0.11439194340652166,
+      "visible_histories": 1,
+      "visible_split_fraction": 1.0
+    },
+    {
+      "window_index": 24,
+      "context_length": 102,
+      "all_split_fraction": 0.8125,
+      "all_mean_score": 0.1119148564098513,
+      "visible_histories": 1,
+      "visible_split_fraction": 1.0
+    },
+    {
+      "window_index": 25,
+      "context_length": 106,
+      "all_split_fraction": 0.7734375,
+      "all_mean_score": 0.11248969366716427,
+      "visible_histories": 1,
+      "visible_split_fraction": 1.0
+    },
+    {
+      "window_index": 26,
+      "context_length": 110,
+      "all_split_fraction": 0.8046875,
+      "all_mean_score": 0.11441425974458311,
+      "visible_histories": 0,
+      "visible_split_fraction": null
+    },
+    {
+      "window_index": 27,
+      "context_length": 114,
+      "all_split_fraction": 0.84375,
+      "all_mean_score": 0.12944645085954665,
+      "visible_histories": 0,
+      "visible_split_fraction": null
+    },
+    {
+      "window_index": 28,
+      "context_length": 118,
+      "all_split_fraction": 0.8046875,
+      "all_mean_score": 0.12113951388106081,
+      "visible_histories": 0,
+      "visible_split_fraction": null
+    },
+    {
+      "window_index": 29,
+      "context_length": 122,
+      "all_split_fraction": 0.8359375,
+      "all_mean_score": 0.11981889316561367,
+      "visible_histories": 0,
+      "visible_split_fraction": null
+    }
+  ],
+  "learned_identical_outputs": {
+    "fixed2": {
+      "full": 6,
+      "visible": 29
+    },
+    "fixed3": {
+      "full": 0,
+      "visible": 4
+    },
+    "fixed4": {
+      "full": 0,
+      "visible": 25
+    },
+    "random_matched": {
+      "full": 5,
+      "visible": 29
+    }
+  },
+  "timing_ratios_by_repetition": [
+    {
+      "repetition": 0,
+      "learned_over_random_throughput": 0.9589229942850657
+    },
+    {
+      "repetition": 1,
+      "learned_over_random_throughput": 0.9526914640997342
+    },
+    {
+      "repetition": 2,
+      "learned_over_random_throughput": 0.9493370958213223
+    }
+  ],
+  "note": "Exploratory description after generation; no refit. Visible-window budgets need not match even though full-horizon counts match. Post-EOS states are artificial benchmark continuations."
+}

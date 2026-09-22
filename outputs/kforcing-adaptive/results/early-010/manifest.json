@@ -1,0 +1,26 @@
+{
+  "calibration_sources": 32,
+  "test_sources": 96,
+  "seeds": [
+    1009,
+    1013
+  ],
+  "methods": [
+    "fixed2",
+    "fixed3",
+    "fixed4",
+    "learned",
+    "random_low",
+    "random_cal",
+    "random_high",
+    "learned_replay"
+  ],
+  "test_samples": 1536,
+  "timing_runs": 4608,
+  "prefixes_sha256": "780661ae7133cffe5ecf3b2040e74603b99e2fe96c321dea179f880ac7d06de1",
+  "model_sha256": "caeeec7c2327e2473dbbcac6d64fa596e7db70d74a8d780035cb06a8bc991aae",
+  "projection_sha256": "09bd00bb8642ee8acbdc19f60ba0b8b12551b993639229865a349dff48a23e9a",
+  "protocol_sha256": "8a1d5e2069eb5c57f1049e78ef81f0366c1e7b207f2c970a6d26d07d2b806082",
+  "feature_code_sha256": "a84bdb40469d29103c509c1d321a84c8d8744ce95669af40641d5a8a23b7760b",
+  "dataset_sha256": "d3c7b4b2a48c24e9ae8353d6316dbac1453b08f2d870da9fa096c941e8f4cc8a"
+}

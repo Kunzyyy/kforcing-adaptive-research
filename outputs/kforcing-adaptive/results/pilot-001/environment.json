@@ -1,0 +1,42 @@
+{
+  "python": "3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:21:36) [MSC v.1943 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "torch": "2.11.0+cu128",
+  "device": "cuda",
+  "precision": "bf16",
+  "batch_size": 1,
+  "max_new": 64,
+  "gpu": "NVIDIA GeForce RTX 5060 Laptop GPU",
+  "cuda": "12.8",
+  "git_commit": "706caa332a69d509b7fc2fa53ac7819f381a8c78",
+  "arguments": {
+    "checkpoints": "work\\checkpoints",
+    "data": "work\\pilot-data",
+    "out": "outputs\\kforcing-adaptive\\results\\pilot-001",
+    "dev_count": 8,
+    "test_count": 20,
+    "seeds": [
+      17,
+      29
+    ],
+    "max_new": 64,
+    "device": "cuda",
+    "precision": "bf16",
+    "checks_only": false
+  },
+  "packages": {
+    "torch": "2.11.0+cu128",
+    "transformers": "4.55.0",
+    "einops": "0.8.1",
+    "omegaconf": "2.3.0",
+    "numpy": "2.5.3",
+    "pyarrow": "25.0.1"
+  },
+  "caveats": [
+    "WikiText-2 is out of distribution for LM1B; small exploratory sample.",
+    "Teacher NLL and repetition are proxies, not human-rated quality.",
+    "Single-request portable PyTorch SDPA implementation, not paper H100 kernels.",
+    "Timing includes prefill, EOS detection, policy, cache, and common diagnostics; model/data loading and teacher scoring excluded.",
+    "Threshold chosen on validation margins without optimizing test results."
+  ]
+}

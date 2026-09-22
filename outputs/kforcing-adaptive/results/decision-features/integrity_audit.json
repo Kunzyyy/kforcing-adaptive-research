@@ -1,0 +1,11 @@
+{
+  "passed": true,
+  "all_60_fits_independent_lstsq": true,
+  "max_prediction_difference": 1.1657341758564144e-15,
+  "all_16_intervals_independently_recomputed": true,
+  "no_test_inputs": true,
+  "original_stage14_control_reproduced": true,
+  "eos_gpu_spot_checks": 16,
+  "analysis_sha256": "185a4a6c7d2308be1e485e72f79e467a65a31b5e25cef199c042da0dcaab7969",
+  "verifier_sha256": "03de3d9caa605ae8ff396688c903f2f078d5fe2eb0b0836aee9ea6f0850aa1bb"
+}

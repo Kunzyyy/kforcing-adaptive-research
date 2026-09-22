@@ -1,0 +1,7 @@
+{
+  "passed": true,
+  "old_pairs_replayed": 16,
+  "feature_checks": 8,
+  "both_models_independent_lstsq": true,
+  "locked_model_sha256": "0fb2e2b2c229b736c141c1e94096434c14a0e9a647a27c99170e194958d96756"
+}

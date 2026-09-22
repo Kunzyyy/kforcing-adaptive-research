@@ -1,0 +1,137 @@
+{
+  "completion/fixed4_bf16_vs_fixed4_fp32": {
+    "prefixes": 128,
+    "clusters": 128,
+    "cluster_unit": "prefix",
+    "gpt2_nll_difference": 0.016960444194237034,
+    "nll_difference95": [
+      -0.043920215886788,
+      0.08407229139466268
+    ],
+    "gen_ppl_ratio": 1.0171050891181719,
+    "gen_ppl_ratio95": [
+      0.9570303102417569,
+      1.0877075228605027
+    ]
+  },
+  "completion/fixed4_fp16_vs_fixed4_fp32": {
+    "prefixes": 128,
+    "clusters": 128,
+    "cluster_unit": "prefix",
+    "gpt2_nll_difference": 0.01580252878198074,
+    "nll_difference95": [
+      0.0007099070309383615,
+      0.03622029707488086
+    ],
+    "gen_ppl_ratio": 1.0159280490475284,
+    "gen_ppl_ratio95": [
+      1.0007101590745737,
+      1.0368842438982806
+    ]
+  },
+  "completion/fixed4_fp32_vs_ar": {
+    "prefixes": 128,
+    "clusters": 128,
+    "cluster_unit": "prefix",
+    "gpt2_nll_difference": 0.9144179897592863,
+    "nll_difference95": [
+      0.7335852435015325,
+      1.0851263005118839
+    ],
+    "gen_ppl_ratio": 2.4953225259312233,
+    "gen_ppl_ratio95": [
+      2.0825336294033945,
+      2.9598136211087063
+    ]
+  },
+  "full_text/fixed4_bf16_vs_fixed4_fp32": {
+    "prefixes": 128,
+    "clusters": 128,
+    "cluster_unit": "prefix",
+    "gpt2_nll_difference": 0.012356677626066848,
+    "nll_difference95": [
+      -0.03452889132217636,
+      0.06147851552244616
+    ],
+    "gen_ppl_ratio": 1.0124333367925096,
+    "gen_ppl_ratio95": [
+      0.9660604285202161,
+      1.0634076495255957
+    ]
+  },
+  "full_text/fixed4_fp16_vs_fixed4_fp32": {
+    "prefixes": 128,
+    "clusters": 128,
+    "cluster_unit": "prefix",
+    "gpt2_nll_difference": 0.013206839516062274,
+    "nll_difference95": [
+      0.0020619710196215337,
+      0.027804462942745307
+    ],
+    "gen_ppl_ratio": 1.013294435016193,
+    "gen_ppl_ratio95": [
+      1.0020640983437734,
+      1.0281946146145398
+    ]
+  },
+  "full_text/fixed4_fp32_vs_ar": {
+    "prefixes": 128,
+    "clusters": 128,
+    "cluster_unit": "prefix",
+    "gpt2_nll_difference": 0.7268280850311672,
+    "nll_difference95": [
+      0.5933789305055779,
+      0.8588093523870953
+    ],
+    "gen_ppl_ratio": 2.0685090561441615,
+    "gen_ppl_ratio95": [
+      1.8100942767175876,
+      2.3603486764599375
+    ]
+  },
+  "completion_bos/fixed4_bf16_vs_fixed4_fp32": {
+    "prefixes": 128,
+    "clusters": 128,
+    "cluster_unit": "prefix",
+    "gpt2_nll_difference": 0.024243971500974126,
+    "nll_difference95": [
+      -0.041067916734052766,
+      0.09259216275142715
+    ],
+    "gen_ppl_ratio": 1.0245402460233417,
+    "gen_ppl_ratio95": [
+      0.9597639437016877,
+      1.097014240752225
+    ]
+  },
+  "completion_bos/fixed4_fp16_vs_fixed4_fp32": {
+    "prefixes": 128,
+    "clusters": 128,
+    "cluster_unit": "prefix",
+    "gpt2_nll_difference": 0.015346073337235921,
+    "nll_difference95": [
+      0.0009550089964991627,
+      0.03500911400119124
+    ],
+    "gen_ppl_ratio": 1.015464428977074,
+    "gen_ppl_ratio95": [
+      1.0009554651627937,
+      1.035629147481895
+    ]
+  },
+  "completion_bos/fixed4_fp32_vs_ar": {
+    "prefixes": 128,
+    "clusters": 128,
+    "cluster_unit": "prefix",
+    "gpt2_nll_difference": 0.9320098059710942,
+    "nll_difference95": [
+      0.746120797066671,
+      1.10531564978099
+    ],
+    "gen_ppl_ratio": 2.5396081715747023,
+    "gen_ppl_ratio95": [
+      2.1088036518977815,
+      3.020177636774623
+    ]
+  }
+}
