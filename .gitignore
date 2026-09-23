@@ -21,3 +21,5 @@ Thumbs.db
 **/private/
 **/ratings/
 **/responses/
+# Local CI artifact from scripts/verify_evidence.py
+audit-report.json
