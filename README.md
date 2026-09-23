@@ -36,6 +36,16 @@ Linux/macOS将上面Python可执行文件换为`.venv/bin/python`。`passed: tru
 
 CPU核查与从零重新跑GPU实验是两个范围。后者需要额外模型、数据、依赖和相应计算时间，见[复现与目录说明](docs/REPRODUCIBILITY.md)。
 
+## 发布快照完整性
+
+`PUBLICATION_MANIFEST.json`记录了从原工作区复制的705个文件的SHA256。下面的入口按该清单逐字节校验仓库当前内容，只用标准库，无需安装任何依赖：
+
+```powershell
+python scripts/verify_manifest.py
+```
+
+`passed: true`表示705个文件全部存在且字节未变。清单是发布时刻的快照，其后新增的README、CI与打包文件列在报告的`added_after_snapshot`里，不计为失败。该校验也随CI每次运行，它只回答文件有没有被改动，不涉及任何研究结论。
+
 ## 目录
 
 ```text
@@ -43,6 +53,7 @@ outputs/
   kforcing-adaptive/        # 研究代码、各阶段方案、报告、保存结果、上游代码
   kforcing-research-handoff/ # 较早四组主要证据的精简复核材料
 scripts/verify_evidence.py  # 最新三项实验的统一CPU核查入口
+scripts/verify_manifest.py  # 按PUBLICATION_MANIFEST.json逐字节校验发布文件
 docs/                      # 复现、上传及发布范围说明
 PUBLICATION_MANIFEST.json  # 从原工作区逐字节复制的文件SHA256
 ```

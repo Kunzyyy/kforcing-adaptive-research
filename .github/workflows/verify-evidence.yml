@@ -75,3 +75,46 @@ jobs:
           name: audit-report-py${{ matrix.python-version }}
           path: audit-report.json
           if-no-files-found: warn
+
+  manifest-integrity:
+    runs-on: ubuntu-latest
+    # 纯标准库、与Python版本无关，因此不使用上面的版本矩阵。
+    # 这一步同时确认 `* -text` 在Linux checkout下确实保住了证据字节。
+    steps:
+      - name: Check out published snapshot
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Verify files against PUBLICATION_MANIFEST.json
+        run: |
+          python scripts/verify_manifest.py > manifest-report.json
+          cat manifest-report.json
+
+      - name: Publish integrity report to job summary
+        if: always()
+        run: |
+          {
+            echo "## 发布快照完整性"
+            echo ""
+            if [ -s manifest-report.json ]; then
+              echo '```json'
+              cat manifest-report.json
+              echo '```'
+            else
+              echo "校验未产生报告，见上方步骤日志。"
+            fi
+            echo ""
+            echo "_仅表示发布文件字节未变，不涉及任何研究结论。_"
+          } >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Upload integrity report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: manifest-report
+          path: manifest-report.json
+          if-no-files-found: warn

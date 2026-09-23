@@ -21,5 +21,6 @@ Thumbs.db
 **/private/
 **/ratings/
 **/responses/
-# Local CI artifact from scripts/verify_evidence.py
+# Local CI artifacts from the verification entry points
 audit-report.json
+manifest-report.json
