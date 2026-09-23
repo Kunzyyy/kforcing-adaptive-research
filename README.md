@@ -32,7 +32,7 @@ python -m venv .venv
 
 Linux/macOS将上面Python可执行文件换为`.venv/bin/python`。`passed: true`表示数值核对通过，不代表算法假设通过。此脚本只读取保存材料，不修改实验记录。
 
-同一入口在每次推送和PR时由GitHub Actions自动执行（[verify-evidence](.github/workflows/verify-evidence.yml)，Python 3.12与3.14各跑一次，仅用`requirements-evidence.txt`中固定的NumPy）。页首徽章为绿，只说明保存证据能在干净环境中按位重算出相同数值；它不表示自适应方案取得优势，也不构成独立复现。每次运行的完整JSON报告可在该次Actions运行的summary与artifact中查看。
+同一入口在每次推送和PR时、以及每月定时由GitHub Actions自动执行（[verify-evidence](.github/workflows/verify-evidence.yml)，Python 3.12与3.14各跑一次，仅用`requirements-evidence.txt`中固定的NumPy）。页首徽章为绿，只说明保存证据能在干净环境中按位重算出相同数值；它不表示自适应方案取得优势，也不构成独立复现。每次运行的完整JSON报告可在该次Actions运行的summary与artifact中查看。
 
 CPU核查与从零重新跑GPU实验是两个范围。后者需要额外模型、数据、依赖和相应计算时间，见[复现与目录说明](docs/REPRODUCIBILITY.md)。
 

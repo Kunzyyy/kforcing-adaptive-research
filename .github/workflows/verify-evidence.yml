@@ -8,6 +8,12 @@ on:
   pull_request:
     branches: [main]
   workflow_dispatch:
+  schedule:
+    # 每月重跑一次，用于发现冻结证据或固定依赖随时间产生的漂移
+    # （例如NumPy的pin在更新的Python上不再有wheel）。
+    # 注意：仓库连续60天无活动后GitHub会自动停用定时任务，
+    # 需要时可在Actions页面重新启用，或手动触发workflow_dispatch。
+    - cron: '17 4 1 * *'
 
 permissions:
   contents: read

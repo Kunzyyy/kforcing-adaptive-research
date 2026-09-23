@@ -42,7 +42,9 @@ added=sorted(
     if not rel.startswith(ignored_roots) and '/__pycache__/' not in rel
 )
 
-passed=not missing and not mismatched
+# An empty or truncated manifest must not be reported as a pass: with nothing
+# recorded there is nothing to check, which is a broken manifest, not success.
+passed=bool(recorded) and not missing and not mismatched
 report={
     'passed':passed,
     'manifest_created_utc':manifest.get('created_utc'),
